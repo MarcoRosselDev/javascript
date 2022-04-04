@@ -19,10 +19,10 @@ const validarCliente = (time)=>{
     let edad = prompt(`¿cuanl es tu edad?`);        // hacemos una validación con if (si)
     if (edad >18 )  {                               // hacemos una validación dentro de la validación XD
         if (time >= 2 && time < 7 && free == false) {
-            alert(`puedes pasar gratis`);
+            alert(`puedes pasar gratis por que eres la primera persona despues de las 2 AM`);
             free = true;
         } else  {
-            alert(`puedes pasar, pero tienes que pagar la entrada`);
+            alert(`son las ${time}:00 hrs y puedes pasar, pero tienes que pagar la entrada`);
         }
     } else  {
         alert(`eres menor de edad por lo que no puedes pasar`);
