@@ -12,3 +12,19 @@
 
 //      c
 //-crear calculadora que nos simplifique el trabajo
+
+let free = false;
+
+const validarCliente = (time)=>{
+    let edad = prompt(`¿cuanl es tu edad?`);        // hacemos una validación con if (si)
+    if (edad >18 )  {                               // hacemos una validación dentro de la validación XD
+        if (time >= 2 && time < 7 && free == false) {
+            alert(`puedes pasar gratis`);
+            free = true;
+        } else  {
+            alert(`puedes pasar, pero tienes que pagar la entrada`);
+        }
+    } else  {
+        alert(`eres menor de edad por lo que no puedes pasar`);
+    }
+}
