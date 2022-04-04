@@ -28,3 +28,10 @@ const validarCliente = (time)=>{
         alert(`eres menor de edad por lo que no puedes pasar`);
     }
 }
+
+validarCliente(23);
+validarCliente(24);
+validarCliente(0.2);
+validarCliente(0.6);
+validarCliente(2);
+validarCliente(3);
