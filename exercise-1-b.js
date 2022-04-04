@@ -12,3 +12,10 @@
 
 //      c
 //-crear calculadora que nos simplifique el trabajo
+
+let cantidad = prompt(`¿cuantos alumnos son?`);
+let alumnosTotales = [];                            // este es un array que vamos a rellenar
+
+for (i = 0;i < cantidad; i++)   {
+    alumnosTotales[i] = [prompt("nombre del alumno " + (i+1)),0]     //es un array dentro de un array
+}
