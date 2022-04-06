@@ -12,3 +12,11 @@
 
 //      c
 //-crear calculadora que nos simplifique el trabajo
+
+let options = prompt(`escoge la operación: 1(sumar), 2(restar, 3(dividir), 4(multiplicares))`);
+
+if (options == 1) {
+    let numero1 = parseInt(prompt(`dime el primer número`));
+    let numero2 = parseInt(prompt(`dime el segundo número`));
+    document.write(numero1+numero2);
+}
