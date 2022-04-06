@@ -19,3 +19,10 @@ let alumnosTotales = [];                            // este es un array que vamo
 for (i = 0;i < cantidad; i++)   {
     alumnosTotales[i] = [prompt("nombre del alumno " + (i+1)),0]     //es un array dentro de un array
 }
+
+const pasarAsistencia = (nombre,p)=>{
+    let presencia = prompt(nombre);
+    if (presencia == "p" || presencia == "p") {
+        alumnosTotales[i][1]++;
+    }
+}
