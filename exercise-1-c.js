@@ -20,3 +20,9 @@ if (options == 1) {
     let numero2 = parseInt(prompt(`dime el segundo número`));
     document.write(numero1+numero2);
 }
+else if (options == 2) {
+    let numero1 = parseInt(prompt(`dime el primer número`));
+    let numero2 = parseInt(prompt(`dime el segundo número`));
+    document.write(numero1-numero2);
+}
+// else if (oprion == 3)
