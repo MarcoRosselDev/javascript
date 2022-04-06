@@ -23,6 +23,26 @@ for (i = 0;i < cantidad; i++)   {
 const pasarAsistencia = (nombre,p)=>{
     let presencia = prompt(nombre);
     if (presencia == "p" || presencia == "p") {
-        alumnosTotales[i][1]++;
+        alumnosTotales[p][1]++;
     }
+}
+//pasamos la lista 30 días seguidos con el bucle llamando la const pasarAsistencia( aqui arriba).
+
+for (i = 0; i < 30; i++) {
+    for (alumno in alumnosTotales){
+        pasarAsistencia(alumnosTotales[alumno][0],alumno);
+    }
+}
+//recopilados todos los datos devemos notificar si se reprueba por inasistencia
+
+for (alumno in alumnosTotales) {
+    let resultado = `${alumnosTotales[alumno][0]}:<br>
+    ________Asistencias: ${alumnosTotales[alumno][1]} <br>
+    ________Ausencias: ${30 - alumnosTotales[alumno][1]}`;
+    if (30 - alumnosTotales[alumno][1] > 18) {
+        resultado+= `reprobado por inasistencia.`
+    }else {
+        resultado+= `<br>`
+    }
+    document.write(resultado);
 }
