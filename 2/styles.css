@@ -1,0 +1,13 @@
+* {
+    background-color: green;
+}
+.container {
+    background-color: antiquewhite;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: autofit 1fr;
+}
+.items {
+    background-color: wheat;
+
+}
