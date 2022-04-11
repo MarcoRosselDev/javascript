@@ -118,6 +118,23 @@
 
     todo en block-scope.js and block-scope-2.js-->
 
+    <!-- class 6
+    
+    ¿ QUE ES UN CLOUSURE ?
+
+    Un closure es la combinación entre una función y el ámbito léxico en el que esta fue declarada. Con esto, la función recuerda el ámbito en el que se creó. La mejor forma de entender un closure es por medio de un ejemplo práctico.
+
+    Cuando declaramos una función dentro de nuestro global scope, estamos usando un closure.
+
+    var myVar = "hola";
+    function myFunction() {
+        console.log(myVar);
+    }
+    myFunction();   imprime: hola
+
+    Los closures son basicamente cuando aprovechamos la habilidad de Javascript de usar las variables que están en el scope padre de nuestro bloque de código, por eso el global scope es un closure grandote; el bloque myFunction puede usar TODAS las variables que están disponibles en el bloque inmediato anterior.
+-->
+
 
 
     <script src="./script.js"></script>
