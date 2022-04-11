@@ -19,7 +19,48 @@
 //     anotherFunction();
 // }
 
+// const anotherFunction = () => {
+//     globalVar = "im global";
+// }
+
+// anotherFunction();
+// console.log(globalVar);
+
+// const anotherFunction = () => {
+//     var localVar = globalVar = "im global";
+// }
+
+// anotherFunction();
+// console.log(globalVar);
+
+class2 local scope 
+
+// const helloWorld = () => {
+//     const hello = "hola mundo";
+//     console.log(hello);
+// };
+
+// helloWorld();
+
+// console.log(hello)
 
 
-class2
 
+        var scope = "lo que sea";
+
+        const functionScope = () => {
+            var scope = "ahora soy local";
+            const func = () => {
+                return scope
+            }
+            console.log(func());
+        };
+        functionScope();
+        console.log(scope);
+
+        // lo que paso es que dentro de [const functionScope = () => ]
+        //se asigno localmente otro valor a scope y luego se llamo 
+        //por fuera (global) a scope.
+
+        // nos imprime : ahora soy local
+                    //   lo que sea

@@ -70,7 +70,45 @@
 
     <!-- class 2
     
+        LOCAL SCOPE
+
+        const helloWorld = () => {
+            const hello = "hola mundo";
+            console.log(hello);
+        };
+
+        helloWorld();       //si lo corro asta aqui no hay problemas
+                            //se imprime hola mundo en terminal
+
+        console.log(hello)  //lanza error por que intenta acceder a hello
+                            //que es una variable dentro de helloWorld  
+                            //el mensaje es : hello no esta definido.
+
+
+        ÁMBITO LÉXICO
+
+        var scope = "lo que sea";
+
+        const functionScope = () => {
+            var scope = "ahora soy locarl";
+            const func = () => {
+                return scope
+            }
+            console.log(func());
+        };
+        functionScope();
+        console.log(scope);
+
+        // lo que paso es que dentro de [const functionScope = () => ]
+        //se asigno localmente otro valor a scope y luego se llamo 
+        //por fuera (global) a scope.
+
+        // nos imprime : ahora soy local
+                    //   lo que sea
+
     -->
+
+    <!-- class 3 -->
 
     <script src="./script.js"></script>
 </body>
