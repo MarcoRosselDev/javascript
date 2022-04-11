@@ -7,3 +7,5 @@ const anotherFunction = () => {
     console.log(world);
     console.log(helloWorld);
 }
+
+anotherFunction();
