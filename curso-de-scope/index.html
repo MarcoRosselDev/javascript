@@ -15,7 +15,62 @@
         esta asignada de forma global.
         -puedo acceder a ella de esta forma
     
-                console.log(hello); -->
+                console.log(hello); 
+            
+            let class1 = {
+                var hello = 'wsp dude';
+                // si la asigno denuevo se sobreescribe (mala practica,cuidado)
+
+                let world = "hello world";
+                // si la asigno denuevo lanza error
+
+                const helloWorld = "hello world¡¡¡";
+                // const tmbn no puede ser reasignado
+
+                const anotherFunction = () => {
+                    console.log(hello);
+                    console.log(world);
+                    console.log(helloWorld);
+                }
+
+                anotherFunction();
+            }
+
+            entonces var puede ser modificada y re-declarada,
+            las variables let pueden ser modificadas pero no re-declaradas
+            las variables const no puede ser modificada ni re-declarada
+        
+        
+        MALAS PRACTICAS
+
+        -nombrar variables sin las palabras reservadas |var|let|const|
+         esto es por que si se puede pero es mala practica, por ejemplo
+
+
+            const anotherFunction = () => {
+                globalVar = "im global";
+            }
+
+            anotherFunction();
+            console.log(globalVar);
+    
+
+        -La doble asignación de una variable también es una mala práctica.
+         por ejemplo;
+
+
+            const anotherFunction = () => {
+                var localVar = globalVar = "im global";
+            }
+
+            anotherFunction();
+            console.log(globalVar);
+
+        -->
+
+    <!-- class 2
+    
+    -->
 
     <script src="./script.js"></script>
 </body>

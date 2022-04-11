@@ -1,11 +1,25 @@
-var hello = 'wsp dude';
-let world = "hello world";
-const helloWorld = "hello world¡¡¡";
+// class1
 
-const anotherFunction = () => {
-    console.log(hello);
-    console.log(world);
-    console.log(helloWorld);
-}
+// let class1 = {
+//     var hello = 'wsp dude';
+//     // si la asigno denuevo se sobreescribe (mala practica,cuidado)
 
-anotherFunction();
+//     let world = "hello world";
+//     // si la asigno denuevo lanza error
+
+//     const helloWorld = "hello world¡¡¡";
+//     // const tmbn no puede ser reasignado
+
+//     const anotherFunction = () => {
+//         console.log(hello);
+//         console.log(world);
+//         console.log(helloWorld);
+//     }
+
+//     anotherFunction();
+// }
+
+
+
+class2
+
