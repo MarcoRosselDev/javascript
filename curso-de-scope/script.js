@@ -46,17 +46,17 @@ class2 local scope
 
 
 
-        var scope = "lo que sea";
+        // var scope = "lo que sea";
 
-        const functionScope = () => {
-            var scope = "ahora soy local";
-            const func = () => {
-                return scope
-            }
-            console.log(func());
-        };
-        functionScope();
-        console.log(scope);
+        // const functionScope = () => {
+        //     var scope = "ahora soy local";
+        //     const func = () => {
+        //         return scope
+        //     }
+        //     console.log(func());
+        // };
+        // functionScope();
+        // console.log(scope);
 
         // lo que paso es que dentro de [const functionScope = () => ]
         //se asigno localmente otro valor a scope y luego se llamo 
