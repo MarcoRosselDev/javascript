@@ -30,3 +30,20 @@ console.log(x);
 
 // imprime 5 luego 1 , esto significa que se le asigno 5 en local y luego 1 global.
 // si cambiamos let por var en los dos imprime 5 luego 5 por que local aplico 5 y luego quedo sobreescrito en x asi que en la segunda llamada no da 1 sino 5
+
+//pregunta 5 test
+
+const fruits = () => {
+    if(true) {
+        var fruit1 = "apple";
+        const fruit2 = "banana";
+        let fruit3 = "kiwi";
+        console.log(fruit1);
+    console.log(fruit2);
+    console.log(fruit3);
+    }
+    
+}
+
+let qwe = fruits;
+console.log(qwe);
