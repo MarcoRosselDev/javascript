@@ -18,3 +18,4 @@ nuevaPersona = persona();
 console.log(nuevaPersona.dameElNombre());
 nuevaPersona.escribirNombre("lushito");
 console.log(nuevaPersona.dameElNombre());
+console.log(persona);
