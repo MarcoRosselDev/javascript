@@ -399,10 +399,10 @@ las clases hijas que se parecen.
             |-nombre        |
             |-documento/rut |
             |-email         |
-            |-password      |
-            |---------------|
-                4       4
-                |       |
+            |-password      |   //como usuario y conductor compartian atributos
+            |---------------|   //se aplica una superclase a la que hacen referencias
+                4       4       // el 4 es una flecha vacia(asi se representa su
+                |       |       // dependencia).
                 |       |
                 |       |
     |-----------|       |------------|      
@@ -413,6 +413,32 @@ las clases hijas que se parecen.
     |           |       |            |   
     |           |       |            |   
     |-----------|       |------------|
+
+
+                            superclase  
+    
+                        |---------------|
+                        |   PAGOS       |   //todas comparten su función
+                        |---------------|   //aplicaremos la herencia solo por su 
+                        | -id           |   //logica de negocio
+                        |               |
+                        |---------------|
+                            4   4   4
+                            |   |   |
+           |----------------|   |   |------------------|
+           |                    |                      | 
+           |                    |                      | 
+    |--------------|       |------------|       |--------------|
+    |   tarjeta    |       |  paypal    |       |    cash      |      //subclases
+    |--------------|       |------------|       |--------------|
+    | -número      |       |-email      |       |              | 
+    | -cvv         |       |            |       |              |
+    | -fecha       |       |            |       |              |   
+    |--------------|       |------------|       |--------------|
+
+    lo mismo para los modelos de uber uber, uberx,...
+    entonces se repiten la licencia la id el conductor y el pasagero. 
+    la superclase sera auto y sus subclases serian los 4 tipos de atos.
 
 -->
 
