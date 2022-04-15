@@ -1,4 +1,4 @@
-function account(nombre, documento){
+function Account(nombre, documento){
     this.id;
     this.nombre = nombre;
     this.documento = documento;

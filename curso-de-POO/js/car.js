@@ -1,8 +1,8 @@
-function car(license, driver){
+function Car(license, driver){
     this.id;
     this.license = license;
     this.driver = driver;
-    this.numPasajeros;
+    this.passenger;
 }
 
 car.prototype.printDataCar = function(){
