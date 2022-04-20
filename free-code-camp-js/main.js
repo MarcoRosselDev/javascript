@@ -102,7 +102,22 @@ si concatena una cadena con una undefined variable, obtendrá una cadena de unde
 
 */
 
-/* */
+/* class 8 COMPRENDER LA SENSIBILIDAD A MAYÚSCULAS Y MIN EN VARIS..
+
+en javascript, todas las variables y nombres de funciones distiguen entre mayúsculas y minúsculas. Esto significa que las mayúsculas son 
+importantes.
+
+MYVAR no es lo mismo que MyVar o myvar. Es posible tener varias variables distintas con el mismo nombre pero con mayúsculas y minúsculas diferentes. Se recomienda encarecidamente que, en eras de
+la claridad, no utilice esta función de idioma.
+
+MEJORES PRÁCTICAS
+
+Escribir nombres de variables en javascript en camelCase.
+
+
+
+
+*/
 /* */
 /* */
 /* */
