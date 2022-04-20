@@ -118,7 +118,26 @@ Escribir nombres de variables en javascript en camelCase.
 
 
 */
-/* */
+/* class 9 DIFERENCIAS DENTRE PALABRA RESERVADA VAR Y LET
+
+uno de los mayores problemas con la declaración de variables con la var palabra es que puede sobreescirbir fácilmente las declaraciones de variables:
+
+var camper = "juan";
+var camper = "marco";
+console.log(camper);
+
+en el código anterior, la variable camper se declara originalmente con
+juan, y luego se anula para que sea marco. a continuación, la consola muestra la cadena marco.
+
+en una app o programa pequeño no hay mucho problema pero a medida que 
+crece el codigo podemos sobreescribir accidentalmente una variable, como esto no lanza un error se combierte en un problema encontrar la falla.
+
+en ES6, se actualizo este problema inclullendo la palabra reservada let. 
+
+si cambio var por let en el codigo anterior se produce un error.
+entonces la diferencia entre var y let es que cuando uso let no puedo declarar una variable con ese mismo nombre.
+
+*/
 /* */
 /* */
 /* */
