@@ -138,7 +138,21 @@ si cambio var por let en el codigo anterior se produce un error.
 entonces la diferencia entre var y let es que cuando uso let no puedo declarar una variable con ese mismo nombre.
 
 */
-/* */
+/* class 10 DECLARAR VARIABLE DE SOLO LECTURA CON CONST
+
+en ES6 también podemos declarar variables usando la palabra reservada
+const.
+
+const tiene todas las caracteristicas de let , con la ventaja adicional que las variables declaradas usando const son de solo lectura. Son un valor constante, lo que significa que una vez que se asigna una variable const, no se puede reasignar;
+
+la consola mostrara un error si reasignamis una const ya declarada
+siempre debe nombrar las variables que no sean reasignadas con la palabra const.
+
+
+
+
+
+*/
 /* */
 /* */
 /* */
