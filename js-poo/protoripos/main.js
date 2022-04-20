@@ -18,12 +18,28 @@ const natalia = {
 
 
 // creación de un prototipo
-function student(name, age, cursosAprobados) {
+function Student(name, age, cursosAprobados) {
     this.name = name;
     this.age = age;
     this.cursosAprobados = cursosAprobados;
     // para crear metodos dentro de los prototipos
-    this.aprobarCurso = function (nuevoCurso) {
-        this.cursosAprobados.push(nuevoCurso);
-    }
+    // this.aprobarCurso = function (nuevoCurso) {
+    //     this.cursosAprobados.push(nuevoCurso);
+    // }
+
+    // tenemos esto mismo pero más interesante
+
 }
+Student.prototype.aprobarCurso = function(nuevoCurso) {
+    this.cursosAprobados.push(nuevoCurso);
+}
+
+const juanito = new Student(
+    "Juanito Medina",
+    33,
+    [
+        "curso a",
+        "curso b",
+        "curso c",
+    ]
+)
