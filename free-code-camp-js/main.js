@@ -52,7 +52,7 @@ tratará como si fuera 5.
 
 */
 
-/* ASIGNAR EL VALOR DE UNA VARIABLE A OTRA
+/* calss 4 ASIGNAR EL VALOR DE UNA VARIABLE A OTRA
 
 Después de asignar un valor a una variable mediante el operador de
 asignación, puede asignar el valor de esa variable a otra variable 
@@ -64,5 +64,17 @@ var myNum;
 myNum = myVar
 
 Lo anterior declara una myVar variable sin valor, luego le asigna el valor 5. A continuación, se declara una variable nombrada myNum sin valor. Ahora, myNum también tiene el valor 5.
+
+*/
+
+/* class 5 INICIALIZAR VARIBALES CON EL OPERADOR DE ASIGNACIÓN
+
+Es común inicializar una variable a un valor inicial en la misma línea en que se declara.
+
+var myVar = 3;
+
+Crear una nueva variable llamada myVar y le asigna un valor inicial 
+de 3.
+
 
 */
