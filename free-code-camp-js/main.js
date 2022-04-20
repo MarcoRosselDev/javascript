@@ -24,6 +24,10 @@ las variables permiten que las computadoras almacenen y manipulen
 datos de form adinámica. Lo hacen mediante el uso de una "etiqueta"
 para señalar los datos en lugar de utilizar los datos en sí. Cualquiera de los ocho tipos de datos puede almacenarse en una vatiable.
 
+Las variables son similares a las variables x e y que usamos en matemáticas, lo que significa que son un nombre simple para representar los datos a las que queremos hacer referencia. Las variables informáles difieren de las variables matemáticas en que pueden almacenar diferentes valores en diferentes momentos.
 
+Le decimos a javascript que cree o declare una variable poniendo la palabra reservada var delante de ella, así:
+
+var ourName;
 
     */
