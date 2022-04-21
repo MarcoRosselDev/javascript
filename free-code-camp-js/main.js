@@ -181,7 +181,17 @@ const myVar = 13 * 13;
 myVar ahora tiene el valor de 169
 
 */
-/* */
+/* class 14 DIVICION
+
+Tambien podemos dividir un numero por otro.
+usando el simbolo / de division.
+
+ejemplo
+
+const myVar = 16 / 2;
+ahora myVar tiene el valor de 8.
+
+*/
 /* */
 /* */
 /* */
