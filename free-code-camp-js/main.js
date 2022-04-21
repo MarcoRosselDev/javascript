@@ -212,7 +212,15 @@ i = i - 1;
 Toda la línea se convierte en i--; eliminando el exceso de codigo
 
 */
-/* */
+/* class 17 NÚMEROS DECIMALES
+
+También podemos almacenar números decimales en variables.
+Los números decimales a veces se denominan números de punto flotante o flotantes.
+
+---No todos los números rales se pueden representar con precisión en punto flotante.
+Esto puede dar lugar a errores de redondeo.
+
+*/
 /* */
 /* */
 /* */
