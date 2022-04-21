@@ -31,7 +31,6 @@ Le decimos a javascript que cree o declare una variable poniendo la palabra rese
 var ourName;
 
     */
-
 /* class 3 almacenamiento de valores con el operador de signación
 
 en javasrcrpt, pueder almacenar un valor en una variable con el 
@@ -51,7 +50,6 @@ Ahora, si myVar vuelve a aparecer en el código, el programa lo
 tratará como si fuera 5.
 
 */
-
 /* calss 4 ASIGNAR EL VALOR DE UNA VARIABLE A OTRA
 
 Después de asignar un valor a una variable mediante el operador de
@@ -66,7 +64,6 @@ myNum = myVar
 Lo anterior declara una myVar variable sin valor, luego le asigna el valor 5. A continuación, se declara una variable nombrada myNum sin valor. Ahora, myNum también tiene el valor 5.
 
 */
-
 /* class 5 INICIALIZAR VARIBALES CON EL OPERADOR DE ASIGNACIÓN
 
 Es común inicializar una variable a un valor inicial en la misma línea en que se declara.
@@ -78,7 +75,6 @@ de 3.
 
 
 */
-
 /* class 6 DECLARAR VARIABLES DE CADENA
 
 Previamente usó el siguiente código para declarar una variable:
@@ -93,7 +89,6 @@ var myName = "your name";
 
 
 */
-
 /* class 7 COMPRENDER LAS VARIABLES NO INICIALIZADAS
 
 Cunado se declaran variables de javascript, tienen un valor inicial de undefined. di realiza una operación matemática en una undefined
@@ -101,7 +96,6 @@ variable, su resultado será lo NaN que significa "no es un número".
 si concatena una cadena con una undefined variable, obtendrá una cadena de undefined.
 
 */
-
 /* class 8 COMPRENDER LA SENSIBILIDAD A MAYÚSCULAS Y MIN EN VARIS..
 
 en javascript, todas las variables y nombres de funciones distiguen entre mayúsculas y minúsculas. Esto significa que las mayúsculas son 
@@ -175,7 +169,18 @@ const myVar = 12 - 6;
 myVar tiene ahora el valor 6.
 
 */
-/* */
+/* class 13 MULTIPLICACION
+
+Tambien podemos multiplicar un numero por otro.
+javascript  usa el * simbolo para la multiplicacion de numeros
+
+ejemplo
+
+const myVar = 13 * 13;
+
+myVar ahora tiene el valor de 169
+
+*/
 /* */
 /* */
 /* */
