@@ -192,7 +192,17 @@ const myVar = 16 / 2;
 ahora myVar tiene el valor de 8.
 
 */
-/* */
+/* class 15 INCREMENTO
+
+Puedo incrementar o gregar facilmente uno a una variable con el 
+simbolo ++ .
+
+i++;
+
+es el equivalente de i = i + 1;
+entonces toda la linea se omite con el ++.
+
+*/
 /* */
 /* */
 /* */
