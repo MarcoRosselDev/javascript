@@ -203,7 +203,15 @@ es el equivalente de i = i + 1;
 entonces toda la linea se omite con el ++.
 
 */
-/* */
+/* class 16 DECREMENTAR 
+
+puede disminuir una variable en uno con --.
+i--;
+es equivalente de
+i = i - 1;
+Toda la línea se convierte en i--; eliminando el exceso de codigo
+
+*/
 /* */
 /* */
 /* */
