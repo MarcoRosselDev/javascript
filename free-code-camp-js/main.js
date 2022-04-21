@@ -151,9 +151,18 @@ siempre debe nombrar las variables que no sean reasignadas con la palabra const.
 
 
 
+*/
+/* class 11 AÑADIR DOS NÚMEROS CON JAVASCRIPT
+
+Number es un tipo de dato en js que representa datos numéricos.
+Ahora si queremos sumar dos números usamos el + simbolo de suma
+se coloca entre dos o mas numeros.
+
+const myVar = 5 + 10;
+
+myVar ahora tiene 15 como valor.
 
 */
-/* */
 /* */
 /* */
 /* */
