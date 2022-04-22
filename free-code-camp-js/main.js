@@ -296,7 +296,17 @@ se multiplico por 5 entonces se puede reescribir como
 myVar *= 5;
 
 */
-/* */
+/* class 24 ASIGNACION COMPUESTA CON DIVICION
+
+el /= operador divide una varible por otro numero.
+
+myVar = myVar / 5;
+
+se reescribe como
+
+myVar /= 5;
+
+*/
 /* */
 /* */
 /* */
