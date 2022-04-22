@@ -307,7 +307,19 @@ se reescribe como
 myVar /= 5;
 
 */
-/* */
+/* class 25 ESCAPE DE COMILLAS EN CADENAS
+
+cuando este definienfo una cadena debo comenzar y terminar con una comilla simple o doble.
+pero que pasa cuando necesito una cita literal dentro de una cadena ?
+
+en javascipt, puedo evitar que una comilla se considere una comilla de fin de cadena colocando una barra invertida \ delante de la comilla.
+
+const ejemplo = "alan dice, \" me gusta \".";
+
+esto le indica a javascript que la siguiente cita no es el final de la cadena, sino que deberia aparecer dentro de la cadena. Entonces, si tuviera que imprimir esto en la consola, obtendria la frace complet con comillas.
+
+
+*/
 /* */
 /* */
 /* */
