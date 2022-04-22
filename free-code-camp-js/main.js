@@ -254,7 +254,26 @@ EN USO;
     48 % 2 = 0 (48 es par)
 
 */
-/* */
+/* class 21 ASIGNACION COMPUESTA CON SUMA AUMENTADA
+
+en programacion es comun usar aignaciones para modificar el contenido de una variable. recordar que todo lo que 
+esta a la derecha del signo igual se evalua primero,
+por lo que podemos decir;
+
+myVar = myVar + 5;
+
+para agregar 5,
+hay operadores que realizan tanto una operacion matematica como una asigncion en un solo paso.
+
+uno de esos operadores es +=.
+
+let myVar = 1;
+myVar += 5;
+console.log(myVar);
+
+se mostro 6 en la consola
+
+*/
 /* */
 /* */
 /* */
