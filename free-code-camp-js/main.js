@@ -320,7 +320,17 @@ esto le indica a javascript que la siguiente cita no es el final de la cadena, s
 
 
 */
-/* */
+/* class 26  CITAR CADENAS CON COMILLAS SIMPLES
+
+las comillas simples y dobles funcionan igual mientras nos aseguremos que comiencen y terminen con esta misma 
+comilla.
+
+no confundirse la barra invertida \ con la barra 
+inclinada / por que hacen distintas cosas
+
+
+
+*/
 /* */
 /* */
 /* */
