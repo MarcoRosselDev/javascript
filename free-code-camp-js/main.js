@@ -239,7 +239,21 @@ entonces la variable const cociente tiene en memoria el
 valor de 2.2
 
 */
-/* */
+/* class 20 ENCONTRAR EL RESTO
+
+el operador resto % da el resto de la division de dos numeros
+
+por ejempolo;
+5 % 2 = 1 por que Math.floor(5/2) = 2 "cociente"
+y el resto es 1
+
+EN USO;
+    en matematicas, se puede comprobar si un numero es par o impar comprobando el resto de la division entre 2.
+
+    17 % 2 = 1 (17 es impar)
+    48 % 2 = 0 (48 es par)
+
+*/
 /* */
 /* */
 /* */
