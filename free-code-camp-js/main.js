@@ -285,7 +285,17 @@ resto es igualito a // myVar -= 5;
 
 
 */
-/* */
+/* class 23 ASIGNACION COMPUESTA CON MULTIPLICACION
+
+el *=  operador multiplica una variable por un numero 
+
+myVar = myVar * 5;
+
+se multiplico por 5 entonces se puede reescribir como 
+
+myVar *= 5;
+
+*/
 /* */
 /* */
 /* */
