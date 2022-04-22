@@ -274,7 +274,17 @@ console.log(myVar);
 se mostro 6 en la consola
 
 */
-/* */
+/* class 22 ASIGNACION COMPUESTA CON RESTA AUMENTADA
+
+al igual que += podemos operar -= para restar un 
+numero de una variable.
+
+myVar = myVar - 5;
+
+resto es igualito a // myVar -= 5;
+
+
+*/
 /* */
 /* */
 /* */
