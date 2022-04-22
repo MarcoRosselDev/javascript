@@ -221,8 +221,24 @@ Los números decimales a veces se denominan números de punto flotante o flotant
 Esto puede dar lugar a errores de redondeo.
 
 */
-/* */
-/* */
+/* class 18 MULTIPLICACIÓN DE DECIMALES
+
+En javascript, también podemos realizar cálculos con números decimales.
+al igual que con números enters.
+
+*/
+/* class 19 DIVIDICIÓN DE DECIMALES
+
+tmbn podemos dividir decimales en javascript
+
+por ejemplo:
+
+const cociente = 4.4 / 2.0;
+
+entonces la variable const cociente tiene en memoria el 
+valor de 2.2
+
+*/
 /* */
 /* */
 /* */
