@@ -470,7 +470,19 @@ let mtStr = "bob";
 myStr = "Job";
 
 */
-/* */
+/* class 35 [] PARA ENCONTRAR EL CARÁCTER ENÉSIMO EN STRING
+
+también puedo usar la notación de corchetes para obtener el carácter en otras posicionoes dentro de una cadena.
+
+recordar que las computadoras comienzan en 0.
+
+const firstName = "Ada";
+const secondLetterOfFirstName = firstName[1];
+console.log(secondLetterOfFirstName);
+
+secondLetterOfFirstName tendra el valor de d.
+
+*/
 /* */
 /* */
 /* */
