@@ -353,6 +353,16 @@ código          pdodicción
 
 tener en cuenta que la barra invertida en sí debe tener escape para que se muestre como una barra invertid.
 
+desafio, conseguir esta sintxis en consola
+
+FirstLine
+    \SecondLine
+ThirdLine
+
+resultado
+
+const myStr = "FirstLine\n\t\\SecondLine\nThirdLine";
+
 */
 /* */
 /* */
