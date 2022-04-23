@@ -483,7 +483,20 @@ console.log(secondLetterOfFirstName);
 secondLetterOfFirstName tendra el valor de d.
 
 */
-/* */
+/* class 36 [] PARA ENCONTRAR EL ÚLTIMO CARÁCTER DE UN STRING
+
+Para obtener la última letra de una cadena, puede restar una de la
+longitud de la cadena.
+Por ejemplo, si const firstName = "Ada", puede obtener el valor de la última letra de la cadena usando firstName[firstName.length - 1].
+
+ejemplo;
+
+const firstName = "Ada";
+const lastLetter = firstName[firstName.length - 1];
+
+lastLettertendría un valor de la cadena a.
+
+*/
 /* */
 /* */
 /* */
