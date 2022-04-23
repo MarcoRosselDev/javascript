@@ -320,7 +320,7 @@ esto le indica a javascript que la siguiente cita no es el final de la cadena, s
 
 
 */
-/* class 26  CITAR CADENAS CON COMILLAS SIMPLES
+/* class 26 CITAR CADENAS CON COMILLAS SIMPLES
 
 las comillas simples y dobles funcionan igual mientras nos aseguremos que comiencen y terminen con esta misma 
 comilla.
@@ -331,7 +331,29 @@ inclinada / por que hacen distintas cosas
 
 
 */
-/* */
+/* class 27 SECUENCIAS DE ESCAPE EN CADENAS
+
+las comillas no son los únicos caracteres que se pueden escapar dentro de una cadena. Hay dos razones para usar caracteres de escape;
+
+    1-para perimitirle usar caracteres que de otro modo no podría escribir, como un retorno de carro.
+    2-para permitile representar múltiples comillas en una cadena sin que javascript malinterprete lo que quiere decir.
+    
+esto lo aprendimos en el desafio anterior.
+
+código          pdodicción
+
+\'          una frase
+\"          comillas dobles
+\\          barra invertida
+\n          nueva línea
+\r          retorno de carro
+\t          pestaña
+\b          límite de palabras
+\f          alimentación de formulario
+
+tener en cuenta que la barra invertida en sí debe tener escape para que se muestre como una barra invertid.
+
+*/
 /* */
 /* */
 /* */
