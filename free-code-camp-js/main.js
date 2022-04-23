@@ -391,7 +391,20 @@ console.log(ourStr);
 la consola imprime i come first. i come second.
 
 */
-/* */
+/* class 30 CONSTRUCCIÓN DE CADENAS CON VARIABLES
+
+a veces necesitaremos construir una cadena, al usar operadores de
+concatenación (+), puedo insertar una o más variables en una cadena.
+
+ejemplo
+
+const ourName = "freeCodeCamp";
+const ourStr = "hello, our name is " + ourName + ", how are you?";
+console.log(ourStr);
+
+la consola imprime hello, our name is freeCodeCamp, how are you?
+
+*/
 /* */
 /* */
 /* */
