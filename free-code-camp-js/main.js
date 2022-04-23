@@ -418,7 +418,19 @@ console.log(ourStr);
 
 imprime en la consola freeCodeCamp is awesome!
 */
-/* */
+/* class 32 ENCONTRAR LA LONGITUD DE UNA CADENA
+
+Puedo encontrar la longitud de un string escribiendo .length 
+después de la variable de cadena o el literal de cadena.
+
+por ejemplo;
+
+console.log("Alan Peter".length);
+
+el valor seria 10 y se mostraria en la consola.
+tener en cuenta que el carácter de espacio estre alan y peter tambien cuenta como caracter.
+
+*/
 /* */
 /* */
 /* */
