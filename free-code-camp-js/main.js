@@ -431,7 +431,29 @@ el valor seria 10 y se mostraria en la consola.
 tener en cuenta que el carácter de espacio estre alan y peter tambien cuenta como caracter.
 
 */
-/* */
+/* class 33 USAR LA NOTACIÓN DE CORCHETES PARA ENCONTRAR EL PRIMER CARÁCTER EN UNA CADENA
+
+la notación de corchetes es una forma de obtener un carácter en un índice especifico dentro de una cadena.
+
+la mayoría de los lenguajes de programación modernos, como javascript,
+no comienzan a contar desde 1 como lo hacen los humanos. 
+estos comienzan en 0.
+esto se conoce como indexación basada en cero.
+
+por ejemplo;
+
+    el carácter en inice 0 de la palabra charles es c. entonces
+    const firstName = "charles";    puede obtener el valor de la 
+    primera letra de la cadena usando firstName[0].
+
+    const firstName = "charles";
+    const firstLetter = firstName[0];
+    console.log(firstLetter);
+
+    en consola imprime c.
+
+
+*/
 /* */
 /* */
 /* */
