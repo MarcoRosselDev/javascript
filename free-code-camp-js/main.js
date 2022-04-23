@@ -431,7 +431,7 @@ el valor seria 10 y se mostraria en la consola.
 tener en cuenta que el carácter de espacio estre alan y peter tambien cuenta como caracter.
 
 */
-/* class 33 USAR LA NOTACIÓN DE CORCHETES PARA ENCONTRAR EL PRIMER CARÁCTER EN UNA CADENA
+/* class 33 USAR [] PARA ENCONTRAR LA PRIMERA LETRA
 
 la notación de corchetes es una forma de obtener un carácter en un índice especifico dentro de una cadena.
 
@@ -454,7 +454,22 @@ por ejemplo;
 
 
 */
-/* */
+/* class 34 COMPRENDER LA INMUTABILIDAD DE CADENAS
+
+En javascript, los string son inmutables, lo que significa que no se
+pueden modificar una vez creados.
+
+por ejemplo, el siguiente código.
+
+let myStr = "bob";
+myStr[0] = "J";
+
+no se puede cambiar el valor de myStr a Job, porque el contenido de myStr no se puede modificar. tenga en cuanta que esto no significa que myStr no se puede cambiar, solo que los caracteres individuales de un literal de cadena no se pueden cambiar. la única forma de cambiras myStr sería asignarle con una nueva cadena, como esta:
+
+let mtStr = "bob";
+myStr = "Job";
+
+*/
 /* */
 /* */
 /* */
