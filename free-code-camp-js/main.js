@@ -405,7 +405,19 @@ console.log(ourStr);
 la consola imprime hello, our name is freeCodeCamp, how are you?
 
 */
-/* */
+/* class 31 AGREGAR VARIABLES A CADENAS
+
+asi com podemos construir una cadena en varias lineas a partir de literales de cadena, también podemos agregar variables a una cadena usando el += operador .
+
+ejemplo;
+
+const anAdjective = "awesome!";
+let ourStr = "freeCodeCamp is ";
+ourStr += anAdjective;
+console.log(ourStr);
+
+imprime en la consola freeCodeCamp is awesome!
+*/
 /* */
 /* */
 /* */
