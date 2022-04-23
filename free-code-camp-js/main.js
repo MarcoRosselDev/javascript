@@ -364,7 +364,18 @@ resultado
 const myStr = "FirstLine\n\t\\SecondLine\nThirdLine";
 
 */
-/* */
+/* class 28 CONCATENACIÓN DE CADENAS CON EL OPERADOR PLUS
+
+En javascript, cuando el + operador se usa con un string, se llama
+operador de concatenación. puede crear una nueva cadena a partir de otras cadenas concatenándolas.
+
+ejemplo
+
+"my name is marco," + "i concatenate."
+
+nota.---cuidado con los espacios. la concatenación no agraga espacios entre cadens concatenadas, por lo que debo agragarlos.
+
+*/
 /* */
 /* */
 /* */
