@@ -605,6 +605,20 @@ arr[3]es [[10, 11, 12], 13, 14], arr[3][0]es [10, 11, 12]y arr[3][0][1]es 11.
 
 nota-----no debe haber escpacios entre el nombre de la matriz y los corchetes, como array [0] [1] e incluso esto array [0] [0] no está permitido. aunque javascript puede procesar esto correctamente, esto puede confundir a otros programadores al leer su código.
 
+exercise-1
+
+Usando la notación de paréntesis, seleccione un elemento de myArraytal que myDatasea igual a 8.
+
+const myArray = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+  [[10, 11, 12], 13, 14],
+];
+
+const myData = myArray[2][1];
+console.log(myData);
+
 */
 /* */
 /* */
