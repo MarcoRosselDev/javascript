@@ -742,7 +742,34 @@ myArray.shift();
 myArray.unshift(["Paul", 35]);
 
 */
-/* */
+/* class 48 LISTA DE LA COMPRA
+
+crea una lista de compras en la variable myLista .
+la lista debe ser una matriz multidimensional que contenga 
+verias sub-matrices.
+
+el primer elemento de cada subarreglo debe contener una cadena con 
+el nombre del elemento. 
+el segundo elemento debe ser un número que represente la cantidad,
+es decir
+
+["Chocolate Bar", 15]
+
+debe haber al menos 5 sub-matrices en la lista.
+
+-------------------------------------------------------------------
+
+solucion
+
+const myList = [
+  ["Chocolate Bar", 15],
+  ["apple", 8],
+  ["banana", 4],
+  ["orange",9],
+  ["berry", 2]
+];
+
+*/
 /* */
 /* */
 /* */
