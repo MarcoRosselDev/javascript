@@ -511,7 +511,26 @@ const thirdToLastLetter = firstName[firstName.length - 3];
 thirdToLastLettertendría un valor de la cadena s.
 
 */
-/* */
+/* class 38 PALABRAS EN BLANCO
+
+ahora usaremos nuestro conocimiento de las cadenas para crear un juego 
+de palbras al que llamaremos "palabras en blanco". crearé una oración de estilo "complete los espacios en blanco" (opcionalmente humorística)
+
+en un juego de palabras, se le proporcionan oraciones con algunas palabras faltantes, como sustantivos, verbos, adjetivos y adverbios.
+luego completa las piezas que faltan con palabras de su elección de manera que la oración completa tenga sentido.
+
+considerar esta oración:    
+
+fue realmente___, y nosotros____nosotros mismos____.
+
+a esta oración le faltan tres piezas: adjetivo, verbo y un adverbio,
+y podemos agragar palabras de nuestra elección para completarla. 
+entonces podemos asignar la oración completa a una variable de la siguiente manera:
+
+const sentence = "It was really " + "hot" + ", and we " + "laughed" + " ourselves " + "silly" + ".";
+
+
+*/
 /* */
 /* */
 /* */
