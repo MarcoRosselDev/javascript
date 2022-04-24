@@ -709,7 +709,23 @@ const myArray = [["John", 23], ["dog", 3]];
 const removedFromMyArray = myArray.shift([0]);
 
 */
-/* */
+/* class 47 MANIPULAR MATRICES CON UNSHIFT()
+
+no sólo puede shift sacar elementos del primcipio de una matriz, sino que también puede unshift agregar elementos al principio de una matriz, es decir, agregar elementos delante de la matriz.
+
+.unshift() funciona exactamente igual que .push() , pero en lugar
+de agregar el elemento al final de la matriz, unshift() agrega
+el elemento al principio de la matriz.
+
+ejemplo:
+
+const ourArray = ["Stimpson", "J", "cat"];
+ourArray.shift();
+ourArray.unshift("Happy");
+
+Después de shift, ourArraytendría el valor ["J", "cat"]. Después de unshift, ourArraytendría el valor ["Happy", "J", "cat"].
+
+*/
 /* */
 /* */
 /* */
