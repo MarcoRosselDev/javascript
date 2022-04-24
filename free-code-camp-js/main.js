@@ -679,7 +679,36 @@ const myArray = [["John", 23], ["cat", 2]];
 const removedFromMyArray = myArray.pop();
 
 */
-/* class 46*/
+/* class 46 MANIPULAR MATRICES CON SHIFT()
+
+pop() siempre elimina el úlrimo elemento de una matriz.
+¿ qué sucede si desea eliminar el primero ?
+ahí es donde .shift() entra en juego. funciona igual que .pop(),
+excepto que elimina el primer elemento en lugar del último.
+
+ejemplo:
+
+const ourArray = ["Stimpson", "J", ["cat"]];
+const removedFromOurArray = ourArray.shift();
+
+removedFromOurArraytendría un valor de la cadena Stimpsony ourArraytendría ["J", ["cat"]].
+
+-----------------------------------------------------------------
+
+ejercicio-1
+
+Utilice la .shift()función para eliminar el primer elemento myArrayy asignar el valor "desplazado" a una nueva variable, removedFromMyArray.
+
+solucion:
+
+// Setup
+const myArray = [["John", 23], ["dog", 3]];
+
+// Only change code below this line
+
+const removedFromMyArray = myArray.shift([0]);
+
+*/
 /* */
 /* */
 /* */
