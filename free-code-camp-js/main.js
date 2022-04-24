@@ -636,8 +636,36 @@ arr2.push(["happy", "joy"]);
 
 arr1ahora tiene el valor [1, 2, 3, 4]y arr2tiene el valor ["Stimpson", "J", "cat", ["happy", "joy"]].
 
+--------------------------------------------------------------------
+
+exercise-1----Empuje ["dog", 3]hacia el final de la myArrayvariable.
+
+// Setup
+const myArray = [["John", 23], ["cat", 2]];
+
+// Only change code below this line
+
+myArray.push(["dog", 3]);
+
 */
-/* */
+/* class 45 MANIPULAR ARREGLOS CON POP()
+
+otra forma de cambiar los datos en una matriz es con la .pop() 
+función.
+.pop() se utiliza para extraer un valir del final de una matriz. podemos almacenar este valor extraído asignándolo a una variable. 
+en otras palabras, .pop() elimina el último elemento de una matriz y devuelve ese elemento.
+
+cualquier tipo de entrada se puede extraer de una matriz; número, 
+cadenas, incluso matrices anidadas.
+
+const threeArr = [1, 4, 6];
+const oneDown = threeArr.pop();
+console.log(oneDown);
+console.log(threeArr);
+
+El primero console.logmostrará el valor 6 y el segundo mostrará el valor [1, 4].
+
+*/
 /* */
 /* */
 /* */
