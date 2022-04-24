@@ -540,7 +540,16 @@ comenzar una declaración de matriz con un corchete de apertura, la finaliza con
 const sandwich = ["peanut butter", "jelly", "bread"];
 
 */
-/* */
+/* calss 40 ANIDAR UNA MATRIZ DENTRO DE OTRA MATRIZ
+
+también podemos anidar arreglos dentro de otros arreglos,
+como a continuación:
+
+const teams = [["Bulls", 23], ["White Sox", 45]];
+
+esto se le llama tmbn como una matriz multidimensional.
+
+*/
 /* */
 /* */
 /* */
