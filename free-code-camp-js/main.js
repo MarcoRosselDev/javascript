@@ -566,7 +566,23 @@ const data = array[1];
 La console.log(array[0])imprime 50, y datatiene el valor 60.
 
 */
-/* */
+/* class 42 MODIFICAR DATOS DE MATRIZ CON ÍNDICES
+
+a diferencia de las cadenas, las entradas de los arreglos son mutables y
+se pueden cambiar libremente, incluso si el arreglo se declaró con const
+
+ejemplo;
+
+const ourArray = [50, 40, 30];
+ourArray[0] = 15;
+
+ourArrayahora tiene el valor [15, 40, 30].
+
+nota-----no debe haber espacios entre el nombre de la matriz y los 
+corchetes, como array [0].
+aunque javascript puede procesar esto correctamente, esto puede confundir a otros programadores al leer su código.
+
+*/
 /* */
 /* */
 /* */
