@@ -583,7 +583,29 @@ corchetes, como array [0].
 aunque javascript puede procesar esto correctamente, esto puede confundir a otros programadores al leer su código.
 
 */
-/* */
+/* calss 43 ACCEDA A ARREGLOS MULTIDIMESIONALES CON ÍNDICES
+
+Una forma de pensar en una matriz multidimensional es como una matriz de matirces. cuando usa corchetes para acceder a su matriz, el 
+primer conjunto de corchetes se refiere a las entradas en la matriz más externa (el primer nivel), y cada par adicional de corchetes se refiere al siguiente nivel de entradas en el interior.
+
+ejemplo;
+
+const arr = [
+  [1, 2, 3],
+  [4, 5, 6],
+  [7, 8, 9],
+  [[10, 11, 12], 13, 14]
+];
+
+arr[3];
+arr[3][0];
+arr[3][0][1];
+
+arr[3]es [[10, 11, 12], 13, 14], arr[3][0]es [10, 11, 12]y arr[3][0][1]es 11.
+
+nota-----no debe haber escpacios entre el nombre de la matriz y los corchetes, como array [0] [1] e incluso esto array [0] [0] no está permitido. aunque javascript puede procesar esto correctamente, esto puede confundir a otros programadores al leer su código.
+
+*/
 /* */
 /* */
 /* */
