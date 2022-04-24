@@ -725,6 +725,22 @@ ourArray.unshift("Happy");
 
 Después de shift, ourArraytendría el valor ["J", "cat"]. Después de unshift, ourArraytendría el valor ["Happy", "J", "cat"].
 
+---------------------------------------------------------------------
+
+ejercicio-1
+
+Agregue ["Paul", 35]al comienzo de la myArrayvariable usando unshift().
+
+solucion:
+
+// Setup
+const myArray = [["John", 23], ["dog", 3]];
+myArray.shift();
+
+// Only change code below this line
+
+myArray.unshift(["Paul", 35]);
+
 */
 /* */
 /* */
