@@ -785,6 +785,20 @@ paréntesis, así:
 functionName(); cada vez que se llame a la función, se imprimirá el 
 mensaje hello world en la consola. todo el código entre llaves se ejecutará cada vez que se llame a la fución.
 
+------------------------------------------------------------------
+
+ejercicio-1
+
+1-Cree una función llamada reusableFunctionque imprima la cadena Hi  Worlden la consola de desarrollo.
+2-Llame a la función.
+
+solucion;
+
+function reusableFunction() {
+  console.log("Hi World");
+}
+reusableFunction();
+
 */
 /* */
 /* */
