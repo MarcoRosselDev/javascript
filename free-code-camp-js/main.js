@@ -770,7 +770,22 @@ const myList = [
 ];
 
 */
-/* */
+/* class 49 ESCRIBIR JAVASCRIPT REUTILIZABLE CON FUNCIONES
+
+En javascript, podemos dividir nuestro código en partes 
+reutilizables llamadas funciones. 
+he aquí un ejemplo de una funcion:
+
+function functionName() {
+  console.log("Hello World");
+}
+
+puede llamar o invocar esta función usando su nombre seguido de
+paréntesis, así:
+functionName(); cada vez que se llame a la función, se imprimirá el 
+mensaje hello world en la consola. todo el código entre llaves se ejecutará cada vez que se llame a la fución.
+
+*/
 /* */
 /* */
 /* */
