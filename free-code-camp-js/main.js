@@ -828,9 +828,24 @@ function functionWithArgs(a, b) {
 functionWithArgs(7, 9);
 
 */
-/* class 51  
+/* class 51 DEVOLVER UN VALOR DE UNA FUNCIÓN CON RETORNO
 
+podemos pasar valores a una fución con argumentos. puede usar una
+return declaración para enviar un valor de vuelta fuera de una 
+función.
 
+ejemplo
+
+function plusThree(num) {
+  return num + 3;
+}
+
+const answer = plusThree(5);
+
+answer tiene el valor de 8.
+
+plusThree toma un argumento de favor num y devuelve un valor 
+a num + 3.
 
 */
 
