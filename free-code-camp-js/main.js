@@ -814,8 +814,26 @@ function testFun(param1, param2) {
 
 Entonces podemos llamar testFunasí: testFun("Hello", "World");. Hemos pasado dos argumentos de cadena, Helloy World. Dentro de la función, param1será igual a la cadena Helloy param2será igual a la cadena World. Tenga en cuenta que podría testFunvolver a llamar con diferentes argumentos y los parámetros tomarían el valor de los nuevos argumentos.
 
+-------------------------------------------------------------------
+ejercicio-1
+
+1-Cree una función llamada functionWithArgsque acepte dos argumentos y envíe su suma a la consola de desarrollo.
+2-Llame a la función con dos números como argumentos.
+
+respuesta:
+
+function functionWithArgs(a, b) {
+  console.log(a + b);
+}
+functionWithArgs(7, 9);
+
 */
-/* */
+/* class 51  
+
+
+
+*/
+
 /* */
 /* */
 /* */
