@@ -847,8 +847,18 @@ answer tiene el valor de 8.
 plusThree toma un argumento de favor num y devuelve un valor 
 a num + 3.
 
-*/
+-----------------------------------------------------------------
+ejercicio-1
 
+Cree una función timesFive que acepte un argumento, lo multiplique por 5 y devuelva el nuevo valor.
+
+respuesta:
+
+function timesFive(num) {
+  return num * 5;
+}
+
+*/
 /* */
 /* */
 /* */
