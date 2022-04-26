@@ -859,7 +859,11 @@ function timesFive(num) {
 }
 
 */
-/* */
+/* class 52 ALCANCE GLOBAL Y FUNCIONES
+
+en jabascript, al alcance se refiere a la visibilidad
+
+*/
 /* */
 /* */
 /* */
