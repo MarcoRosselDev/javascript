@@ -153,6 +153,27 @@ function myFun() {
 
 La función myFunde volverá la cadena Head porque la versión local de la variable está presente.
 
+
+---------------------------------------------------------------------
+
+ejercico
+
+Agregue una variable local a la myOutfit función para anular el valor de outerWear con la cadena sweater.
+
+solución;
+
+// Setup
+const outerWear = "T-Shirt";
+
+function myOutfit() {
+  // Only change code below this line
+  let outerWear = "sweater";
+  // Only change code above this line
+  return outerWear;
+}
+
+myOutfit();
+
 */
 /* */
 /* */
