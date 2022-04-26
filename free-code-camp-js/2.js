@@ -221,7 +221,21 @@ addThree();
 addFive();
 
 */
-/* */
+/* class 56 ASIGNACIÓN CON UN VALOR DEVUELTO
+
+todo lo que se encuentra a la derecha del signo = se resuelve antes 
+de que se asigne el valor.
+esto significa que podemos tomar el valor de retorno de una función
+y asignarlo a una variable.
+
+supongamos que hemos predefinido una función sum que suma dos números, entonces:
+
+ourSum = sum(5, 12);
+
+llamará a la sum función, que devuelve un valor de 17 y lo asigna a
+la ourSum variable.
+
+*/
 /* */
 /* */
 /* */
