@@ -175,7 +175,26 @@ function myOutfit() {
 myOutfit();
 
 */
-/* */
+/* class 55 COMPRENDER EL VALOR INDEFINIDO EN FUNCIÓN
+
+una función puede incluir la return declaración pero no tiene que hacerlo. en el caso de que la función no tenga una return declaración, 
+cuando la llama, la función procesa el código interno pero el valor
+devuelto es undefined.
+
+ejemplo:
+
+let sum = 0;
+
+function addSum(num) {
+  sum = sum + num;
+}
+
+addSum(3);
+
+addSum es una fución sin return sentecia. la función cambiará la sum
+variable global pero el valor devuelto de la fución es undefined.
+
+*/
 /* */
 /* */
 /* */
