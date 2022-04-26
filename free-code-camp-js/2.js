@@ -256,7 +256,15 @@ function processArg(num) {
 processed = processArg(7);
 
 */
-/* */
+/* class 57 HACER COLA
+
+en informatica, una cola es una estructura de datos abstracta donde
+los elementos se mantienen en orden. los elementos nuevos se pueden 
+agregar al final de la cola y los elementos antiguos se quitan del
+frente de la cola.
+-----------------------------------------------------------------------
+
+*/
 /* */
 /* */
 /* */
