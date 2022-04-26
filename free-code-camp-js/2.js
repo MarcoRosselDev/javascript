@@ -235,6 +235,26 @@ ourSum = sum(5, 12);
 llamará a la sum función, que devuelve un valor de 17 y lo asigna a
 la ourSum variable.
 
+-------------------------------------------------------------------
+
+ejercicio;
+
+llamar a la processArg función con un argumento de 7 y asignar su
+valor de retorno a la variable processed.
+
+resultado;
+
+// Setup
+let processed = 0;
+
+function processArg(num) {
+  return (num + 3) / 5;
+}
+
+// Only change code below this line
+
+processed = processArg(7);
+
 */
 /* */
 /* */
