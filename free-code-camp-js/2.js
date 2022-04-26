@@ -115,6 +115,27 @@ console.log(loc);
 
 La myTest() llamada a la función mostrará la cadena foo en la consola. La console.log(loc) línea (fuera de la myTest función) arrojará un error, ya loc que no está definida fuera de la función.
 
+--------------------------------------------------------------------
+
+ejercico-1:
+
+El editor tiene dos console.log s para ayudarlo a ver lo que está sucediendo. Revisa la consola mientras codificas para ver cómo cambia. Declare una variable local myVar dentro myLocalScope y ejecute las pruebas.
+
+Nota: La consola aún mostrará ReferenceError: myVar is not defined, pero esto no hará que las pruebas fallen.
+
+solucion;
+
+function myLocalScope() {
+  // Only change code below this line
+  let myVar = 10;
+  console.log('inside myLocalScope', myVar);
+}
+myLocalScope();
+
+// Run and check the console
+// myVar is not defined outside of myLocalScope
+console.log('outside myLocalScope', myVar);
+
 
 */
 /* */
