@@ -194,6 +194,32 @@ addSum(3);
 addSum es una fución sin return sentecia. la función cambiará la sum
 variable global pero el valor devuelto de la fución es undefined.
 
+
+------------------------------------------------------------------
+
+ejercicio:
+
+Crea una función addFive sin argumentos. Esta función suma 5 a la sum variable, pero su valor devuelto es undefined.
+
+solución;
+
+// Setup
+let sum = 0;
+
+function addThree() {
+  sum = sum + 3;
+}
+
+// Only change code below this line
+function addFive() {
+  sum = sum + 5;
+}
+
+// Only change code above this line
+
+addThree();
+addFive();
+
 */
 /* */
 /* */
