@@ -67,4 +67,35 @@ automaticamente en global.
 Esto puede crear cosecuencias no deseadas en otras partes de su código o al ejecutar una función nuevamente. siempre debe declarar sus
 variables con let o const.
 
+--------------------------------------------------------------------
+
+ejercicio-1
+
+Usando let o const, declare una variable global nombrada myGlobal fuera de cualquier función. Inicialícelo con un valor de 10.
+
+Dentro de la función fun1, asigne 5 a oopsGlobal sin usar las palabras clave let o const.
+
+respuesta;
+
+// Declare the myGlobal variable below this line
+let myGlobal = 10;
+
+function fun1() {
+  // Assign 5 to oopsGlobal Here
+  oopsGlobal = 5;
+}
+
+// Only change code above this line
+
+function fun2() {
+  var output = "";
+  if (typeof myGlobal != "undefined") {
+    output += "myGlobal: " + myGlobal;
+  }
+  if (typeof oopsGlobal != "undefined") {
+    output += " oopsGlobal: " + oopsGlobal;
+  }
+  console.log(output);
+}
+
 */
