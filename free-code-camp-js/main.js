@@ -800,7 +800,21 @@ function reusableFunction() {
 reusableFunction();
 
 */
-/* */
+/* class 50 PASAR VALORES A FUNCIONES CON ARGUMENTOS 
+
+los parámetros son variables que actúan como marcadores de posición 
+para los valores que se deben ingresar a una función cuando se la 
+llama. cuando se define una función, normalmente se define junto con uno o más parámetros. los valores reales que se ingresan en una función cuando se llama se onocen como argumentos.
+
+aquí hay una función con dos parámetros, param1 y param2:
+
+function testFun(param1, param2) {
+  console.log(param1, param2);
+}
+
+Entonces podemos llamar testFunasí: testFun("Hello", "World");. Hemos pasado dos argumentos de cadena, Helloy World. Dentro de la función, param1será igual a la cadena Helloy param2será igual a la cadena World. Tenga en cuenta que podría testFunvolver a llamar con diferentes argumentos y los parámetros tomarían el valor de los nuevos argumentos.
+
+*/
 /* */
 /* */
 /* */
