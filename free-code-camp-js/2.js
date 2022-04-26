@@ -138,7 +138,22 @@ console.log('outside myLocalScope', myVar);
 
 
 */
-/* */
+/* class 54 ÁMBITO GLOBAL FRENTE A LOCAL EN FUNCIONES
+
+es posible tener variables locales y globales con el mismo nombre. cuando hace esto, la variable local tiene prioridad sobre la variable global.
+
+ejemplo;
+
+const someVar = "Hat";
+
+function myFun() {
+  const someVar = "Head";
+  return someVar;
+}
+
+La función myFunde volverá la cadena Head porque la versión local de la variable está presente.
+
+*/
 /* */
 /* */
 /* */
