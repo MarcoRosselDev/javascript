@@ -538,7 +538,21 @@ function testNotEqual(val) {
 testNotEqual(10);
 
 */
-/* */
+/* class 64 COMPARACIÓN CON EL OPERADOR DE DESIGUALDAD ESTRICTA
+
+El operador de desigualdad estricta !== es el opuesto lógico del 
+operador de igualdad estricta. 
+significa "estrictamente no igual " y regresa false donde 
+regresaría la igualdad estricta true y viceversa.
+el operador de desigualdad estricta no convertirá tipos de datos.
+
+ejemplo;
+
+3 !==  3  // false
+3 !== '3' // true
+4 !==  3  // true
+
+*/
 /* */
 /* */
 /* */
