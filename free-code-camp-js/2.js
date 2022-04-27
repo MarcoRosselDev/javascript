@@ -481,6 +481,26 @@ Nota: en JavaScript, puede determinar el tipo de una variable o un valor con el 
 typeof 3      typeof 3 devuelve la cadena number
 typeof '3'    typeof '3' devuelve la cadena string.
 
+--------------------------------------------------------------------
+ejericio
+
+la compareEquality función en el editor compara dos valores usando el 
+operador de igualdad. 
+modifique la función para que devuelva la cadena Equal solo cuando los
+valores sean estrictamente iguales.
+
+solucion;
+
+// Setup
+function compareEquality(a, b) {
+  if (a === b) { // Change this line
+    return "Equal";
+  }
+  return "Not Equal";
+}
+
+compareEquality(10, "10");
+
 */
 /* */
 /* */
