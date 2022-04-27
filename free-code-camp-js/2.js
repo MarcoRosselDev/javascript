@@ -441,7 +441,25 @@ ejemplos
 3 ===  3  // true
 3 === '3' // false
 
-en el segundo ejemplo, 3 es un tipo Number y "3" es un tipo String. 
+en el segundo ejemplo, 3 es un tipo Number y "3" es un tipo String.
+
+-----------------------------------------------------------------
+ejercicio
+
+utilce el operador de igualdad estricto en la instrucción if para que la
+función devuelva la cadena Equal cuando val sea estrictamente igual a 7.
+
+solución;
+
+// Setup
+function testStrict(val) {
+  if (val === 7) { // Change this line
+    return "Equal";
+  }
+  return "Not Equal";
+}
+
+testStrict(10);
 
 */
 /* */
