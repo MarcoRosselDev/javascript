@@ -407,6 +407,25 @@ para que javascript compare dos tipos de datos diferentes (por ejemplo,
 1   == '1' // true
 "3" ==  3  // true
 
+----------------------------------------------------------------
+ejercio:
+
+agregar el operador de igualdad a la línea indicada para que la función
+devuelva la cadena Equal cuando val sea equivalente a 12.
+
+solución;
+
+// Setup
+function testEqual(val) {
+  if (val == 12) { 
+    // Change this line
+    return "Equal";
+  }
+  return "Not Equal";
+}
+
+testEqual(10);
+
 */
 /* */
 /* */
