@@ -609,7 +609,23 @@ function testGreaterThan(val) {
 testGreaterThan(10);
 
 */
-/* */
+/* class 66 COMPARACIÓN CON MAYOR O IGUAL QUE
+
+EL operador mayor o igual que >= compara los valores de dos números.
+si el de la izquierda es mayor o igual que el número de la derecha,
+devuelve true.
+de lo contario, devuelve false.
+al igual que el operador de igualdad, el operador mayor o igual que 
+convertirá los tipos de datos durante la comparación.
+
+ejemplo;
+
+6   >=  6  // true
+7   >= '3' // true
+2   >=  3  // false
+'7' >=  9  // false
+
+*/
 /* */
 /* */
 /* */
