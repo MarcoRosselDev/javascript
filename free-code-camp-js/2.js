@@ -502,7 +502,23 @@ function compareEquality(a, b) {
 compareEquality(10, "10");
 
 */
-/* */
+/* class 63 COMPARACIÓN CON EL OPERADOR DE DESIGUALDAD
+
+el operador de desigualdad != es lo opuesto al operador de igualdad.
+significa no igual y vuelve false donde volvería la igualdad true
+y viceversa.
+al igual que el operador de igualdad, el operador de desigualdad 
+convertirá tipos de datos de valores al comparar.
+
+ejemplo;
+
+1 !=  2    // true
+1 != "1"   // false
+1 != '1'   // false
+1 != true  // false
+0 != false // false
+
+*/
 /* */
 /* */
 /* */
