@@ -572,7 +572,22 @@ function testStrictNotEqual(val) {
 testStrictNotEqual(10);
 
 */
-/* */
+/* class 65 COMPARACIÓN CON EL OPERADOR  MAYOR QUE
+
+EL operador mayor que > compara los valores de dos números.
+si el número de la izquierda es mayor que el número de la derecha,
+devuelve true. de lo contrario, vuelve false.
+al igual que el operador de igualdad, el operador mayor que
+convertirá tipos de datos de valor al comparar.
+
+ejemplo;
+
+5   >  3  // true
+7   > '3' // true
+2   >  3  // false
+'1' >  9  // false
+
+*/
 /* */
 /* */
 /* */
