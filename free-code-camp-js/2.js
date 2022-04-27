@@ -746,6 +746,28 @@ if (num > 5 && num < 10) {
   return "Yes";
 }
 return "No";
+--------------------------------------------------------------
+ejercico
+
+peemplazar las dos declaraciones if con una declaración, usando el 
+&& , que devolverá la cadena Yes si val es menor o igual que 50 y
+mayor o igual que 25.
+de lo contrario. devolverá la cadena No.
+
+solución;
+
+function testLogicalAnd(val) {
+  // Only change code below this line
+
+  if (val >= 25 && val <= 50) {
+    return "Yes";
+  }
+
+  // Only change code above this line
+  return "No";
+}
+
+testLogicalAnd(10);
 
 */
 /* */
