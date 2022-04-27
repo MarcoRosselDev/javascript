@@ -318,7 +318,45 @@ function welcomeToBooleans() {
 }
 
 */
-/* */
+/* class 59 UTILICAR LA LÓGIVA CONDICIONAL CON DECLARACIONES IF
+
+if se utilizan para tomar decisiones en el código. la palabra clave
+if le dice a javascript que ejecute el código entre llaves bajo ciertas
+condiciones, definidas entre paréntesis. 
+estas condiciones se conocen como boolean condiciones y solo pueden 
+ser true o false.
+
+cuando la condición se evalúa como true, el programa ejecuta la declaración dentreo de las llaves.
+cuando la condición booleana se evalúa como false, la declaración 
+dentro de las llaves no se ejecutará.
+
+pseudocódigo:
+
+if ( la condición es verdadera ) { la
+  declaración se ejecuta
+}
+
+ejemplo;
+
+function test (myCondition) {
+  if (myCondition) {
+    return "It was true";
+  }
+  return "It was false";
+}
+
+test(true);
+test(false);
+
+test(true) devuelve la cadena ----is was true
+test(false) devuelve la cadena----it was false.
+-----------------------------------------------
+cuando test se llama con un valor de true, la if declaración evalúa 
+myCondition para ver si es así o no.
+como es true, la función devuelve la frase ---is was true--- .
+cuando llamamos test con un valor de false, regresa la otra frase.
+
+*/
 /* */
 /* */
 /* */
