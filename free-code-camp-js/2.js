@@ -518,6 +518,25 @@ ejemplo;
 1 != true  // false
 0 != false // false
 
+-------------------------------------------------------------------
+ejercicio
+
+agregue el operador de desigualdad != en la instrucción if para
+que la función devuelva la cadena Not Equal cuando val no sea
+aquivalente a 99.
+
+solución;
+
+// Setup
+function testNotEqual(val) {
+  if (val != 99) { // Change this line
+    return "Not Equal";
+  }
+  return "Equal";
+}
+
+testNotEqual(10);
+
 */
 /* */
 /* */
