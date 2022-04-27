@@ -552,6 +552,25 @@ ejemplo;
 3 !== '3' // true
 4 !==  3  // true
 
+-------------------------------------------------------------------
+ejercicio;
+
+agregue el operador de desigualdad estricta a la if declaración para
+que la función devuelva la cadena Not Equal cuando val no sea
+estrictamente igual a 17.
+
+solución;
+
+// Setup
+function testStrictNotEqual(val) {
+  if (val !== 17) { // Change this line
+    return "Not Equal";
+  }
+  return "Equal";
+}
+
+testStrictNotEqual(10);
+
 */
 /* */
 /* */
