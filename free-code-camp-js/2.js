@@ -289,7 +289,20 @@ console.log(nextInLine(testArr, 6));
 console.log("After: " + JSON.stringify(testArr));
 
 */
-/* */
+/* class 58 COMPRENDER LOS VALORES BOOLEANOS
+
+otro tipo de dato es el booleano. los valores booleanos solo pueden ser
+uno de dos valoers:
+  truo o false.
+son básicamente pequeños interruptores de encendido y apagado, donde
+true está encendido y false apagado.
+estos dos estados son mutuamente excluyentes.
+
+nota------los valores booleanos nunca se escriben entre comillas.
+las cadenas "true" y "false" no sono booleanos y no tienen un 
+significado especial en javascript.
+
+*/
 /* */
 /* */
 /* */
