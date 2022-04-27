@@ -647,7 +647,24 @@ function testGreaterOrEqual(val) {
 testGreaterOrEqual(10);
 
 */
-/* */
+/* class 67 COMPARACIÓN CON EL OPERADOR MENOR QUE
+
+el operador menor que < compara los valores de dos números.
+si el número de la izquierda es menor que el número de la derecha, 
+devuelve true.
+de lo contrario, devuelve false.
+al igual que el operador de igualdad, el operador menor que convierte
+los tipo de datos al comparar.
+
+ejemplo;
+
+2   < 5 // true
+'3' < 7 // true
+5   < 5 // false
+3   < 2 // false
+'8' < 4 // false
+
+*/
 /* */
 /* */
 /* */
