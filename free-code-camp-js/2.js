@@ -685,7 +685,24 @@ function testLessThan(val) {
 testLessThan(10);
 
 */
-/* */
+/* class 68 COMPARACIÓN CON EL OPERADOR MENOR O IGUAL QUE
+
+el operador menor o igual que <= compara los valores de dos números.
+si el número de la izquierda es menor o igual que el número de la 
+derecha, devuelve true. si el número de la izquierda es mayor que el 
+número de la derecha, devuelve false.
+al igual que el operador de igualdad, el operador menor o igual que
+convierte los tipos de datos.
+
+ejemplo;
+
+4   <= 5 // true
+'7' <= 7 // true
+5   <= 5 // true
+3   <= 2 // false
+'8' <= 4 // false
+
+*/
 /* */
 /* */
 /* */
