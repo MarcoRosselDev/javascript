@@ -462,7 +462,26 @@ function testStrict(val) {
 testStrict(10);
 
 */
-/* */
+/* class 62 PRACTICA COMPARANDO DIFERENTES VALORES
+
+en los últimos dos desafíos, aprendimos sobre el operador de igualdad
+== y el estricto ===. 
+si los valores que se comparan no son del mismo tipo, el operador de 
+igualdad realizará una conversión de tipo y luego evaluará los valores.
+sin embargo, el operador de igualdad estricta comparará tanto el tipo
+de datos como el valor tal cual, sin convertir un tipo en otro.
+
+ejemplos
+
+3 == '3' devuelve true porque JavaScript realiza la conversión de tipo de cadena a número.
+3 === '3' devuelve falso porque los tipos son diferentes y no se realiza la conversión de tipo.
+
+Nota: en JavaScript, puede determinar el tipo de una variable o un valor con el operador typeof, de la siguiente manera:
+
+typeof 3      typeof 3 devuelve la cadena number
+typeof '3'    typeof '3' devuelve la cadena string.
+
+*/
 /* */
 /* */
 /* */
