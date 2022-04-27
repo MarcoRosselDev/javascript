@@ -263,6 +263,30 @@ los elementos se mantienen en orden. los elementos nuevos se pueden
 agregar al final de la cola y los elementos antiguos se quitan del
 frente de la cola.
 -----------------------------------------------------------------------
+ejercicio
+
+1|  escribir una finción nextInLine que tome una matriz (arr) y un
+número (item) como argumento.
+2|  agregar el número al final de la matriz, luego eliminar el primer
+elemento de la matriz.
+3|  la nextInLine función debería devolver el elemento que se eliminó.
+
+solución:
+
+function nextInLine(arr, item) {
+  // Only change code below this line
+  arr.push(item)
+  return arr.shift();
+  // Only change code above this line
+}
+
+// Setup
+const testArr = [1, 2, 3, 4, 5];
+
+// Display code
+console.log("Before: " + JSON.stringify(testArr));
+console.log(nextInLine(testArr, 6));
+console.log("After: " + JSON.stringify(testArr));
 
 */
 /* */
