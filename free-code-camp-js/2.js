@@ -586,6 +586,27 @@ ejemplo;
 7   > '3' // true
 2   >  3  // false
 '1' >  9  // false
+--------------------------------------------------------------------
+ejercicio;
+
+agreguar el operador mayor que a las líneas indicadas para que las 
+declaraciones de retorno tengan sentido.
+
+solución;
+
+function testGreaterThan(val) {
+  if (val > 100) {  // Change this line
+    return "Over 100";
+  }
+
+  if (val > 10) {  // Change this line
+    return "Over 10";
+  }
+
+  return "10 or Under";
+}
+
+testGreaterThan(10);
 
 */
 /* */
