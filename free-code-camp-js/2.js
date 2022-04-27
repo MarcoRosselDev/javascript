@@ -793,6 +793,28 @@ if (num > 10 || num < 5) {
   return "No";
 }
 return "Yes";
+-----------------------------------------------------------------
+ejercicio
+
+combinar las dos declaraciones if en una declaración que devuelva la 
+cadena Outside si val no está entre 10 y 20, incluidos.
+de lo contrario, devolver la cadena Inside.
+
+resultado;
+
+function testLogicalOr(val) {
+  // Only change code below this line
+
+  if (val < 10 || val > 20) {
+    return "Outside";
+  }
+
+
+  // Only change code above this line
+  return "Inside";
+}
+
+testLogicalOr(15);
 
 */
 /* */
