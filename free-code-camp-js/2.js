@@ -770,7 +770,31 @@ function testLogicalAnd(val) {
 testLogicalAnd(10);
 
 */
-/* */
+/* class 70 COMPARACIONES CON EL OPERADOR LÓGICO O
+
+el operador lógico o || devuelve true si alguno de los operadores es 
+true. de lo contrario, devuelve false.
+el operador lógico o se compone de dos símbolos de tubería ||. 
+el siguiente patrón debería resultarle familiar por los puntos de ruta
+anteriores;
+
+if (num > 10) {
+  return "No";
+}
+if (num < 5) {
+  return "No";
+}
+return "Yes";
+
+regresará Yes solo si num está entre 5 y 10 incluidos. 
+la misma lógica se puede escribir como :
+
+if (num > 10 || num < 5) {
+  return "No";
+}
+return "Yes";
+
+*/
 /* */
 /* */
 /* */
