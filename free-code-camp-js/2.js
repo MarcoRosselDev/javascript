@@ -427,7 +427,23 @@ function testEqual(val) {
 testEqual(10);
 
 */
-/* */
+/* class 61 COMPARACIÓN CON EL OPERADOR DE IGUALDAD ESTRICTA
+
+la igualdad estricta === es la contrapartida del operador de igualdad
+==, sin embargo, a diferencia del operador de igualdad, que intenta 
+convert8r ambos valores que se comparan con un tipo común, el operador
+de igualdad estricta no raliza una conversión de tipo.
+si  los valores que se comparan tiene tipos diferentes, se consideran 
+desiguales y el operador de igualdad estricta devolverá falso.
+
+ejemplos
+
+3 ===  3  // true
+3 === '3' // false
+
+en el segundo ejemplo, 3 es un tipo Number y "3" es un tipo String. 
+
+*/
 /* */
 /* */
 /* */
