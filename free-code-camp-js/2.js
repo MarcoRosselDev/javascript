@@ -356,6 +356,25 @@ myCondition para ver si es así o no.
 como es true, la función devuelve la frase ---is was true--- .
 cuando llamamos test con un valor de false, regresa la otra frase.
 
+------------------------------------------------------------------
+ejercicio:
+
+crear un if dentro de la función para devolver yes, that was true si el parámetro wasThatTrue es true devolver en no, that was false si es false.
+
+solución;
+
+function trueOrFalse(wasThatTrue) {
+  // Only change code below this line
+
+  if (wasThatTrue) {
+    return "Yes, that was true"
+  }
+  return "No, that was false"
+
+  // Only change code above this line
+
+}
+
 */
 /* */
 /* */
