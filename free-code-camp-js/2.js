@@ -301,6 +301,21 @@ estos dos estados son mutuamente excluyentes.
 nota------los valores booleanos nunca se escriben entre comillas.
 las cadenas "true" y "false" no sono booleanos y no tienen un 
 significado especial en javascript.
+---------------------------------------------------------------------
+ejercicio:
+
+modificar la welcomeToBooleans función para que regrese true en lugar
+de false cuando de hace clic en el botón ejecutar.
+
+solución:
+
+function welcomeToBooleans() {
+  // Only change code below this line
+
+  return true; // Change this line
+
+  // Only change code above this line
+}
 
 */
 /* */
