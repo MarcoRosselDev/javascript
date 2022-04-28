@@ -106,6 +106,26 @@ un número a ambas, obtenemos resultados diferente.
 foo(0) devolverá la cadena Less than one y
 bar(0) devolverá la cadena Less than two.
 
+--------------------------------------------------------------------
+ejercicio
+
+cambiar el orden de la lógica en la función para que devuelva las 
+declaraciones correctas en todos los casos.
+
+solución;
+
+function orderMyLogic(val) {
+  if (val < 5){
+    return "Less than 5";
+  } else if (val < 10) {
+    return "Less than 10";
+  } else {
+    return "Greater than or equal to 10";
+  }
+}
+
+orderMyLogic(7);
+
 */
 /* */
 /* */
