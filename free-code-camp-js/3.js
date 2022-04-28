@@ -69,7 +69,44 @@ function testElseIf(val) {
 testElseIf(7);
 
 */
-/* */
+/* class 73 orden lógico en declaraciones if else
+
+el orden es importante en sus declaraciones if. else if 
+la función se ejecuta de arriba hacia abajo, por lo que deberá tener
+cuidado con la declaración que aparece primero.
+tome estas dos funciones como ejemplo.
+
+primer ejemplo;
+
+function foo(x) {
+  if (x < 1) {
+    return "Less than one";
+  } else if (x < 2) {
+    return "Less than two";
+  } else {
+    return "Greater than or equal to two";
+  }
+}
+
+segundo ejemplo;
+
+function bar(x) {
+  if (x < 2) {
+    return "Less than two";
+  } else if (x < 1) {
+    return "Less than one";
+  } else {
+    return "Greater than or equal to two";
+  }
+}
+
+si bien estas dos funciones parecen casi idénticas, si les pasamos 
+un número a ambas, obtenemos resultados diferente.
+
+foo(0) devolverá la cadena Less than one y
+bar(0) devolverá la cadena Less than two.
+
+*/
 /* */
 /* */
 /* */
