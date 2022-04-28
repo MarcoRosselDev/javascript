@@ -357,7 +357,27 @@ function switchOfStuff(val) {
 switchOfStuff(1);
 
 */
-/* */
+/* class 78 múltiples opciones idénticas en declaraciones de cambio
+
+si break se omite la declaración de una declaración switch caso, las
+siguientes declaracióndes de casos se ejecutan hasta break que se encuentra a.
+si tiene varios entradas con la misma salida, puede representarlas en 
+una declaración switch como esta:
+
+let result = "";
+switch(val) {
+  case 1:
+  case 2:
+  case 3:
+    result = "1, 2, or 3";
+    break;
+  case 4:
+    result = "4 alone";
+}
+
+los casos 1, 2 y 3 producirán todos el mismo resultado.
+
+*/
 /* */
 /* */
 /* */
