@@ -144,6 +144,40 @@ if (condition1) {
   statementN
 }
 
+---------------------------------------------------------------
+ejercicio
+
+if escriba sentencias / encadenadas else if para cumplir las siguientes
+condiciones;
+
+num < 5 - regreso Tiny
+num < 10 - regreso Small
+num < 15 - regreso Medium
+num < 20 - regreso Large
+num >= 20 - regreso Huge
+
+solución;
+
+function testSize(num) {
+  // Only change code below this line
+  if (num < 5) {
+    return "Tiny";
+  } else if(num < 10) {
+    return "Small"; 
+  } else if(num < 15) {
+    return "Medium"; 
+  } else if(num < 20) {
+    return "Large"; 
+  } else if(num >= 20) {
+    return "Huge"; 
+  }
+
+  return "Change Me";
+  // Only change code above this line
+}
+
+testSize(7);
+
 */
 /* */
 /* */
