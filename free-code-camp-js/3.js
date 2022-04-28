@@ -295,7 +295,30 @@ function caseInSwitch(val) {
 caseInSwitch(1);
 
 */
-/* */
+/* class 77 adición de una opción predeterminada en declaraciones de cambio
+
+en una declaración switch, es posible que no pueda especificar todos
+los valores posibles como declaración case.
+en sn lugar, puede agregar la declaración default que se ejecutará
+si no se encuentran declaraciones case coincidentes.
+íensa en ello como la else declaración final de una cadena if/else.
+
+una declaración default debe ser el último caso.
+
+switch (num) {
+  case value1:
+    statement1;
+    break;
+  case value2:
+    statement2;
+    break;
+...
+  default:
+    defaultStatement;
+    break;
+}
+
+*/
 /* */
 /* */
 /* */
