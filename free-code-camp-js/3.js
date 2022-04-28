@@ -127,7 +127,24 @@ function orderMyLogic(val) {
 orderMyLogic(7);
 
 */
-/* */
+/* class 74 encadenamiento de sentencias if else
+
+if/else se pueden encadenar juntas para una lógica compleja.
+aqui está el pseudocódigo de múltiples sentencias if/else if
+encadenadas.
+
+if (condition1) {
+  statement1
+} else if (condition2) {
+  statement2
+} else if (condition3) {
+  statement3
+. . .
+} else {
+  statementN
+}
+
+*/
 /* */
 /* */
 /* */
