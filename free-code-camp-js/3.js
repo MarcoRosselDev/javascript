@@ -233,7 +233,30 @@ function golfScore(par, strokes) {
 golfScore(5, 4);
 
 */
-/* */
+/* class 76 seleccionar entre muchas opcions con sentencias de cambio
+
+si tiene muchas opciones para elegir, use una declaración de cambio.
+una switch declarción prueba un valor y puede tener muchas declaraciones
+de casos que definen varios valores posibles.
+las sentecias se ejecutan desde el primer case valor coincidente hasta
+break que se encuentra a.
+
+ejemplo de declaración switch;
+
+switch(lowercaseLetter) {
+  case "a":
+    console.log("A");
+    break;
+  case "b":
+    console.log("B");
+    break;
+}
+
+en case los valores se prueban con igualdad estricta ===.
+la break dice a javascript que deje de ejecutar declaraciones.
+si break se omite, se ejecutará la siguiente instruicción.
+
+*/
 /* */
 /* */
 /* */
