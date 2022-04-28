@@ -1,4 +1,4 @@
-/* class 71 introdicción a las sentencias else
+/* class 71 introducción a las sentencias else
 
 cuando una condición para un if es verdadera, se ejecuta el bloque 
 de código que la sigue. ¿ qué pasa cuando esa condición es falsa ?
@@ -34,7 +34,22 @@ function testElse(val) {
 testElse(4);
 
 */
-/* */
+/* class 72 introducción a las sentencias Else If
+
+si tiene varias condiciones que deben abordarse, puede encadenar if
+junto con else if .
+
+ejemplo;
+
+if (num > 15) {
+  return "Bigger than 15";
+} else if (num < 5) {
+  return "Smaller than 5";
+} else {
+  return "Between 5 and 15";
+}
+
+*/
 /* */
 /* */
 /* */
