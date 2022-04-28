@@ -179,7 +179,32 @@ function testSize(num) {
 testSize(7);
 
 */
-/* */
+/* class 75 código de golf
+
+en el juego de golf, cada hoyo tiene un par, es decir, el número
+promedio strokes que se espera que haga un golfista para hindir la bola
+en el hoyo y completar el juego.
+dependiendo de qué tan arriba o abajo par estés strokes, hay un apodo
+diferente.
+su función será pasada argumentos par y strokes. devuelve la cadena
+correnta de acuerdo con esta table que enumeroa los trazos en orden
+de prioridad; de arriba a abajo.
+
+trazos      devolver
+    1          "¡Hoyo en uno!"
+ <= par - 2    "Àguila"
+ par - 1       "Pajarito"
+   par         "Par"
+  par + 1      "Espectro"
+  par + 2      "Doble bogey"
+ >= par +3     "¡Vete a casa!"
+
+par y strokes siempre serà numèrico y positivo.
+hemos agregado una matriz de todos los nombres para su conveniencia.
+
+
+
+*/
 /* */
 /* */
 /* */
