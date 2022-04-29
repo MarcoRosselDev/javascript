@@ -484,7 +484,27 @@ function chainToSwitch(val) {
 chainToSwitch(7);
 
 */
-/* */
+/* class 80 devolver valores booleanos de funciones
+
+a veces, las personas usan una declaración if/else para hacer una 
+comparación, como esta;
+
+function isEqual(a, b) {
+  if (a === b) {
+    return true;
+  } else {
+    return false;
+  }
+}
+
+pero hay una mejor manera de hacer esto.
+como === devielve truo o false, podemos devolver el resultado de la comparación:
+
+function isEqual(a, b) {
+  return a === b;
+}
+
+*/
 /* */
 /* */
 /* */
