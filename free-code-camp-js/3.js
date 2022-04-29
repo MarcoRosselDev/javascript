@@ -419,7 +419,35 @@ switch(val){
 sequentialSizes(1);
 
 */
-/* */
+/* class 79 reempazo de cadena if else con interruptor
+
+si riene muchas opciones para elegir, una declaración switch puede ser
+más fácil de escribir que muchas declaraciones if encadenadas.
+
+ejemplo:
+
+if (val === 1) {
+  answer = "a";
+} else if (val === 2) {
+  answer = "b";
+} else {
+  answer = "c";
+}
+
+se puede reemplazar con ;
+
+switch(val) {
+  case 1:
+    answer = "a";
+    break;
+  case 2:
+    answer = "b";
+    break;
+  default:
+    answer = "c";
+}
+
+*/
 /* */
 /* */
 /* */
