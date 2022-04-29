@@ -746,6 +746,37 @@ const prop2val = myObj.prop2;
 prop1val tendría un valor de cadena val1 y 
 prop2val tendría un valor de val2.
 
+--------------------------------------------------------
+ejercicio
+
+lea los valores de propiedad del testObj usando la notación de punto.
+establezca la variable hatValue igual a la propiedad del objeto hat
+y establezca la variable shirtValue igual a la propiedad del objeto shirt.
+
+// Setup
+const testObj = {
+  "hat": "ballcap",
+  "shirt": "jersey",
+  "shoes": "cleats"
+};
+
+// Only change code below this line
+const hatValue = testObj;      // Change this line
+const shirtValue = testObj;    // Change this line
+
+solución:
+
+// Setup
+const testObj = {
+  "hat": "ballcap",
+  "shirt": "jersey",
+  "shoes": "cleats"
+};
+
+// Only change code below this line
+const hatValue = testObj.hat;      // Change this line
+const shirtValue = testObj.shirt;    // Change this line
+
 */
 /* */
 /* */
