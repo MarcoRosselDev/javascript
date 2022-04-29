@@ -696,6 +696,33 @@ const anotherObject = {
 sin embargo, si su objeto tiene propiedades que no son cadenas, 
 javascript las encasillará automáticamente como cadenas.
 
+---------------------------------------------------------------------
+ejercico:
+
+crear un objeto que represente a un perro llamado myDog que contenga las
+propiedades name (cadena), legs, tails y friends.
+puede establecer estas propiedades de objeto en los valores que desee, 
+siempre que name sea una cadena, sean números y legs sea una matriz. 
+
+const myDog = {
+  // Only change code below this line
+
+
+  // Only change code above this line
+};
+
+solución:
+
+const myDog = {
+  // Only change code below this line
+  name : "Lusho",
+  legs : 4,
+  tails : 1,
+  friends : ["marcus", "shimuelo"]
+
+  // Only change code above this line
+};
+
 */
 /* */
 /* */
