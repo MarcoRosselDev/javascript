@@ -724,7 +724,29 @@ const myDog = {
 };
 
 */
-/* */
+/* class 84 acceso a propiedades de objetos con notación de puntos
+
+hay dos formas de acceder a las propiedades de un objeto:
+notación de puntos (.) y notación de corchetes ([]), similar a una matriz.
+
+la notación de puntos es lo que usa cuando sabe el nombre de la propiedad
+a la que intenta acceder con anticipación.
+
+aquí hay una muestra del uso de la notación de puntos (.) para leer la 
+propiedad de un objeto:
+
+const myObj = {
+  prop1: "val1",
+  prop2: "val2"
+};
+
+const prop1val = myObj.prop1;
+const prop2val = myObj.prop2;
+
+prop1val tendría un valor de cadena val1 y 
+prop2val tendría un valor de val2.
+
+*/
 /* */
 /* */
 /* */
