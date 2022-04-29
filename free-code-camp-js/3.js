@@ -587,7 +587,54 @@ function abTest(a, b) {
 abTest(2,2);
 
 */
-/* */
+/* calss 82 contando cartas
+
+en el juego de dcasino blackjack, un jugador puede obtener una
+ventaja sobre la casa haciendo un seguimiento de número relativo de 
+cartas altas y bajas que quedan en la baraja.
+esto se llama conteo de cartas.
+
+tener más cartas altas restantes en el mazo favorece al jugador.
+a cada tarjeta se le asign aun valor de acuerdo con la siguiente tabla.
+cuando la cuenta es positiva, el jugador debe apostar alto.
+cuando la cuenta es cero o negativo, el jugador debe apostar bajo.
+
+cambio de conteo            tarjetas
+      +1                 2, 3, 4, 5, 6
+       0                    7, 8, 9
+      -1              10, "J", "Q", "K", "A"
+
+escribir una función de conteo de cartas. recibirá un parametro card,
+que puede ser un número o una cadena, e icrementará o decrementará la
+variable global count según el valor de la tarjeta. 
+la función luego devolverá una cadena con el conteo actual y la cadena
+Bet si el conteo es positivo, o Hold si el conteo es cero o negativo.
+el conteo actual y la decisión del jugador (Bet o Hold) deben estar
+separados por un solo espacio.
+
+salida de ejempolo----------   -3 Hold o 5 Bet
+
+sugerencia
+
+no restablezca count a 0 cuando el valor sea 7, 8 o 9
+no devuelva una matriz.
+no incluya comillas en el resultado.
+------------------------------------------------------------------------
+
+let count = 0;
+
+function cc(card) {
+  // Only change code below this line
+
+
+  return "Change Me";
+  // Only change code above this line
+}
+
+cc(2); cc(3); cc(7); cc('K'); cc('A');
+-------------------------------------------------------------------------
+
+*/
 /* */
 /* */
 /* */
