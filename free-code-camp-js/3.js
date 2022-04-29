@@ -503,6 +503,32 @@ como === devielve truo o false, podemos devolver el resultado de la comparación
 function isEqual(a, b) {
   return a === b;
 }
+------------------------------------------------------------
+ejercicio
+
+arreglar la función isLess para eliminar las declaraciones if/else.
+
+function isLess(a, b) {
+  // Only change code below this line
+  if (a < b) {
+    return true;
+  } else {
+    return false;
+  }
+  // Only change code above this line
+}
+
+isLess(10, 15);
+
+solución;
+
+function isLess(a, b) {
+  // Only change code below this line
+  return a < b;
+  // Only change code above this line
+}
+
+isLess(10, 15);
 
 */
 /* */
