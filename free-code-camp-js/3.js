@@ -531,7 +531,25 @@ function isLess(a, b) {
 isLess(10, 15);
 
 */
-/* */
+/* class 81 devolver patrón temprano para funciones
+
+cuando se llega a una declaración return, la ejecución de la función se 
+detiene y el control vuelve a la ubicación de llamada.
+
+ejemplo
+
+function myFun() {
+  console.log("Hello");
+  return "World";
+  console.log("byebye")
+}
+myFun();
+
+lo anterior mostrará la cadena Hello en la consola y devolverá la 
+cadena World. la cadena byebye nunca se mostrará en la consola, porque
+la función finaliza en la return declaración.
+
+*/
 /* */
 /* */
 /* */
