@@ -803,6 +803,37 @@ myObj["Space Name"];  seria la cadena Kirk,
 myObj['More Space'];  seria la cadena Spock,
 myObj["NoSpace"];     seria la cadena USS Enterprise.
 
+------------------------------------------------------------
+ejercicio
+
+lea las valores de las propiedades an entree y the drink de la 
+notación testObj de paréntesis y asignelos a entreeValue y dirnkValue 
+respectivamente.
+
+// Setup
+const testObj = {
+  "an entree": "hamburger",
+  "my side": "veggies",
+  "the drink": "water"
+};
+
+// Only change code below this line
+const entreeValue = testObj;   // Change this line
+const drinkValue = testObj;    // Change this line
+
+solución;
+
+// Setup
+const testObj = {
+  "an entree": "hamburger",
+  "my side": "veggies",
+  "the drink": "water"
+};
+
+// Only change code below this line
+const entreeValue = testObj["an entree"];   // Change this line
+const drinkValue = testObj["the drink"];    // Change this line
+
 */
 /* */
 /* */
