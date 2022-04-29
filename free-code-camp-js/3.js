@@ -778,7 +778,32 @@ const hatValue = testObj.hat;      // Change this line
 const shirtValue = testObj.shirt;    // Change this line
 
 */
-/* */
+/* class 85 acceso a propiedades de objetos con notación de corchetes
+
+la segunda forma de acceder a las propiedades de un objeto es la notación
+de corchetes ([]).
+si la propiedad del objeto al que intenta acceder tiene un espacio en su 
+nombre, deberá usar la notación de corchetes.
+sin embargo, aún puede usar la notación de corchetes en las propiedades 
+del objeto sin espacios.
+aquí hay una muestra del uso de la notación de corchetes para leer la 
+propiedad de un objeto:
+
+const myObj = {
+  "Space Name": "Kirk",
+  "More Space": "Spock",
+  "NoSpace": "USS Enterprise"
+};
+
+myObj["Space Name"];
+myObj['More Space'];
+myObj["NoSpace"];
+
+myObj["Space Name"];  seria la cadena Kirk,
+myObj['More Space'];  seria la cadena Spock,
+myObj["NoSpace"];     seria la cadena USS Enterprise.
+
+*/
 /* */
 /* */
 /* */
