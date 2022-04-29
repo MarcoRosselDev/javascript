@@ -587,7 +587,7 @@ function abTest(a, b) {
 abTest(2,2);
 
 */
-/* calss 82 contando cartas
+/* class 82 contando cartas
 
 en el juego de dcasino blackjack, un jugador puede obtener una
 ventaja sobre la casa haciendo un seguimiento de número relativo de 
@@ -666,7 +666,37 @@ function cc(card) {
 cc(2); cc(3); cc(7); cc('K'); cc('A');
 
 */
-/* */
+/* class 83 construir objetos de javascript
+
+los objetos son similares a arrays, excepto que en lugar de usar índices
+para acceder y modificar sus datos, accede a los datos en los objetos a 
+través de lo que se llama properties.
+los objetos son útiles para almacenar datos de forma estructurada y puede
+representar objetos del mundo real, como un gato.
+aquí hay un objeto gato de muestra:
+
+const cat = {
+  "name": "Whiskers",
+  "legs": 4,
+  "tails": 1,
+  "enemies": ["Water", "Dogs"]
+};
+
+en este ejemplo, todas las propiedades se almacenan como cadenas, como
+name, legs y tails. sin embargo, también puede usar números como 
+propiedades. incluso puede omitir las comillas para las propiedades de
+cadena de una sola palabra, de la siguiente manera:
+
+const anotherObject = {
+  make: "Ford",
+  5: "five",
+  "model": "focus"
+};
+
+sin embargo, si su objeto tiene propiedades que no son cadenas, 
+javascript las encasillará automáticamente como cadenas.
+
+*/
 /* */
 /* */
 /* */
