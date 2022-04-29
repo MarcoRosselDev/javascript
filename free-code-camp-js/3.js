@@ -549,6 +549,43 @@ lo anterior mostrará la cadena Hello en la consola y devolverá la
 cadena World. la cadena byebye nunca se mostrará en la consola, porque
 la función finaliza en la return declaración.
 
+------------------------------------------------------------
+
+ejercicio
+
+modificar la fición abTest para que si a o b son menores que 0 la
+función salga inmediatamente con un valor de undefined.
+
+// Setup
+function abTest(a, b) {
+  // Only change code below this line
+
+
+
+  // Only change code above this line
+
+  return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
+}
+
+abTest(2,2);
+
+solucion:
+
+// Setup
+function abTest(a, b) {
+  // Only change code below this line
+
+  if (a < 0 || b < 0) {
+    return ;
+  }
+
+  // Only change code above this line
+
+  return Math.round(Math.pow(Math.sqrt(a) + Math.sqrt(b), 2));
+}
+
+abTest(2,2);
+
 */
 /* */
 /* */
