@@ -964,7 +964,30 @@ const myDog = {
 myDog.name = "Happy Coder";
 
 */
-/* */
+/* class 88 agregar nuevas propiedades a un objeto de javascript
+
+puede agregar nuevas propiedades a los objetos de JavaScript 
+existentes de la misma manera que los modificaría.
+
+así es como agregaríamos una propiedad bark a ourDog:
+
+ourDog.bark = "bow-wow";    o
+ourDog["bark"] = "bow-wow";
+
+ahora, cuando evaluemos ourDog.bark, obtendremos su ladrido, bow-wow.
+
+ejemplo:
+
+const ourDog = {
+  "name": "Camper",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["everything!"]
+};
+
+ourDog.bark = "bow-wow";
+
+*/
 /* */
 /* */
 /* */
