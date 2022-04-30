@@ -1040,6 +1040,38 @@ después de la última línea que se muestra arriba, ourDog se ve así:
   "friends": ["everything!"]
 }
 
+------------------------------------------------------------------
+ejercicio:
+
+eliminar la propiedad tails de myDog. 
+puede utliizar la notación de puntos o corchetes.
+
+// Setup
+const myDog = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"],
+  "bark": "woof"
+};
+
+// Only change code below this line
+
+solución:
+
+// Setup
+const myDog = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"],
+  "bark": "woof"
+};
+
+// Only change code below this line
+
+delete myDog.tails;
+
 */
 /* */
 /* */
