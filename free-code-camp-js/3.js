@@ -876,6 +876,37 @@ tener en cuenta que no usamos comillas alrededor del nombre de la
 variable cuando lo usamos para acceder a la propiedad porque estamos
 usando el valor de la variable, no el nombre.
 
+-----------------------------------------------------------
+ejercicio
+
+establezca la variable playerName en 16.
+luego use la varible para buscar el nombre del jugador y asígnarlo
+a player.
+
+// Setup
+const testObj = {
+  12: "Namath",
+  16: "Montana",
+  19: "Unitas"
+};
+
+// Only change code below this line
+const playerNumber = 42;  // Change this line
+const player = testObj;   // Change this line
+
+solución:
+
+// Setup
+const testObj = {
+  12: "Namath",
+  16: "Montana",
+  19: "Unitas"
+};
+
+// Only change code below this line
+const playerNumber = 16;  // Change this line
+const player = testObj[playerNumber];   // Change this line
+
 */
 /* */
 /* */
