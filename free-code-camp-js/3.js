@@ -908,7 +908,31 @@ const playerNumber = 16;  // Change this line
 const player = testObj[playerNumber];   // Change this line
 
 */
-/* */
+/* class 87 actualización de propiedades de objetos
+
+una vez que haya creado un objeto de javascript, puede actualizar sus
+propiedades en cualquier momento, tal como actualizaría cualquier
+otra variabel.
+puede usar la notación de puntos o corchetes para actualizar.
+
+por ejemplo, veamos ourDog:
+
+const ourDog = {
+  "name": "Camper",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["everything!"]
+};
+
+ya que es un perro particularmente fleiz, cambiemos su nombre a la 
+cadena Happy Camper. así es como actualizamos la propiedad de nombre 
+de si objeto:
+ourDog.name = "Happy camper"; o 
+ourDog["name"] = "Happy Camper";
+ahora, cuando evaluamos ourDog.name, en lugar de obtener Camper, 
+obtendremos su nuevo nombre, Happy Camper.
+
+*/
 /* */
 /* */
 /* */
