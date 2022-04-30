@@ -1073,7 +1073,39 @@ const myDog = {
 delete myDog.tails;
 
 */
-/* */
+/* class 90 uso de objetos para búsquedas
+
+los objetos se pueden considerar como un almacenamiento de 
+clave/valor, como un diccionario. si tiene datos tubulares, puede
+usar un objeto paara buscar valores en lugar de una declaración
+switch o una cadena if/else.
+esto es más útil cuando sabe que sus datos de entrada están
+limitados a un cierto rango.
+
+aqui hay un ejemplo de una búsqueda alfabética inversa simple:
+
+const alpha = {
+  1:"Z",
+  2:"Y",
+  3:"X",
+  4:"W",
+  ...
+  24:"C",
+  25:"B",
+  26:"A"
+};
+
+alpha[2];
+alpha[24];
+
+const value = 2;
+alpha[value];
+
+alpha[2] es la cadena Y
+alpha[24] es la cadena C
+alpha[value] es la cadena Y.
+
+*/
 /* */
 /* */
 /* */
