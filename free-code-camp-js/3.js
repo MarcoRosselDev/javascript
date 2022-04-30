@@ -1335,6 +1335,44 @@ ourStorage.desk.drawer;
 ourStorage.cabinet["top drawer"].folder2 sería la cadena secrets,
 y ourStorage.desk.drawer sería la cadena stapler.
 
+--------------------------------------------------------------------
+ejercicio:
+
+accede al objeto myStorage y asigna el contenido de la propiedad
+glove box a la variable gloveBoxContents.
+siempre que sea posible, use la notación de puntos para todas las 
+propiedades; de lo contrario, use la notación de corchetes.
+
+const myStorage = {
+  "car": {
+    "inside": {
+      "glove box": "maps",
+      "passenger seat": "crumbs"
+     },
+    "outside": {
+      "trunk": "jack"
+    }
+  }
+};
+
+const gloveBoxContents = undefined;
+
+solución;
+
+const myStorage = {
+  "car": {
+    "inside": {
+      "glove box": "maps",
+      "passenger seat": "crumbs"
+     },
+    "outside": {
+      "trunk": "jack"
+    }
+  }
+};
+
+const gloveBoxContents = myStorage.car.inside["glove box"];
+
 */
 /* */
 /* */
