@@ -1105,6 +1105,66 @@ alpha[2] es la cadena Y
 alpha[24] es la cadena C
 alpha[value] es la cadena Y.
 
+--------------------------------------------------------------
+ejercicio
+
+convertir la declaración de cambio en un objeto llamado lookup.
+útilizando para buscar val y asignar la cadena asociada a la 
+variable result.
+
+// Setup
+function phoneticLookup(val) {
+  let result = "";
+
+  // Only change code below this line
+  switch(val) {
+    case "alpha":
+      result = "Adams";
+      break;
+    case "bravo":
+      result = "Boston";
+      break;
+    case "charlie":
+      result = "Chicago";
+      break;
+    case "delta":
+      result = "Denver";
+      break;
+    case "echo":
+      result = "Easy";
+      break;
+    case "foxtrot":
+      result = "Frank";
+  }
+
+  // Only change code above this line
+  return result;
+}
+
+phoneticLookup("charlie");
+
+solución:
+
+// Setup
+function phoneticLookup(val) {
+  var result = "";
+
+  // Only change code below this line
+  var lookup = {
+    "alpha": "Adams",
+    "bravo": "Boston",
+    "charlie": "Chicago",
+    "delta": "Denver",
+    "echo": "Easy",
+    "foxtrot": "Frank"
+  };
+  result = lookup[val];
+  // Only change code above this line
+  return result;
+}
+
+phoneticLookup("charlie");
+
 */
 /* */
 /* */
