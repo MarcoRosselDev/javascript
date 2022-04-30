@@ -987,6 +987,31 @@ const ourDog = {
 
 ourDog.bark = "bow-wow";
 
+--------------------------------------------------------------------
+ejercicio:
+
+agregue una propiedad bark a myDog y condigúrela en un sonido de
+perro, como "guau". puede utilizar la notación de puntos o 
+corchetes.
+
+const myDog = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+
+solución:
+
+const myDog = {
+  "name": "Happy Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+
+myDog.bark = "guau-guau";
+
 */
 /* */
 /* */
