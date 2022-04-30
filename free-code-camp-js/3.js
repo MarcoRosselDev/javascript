@@ -1013,7 +1013,34 @@ const myDog = {
 myDog.bark = "guau-guau";
 
 */
-/* */
+/* class 89 eliminar propiedades de un objeto de JavaScript
+
+también podemos eliminar propiedades de objetos como este:
+
+delete ourDog.bark;
+
+ejemplo:
+
+const ourDog = {
+  "name": "Camper",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["everything!"],
+  "bark": "bow-wow"
+};
+
+delete ourDog.bark;
+
+después de la última línea que se muestra arriba, ourDog se ve así:
+
+{
+  "name": "Camper",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["everything!"]
+}
+
+*/
 /* */
 /* */
 /* */
