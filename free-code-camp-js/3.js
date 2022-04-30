@@ -1186,6 +1186,31 @@ myObj.hasOwnProperty("middle");
 
 el primero hasOwnProperty regresa true,
 mientras que el segundo regresa false.
+-------------------------------------------------------------------
+ejercicio:
+
+modificar la función checkObj para probar si un objeto pasado a la 
+función (obj) contiene una propiedad específica (checkProp).
+si se encuentra la propiedad, devolver el valor de esa porpiedad.
+si no, regresa "Not Found".
+
+function checkObj(obj, checkProp) {
+  // Only change code below this line
+  return "Change Me!";
+  // Only change code above this line
+}
+
+solución;
+
+function checkObj(obj, checkProp) {
+  // Only change code below this line
+  if (obj.hasOwnProperty(checkProp)) {
+    return obj[checkProp];
+  } else {
+    return "Not Found"
+  }
+  // Only change code above this line
+}
 
 */
 /* */
