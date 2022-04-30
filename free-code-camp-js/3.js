@@ -932,6 +932,37 @@ ourDog["name"] = "Happy Camper";
 ahora, cuando evaluamos ourDog.name, en lugar de obtener Camper, 
 obtendremos su nuevo nombre, Happy Camper.
 
+------------------------------------------------------------------
+ejercicio
+
+actualice la propiedad myDog de nombre del objeto. 
+cambiemos su nombre de Code a Happy Coder.
+puede utilizar la notación de puntos o corchetes.
+
+// Setup
+const myDog = {
+  "name": "Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+
+// Only change code below this line
+
+solución:
+
+// Setup
+const myDog = {
+  "name": "Coder",
+  "legs": 4,
+  "tails": 1,
+  "friends": ["freeCodeCamp Campers"]
+};
+
+// Only change code below this line
+
+myDog.name = "Happy Coder";
+
 */
 /* */
 /* */
