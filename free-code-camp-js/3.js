@@ -1213,7 +1213,55 @@ function checkObj(obj, checkProp) {
 }
 
 */
-/* */
+/* class 92 manipulación de objetos complejos
+
+a veces, es posible que desee almacenar datos en una estructura de 
+datos flexible.  un objeto JavaScript es una forma de manejar datos flexibles.
+permite combinaciones arbitrarias de cadenas, números, valores 
+booleanos, matrices, funciones y objetos.
+he aquí un ejemplo de una estructura de datos compleja:
+
+const ourMusic = [
+  {
+    "artist": "Daft Punk",
+    "title": "Homework",
+    "release_year": 1997,
+    "formats": [ 
+      "CD", 
+      "Cassette", 
+      "LP"
+    ],
+    "gold": true
+  }
+];
+
+este es una matriz que contiene un objeto dentro.
+el objeto tiene varios metadatos sobre un álbum.
+también tiene una matriz  formats anidada.
+si desea agregar más registros de álbumes, puede hacerlo agregando
+registros a la matriz de nivel superior.
+los objetos contienen datos en una propiedad, que tiene un formato de
+clave-valor. en el ejemplo anterior, "artist":"Deft Punk" es una 
+propiedad que tiene una clave de artist y un valor de Deft Punk.
+la notación de objetos de javascript o JSON es un formato de 
+intercambio de datos relacionado que se utiliza para almacenar datos.
+
+{
+  "artist": "Daft Punk",
+  "title": "Homework",
+  "release_year": 1997,
+  "formats": [ 
+    "CD",
+    "Cassette",
+    "LP"
+  ],
+  "gold": true
+}
+
+nota-----daberá colocar una coma después de cada objeto de la matriz,
+a menos que sea el último objeto de la matriz.
+
+*/
 /* */
 /* */
 /* */
