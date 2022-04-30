@@ -1166,7 +1166,28 @@ function phoneticLookup(val) {
 phoneticLookup("charlie");
 
 */
-/* */
+/* class 91 probar objetos para propiedades
+
+a veces es útil verificar si la propiedad de un objeto dado existe
+o no. podemos usar el método .hasOwnPeoperty(propname) de objetos
+para determinar si ese objeto tiene el nombre de propiedad dado
+.hasOwnPeoperty() con devolución de true o false si la propiedad
+se encuentra o no.
+
+ejemplo:
+
+const myObj = {
+  top: "hat",
+  bottom: "pants"
+};
+
+myObj.hasOwnProperty("top");
+myObj.hasOwnProperty("middle");
+
+el primero hasOwnProperty regresa true,
+mientras que el segundo regresa false.
+
+*/
 /* */
 /* */
 /* */
