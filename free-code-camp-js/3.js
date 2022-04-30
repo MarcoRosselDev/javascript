@@ -1260,6 +1260,54 @@ intercambio de datos relacionado que se utiliza para almacenar datos.
 
 nota-----daberá colocar una coma después de cada objeto de la matriz,
 a menos que sea el último objeto de la matriz.
+---------------------------------------------------------------------
+ejercicio
+
+agregue un nuevo álbum a la matriz myMusic.
+sumar las cadenas artist y title,
+el número release_year,
+una matriz formats de cadenas.
+
+const myMusic = [
+  {
+    "artist": "Billy Joel",
+    "title": "Piano Man",
+    "release_year": 1973,
+    "formats": [
+      "CD",
+      "8T",
+      "LP"
+    ],
+    "gold": true
+  }
+];
+
+solución;
+
+const myMusic = [
+  {
+    "artist": "Billy Joel",
+    "title": "Piano Man",
+    "release_year": 1973,
+    "formats": [
+      "CD",
+      "8T",
+      "LP"
+    ],
+    "gold": true
+  },
+  {
+  "artist": "Daft Punk",
+  "title": "Homework",
+  "release_year": 1997,
+  "formats": [ 
+    "CD",
+    "Cassette",
+    "LP"
+  ],
+  "gold": true
+}
+];
 
 */
 /* */
