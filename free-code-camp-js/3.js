@@ -835,7 +835,48 @@ const entreeValue = testObj["an entree"];   // Change this line
 const drinkValue = testObj["the drink"];    // Change this line
 
 */
-/* */
+/* class 86 acceso a propiedades de objetos con variables
+
+otro uso de la notación de corchetes en objetos es acceder a una 
+propiedad que se almacena como el valor de una variable.
+esto puede ser muy útil para iterar a través de las propiedades de un
+objeto o al acceder a una tabla de búsqueda.
+aquí hay un ejemplo del uso de una variable para acceder a una 
+propiedad:
+
+const dogs = {
+  Fido: "Mutt",
+  Hunter: "Doberman",
+  Snoopie: "Beagle"
+};
+
+const myDog = "Hunter";
+const myBreed = dogs[myDog];
+console.log(myBreed);
+
+la cadena Doberman se mostraría en la consola.
+otra forma en que puede usar este concepto es cuando el nombre de la 
+propiedad se recopila dinámicamente durante la ejecución del programa, de la siguiente manera:
+
+const someObj = {
+  propName: "John"
+};
+
+function propPrefix(str) {
+  const s = "prop";
+  return s + str;
+}
+
+const someProp = propPrefix("Name");
+console.log(someObj[someProp]);
+
+someProp tendría un valor de cadena propName, y la cadena John se 
+mostraría en la consola.
+tener en cuenta que no usamos comillas alrededor del nombre de la 
+variable cuando lo usamos para acceder a la propiedad porque estamos
+usando el valor de la variable, no el nombre.
+
+*/
 /* */
 /* */
 /* */
