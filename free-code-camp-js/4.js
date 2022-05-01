@@ -195,7 +195,45 @@ while (i >= 0) {
 }
 
 */
-/* */
+/*class 97 itera con los bucles "for" de javaScript
+
+puedes ejecutar el mismo código múltiples veces usando un bucle.
+el tipo más común de bucle se llama bucle for porque se ejecuta
+"por" un número especifico de veces.
+los bucles for se declaran con tres expresiones opcionales
+separadas por punto y coma:
+
+for (a; b; c), donde a es la sentecia de iniciailzación,
+b es la sentencia condicional, y
+c es la expresión final.
+
+la sentencia de inicialización se ejecuta una sola vez antes de que el 
+bucle comience.
+normalmente se utiliza para definir y configurar tu variable de bucle.
+
+la sentencia condicional es evaluada al principio de cada iteración del 
+bucle y continuará siempre y cuando sea true.
+cuando la condición sea false al inicio de la iteración, el bucle dejará
+de ejecutarse. esto significa que si la condición comienza como false,
+tu bucle nunca se ejecutará.
+
+la expresión final se ejecuta al final de cada iteración del bucle, 
+antes de la siguiente comprobación de condición y se utiliza normalmente
+para incrementar o disminuir tu contador de bucle.
+
+en el siguiente ejemplo inicializamos con i = 0 e iteramos mientras
+nuestra condición i < 5 es verdadera. incrementaremos i por 1 encada 
+iteración de bucle con i++ como nuestra expresión final.
+
+const ourArray = [];
+
+for (let i = 0; i < 5; i++) {
+  ourArray.push(i);
+}
+
+ourArray ahora tendrá el valor [0, 1, 2, 3, 4].
+
+*/
 /* */
 /* */
 /* */
