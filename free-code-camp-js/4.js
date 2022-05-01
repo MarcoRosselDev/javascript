@@ -403,6 +403,40 @@ ten en cuenta que para el bucle interior, estamos comprobando el .length
 de arr[i].
 y que arr[i] es en si mismo un arreglo.
 
+-------------------------------------------------------------------
+ejercicio:
+
+modifique la función multiplyAll para que devuelva el producto de todos
+los números dentro de los sub-arreglos de arr.
+
+function multiplyAll(arr) {
+  let product = 1;
+  // Cambia solo el código debajo de esta línea
+
+  // Cambia solo el código encima de esta línea
+  return product;
+}
+
+multiplyAll([[1, 2], [3, 4], [5, 6, 7]]);
+
+solución;
+
+function multiplyAll(arr) {
+  let product = 1;
+  // Cambia solo el código debajo de esta línea
+
+  for (let i = 0; i < arr.length; i++) {
+    for (let j = 0;j < arr[i].length;j++){
+      product *= arr[i][j];
+    }
+  }
+
+  // Cambia solo el código encima de esta línea
+  return product;
+}
+
+multiplyAll([[1, 2], [3, 4], [5, 6, 7]]);
+
 */
 /* */
 /* */
