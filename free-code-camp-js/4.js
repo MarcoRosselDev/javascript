@@ -170,6 +170,30 @@ y añadirá los números de 0 a 4 a ourArray.
 intentemos construir un bucle while para que funcione empujando valores
 a un arreglo.
 
+----------------------------------------------------------------------
+ejercico:
+
+agrega los números de 5 a 0 (inclusivo) en orden descendiente a 
+myArray usando un bucle while.
+
+// Configuración
+const myArray = [];
+
+// Cambia solo el código debajo de esta línea
+
+solución;
+
+// Configuración
+const myArray = [];
+
+// Cambia solo el código debajo de esta línea
+let i = 5;
+
+while (i >= 0) {
+  myArray.push(i);
+  i--;
+}
+
 */
 /* */
 /* */
