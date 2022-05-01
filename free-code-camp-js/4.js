@@ -316,6 +316,27 @@ ourArray ahora contendrá [10, 8, 6, 4, 2]. ahora cambiemos el valor
 de inicialización y la expresión final de nuestro bucle para que 
 podamos contar hacia atrás de dos en dos y así crear un arreglo
 descendente de números impares.
+--------------------------------------------------------------------
+ejercicio;
+
+inserta los números impares desde el 9 hasta el 1 en myArray
+utilizando un bucle for.
+
+// Configuración
+const myArray = [];
+
+// Cambia solo el código debajo de esta línea
+
+solución:
+
+// Configuración
+const myArray = [];
+
+// Cambia solo el código debajo de esta línea
+
+for (let i = 9;i > 0; i -= 2) {
+  myArray.push(i);
+}
 
 */
 /* */
