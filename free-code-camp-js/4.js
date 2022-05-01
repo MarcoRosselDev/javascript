@@ -274,6 +274,28 @@ ourArray ahora contendrá [0, 2, 4, 6, 8].
 cambiemos nuestra initialization para que podamos contar por números 
 impares.
 
+----------------------------------------------------------------
+ejercicio;
+
+inserta los números impares desde 1 hasta 9 en myArray usando un
+bucle for.
+
+// Configuración
+const myArray = [];
+
+// Cambia solo el código debajo de esta línea
+
+solución:
+
+// Configuración
+const myArray = [];
+
+// Cambia solo el código debajo de esta línea
+
+for (let i = 1; i < 10; i += 2) {
+  myArray.push(i);
+}
+
 */
 /* */
 /* */
