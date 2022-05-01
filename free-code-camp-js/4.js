@@ -381,7 +381,29 @@ for (let i = 0; i < myArr.length;i ++) {
 }
 
 */
-/* */
+/*class 101 anida buvles "para"
+
+si tienes un arreglo multidimensional, puedes utilizar la misma lógica
+que aprendimos anteriormente para recorrer tanto el arreglo como 
+cualquier sub-arreglo.
+aquí hay un ejemplo:
+
+const arr = [
+  [1, 2], [3, 4], [5, 6]
+];
+
+for (let i = 0; i < arr.length; i++) {
+  for (let j = 0; j < arr[i].length; j++) {
+    console.log(arr[i][j]);
+  }
+}
+
+esto imprime cada subelemento dentro de arr uno a la vez.
+ten en cuenta que para el bucle interior, estamos comprobando el .length 
+de arr[i].
+y que arr[i] es en si mismo un arreglo.
+
+*/
 /* */
 /* */
 /* */
