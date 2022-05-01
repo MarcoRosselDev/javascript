@@ -233,6 +233,28 @@ for (let i = 0; i < 5; i++) {
 
 ourArray ahora tendrá el valor [0, 1, 2, 3, 4].
 
+----------------------------------------------------------------------
+ejercicio:
+
+usa un bucle for para empujar los valores desde el 1 al 5 en 
+myArray.
+
+// Configuración
+const myArray = [];
+
+// Cambia solo el código debajo de esta línea
+
+solución:
+
+// Configuración
+const myArray = [];
+
+// Cambia solo el código debajo de esta línea
+
+for (let i = 1; i < 6; i++) {
+  myArray.push(i);
+}
+
 */
 /* */
 /* */
