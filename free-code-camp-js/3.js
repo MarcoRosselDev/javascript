@@ -1374,10 +1374,3 @@ const myStorage = {
 const gloveBoxContents = myStorage.car.inside["glove box"];
 
 */
-/* */
-/* */
-/* */
-/* */
-/* */
-/* */
-/* */
