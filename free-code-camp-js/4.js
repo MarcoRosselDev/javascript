@@ -297,7 +297,27 @@ for (let i = 1; i < 10; i += 2) {
 }
 
 */
-/* */
+/*class 99 cuenta hacia atrás con un bucle "for"
+
+un bucle for también puede contar hacia atrás, siempre que definamos
+las condiciones adecuadas.
+para poder disminuirle dos cada iteración, necesitaremos cambiar nuestra 
+inicialización, condición, y expresión final.
+empezaaremos en i = 10 e iteraremos mientras i > 0. disminuiremos i en 2
+por cada bucle con i -=  2.
+
+const ourArray = [];
+
+for (let i = 10; i > 0; i -= 2) {
+  ourArray.push(i);
+}
+
+ourArray ahora contendrá [10, 8, 6, 4, 2]. ahora cambiemos el valor
+de inicialización y la expresión final de nuestro bucle para que 
+podamos contar hacia atrás de dos en dos y así crear un arreglo
+descendente de números impares.
+
+*/
 /* */
 /* */
 /* */
