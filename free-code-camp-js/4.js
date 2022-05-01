@@ -256,7 +256,25 @@ for (let i = 1; i < 6; i++) {
 }
 
 */
-/* */
+/*class 98 itera números impares con un bucle "for"
+
+los bucles "for" no tienen que iterar de uno en uno a la vez. 
+al cambiar nuestra final-expression(expresión final), podemos contar con
+números pares.
+empezaremos en i = 0 y realizaremos el bucle mientras i < 10.
+incrementaremos i en 2 cada bucle utilizando i += 2.
+
+const ourArray = [];
+
+for (let i = 0; i < 10; i += 2) {
+  ourArray.push(i);
+}
+
+ourArray ahora contendrá [0, 2, 4, 6, 8].
+cambiemos nuestra initialization para que podamos contar por números 
+impares.
+
+*/
 /* */
 /* */
 /* */
