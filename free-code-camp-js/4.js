@@ -339,7 +339,25 @@ for (let i = 9;i > 0; i -= 2) {
 }
 
 */
-/* */
+/*class 100 itera a través de un arreglo con un bucle "for"
+
+una tarea común en js es iterar a través del contenido de un arreglo.
+una forma de hacerlo es con un bucle for.
+este código mostrará cada elemento del arreglo arr en la consola:
+
+const arr = [10, 9, 8, 7, 6];
+
+for (let i = 0; i < arr.length; i++) {
+   console.log(arr[i]);
+}
+
+recuerda que los arreglos tienen una indexación basada en cero, lo que
+significa que el último índice del arreglo es igual a su longitud menos
+uno(length - 1). en este caso, la última iteración es i === 4, es decir,
+cuando i se convierte en igual a arr.length - 1 y resultados 6 a la consola. 
+entonces i aumentara a 5, y el bucle termina i < arr.length es false.
+
+*/
 /* */
 /* */
 /* */
