@@ -357,6 +357,29 @@ uno(length - 1). en este caso, la última iteración es i === 4, es decir,
 cuando i se convierte en igual a arr.length - 1 y resultados 6 a la consola. 
 entonces i aumentara a 5, y el bucle termina i < arr.length es false.
 
+------------------------------------------------------------------
+ejercicio;
+
+declara e inicaliza una variable total a 0. 
+usa un bucle for para sumar el valor de cada elemento del arreglo
+myArray al total.
+
+// Configuración
+const myArr = [2, 3, 4, 5, 6];
+
+// Cambia solo el código debajo de esta línea
+
+solución;
+
+// Configuración
+const myArr = [2, 3, 4, 5, 6];
+
+// Cambia solo el código debajo de esta línea
+let total = 0;
+for (let i = 0; i < myArr.length;i ++) {
+   total += myArr[i];
+}
+
 */
 /* */
 /* */
