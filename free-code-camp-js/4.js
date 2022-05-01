@@ -150,7 +150,27 @@ function updateRecords(records, id, prop, value) {
 updateRecords(recordCollection, 5439, 'artist', 'ABBA');
 
 */
-/* */
+/*class 96 iterar con bucles while de javaScript
+
+puede ejecutar el mismo código varias veces mediante un bucle.
+el primer tipo de bucle que apreneremos se llama bucle while porque
+ejecuta una condición específica mientras esta sea verdadera, y 
+se detiene una vez que esa condición ya no sea verdadera.
+
+const ourArray = [];
+let i = 0;
+
+while (i < 5) {
+  ourArray.push(i);
+  i++;
+}
+
+en el ejemplo de código anterior, el bucle while se ejecutará 5 veces
+y añadirá los números de 0 a 4 a ourArray.
+intentemos construir un bucle while para que funcione empujando valores
+a un arreglo.
+
+*/
 /* */
 /* */
 /* */
