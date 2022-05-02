@@ -739,7 +739,30 @@ function randomFraction() {
 }
 
 */
-/* */
+/*class 106 genera números enteros aleatorios cono js
+
+es genial que podamos generar números decimales aleatorios, pero
+es incluos más útil si lo usamos para generar números enteros 
+aleatorios.
+
+1- usa Math.random() para generar un decimal aleatorio.
+2- multiplica ese decimal aleatorio por 20
+3- utiliza otra función, Math.floor() para redondear el número hacia
+   abajo a su número entero más cercano.
+
+recuerda que Math.random() nunca devolverá un 1 y porque estamos
+ redondeando hacia abajo, es imposible obtener 20.
+ esta técnica nos dará un número entero entre 0 y 19.
+
+poniendo todo junto, así es como se ve nuestro código:
+
+Math.floor(Math.random() * 20);
+
+estamos llamando a Math.random(), multiplicando el resultado por 20
+y pasando el valor a la funicón Math.floor() para redondear el valor
+hacia abajo al número entero más cercano.
+
+*/
 /* */
 /* */
 /* */
