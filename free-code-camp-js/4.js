@@ -786,7 +786,18 @@ function randomWholeNum() {
 }
 
 */
-/* */
+/*class 107 genera números enteros aleatorios dentro de un rango
+
+en lugar de generar un número entero aleatorio  entre cero y un 
+número dado como lo hicimos anteriormente, podemos generar un número 
+entero aleatorio que se encuentre dentro de un rango de dos números
+específicos.
+para ello, definiremos un número mínimo min y un número máximo max.
+esta es la fórmula que utilizaremos. 
+
+Math.floor(Math.random() * (max - min + 1)) + min
+
+*/
 /* */
 /* */
 /* */
