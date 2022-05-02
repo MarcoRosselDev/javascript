@@ -712,6 +712,32 @@ igualdad, todas las llamadas de funciones se resolverán antes de que
 el return se ejecute, así que podemos devolver (return) al valor
 de la función Math.random().
 
+---------------------------------------------------------------------
+ejercicio
+
+cambia randomFraction para que devuelva un número aleatorio en lugar
+de devolver 0.
+
+function randomFraction() {
+
+  // Cambia solo el código debajo de esta línea
+
+  return 0;
+
+  // Cambia solo el código encima de esta línea
+}
+
+solución;
+
+function randomFraction() {
+
+  // Cambia solo el código debajo de esta línea
+
+  return Math.random();
+
+  // Cambia solo el código encima de esta línea
+}
+
 */
 /* */
 /* */
