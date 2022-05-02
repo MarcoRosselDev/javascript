@@ -869,6 +869,27 @@ const a = parseInt("11", 2);
 la variable radix indica que 11 está en el sistema binario, o base 2.
 este ejemplo convierte la cadena 11 a un entero 3.
 
+------------------------------------------------------------------
+ejercicio:
+
+utiliza parseInt() en la función convertToInteger para convertir
+un número binario en un número entero, y devolverlo.
+
+function convertToInteger(str) {
+
+}
+
+convertToInteger("10011");
+
+solución;
+
+function convertToInteger(str) {
+  let a = parseInt(str, 2);
+  return a;
+}
+
+convertToInteger("10011");
+
 */
 /* */
 /* */
