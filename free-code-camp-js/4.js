@@ -852,7 +852,24 @@ function convertToInteger(str) {
 convertToInteger("56");
 
 */
-/* */
+/*class 109 utiliza la función "parseInt" con Radix (Base)
+
+la función parseInt() analiza una cadena y devuelve un entero.
+recibe un segundo argumento para la base (radix), que especifica la 
+base del número representado en la cadena.
+la base (radix) puede ser un número entero entre 2 y 36.
+la llamada a la función se realiza de la siguiente manera:
+
+parseInt(string, radix);
+
+y aquí hay un ejemplo:
+
+const a = parseInt("11", 2);
+
+la variable radix indica que 11 está en el sistema binario, o base 2.
+este ejemplo convierte la cadena 11 a un entero 3.
+
+*/
 /* */
 /* */
 /* */
