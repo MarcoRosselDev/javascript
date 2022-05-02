@@ -698,7 +698,21 @@ function lookUpProfile(name, prop) {
 lookUpProfile("Akira", "likes");
 
 */
-/* */
+/*class 105 genera fracciones aleatorias con js
+
+los números aleatorios son útiles para crear comportamientos aleatorios
+
+javascript tiene una función Math.random() que genera un número decimal
+aleatorio entre 0 (inclusivo) y 1 (exclusivo). así que Math.random()
+ puede devolver un 0
+pero nunca devuelve un 1.
+
+nota---así como aprendimos en almacenando valores con el operador de 
+igualdad, todas las llamadas de funciones se resolverán antes de que 
+el return se ejecute, así que podemos devolver (return) al valor
+de la función Math.random().
+
+*/
 /* */
 /* */
 /* */
