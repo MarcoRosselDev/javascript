@@ -438,7 +438,67 @@ function multiplyAll(arr) {
 multiplyAll([[1, 2], [3, 4], [5, 6, 7]]);
 
 */
-/* */
+/*class 102 itera con el bucle "do ... while"
+
+el siguiente tipo de bucle que aprenderemos se llama bucle do...while.
+se llama así, por que primero hace (do) una pasada por el código
+dentro del bucle sin importar qué, y luego continua ejecutando el 
+bucle mientras (while) la condición especificada sea verdadera (true).
+
+const ourArray = [];
+let i = 0;
+
+do {
+  ourArray.push(i);
+  i++;
+} while (i < 5);
+
+el ejemplo anterior se comporta de forma similar a otros tipos de 
+bucles, siendo el arreglo resultante [0, 1, 2, 3, 4].
+sin embargo, lo que hace que el bucle do...while sea diferente a otros
+bucles es cómo se comporta cuando la condición falla en la primera
+verificación. 
+veamos esto en acción:  aquí puedes ver un bucle while que ejecutará
+el código una y otra vez siempre que i < 5:
+
+const ourArray = []; 
+let i = 5;
+
+while (i < 5) {
+  ourArray.push(i);
+  i++;
+}
+
+en el ejemplo, inicializamos el valor de ourArray a un arreglo vacío y
+el valor de i a 5.
+cuando ejecutamos el bucle while, la condición se evalúa como false 
+porque i no es inferior a 5, así que no ejecutara el código dentro del
+bucle. el resultado es que ourArray terminará sin valores añadidos, y
+todavía se verá como [] una vez el código del ejemplo anterior haya
+terminado de ejecutarse. ahora, dale un vistazo a un bucle do...while:
+
+const ourArray = []; 
+let i = 5;
+
+do {
+  ourArray.push(i);
+  i++;
+} while (i < 5);
+
+en este caso, inicializamos el valor de i a 5, tal como lo hicimos en 
+el bucle while. cuando lleguemos a la siguiente línea, no hay nunguna
+condición para evaluar, así que entramos al código dentro de las 
+llaves y se ejecuta. añadiremos un único elemento al arreglo y luego
+incrementaremos i antes de llegar a la verificación de la condición.
+cuando finalmente evaluamos la condición i < 5 en la última línea,
+vemos que el valor de i es ahora 6, por lo que falla la comprobación
+condicional. salimos del bucle y hemos terminado.
+al final del ejemplo anterior, el valore de ourArray es [5].
+esencialmente, un buvle do...while asegura que el código dentro del
+bucle se ejecute al menos una vez. intentemos construir un bucle
+do...while para que funcione empujando valores a un arreglo.
+
+*/
 /* */
 /* */
 /* */
