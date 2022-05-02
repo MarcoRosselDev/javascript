@@ -571,6 +571,30 @@ devuelven sin tener que llamar a la función de nuevo (en este
   ejemplo, cuando n <= 0), de lo contrario nunca podrán terminar
   de ejecutarse.
 
+-------------------------------------------------------------------
+ejercicio:
+
+escribe una función recuersiva, sum(arr, n), que devulva la suma de 
+los primeros elementos n de un arreglo arr.
+
+function sum(arr, n) {
+  // Cambia solo el código debajo de esta línea
+
+  // Cambia solo el código encima de esta línea
+}
+
+solución;
+
+function sum(arr, n) {
+  // Cambia solo el código debajo de esta línea
+  if (n <= 0) {
+    return 0;
+  } else {
+    return sum(arr, n - 1) + arr[n - 1];
+  }
+  // Cambia solo el código encima de esta línea
+}
+
 */
 /* */
 /* */
