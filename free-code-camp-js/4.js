@@ -762,6 +762,29 @@ estamos llamando a Math.random(), multiplicando el resultado por 20
 y pasando el valor a la funicón Math.floor() para redondear el valor
 hacia abajo al número entero más cercano.
 
+--------------------------------------------------------------------
+
+ejercicio;
+
+utiliza esta técnica para generar y devolver un número entero 
+aleatorio entre 0 y 9.
+
+function randomWholeNum() {
+
+  // Cambia solo el código debajo de esta línea
+
+  return Math.random();
+}
+
+solución;
+
+function randomWholeNum() {
+
+  // Cambia solo el código debajo de esta línea
+
+  return Math.floor(Math.random() * 10);
+}
+
 */
 /* */
 /* */
