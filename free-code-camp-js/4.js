@@ -797,6 +797,27 @@ esta es la fórmula que utilizaremos.
 
 Math.floor(Math.random() * (max - min + 1)) + min
 
+------------------------------------------------------------------
+ejercicio;
+
+crea una función llamada randomRange que renga un rango myMin y myMax
+y devuelva un número entero aleatorio mayor o igual a myMin, y es 
+menor o igual a myMax, inclusivo.
+
+function randomRange(myMin, myMax) {
+  // Cambia solo el código debajo de esta línea
+  return 0;
+  // Cambia solo el código encima de esta línea
+}
+
+solución;
+
+function randomRange(myMin, myMax) {
+  // Cambia solo el código debajo de esta línea
+  return Math.floor(Math.random() * (myMax - myMin + 1)) + myMin;
+  // Cambia solo el código encima de esta línea
+}
+
 */
 /* */
 /* */
