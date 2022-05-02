@@ -819,7 +819,18 @@ function randomRange(myMin, myMax) {
 }
 
 */
-/* */
+/*class 108 utiliza la función "parseInt"
+
+la función parseInt() analiza una cadena y devuelve un entero. a 
+continuación, te presentamos un ejemplo:
+
+const a = parseInt("007");
+
+la función anterior convierte la cadena 007 al entero 7.
+si el primer carácter de la cadena no puede ser convertido en un 
+número, entonces devuelve NaN.
+
+*/
 /* */
 /* */
 /* */
