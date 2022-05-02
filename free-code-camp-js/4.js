@@ -830,6 +830,27 @@ la función anterior convierte la cadena 007 al entero 7.
 si el primer carácter de la cadena no puede ser convertido en un 
 número, entonces devuelve NaN.
 
+----------------------------------------------------------------
+ejercicio:
+
+utiliza parseInt() en la función convertToInterger para convertir la 
+cadena de entrada str a un número entero, y devuélvelo.
+
+function convertToInteger(str) {
+
+}
+
+convertToInteger("56");
+
+solución;
+
+function convertToInteger(str) {
+  let a = parseInt(str);
+  return a;
+}
+
+convertToInteger("56");
+
 */
 /* */
 /* */
