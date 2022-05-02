@@ -498,6 +498,36 @@ esencialmente, un buvle do...while asegura que el código dentro del
 bucle se ejecute al menos una vez. intentemos construir un bucle
 do...while para que funcione empujando valores a un arreglo.
 
+---------------------------------------------------------------------
+ejercicio
+
+cambia el bucle while en el código por un bucle do...while.
+el bucle solo enviará el número 10 a myArray, e i será igual a 11
+cuando tu código haya terminado de ejecutarse.
+
+// Configuración
+const myArray = [];
+let i = 10;
+
+// Cambia solo el código debajo de esta línea
+while (i < 5) {
+  myArray.push(i);
+  i++;
+}
+
+solución;
+
+// Configuración
+const myArray = [];
+let i = 10;
+
+// Cambia solo el código debajo de esta línea
+
+do {
+  myArray.push(i);
+  i++
+} while (i < 5) ;
+
 */
 /* */
 /* */
