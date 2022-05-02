@@ -529,7 +529,49 @@ do {
 } while (i < 5) ;
 
 */
-/* */
+/*class 103 reemplaza bucles usando recursión
+
+la recursión es el concepto que una función puede expresarse en
+términos de sí misma. para ayudar a comprender esto, comienza 
+pensando en la siguiente tarea:
+multiplica los primeros n elementos de un arreglo para crear el 
+producto de esos elementos. usando un bucle for.
+puedes hacer esto:
+
+function multiply(arr, n) {
+    let product = 1;
+    for (let i = 0; i < n; i++) {
+      product *= arr[i];
+    }
+    return product;
+  }
+
+sin embargo, nota que multiply(arr, n) == multiply(arr, n - 1) *
+arr[n - 1]. esto significa que puedes reescribir multiply en términos
+de sí misma y que nunca necesites hacer uso de un bucle.
+
+function multiply(arr, n) {
+    if (n <= 0) {
+      return 1;
+    } else {
+      return multiply(arr, n - 1) * arr[n - 1];
+    }
+  }
+
+la versión recursiva de multiply se desglosa así.
+en el caso base, donde n <= 0, devuelve 1.
+para valores más grandes de n, se llama a sí misma, pero con n - 1.
+esa llamada de función se evalúa de la misma manera, llamando a 
+multiply otra vez hasta que n <= 0. 
+en este punto, todas las funciones pueden devolver y la multiply
+original devulve al respuesta.
+
+nota-----las funciones recursivas deben tener un caso base cuando 
+devuelven sin tener que llamar a la función de nuevo (en este
+  ejemplo, cuando n <= 0), de lo contrario nunca podrán terminar
+  de ejecutarse.
+
+*/
 /* */
 /* */
 /* */
