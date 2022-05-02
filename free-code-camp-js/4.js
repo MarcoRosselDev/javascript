@@ -596,7 +596,23 @@ function sum(arr, n) {
 }
 
 */
-/* */
+/*class 104 búsqueda de perfiles
+
+tenemos un arreglo de objetos que representan a diferentes personas
+en nuestras listas de contactos.
+una función lookUpProfile que refibe nombre (name) y una propiedad
+(prop) como argumentos preescritos para ti.
+la función debe verificar si el nombre (name) es el nombre de pila
+del contacto (firstName) y la propiedad (prop) dada es una propiedad
+de ese contato.
+si ambos son verdaderos, entonces devolver el "valor" de esa propiedad.
+si name no corresponde a ningún contacto, entonces devuelve la cadena
+No such contact.
+si prop no corresponde a nunguna propiedad válida de un contacto 
+encontrado que coincida con name entonces devuelve la cadena
+No such property.
+
+*/
 /* */
 /* */
 /* */
