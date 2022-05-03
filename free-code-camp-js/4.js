@@ -1043,6 +1043,38 @@ esto sucede porque la inserción ocurre al último, después de la
 llamada recuersiva. en el punto donde n es empujado en el arreglo,
 countup(n - 1) ya ha sido evaluada y devuelto [1, 2,..., n - 1].
 
+---------------------------------------------------------------
+ejercicio:
+
+hemos definido una función llamada countdown con un parámetro (n).
+la función debe usar recursión para devolver un arreglo conteniendo
+los n enteros hasta 1 basado en el parámetro n.
+si la función es llamad acon un número menor a 1, la función debe
+devolver un arreglo vació.
+por ejemplo, llamar esta función con n = 5 debe devolver el arreglo
+[5, 4, 3, 2, 1]. tu función debe usar recursión llamándose a sí 
+misma y no debe usar bucles de ningún tipo.
+
+// Cambia solo el código debajo de esta línea
+function countdown(n){
+  return;
+}
+// Cambia solo el código encima de esta línea
+
+solución;
+
+// Cambia solo el código debajo de esta línea
+function countdown(n){
+  if(n < 1) {
+    return [];
+  } else {
+    const countArray = countdown(n - 1);
+    countArray.unshift(n);
+    return countArray;
+  }
+}
+// Cambia solo el código encima de esta línea
+
 */
 /* */
 /* */
