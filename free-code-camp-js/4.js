@@ -1090,6 +1090,22 @@ tu función debe utilizar recursión, llamándose a sí misma, y no
 utilizar bucles de ningun tipo.
 también debe funcionar en el caso que starNum y endNum sean iguales.
 
+function rangeOfNumbers(startNum, endNum) {
+  return [];
+};
+----------------------------------------------------
+solución;
+
+function rangeOfNumbers(startNum, endNum) {
+  if (endNum - startNum === 0) {
+    return [startNum];
+  } else {
+    var num = rangeOfNumbers(startNum, endNum - 1);
+    num.push(endNum);
+    return num;
+  }
+};
+
 */
 /* */
 /* */
