@@ -259,7 +259,42 @@ function freezeObj() {
 const PI = freezeObj();
 
 */
-/* */
+/* class 4 usa funciones flecha para escribir funciones anónimas 
+de manera breve
+
+en js, usualmente no necesitas nombrar tus funciones, especialmente 
+cuando se pasa una función como argumento a otra función.
+en su lugar, creamos funciones inline.
+no necesitamos nombrar estas funciones porque no las reutilizamos en 
+otro lugar.
+
+para lograr esto, por lo general se usa la siguiente sintaxis:
+
+const myFunc = function() {
+  const myVar = "value";
+  return myVar;
+}
+
+ES6 nos proporciona el azúcar sintáctico, para no tener que escribir
+funciones anónimas de este modo. en su lugar, puedes usar la sintaxis
+de función flecha:
+
+const myFunc = () => {
+  const myVar = "value";
+  return myVar;
+}
+
+cuando la función no posee cuerpo y sólo tiene un valor de retorno, 
+la sintaxis de "función de flecha", te permite omitir la palabra 
+clave return, así como los corchetes que rodean el código .
+esto ayuda a simplificar las funciónes más pequeñas en sentencias
+de una sola línea:
+
+const myFunc = () => "value";
+
+este código todavía devolverá la cadena "value" por defecto.
+
+*/
 /* */
 /* */
 /* */
