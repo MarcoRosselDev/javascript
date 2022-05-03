@@ -1076,7 +1076,21 @@ function countdown(n){
 // Cambia solo el código encima de esta línea
 
 */
-/* */
+/*class 113 usa recursión para crear un rango de números
+
+continuando con el desafío anterior, te ofrecemos otra oportunidad
+de crear una función recursiva para resolver un problema.
+
+definimos un afunción llamada rangeOfNumbers con dos párametros.
+la función debe devolver un arreglo de enteros que comienza con 
+el número representado por el parámetro startNum y termina con el 
+número representado por el parámetro endNum.
+el número inicial será siempre menor o igual que el núero final. 
+tu función debe utilizar recursión, llamándose a sí misma, y no
+utilizar bucles de ningun tipo.
+también debe funcionar en el caso que starNum y endNum sean iguales.
+
+*/
 /* */
 /* */
 /* */
