@@ -914,7 +914,28 @@ esto puede reescribirse usando el operador condicional;
 
 function findGreater(a, b) {
   return a > b ? "a is greater" : "b is greater or equal";
+}g
+
+------------------------------------------------------------------
+ejercicio:
+
+utiliza el operador condicional en la función checkEqual para 
+comprobar si dos números son iguales o no.
+la función debe devolver la cadena Equal o la cadena Not Equal.
+
+function checkEqual(a, b) {
+
 }
+
+checkEqual(1, 2);
+
+solución;
+
+function checkEqual(a, b) {
+  return a == b ? "Equal" : "Not Equal";
+}
+
+checkEqual(1, 2);
 
 */
 /* */
