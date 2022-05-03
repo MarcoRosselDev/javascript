@@ -215,6 +215,49 @@ las asignaciones obj.review y obj.newProp provocarán errores, porque
 nuestro editor se ejecuta en modo estricto por defecto, y la consola
 mostrará el valor { name: "FreeCodeCamp", review: "Awesome" }.
 
+------------------------------------------------------------------
+ejercicio;
+
+utilizar Object.freeze para prevenir el cambio de constrantes
+matemáticos. necesitas congelar el objeto MATH_CONSTANTS para
+que nadie pueda alterar el valor de PI. añadir o borrar propiedades.
+
+function freezeObj() {
+  const MATH_CONSTANTS = {
+    PI: 3.14
+  };
+  // Cambia solo el código debajo de esta línea
+
+
+  // Cambia solo el código encima de esta línea
+  try {
+    MATH_CONSTANTS.PI = 99;
+  } catch(ex) {
+    console.log(ex);
+  }
+  return MATH_CONSTANTS.PI;
+}
+const PI = freezeObj();
+
+solución;
+
+function freezeObj() {
+  const MATH_CONSTANTS = {
+    PI: 3.14
+  };
+  // Cambia solo el código debajo de esta línea
+  Object.freeze(MATH_CONSTANTS);
+
+  // Cambia solo el código encima de esta línea
+  try {
+    MATH_CONSTANTS.PI = 99;
+  } catch(ex) {
+    console.log(ex);
+  }
+  return MATH_CONSTANTS.PI;
+}
+const PI = freezeObj();
+
 */
 /* */
 /* */
