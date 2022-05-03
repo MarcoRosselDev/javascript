@@ -148,6 +148,49 @@ pero debido a que se utilizó const, no pudes utilizar el identificador
 de la variable s para apuntar a un arreglo diferente usando el 
 operador de asignación.
 
+--------------------------------------------------------------------
+ejercicio;
+
+un arreglo es declarado como const s = [5, 7, 2].
+cambia el arreglo a [2, 5, 7] utilizando varias asignaciones
+de elementos.
+
+const s = [5, 7, 2];
+function editInPlace() {
+  // Cambia solo el código debajo de esta línea
+
+  // Usar s = [2, 5, 7] sería inválido
+
+  // Cambia solo el código encima de esta línea
+}
+editInPlace();
+
+solución:
+
+const s = [5, 7, 2];
+function editInPlace() {
+  // Cambia solo el código debajo de esta línea
+  if (true){
+    s.splice(2);
+    s.unshift(2); 
+  }
+  // Usar s = [2, 5, 7] sería inválido
+
+  // Cambia solo el código encima de esta línea
+}
+editInPlace();
+
+solución 2;
+
+const s = [5, 7, 2];
+function editInPlace() {
+  "use strict";
+  s[0] = 2;
+  s[1] = 5;
+  s[2] = 7;
+}
+editInPlace();
+
 */
 /* */
 /* */
