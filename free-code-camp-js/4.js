@@ -1000,7 +1000,50 @@ function checkSign(num) {
 checkSign(10);
 
 */
-/* */
+/*class 112 utiliza recursión para crear una cuenta regresiva
+
+en el dosafío anterior, aprendimos como usar la recursión para
+reemplazar un bucle for.
+ahora, echemos un vistazo a una función más compleja que devuelve un 
+arreglo de enteros consecutivos empezando con 1 hasta el número 
+pasado a la función.
+como se menciona en el desafío anterior, habrá un caso base.
+el caso base le dice a la función recursiva cuando no necesita
+llamarse a sí misma.
+es un caso simple donde el valor de  retorno ya se conoce.
+también habrá una llamada recursiva al cual ejecuta la función 
+original con argumentos diferentes.
+si la función se escribe correctamente, eventualmente el caso base
+será alcanzado.
+por ejemplo, digamos que quieres escribir una función recursiva que
+devuelva un arreglo conteniendo los números 1 hasta n.
+esta función necesitará aceptar un argumento, n qu erepresenta el 
+número final.
+entonces necesitará llamarse a sí misma con valores progresivamente
+más pequeños de n hasta que alcance 1. podrías escribir la función 
+de la siguiente manera:
+
+function countup(n) {
+  if (n < 1) {
+    return [];
+  } else {
+    const countArray = countup(n - 1);
+    countArray.push(n);
+    return countArray;
+  }
+}
+console.log(countup(5));
+
+el valor [1, 2, 3, 4, 5] se mostrará en la consola.
+
+al principio, esto parece contraintuitivo ya que el valor de n 
+disminuye, pero los valores en el arreglo final se están
+incrementando.
+esto sucede porque la inserción ocurre al último, después de la 
+llamada recuersiva. en el punto donde n es empujado en el arreglo,
+countup(n - 1) ya ha sido evaluada y devuelto [1, 2,..., n - 1].
+
+*/
 /* */
 /* */
 /* */
