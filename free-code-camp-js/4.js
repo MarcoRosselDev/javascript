@@ -976,6 +976,29 @@ function findGreaterOrEqual(a, b) {
   return (a === b) ? "a and b are equal" : (a > b) ? "a is greater" : "b is greater";
 }
 
+--------------------------------------------------------------------
+ejercicio:
+
+en la función checkSing. usa múltiples operadores condicionales para 
+comprobar si un número es positivo, negarivo o cero.
+la función debe devolver positive, negative o zero.
+
+function checkSign(num) {
+
+}
+
+checkSign(10);
+
+solución;
+
+function checkSign(num) {
+  return (num > 0) ? "positive"
+  : (num < 0) ? "negative"
+  : "zero";
+}
+
+checkSign(10);
+
 */
 /* */
 /* */
