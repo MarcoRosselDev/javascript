@@ -117,7 +117,38 @@ function checkScope() {
 }
 
 */
-/* */
+/* class 2 muta un arreglo declarado con const
+
+si no estás familiarizado con const, echa un vistazo a este desafío
+
+https://www.freecodecamp.org/learn/javascript-algorithms-and-data-structures/basic-javascript/declare-a-read-only-variable-with-the-const-keyword
+
+la declaración const tiene muchos casos de uso, en el javascript
+moderno.
+algunos desarrolladores prefieren asignar todas sus variables 
+utilizando const por defecto, a menos que sepan que nocesitarán 
+reasignar el valor.
+solo en ese caso, etilizan let.
+sinembargo, es importante comprender que los objetos, asignados a una 
+variable usando const siguen mutable.
+usar la declaración const solo previene la reasignación del 
+identificador de una variable.
+
+const s = [5, 6, 7];
+s = [1, 2, 3];
+s[2] = 45;
+console.log(s);
+
+s = [1, 2, 3] resultará en un error. 
+el console.log mostrará el valor [5, 6, 45].
+como puede ver, puedes mutar el objeto [5, 6, 7] en sí mismo y la 
+variable s seguirá apuntado al arreglo alterado [5, 6, 45].
+como todos los arreglos, los elementos del arreglo en s son mutables,
+pero debido a que se utilizó const, no pudes utilizar el identificador
+de la variable s para apuntar a un arreglo diferente usando el 
+operador de asignación.
+
+*/
 /* */
 /* */
 /* */
