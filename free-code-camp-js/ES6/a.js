@@ -294,6 +294,23 @@ const myFunc = () => "value";
 
 este código todavía devolverá la cadena "value" por defecto.
 
+----------------------------------------------------------------
+ejercico:
+
+reescribe la función asignada a la variable magic.
+la cual devuelve una new Date(), utilizando la sintaxis de función
+flecha.
+además, asegúrate de que nada esté definido usando la palabra clave 
+var.
+
+var magic = function() {
+  return new Date();
+};
+
+solución;
+
+const magic = () => new Date();
+
 */
 /* */
 /* */
