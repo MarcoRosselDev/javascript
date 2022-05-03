@@ -891,7 +891,32 @@ function convertToInteger(str) {
 convertToInteger("10011");
 
 */
-/* */
+/*class 110 usa el operador condicional (ternario)
+
+el operador condicional, también llamado el operador ternario, puede 
+utilizar como una expresión if-else de una sola línea.
+la sintaxis es a ? b : c, donde a es la condición, b es el código
+a ejecutar cuando la condición devuelva true, y c es el código
+a ajecutar cuando la condición devuelve false.
+la siguiente función utiliza una sentencia if/else para comprobar una
+condición:
+
+function findGreater(a, b) {
+  if(a > b) {
+    return "a is greater";
+  }
+  else {
+    return "b is greater or equal";
+  }
+}
+
+esto puede reescribirse usando el operador condicional;
+
+function findGreater(a, b) {
+  return a > b ? "a is greater" : "b is greater or equal";
+}
+
+*/
 /* */
 /* */
 /* */
