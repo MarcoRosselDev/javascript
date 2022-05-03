@@ -192,7 +192,30 @@ function editInPlace() {
 editInPlace();
 
 */
-/* */
+/* class 3 prevenir la mutación del objeto
+
+eomo se vio en el desafío anterior, la declaración const por sí sola
+no protege la información de la mutación.
+para asegurar que tu información no cambie, javaScript provee una
+función Object.freeze para prevenir la mutación de datos.
+
+cualquier intento de cambiar el objeto será rechazado, lanzando un
+error si el script se ejecuta en modo estricto.
+
+let obj = {
+  name:"FreeCodeCamp",
+  review:"Awesome"
+};
+Object.freeze(obj);
+obj.review = "bad";
+obj.newProp = "Test";
+console.log(obj);
+
+las asignaciones obj.review y obj.newProp provocarán errores, porque
+nuestro editor se ejecuta en modo estricto por defecto, y la consola
+mostrará el valor { name: "FreeCodeCamp", review: "Awesome" }.
+
+*/
 /* */
 /* */
 /* */
