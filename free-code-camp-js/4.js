@@ -938,7 +938,45 @@ function checkEqual(a, b) {
 checkEqual(1, 2);
 
 */
-/* */
+/*class 111 usa multiples operadores condicionales (ternarios)
+
+en el desafio anterior, usamos un único operador condicional.
+también pudes encadenarlos para comprobar múltiples condiciones.
+la siguiente función utiliza sentencias if, else if y else
+para comprobar múltiples condiciones:
+
+function findGreaterOrEqual(a, b) {
+  if (a === b) {
+    return "a and b are equal";
+  }
+  else if (a > b) {
+    return "a is greater";
+  }
+  else {
+    return "b is greater";
+  }
+}
+
+la función anterior puede ser reescrita utilizando múltiples 
+operadores condicionales:
+
+function findGreaterOrEqual(a, b) {
+  return (a === b) ? "a and b are equal" 
+    : (a > b) ? "a is greater" 
+    : "b is greater";
+}
+
+se considera buana práctica dar formato a múltiples operadores 
+condicionales de forma que cada condición esté en una línea separada,
+como se muestra arriba. usar múltiples operadores condicionales sin
+una indentación adecuada puede hacer tu código dificil de leer.
+por ejemplo:
+
+function findGreaterOrEqual(a, b) {
+  return (a === b) ? "a and b are equal" : (a > b) ? "a is greater" : "b is greater";
+}
+
+*/
 /* */
 /* */
 /* */
