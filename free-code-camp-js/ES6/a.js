@@ -704,6 +704,23 @@ console.log(a, b, c);
 
 la consola mostrará los valores de a, b y c como 1, 2, 5.
 
+----------------------------------------------------------------
+ejercicio
+
+utiliza la sintaxis de desestructuración para intercambiar los valores 
+de a y b para que a reciba el valor almacenado en b, y b reciba el valor
+almacenado en a.
+
+let a = 8, b = 6;
+// Cambia solo el código debajo de esta línea
+
+solución:
+
+let a = 8, b = 6;
+// Cambia solo el código debajo de esta línea
+
+[a, b] = [b, a];
+
 */
 /* */
 /* */
