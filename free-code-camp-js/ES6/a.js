@@ -391,7 +391,31 @@ const increment = (number, value = 1) => number + value;
 // Cambia solo el código encima de esta línea
 
 */
-/* */
+/* class 7 utiliza el parámetor rest con parámetros de función
+
+para ayudarnos a crear funciones más flexibles, ES6 introduce el 
+parámetro rest para los parámetros de función.
+con el parámetro rest, puedes crear funciones que tomen un número
+variable de argumentos.
+estos argumentos se almacenan en un arreglo al que se puede acceder
+más tarde dsde dentro de la función.
+
+echa un vistazo a este código;
+
+function howMany(...args) {
+  return "You have passed " + args.length + " arguments.";
+}
+console.log(howMany(0, 1, 2));
+console.log(howMany("string", null, [1, 2, 3], { }));
+
+la consola mostrará las cadenas You have passed 3 arguments. y 
+You have passed 4 arguments.
+
+el parámetro rest elimina la necesidad de comprobar el arreglo args
+y nos permite aplicar map(). filter() y reduce() en el arreglo de 
+parámetros.
+
+*/
 /* */
 /* */
 /* */
