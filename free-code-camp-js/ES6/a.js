@@ -490,7 +490,34 @@ arr2 = [...arr1];  // Cambia esta línea
 console.log(arr2);
 
 */
-/* */
+/* class 9 usa sintaxis de desestructuración para extraer valores de objetos
+
+la sintaxis de desestructuración es una sintaxis especial intoducida
+en ES6, para asignar los valores directamente desde un objeto.
+considera el siguiente código ES5:
+
+const user = { name: 'John Doe', age: 34 };
+
+const name = user.name;
+const age = user.age;
+
+name tendría una cadena con valor Jhon Doe, y 
+age tendría el número 34.
+
+aquí hay una sentencia de asignación aquivalente usando la sintaxis de 
+desestructuración de ES6:
+
+const { name, age } = user;
+
+de nuevo, name tendrá una cadena con valor John Doe, y age 34-
+
+aquí, las variables name y age serán creados y se asignarán los valores
+respectivos a partir del objeto user.
+puedes observar que esto es mucho más limpio.
+
+puedes extraer tantos o pocos valores del objeto como desees.
+
+*/
 /* */
 /* */
 /* */
