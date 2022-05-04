@@ -677,7 +677,34 @@ const { today: { low: lowToday, high: highToday }} = LOCAL_FORECAST;
 // Cambia solo el código encima de esta línea
 
 */
-/* */
+/* class 12 usa sintaxis de desestructuración para asignar variables desde arreglos
+
+ES6 hace que desestructurar arreglos sea tan fácil como desestructurar 
+objetos.
+una diferencia clave entre el operador de propagación y la 
+desestructuración de arreglos es que el operador de propagación 
+desempaca todos los contenidos de un arreglo en una lista separada por 
+comas.
+en consecuencia, no puedes elegir qué elementos deseas asignar como 
+variables.
+desestructurar un arreglo nos permite hacer exactamente eso;
+
+const [a, b] = [1, 2, 3, 4, 5, 6];
+console.log(a, b);
+
+la consola mostrará los valores de a y b como 1, 2.
+
+a la variable a se le asigna el primer valor del arreglo, y a b se le 
+asigna el segundo valor del arreglo.
+también podemos acceder al valor en cualquier índice de un arreglo
+con la desestructuración usando comas para alcanzar el índice deseado;
+
+const [a, b,,, c] = [1, 2, 3, 4, 5, 6];
+console.log(a, b, c);
+
+la consola mostrará los valores de a, b y c como 1, 2, 5.
+
+*/
 /* */
 /* */
 /* */
