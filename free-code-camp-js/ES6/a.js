@@ -334,6 +334,24 @@ multiplier(4, 2);
 
 multiplier(4, 2) devolverá el valor 8.
 
+----------------------------------------------------------
+ejercicio;
+
+reescribe la función myConcat que añade el contenido de arr2 a arr1
+para que la función use la sintaxis de función flecha.
+
+var myConcat = function(arr1, arr2) {
+  return arr1.concat(arr2);
+};
+
+console.log(myConcat([1, 2], [3, 4, 5]));
+
+solución;
+
+const myConcat = (arr1, arr2) => arr1.concat(arr2);
+
+console.log(myConcat([1, 2], [3, 4, 5]));
+
 */
 /* */
 /* */
