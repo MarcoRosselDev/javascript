@@ -608,7 +608,30 @@ const {today: highToday, tomorrow: highTomorrow} = HIGH_TEMPERATURES;
 // Cambia solo el código encima de esta línea
 
 */
-/* */
+/* class 11 usa sintaxis de desestructuración para asignar variables desde objetos anidados
+
+puedes usar los mismos principios de las dos lecciones anteriores para 
+desestructurar los valores desde objetos anidados.
+usando un objeto similar a los ejemplos anteriores:
+
+const user = {
+  johnDoe: { 
+    age: 34,
+    email: 'johnDoe@freeCodeCamp.com'
+  }
+};
+
+así es como se extraen los valores de propiedades de objetos y se los 
+asigna a variables con el mismo nombre:
+
+const { johnDoe: { age, email }} = user;
+
+y así es como se puede asignar los valores de las propiedades de un
+objeto a variables con diferentes nombres:
+
+const { johnDoe: { age: userAge, email: userEmail }} = user;
+
+*/
 /* */
 /* */
 /* */
