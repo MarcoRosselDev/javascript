@@ -312,7 +312,29 @@ solución;
 const magic = () => new Date();
 
 */
-/* */
+/* class 5 escribe funciones flecha con parámetros
+
+al igual que una función regular, puedes pasar argumentos a una 
+función flecha.
+
+const doubler = (item) => item * 2;
+doubler(4);
+
+doubler(4) devolvería el valor 8.
+
+si una función flecha tiene un solo parámetro, los paréntesis que
+encierran el parámetro pueden ser omitidos.
+
+const doubler = item => item * 2;
+
+es posible pasar más de un argumento a una función flecha.
+
+const multiplier = (item, multi) => item * multi;
+multiplier(4, 2);
+
+multiplier(4, 2) devolverá el valor 8.
+
+*/
 /* */
 /* */
 /* */
