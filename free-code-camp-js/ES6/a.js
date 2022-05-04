@@ -436,7 +436,39 @@ const sum = (...args) => {
 console.log(sum(3, 4));
 
 */
-/* */
+/* class 8 operador de propagación para evaluar los arreglos en lugar
+
+ES6 introduce el operador de propagación, que nos permite expandir 
+arreglos y otras expresiones en lugares donde se esperan múltiples
+parámetros o elementos.
+
+el siguiente código ES5 usa apply() para calcular el valor máximo
+en un arreglo:
+
+var arr = [6, 89, 3, 45];
+var maximus = Math.max.apply(null, arr);
+
+maximus tendrá un valor de 89.
+tuvimos que usar Math.max.apply(null, arr) porque Math.max(arr) 
+devuelve NaN.
+Math.max() espera argumentos separados por comas, pero no un arreglo.
+el operador de propagación hace que esta sintaxis sea más fácil de
+leer y mantener.
+
+const arr = [6, 89, 3, 45];
+const maximus = Math.max(...arr);
+
+maximus tendría un valor de 89.
+
+...arr devuelve un arreglo desempacado. 
+en otras palabras, propaga el arreglo.
+sin embargo, el operador de propagación sólo funciona en el lugar,
+como en un argumento de función o en un arreglo literal.
+el siguiente código no funcionará:
+
+const spreaded = ...arr;
+
+*/
 /* */
 /* */
 /* */
