@@ -571,6 +571,42 @@ puedes leerlo como "obtén el valor de user.name y asígnalo a una nueva
 variable llamada userName" y así sucesivamente. el valor de userName
 sería la cadena John Doe, y el valor de userAge sería el número 34.
 
+---------------------------------------------------------------------
+ejercicio;
+
+reemplaza las dos asignaciones con una sintaxis de desestructuración
+aquivalente.
+todavía deben seguir asignando las variables highToday y highTomorrow
+con los valores de today y tomorrow del objeto HIGH_TEMPERATURES.
+
+const HIGH_TEMPERATURES = {
+  yesterday: 75,
+  today: 77,
+  tomorrow: 80
+};
+
+// Cambia solo el código debajo de esta línea
+
+const highToday = HIGH_TEMPERATURES.today;
+const highTomorrow = HIGH_TEMPERATURES.tomorrow; 
+
+// Cambia solo el código encima de esta línea
+
+solución;
+
+const HIGH_TEMPERATURES = {
+  yesterday: 75,
+  today: 77,
+  tomorrow: 80
+};
+
+// Cambia solo el código debajo de esta línea
+
+const {today: highToday, tomorrow: highTomorrow} = HIGH_TEMPERATURES;
+
+
+// Cambia solo el código encima de esta línea
+
 */
 /* */
 /* */
