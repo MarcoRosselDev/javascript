@@ -516,6 +516,40 @@ respectivos a partir del objeto user.
 puedes observar que esto es mucho más limpio.
 
 puedes extraer tantos o pocos valores del objeto como desees.
+------------------------------------------------------------------
+ejercicio;
+
+reemplaza las dos asignaciones con una sintaxis de desestructuración 
+equivalente.
+todavía deben seguir asignando las variables today y tomorrow con los
+valores de today y tomorrow del objeto HIGH_TEMPERATURES.
+
+const HIGH_TEMPERATURES = {
+  yesterday: 75,
+  today: 77,
+  tomorrow: 80
+};
+
+// Cambia solo el código debajo de esta línea
+
+const today = HIGH_TEMPERATURES.today;
+const tomorrow = HIGH_TEMPERATURES.tomorrow;
+
+// Cambia solo el código encima de esta línea
+
+solución:
+
+const HIGH_TEMPERATURES = {
+  yesterday: 75,
+  today: 77,
+  tomorrow: 80
+};
+
+// Cambia solo el código debajo de esta línea
+
+const { today, tomorrow} = HIGH_TEMPERATURES;
+
+// Cambia solo el código encima de esta línea
 
 */
 /* */
