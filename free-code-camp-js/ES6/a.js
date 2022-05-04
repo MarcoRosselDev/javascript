@@ -353,7 +353,28 @@ const myConcat = (arr1, arr2) => arr1.concat(arr2);
 console.log(myConcat([1, 2], [3, 4, 5]));
 
 */
-/* */
+/* class 6 establece parámetros por defecto para tus funciones
+
+para ayudarnos a crear funciones más flexibles, ES6 intoduce 
+parametros por defecto para funciones.
+
+echa un vistazo, al siguiente código;
+
+const greeting = (name = "Anonymous") => "Hello " + name;
+
+console.log(greeting("John"));
+console.log(greeting());
+
+la consola mostrará las cadenas Hello John y Hello Anonymous.
+
+el parámetro por defecto entra en juego cuando el argumento no es
+especificado (es indefinido).
+como puedes ver en el ejemplo anterior, el parámetro name recibirá
+su valor por defecto Anonymous cuando no proveas un valor para el 
+parámetro. 
+puede agregar valores por defecto para tantos parámetros como desees.
+
+*/
 /* */
 /* */
 /* */
