@@ -415,6 +415,26 @@ el parámetro rest elimina la necesidad de comprobar el arreglo args
 y nos permite aplicar map(). filter() y reduce() en el arreglo de 
 parámetros.
 
+--------------------------------------------------------------
+ejercicio;
+
+modifica la función sum usando el parámetro rest de tal manera que 
+la función sum sea capaz de recibir cualquier número de argumento
+y devolver su suma.
+
+const sum = (x, y, z) => {
+  const args = [x, y, z];
+  return args.reduce((a, b) => a + b, 0);
+}
+
+solución;
+
+const sum = (...args) => {
+  return args.reduce((a, b) => a + b, 0);
+}
+
+console.log(sum(3, 4));
+
 */
 /* */
 /* */
