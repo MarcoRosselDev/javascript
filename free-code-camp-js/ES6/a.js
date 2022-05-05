@@ -772,6 +772,26 @@ function removeFirstTwo(list) {
 const arr = removeFirstTwo(source);
 
 */
-/* */
+/* class 15 utiliza la sintaxis de desestructuración para pasar un objeto como parámetro de función
+
+en algunos casos, se puede desestructurar el objeto en un propio 
+argumento de función.
+considera el siguiente código;
+
+const profileUpdate = (profileData) => {
+  const { name, age, nationality, location } = profileData;
+}
+
+esto desestructura efectivamente el objeto enviado a la función.
+esto también se puede hacer en el lugar;
+
+const profileUpdate = ({ name, age, nationality, location }) => {
+}
+
+cuando profileData es pasado a la función anterior, los valores son
+desestructurados desde el parámetro de función para su uso dentro
+de la función.
+
+*/
 /* */
 /* */
