@@ -32,7 +32,35 @@ objeto.
 nota---- UpperCamelCase debe ser utilizado por convención para 
 nombres de clase en ES6.
 el método constructor es un método espacial para crear e inicializar
-un objeto creado con una clase.  
+un objeto creado con una clase. 
+
+-------------------------------------------------------------
+ejercicio;
+
+usa la palabra clave class y escribe un constructor para crear la 
+clase Vegetable.
+la clase Vegetable te permite crear un objeto vegetal con una 
+propiedad name que es pasada al constructor.
+
+// Cambia solo el código debajo de esta línea
+
+// Cambia solo el código encima de esta línea
+
+const carrot = new Vegetable('carrot');
+console.log(carrot.name); // Debería mostrar 'carrot'
+
+solución;
+
+// Cambia solo el código debajo de esta línea
+class Vegetable {
+  constructor(name) {
+    this.name = name;
+  }
+}
+// Cambia solo el código encima de esta línea
+
+const carrot = new Vegetable('carrot');
+console.log(carrot.name); // Debería mostrar 'carrot'
 
 */
 /* */
