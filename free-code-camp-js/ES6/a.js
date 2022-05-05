@@ -959,3 +959,39 @@ const createPerson = (name, age, gender) => {
 };
 
 */
+/* class 18 escribe funciones breves y declarativas con ES6
+
+al declarar funciones dentro de objetos en ES5, tenemos que 
+utilizar la palabra clave function de la siguiente manera:
+
+const person = {
+  name: "Taylor",
+  sayHello: function() {
+    return `Hello! My name is ${this.name}.`;
+  }
+};
+
+con ES6, puedes eliminar la palabra clave function y los dos puntos
+al definir funciones en objetos.
+aquí hay un ejemplo de esta sintaxis:
+
+const person = {
+  name: "Taylor",
+  sayHello() {
+    return `Hello! My name is ${this.name}.`;
+  }
+};
+
+
+*/
+/* */
+/* */
+/* */
+/* */
+/* */
+/* */
+/* */
+/* */
+/* */
+/* */
+/* */
