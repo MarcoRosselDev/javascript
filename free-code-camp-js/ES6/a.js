@@ -827,5 +827,43 @@ const half = ({max, min}) => (max + min) / 2.0;
 // Cambia solo el código encima de esta línea
 
 */
-/* */
+/* class 16 crea cadenas usando plantillas literales
+
+una nueva característica de ES6 es la plantilla literal.
+este es un tipo especial de cadena que facilita la creación de cadenas
+complejas.
+las plantillas literales te permiten crear cadenas multilínea y usar
+caracter+isticas de interpolación, para crealas.
+
+fijarse en el código siguiente:
+
+const person = {
+  name: "Zodiac Hasbro",
+  age: 56
+};
+
+const greeting = `Hello, my name is ${person.name}!
+I am ${person.age} years old.`;
+
+console.log(greeting);
+
+la consola mostrará las cadenas Hello, my name is Zodiac Hasbro! y
+I am 56 years old..
+
+muchas cosas han ocurrido allí.
+en primer lugar, el ejemplo utiliza backticks (`), no comillas (',"),
+para envolver la cadena.
+en segundo lugar, observe que la cadena es multi-línea tanto en el código
+como cuando se imprime en pantalla.
+esto guarda la inserción \n dentro de las cadenas.
+la sintaxis ${variable} utilizada anteriormente es un marcador de 
+posición.
+básicamente, ya no tendrás que utilizar concatenación con el operador +.
+para añadir variables a las cadenas, basta con colocar la variable en 
+una plantilla de cadena y envolverla con ${y}. del mismo modo, puedes
+incluir otras expresiones en tu literal de cadena, por ejemplo ${a + b}.
+esta nueva forma de crear cadenas te da mayor flexibilidad para crear
+cadenas robustas.
+
+*/
 /* */
