@@ -913,4 +913,25 @@ function makeList(arr) {
 const failuresList = makeList(result.failure);
 
 */
-/* */
+/* class 17 escribe declaraciones concisas de objeto literales usando la abreviatura de propiedad de objeto
+
+ES6 añade un buen sooporte para definir fácilmente objetos literales.
+considera el siguiente código:
+
+const getMousePosition = (x, y) => ({
+  x: x,
+  y: y
+});
+
+gerMousePosition es una función simple que devuelve un objeto que 
+contiene dos propiedades.
+ES6 porporciona el azúcar sintáctico para eliminar la redundancia de 
+tener que escribir x: x.
+puedes simplemente escibir x una vez, y se convertirá en x: x (o 
+algo equivalente) de la nada.
+aquí está la misma función de arriba reescrita para udar esta nueva
+sintaxis:
+
+const getMousePosition = (x, y) => ({ x, y });
+
+*/
