@@ -520,6 +520,45 @@ myPromise.then(result => {
 
 result viene con el argumento proporcionado al método resolve.
 
+---------------------------------------------------------------------
+ejercicio;
+
+añade el método then a tu promesa.
+usa result como parámetro de tu función callback, asimismo imprime
+result en la consola.
+
+const makeServerRequest = new Promise((resolve, reject) => {
+  // responseFromServer es establecido a true para representar una respuesta satisfactoria del servidor
+  let responseFromServer = true;
+
+  if(responseFromServer) {
+    resolve("We got the data");
+  } else {  
+    reject("Data not received");
+  }
+});
+
+
+solución;
+
+const makeServerRequest = new Promise((resolve, reject) => {
+  // responseFromServer es establecido a true para representar una respuesta satisfactoria del servidor
+
+  
+
+  let responseFromServer = true;
+
+  if(responseFromServer) {
+    resolve("We got the data");
+  } else {  
+    reject("Data not received");
+  }
+});
+
+makeServerRequest.then(result => {
+  console.log(result);
+});
+
 */
 /* */
 /* */
