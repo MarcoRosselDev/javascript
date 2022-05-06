@@ -275,6 +275,28 @@ puedes importar más de un elemento del archivo, añadiéndolos en la
 declaración import de esta manera:
 
 import { add, subtract } from './math_functions.js';
+---------------------------------------------------------------
+ejercicio:
+
+agrega la declaración import apropiada que permita al archivo actual,
+usar las funciones uppercaseString y lowercaseString que exportaste de 
+la lección previa.
+estas funciones se encuentran en un archivo llamado string_functions.
+js, el cual está en el mismo directorio que el archivo actual.
+
+// Cambia solo el código encima de esta línea
+
+uppercaseString("hello");
+lowercaseString("WORLD!");
+
+solución:
+
+import { uppercaseString, lowercaseString } from './string_functions.js'
+
+// Cambia solo el código encima de esta línea
+
+uppercaseString("hello");
+lowercaseString("WORLD!");
 
 */
 /* */
