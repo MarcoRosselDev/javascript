@@ -375,7 +375,24 @@ export default function subtract(x, y) {
 }
 
 */
-/* */
+/* class 26 importa una exportación por defecto
+
+en el último desafío, aprendimos sobre export default y sus usos.
+para importar una exportación por defecto, necesita utilizar la 
+sintaxis import de manera diferente.
+en el siguiente ejemplo, add es la exportación por defecto del archivo
+math_functions.js.
+a continuación, cómo importarlo:
+
+import add from "./math_functions.js";
+
+la sintaxis difiere en un punto clave. 
+el valor importado, add, no está rodeado por llaves {}.
+add, aquí es simplemente un nombre de variable, para cualquiera que sea
+la exportación por defecto del archivo math_functions.js.
+puedes utilizar cualquier nombre aquí, al importar un valor por defecto
+
+*/
 /* */
 /* */
 /* */
