@@ -560,7 +560,20 @@ makeServerRequest.then(result => {
 });
 
 */
-/* */
+/* class 30 maneja una promesa rechazada usando catch
+
+catch es el método utilizado cuando tu promesa ha sido rechazada.
+se ejecuta inmediatamente, después de que se llama al método reject
+de una promesa.
+a continuación la sintaxis:
+
+myPromise.catch(error => {
+
+});
+
+error es el argumento pasado al método reject.
+
+*/
 /* */
 /* */
 /* */
