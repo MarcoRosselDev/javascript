@@ -151,7 +151,27 @@ thermos.temperature = 26;
 temp = thermos.temperature; // 26 en Celsius
 
 */
-/* */
+/* class 21 crea un módulo para scripts
+
+en sus inicios, javasript comenzó desempeñando un pequeño rol, cuando
+la web estaba mayormente hecha de html.
+hoy javascript se ha vuelto gigante y algunos sitios web están casi
+completamente construidos con javascript.
+con la finalidad de hacer javascript más modular, limpio y mantenible,
+ES6 introdujo una manera de compartir código fácilmente entre archivos
+javascript.
+esto implica exportar partes de un archivo para usar en uno o más 
+archivos, e importar las partes que necesitas donde las necesites.
+para aprovechar esta funcionalidad, nocesitas crear un script en tu
+documento html con un type de module.
+a continuación, te presentamos un ejemplo:
+
+<script type="module" src="filename.js"></script>
+
+un script que utilice este module ahora podrá utilizar las 
+caracteristicas import y export, que aprenderemos ahora.
+
+*/
 /* */
 /* */
 /* */
