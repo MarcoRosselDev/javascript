@@ -171,6 +171,30 @@ a continuación, te presentamos un ejemplo:
 un script que utilice este module ahora podrá utilizar las 
 caracteristicas import y export, que aprenderemos ahora.
 
+-------------------------------------------------------------------
+ejercicio
+
+agrega un script de tipo module al documento html y asígnale el 
+archivo fuente index.js
+
+<html>
+  <body>
+    <!-- Cambia solo el código debajo de esta línea -->
+
+    <!-- Cambia solo el código encima de esta línea -->
+  </body>
+</html>
+
+solución;
+
+<html>
+  <body>
+    <!-- Cambia solo el código debajo de esta línea -->
+    <script type="module" src="index.js"></script>
+    <!-- Cambia solo el código encima de esta línea -->
+  </body>
+</html>
+
 */
 /* */
 /* */
