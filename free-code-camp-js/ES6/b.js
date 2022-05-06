@@ -392,6 +392,27 @@ add, aquí es simplemente un nombre de variable, para cualquiera que sea
 la exportación por defecto del archivo math_functions.js.
 puedes utilizar cualquier nombre aquí, al importar un valor por defecto
 
+-----------------------------------------------------------------------
+ejercicio:
+
+el siguiente código, importa como exportación por defecto, desde el 
+archivo math_functions.js, encontrado en el mismo directorio que este 
+archivo. 
+da a la imoprtación el nombre de subtract.
+
+// Cambia solo el código encima de esta línea
+
+subtract(7,4);
+
+
+solución;
+
+import subtract from "./math_functions.js"
+
+// Cambia solo el código encima de esta línea
+
+subtract(7,4);
+
 */
 /* */
 /* */
