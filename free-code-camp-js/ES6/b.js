@@ -431,6 +431,18 @@ const myPromise = new Promise((resolve, reject) => {
 
 });
 
+----------------------------------------------------------------
+ejercicio:
+
+crea una nueva promesa llamada makeServerRequest.
+pásale una función con parámetros resolve y reject al constructor.
+
+solución;
+
+const makeServerRequest = new Promise((resolve, reject) => {
+
+});
+
 */
 /* */
 /* */
