@@ -196,7 +196,39 @@ solución;
 </html>
 
 */
-/* */
+/* class 22 utiliza la exportación para compartir un bloque de código
+
+imagina un archivo llamado math_functions.js que contiene varias
+funciones relacionadas con operaciones matemáticas.
+uno de ellos se almacena en una variabel, add, que toma dos números
+y devuelve su suma.
+quieres utilizar esta función en varios archivos javascript diferentes
+. para compartirlo con estos otros archivos, primero debes usar export
+(exportarlo).
+
+export const add = (x, y) => {
+  return x + y;
+}
+
+la anterior es una forma común de exportar una sola función, pero
+puedes lograr lo mismo como esto:
+
+const add = (x, y) => {
+  return x + y;
+}
+
+export { add };
+
+cuando exportas una variable o función, puedes importarla en otro 
+archivo y usarla sin tener que volver a escribir el código.
+puedes exportar diferentes cosas al repartir el primer ejemplo para 
+cada una de ellas si quieres exportar o al colocarlas en la 
+declaración de exportación del segundo ejemplo.
+por ejemplo:
+
+export { add, subtract };
+
+*/
 /* */
 /* */
 /* */
