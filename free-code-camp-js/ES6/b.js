@@ -310,6 +310,24 @@ La anterior declaración import, crea un objeto llamado myMathModule. Esto es, s
 myMathModule.add(2,3);
 myMathModule.subtract(5,3);
 
+-------------------------------------------------------------
+ejercicio
+
+El código actual, requiere los contenidos del archivo: string_functions.js, ubicado en el mismo directorio que el archivo actual. Usa la sintaxis import * as, para importar todo del archivo, en un objeto llamado stringFunctions.
+
+// Cambia solo el código encima de esta línea
+
+stringFunctions.uppercaseString("hello");
+stringFunctions.lowercaseString("WORLD!");
+
+solución:
+
+import * as stringFunctions from './string_functions.js'
+// Cambia solo el código encima de esta línea
+
+stringFunctions.uppercaseString("hello");
+stringFunctions.lowercaseString("WORLD!");
+
 */
 /* */
 /* */
