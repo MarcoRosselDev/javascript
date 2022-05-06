@@ -414,6 +414,28 @@ import subtract from "./math_functions.js"
 subtract(7,4);
 
 */
+/* class 27 crea una promesa de javascript
+
+una promesa en javascript es exactamente como suena, se utiliza para 
+hacer una promesa de que harás algo, habitualmente de forma asíncrona.
+cuando la tarea se completa, o cumples tu promesa o no la cumples.
+promise es una función constructora, así que tu necesitas usar la
+palabra clave new para crear una.
+recibe una función como su argumento, con dos parámetros:
+      resolve y reject.
+
+estos métodos se utilizan para determinar el resultado de la promesa.
+su sintaxis se ve así:
+
+const myPromise = new Promise((resolve, reject) => {
+
+});
+
+*/
+/* */
+/* */
+/* */
+/* */
 /* */
 /* */
 /* */
