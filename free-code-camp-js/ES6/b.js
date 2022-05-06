@@ -501,7 +501,26 @@ const makeServerRequest = new Promise((resolve, reject) => {
 });
 
 */
-/* */
+/* class 29 maneja una promesa cumplida usando then
+
+las promesas son muy útiles, cuando tu tienes un proceso que toma una
+cantidad de tiempo desconocida en tu código (algo asíncrono por eje.),
+a menudo una petición de servidor.
+cuando tu haces una petición a un servidor, toma algo de tiempo, después
+de que termina, normalmente quieres hacer algo con la respuésta del 
+servidor.
+esto se puede lograr utilizando el método then.
+el método then, se ejecuta inmediatamente después de que tu promesa se 
+cumple con resolve.
+a continuación un ejemplo:
+
+myPromise.then(result => {
+
+});
+
+result viene con el argumento proporcionado al método resolve.
+
+*/
 /* */
 /* */
 /* */
