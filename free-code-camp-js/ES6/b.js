@@ -329,7 +329,36 @@ stringFunctions.uppercaseString("hello");
 stringFunctions.lowercaseString("WORLD!");
 
 */
-/* */
+/* class 25 crear un fallback de exportación con export default
+
+en la lección export, aprendiste sobre la sintaxis conocida como named
+export.
+esto te permitió hacer disponibles múltiples funciones y variables 
+para usar en otros archivos.
+aquí hay otra sintaxis export que necesitas saber, conocida como export
+default. 
+usualmente utilizarás esta sintaxis, si es sólo un valor el que está 
+siendo exportado desde un archivo.
+también es utilizado para crear valores fallback para un archivo o 
+módulo.
+a continuación hay ejemplos usando export defoault:
+
+export default function add(x, y) {
+  return x + y;
+}
+
+export default function(x, y) {
+  return x + y;
+}
+
+la primera es una función nombrada, y la segunda es una función 
+anónima.
+ya que export default es usado para declarar un valor fallback para un
+módulo o archivo, sólo puedes tener un valor que sea exportación por
+defecto en cada módulo o archivo.
+además, no puedes usar export default con var, let, o const.
+
+*/
 /* */
 /* */
 /* */
