@@ -255,7 +255,28 @@ const lowercaseString = (string) => {
 export { uppercaseString, lowercaseString};
 
 */
-/* */
+/* class 23 reutiliza código de js utilizando import
+
+import te permite elegir qué parte de un archivo o módulo cargar.
+en la lacción previa, los ejemplos exportaron add del archivo
+math_function.js. así es como puedes importarlo para utilizarlo
+en otro archivo:
+
+import { add } from './math_functions.js';
+
+aquí, import encontrará add en math_functions.js, importa sólo esa
+función para que la uses, e ignora el resto.
+el ./, dice a import que busque el archivo math_functions.js en la 
+misma carpeta que el archivo actual.
+la ruta relativa del archivo (./) y la extensión del archivo (.js), son
+requeridos cuando se utiliza import de esta manera.
+
+puedes importar más de un elemento del archivo, añadiéndolos en la
+declaración import de esta manera:
+
+import { add, subtract } from './math_functions.js';
+
+*/
 /* */
 /* */
 /* */
