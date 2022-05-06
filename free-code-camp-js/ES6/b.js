@@ -357,6 +357,22 @@ ya que export default es usado para declarar un valor fallback para un
 módulo o archivo, sólo puedes tener un valor que sea exportación por
 defecto en cada módulo o archivo.
 además, no puedes usar export default con var, let, o const.
+----------------------------------------------------------------
+ejercicio:
+
+la siguiente función debe ser el valor fallback para el módulo.
+por favor, añade el código necesario para hacerlo.
+
+function subtract(x, y) {
+  return x - y;
+}
+
+
+solución:
+
+export default function subtract(x, y) {
+  return x - y;
+}
 
 */
 /* */
