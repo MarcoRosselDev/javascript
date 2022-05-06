@@ -444,7 +444,30 @@ const makeServerRequest = new Promise((resolve, reject) => {
 });
 
 */
-/* */
+/* class 28 cumple una promesa con "resolve" y "reject"
+
+una promesa tiene tres estados: pending, fulfilled, y rejected.
+la promesa que creaste en el último desafio está atascada en el estado
+pending porque no añadiste una forma de completar la promesa.
+los parámetros resolve y reject enviados a "promise" como argumentos, son
+utilizados para hacer lo siguiente.
+resolve se utiliza cuando quieres  que tu promesa tenga éxito, y
+reject se usa cuando quieres que falle.
+estos son métodos que toman un argumento, como se ve a continuación.
+
+const myPromise = new Promise((resolve, reject) => {
+  if(condition here) {
+    resolve("Promise was fulfilled");
+  } else {
+    reject("Promise was rejected");
+  }
+});
+
+el ejemplo anterior utiliza cadenas como argumento de las funciones, pero
+podrían ser cualquier otra cosa.
+el argumento a menudo puede ser un objeto del cual utilizarás datos que mostrarás en tu sitio web o en otro lugar.
+
+*/
 /* */
 /* */
 /* */
