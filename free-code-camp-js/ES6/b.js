@@ -467,6 +467,39 @@ el ejemplo anterior utiliza cadenas como argumento de las funciones, pero
 podrían ser cualquier otra cosa.
 el argumento a menudo puede ser un objeto del cual utilizarás datos que mostrarás en tu sitio web o en otro lugar.
 
+-----------------------------------------------------------------
+ejercicio:
+
+haz una función promesa que maneje el éxito y el fallo.
+si responseFromServer es true, llama al método resolve para completar
+satisfactoriamente la promesa.
+pasa a resolve una cadena como el valor We got the data. Si responseFromServer es false, utiliza el método reject y devuelve la cadena: Data not received.
+
+const makeServerRequest = new Promise((resolve, reject) => {
+  // responseFromServer representa una respuesta de un servidor
+  let responseFromServer;
+
+  if(responseFromServer) {
+    // Cambia esta línea
+  } else {  
+    // Cambia esta línea
+  }
+});
+
+
+solución;
+
+const makeServerRequest = new Promise((resolve, reject) => {
+  // responseFromServer representa una respuesta de un servidor
+  let responseFromServer;
+
+  if(responseFromServer) {
+    resolve("We got the data");// Cambia esta línea
+  } else {  
+    reject("Data not received"); // Cambia esta línea
+  }
+});
+
 */
 /* */
 /* */
