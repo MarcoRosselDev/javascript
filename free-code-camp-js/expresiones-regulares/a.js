@@ -246,7 +246,26 @@ let hugStr = "Bear hug";
 let huRegex = /hu./;
 huRegex.test(humStr);
 huRegex.test(hugStr);
+
 Ambas llamadas a test devolverán true.
+
+---------------------------------------------------------------------
+ejercicio;
+
+Completa la expresión regular unRegex para que coincida con las cadenas 
+run, sun, fun, pun, nun, y bun. Tu expresión regular debe usar el 
+carácter de comodín.
+
+let exampleStr = "Let's have fun with regular expressions!";
+let unRegex = /change/; // Cambia esta línea
+let result = unRegex.test(exampleStr);
+
+
+solución;
+
+let exampleStr = "Let's have fun with regular expressions!";
+let unRegex = /.un/; // Cambia esta línea
+let result = unRegex.test(exampleStr);
 
 */
 /* */
