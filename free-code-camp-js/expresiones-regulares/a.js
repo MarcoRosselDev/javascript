@@ -414,6 +414,24 @@ una vocal. Ten en cuenta que caracteres como ., !, [, @, / y el espacio
 en blanco coinciden; el conjunto de caracteres de vocal negados sólo 
 excluye los caracteres de vocal.
 
+-----------------------------------------------------------------------
+ejercicio;
+
+crea uns sola expresión regular que coincida con todos los caracteres
+que no son un número o una vocal.
+recuerda incluir las banderas apropiadas en la expresión regular.
+
+let quoteSample = "3 blind mice.";
+let myRegex = /change/; // Cambia esta línea
+let result = myRegex; // Cambia esta línea
+
+
+solución;
+
+let quoteSample = "3 blind mice.";
+let myRegex = /[^aeiou0-9]/gi; // Cambia esta línea
+let result = quoteSample.match(myRegex); // Cambia esta línea
+
 */
 /* */
 /* */
