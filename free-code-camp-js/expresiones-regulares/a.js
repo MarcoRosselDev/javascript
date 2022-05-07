@@ -363,7 +363,23 @@ let alphabetRegex = /[a-z]/ig; // Cambia esta línea
 let result = quoteSample.match(alphabetRegex); // Cambia esta línea
 
 */
-/* */
+/* class 10 haz coincidir los números y las letras del alfabeto
+
+Usar el guión (-) para coincidir con un rango de caracteres no está 
+limitado a letras. También funciona para hacer coincidir un rango de 
+números.
+
+Por ejemplo, /[0-5]/ coincide con cualquier número entre 0 y 5, 
+incluyendo 0 y 5.
+
+Además, es posible combinar un rango de letras y números en un único 
+conjunto de caracteres.
+
+let jennyStr = "Jenny8675309";
+let myRegex = /[a-z0-9]/ig;
+jennyStr.match(myRegex);
+
+*/
 /* */
 /* */
 /* */
