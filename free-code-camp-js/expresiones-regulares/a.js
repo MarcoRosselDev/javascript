@@ -344,6 +344,24 @@ matStr.match(bgRegex);
 En orden, las tres llamadas a match devolverán los valores ["cat"], 
 ["bat"] y null.
 
+------------------------------------------------------------------
+ejercicio;
+
+haz coincidir todas las letras en la cadena quoteSample.
+nota---- asegúrate de hacer coincidir tanto las letras mayúsculas como 
+minúsculas.
+
+let quoteSample = "The quick brown fox jumps over the lazy dog.";
+let alphabetRegex = /change/; // Cambia esta línea
+let result = alphabetRegex; // Cambia esta línea
+
+
+solución;
+
+let quoteSample = "The quick brown fox jumps over the lazy dog.";
+let alphabetRegex = /[a-z]/ig; // Cambia esta línea
+let result = quoteSample.match(alphabetRegex); // Cambia esta línea
+
 */
 /* */
 /* */
