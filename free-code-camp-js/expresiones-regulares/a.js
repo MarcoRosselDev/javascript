@@ -155,7 +155,24 @@ let codingRegex = /coding/; // Cambia esta línea
 let result = extractStr.match(codingRegex); // Cambia esta línea
 
 */
-/* */
+/* class 6 encuentra más que la primera coincidencia
+
+Hasta ahora, sólo has podido extraer o buscar un patrón una vez.
+
+let testStr = "Repeat, Repeat, Repeat";
+let ourRegex = /Repeat/;
+testStr.match(ourRegex);
+
+Aquí match devolverá ["Repeat"].
+
+Para buscar o extraer un patrón más de una vez, puedes utilizar la bandera g.
+
+let repeatRegex = /Repeat/g;
+testStr.match(repeatRegex);
+
+Y aquí match devuelve el valor ["Repeat", "Repeat", "Repeat"]
+
+*/
 /* */
 /* */
 /* */
