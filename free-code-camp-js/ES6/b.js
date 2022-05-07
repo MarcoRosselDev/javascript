@@ -619,7 +619,3 @@ makeServerRequest.catch(error =>{
 });
 
 */
-/* */
-/* */
-/* */
-/* */
