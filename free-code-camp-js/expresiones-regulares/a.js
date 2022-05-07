@@ -138,6 +138,22 @@ Ten en cuenta que la sintaxis .match es lo "opuesto" al método .test que has es
 'string'.match(/regex/);
 /regex/.test('string');
 
+-------------------------------------------------------------------}
+ejercicio;
+
+aplica el método .match() para extraer la cadena coding.
+
+let extractStr = "Extract the word 'coding' from this string.";
+let codingRegex = /change/; // Cambia esta línea
+let result = extractStr; // Cambia esta línea
+
+
+solución; 
+
+let extractStr = "Extract the word 'coding' from this string.";
+let codingRegex = /coding/; // Cambia esta línea
+let result = extractStr.match(codingRegex); // Cambia esta línea
+
 */
 /* */
 /* */
