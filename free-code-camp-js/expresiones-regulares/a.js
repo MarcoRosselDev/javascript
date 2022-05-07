@@ -297,6 +297,27 @@ bogStr.match(bgRegex);
 En orden, las cuatro llamadas de match devolverán los valores ["big"], 
 ["bag"], ["bug"], and null.
 
+---------------------------------------------------------------------
+ejercicio;
+
+Usa una clase de caracteres con las vocales (a, e, i, o u) en tu 
+expresión regular vowelRegex para encontrar todas las vocales en la 
+cadena quoteSample.
+
+Nota: Asegúrate de hacer coincidir tanto las vocales mayúsculas como 
+minúsculas.
+
+let quoteSample = "Beware of bugs in the above code; I have only proved it correct, not tried it.";
+let vowelRegex = /change/; // Cambia esta línea
+let result = vowelRegex; // Cambia esta línea
+
+
+solución:
+
+let quoteSample = "Beware of bugs in the above code; I have only proved it correct, not tried it.";
+let vowelRegex = /[aeiou]/gi; // Cambia esta línea
+let result = quoteSample.match(vowelRegex); // Cambia esta línea
+
 */
 /* */
 /* */
