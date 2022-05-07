@@ -11,6 +11,21 @@ let testRegex = /Code/;
 testRegex.test(testStr);
 
 el método test aquí devuelve true.
+----------------------------------------------------------
+ejercicio:
+
+aplica la expresión regular muRegex en la cadena myString usando el 
+método .test()
+
+let myString = "Hello, World!";
+let myRegex = /Hello/;
+let result = myRegex; // Cambia esta línea
+
+solución;
+
+let myString = "Hello, World!";
+let myRegex = /Hello/;
+let result = myRegex.test(myString); // Cambia esta línea
 
 */
 /* */
