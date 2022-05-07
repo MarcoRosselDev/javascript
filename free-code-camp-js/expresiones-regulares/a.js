@@ -99,6 +99,25 @@ La capitalización (o también llamada capitalización de letra) es la diferenci
 
 Puedes coincidir ambos casos utilizando algo llamado bandera. Existen otras banderas, pero aquí te centrarás en la que ignora la capitalización de las letras, la bandera i. Puedes usarla añadiéndola a la expresión regular. Un ejemplo de uso de esta bandera es /ignorecase/i. Esta expresión regular puede coincidir con las cadenas ignorecase, igNoreCase e IgnoreCase.
 
+----------------------------------------------------------------
+ejercicio;
+
+escribe una expresión regular fccRegex para que coincida con freeCodeCamp
+sin importar su capitalización.
+tu expresión regular no debe coincidir con ninguna abreviatura o variación
+con espacios.
+
+let myString = "freeCodeCamp";
+let fccRegex = /change/; // Cambia esta línea
+let result = fccRegex.test(myString);
+
+
+solución;
+
+let myString = "freeCodeCamp";
+let fccRegex = /freeCodeCamp/i; // Cambia esta línea
+let result = fccRegex.test(myString);
+
 */
 /* */
 /* */
