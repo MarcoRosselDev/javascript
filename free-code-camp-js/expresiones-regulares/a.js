@@ -45,6 +45,23 @@ Esta llamada a test devolverá false.
 
 Un futuro desafío también mostrará cómo coincidir esas otras variantes.
 
+--------------------------------------------------------------------
+ejercicio;
+
+completa la expresión regular waldoRegex para encontrar "Waldo" en la 
+cadena waldoIsHiding con una coincidencia literal.
+
+let waldoIsHiding = "Somewhere Waldo is hiding in this text.";
+let waldoRegex = /search/; // Cambia esta línea
+let result = waldoRegex.test(waldoIsHiding);
+
+
+solución;
+
+let waldoIsHiding = "Somewhere Waldo is hiding in this text.";
+let waldoRegex = /Waldo/; // Cambia esta línea
+let result = waldoRegex.test(waldoIsHiding);
+
 */
 /* */
 /* */
