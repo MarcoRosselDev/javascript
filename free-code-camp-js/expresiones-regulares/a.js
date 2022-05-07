@@ -73,6 +73,23 @@ Este operador coincide con los patrones antes o después de él. Por ejemplo, si
 
 También puedes buscar más de dos patrones. Puedes hacer esto añadiendo más patrones con más operadores OR separándolos, como /yes|no|maybe/.
 
+----------------------------------------------------------------
+ejercicio;
+
+completa la expresión regular petRegex para que coincida con las mascotas
+dog, cat, bird, o fish.
+
+let petString = "James has a pet cat.";
+let petRegex = /change/; // Cambia esta línea
+let result = petRegex.test(petString);
+
+
+solución;
+
+let petString = "James has a pet cat.";
+let petRegex = /dog|cat|bird|fish/; // Cambia esta línea
+let result = petRegex.test(petString);
+
 */
 /* */
 /* */
