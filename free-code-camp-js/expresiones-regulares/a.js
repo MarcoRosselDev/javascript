@@ -452,6 +452,24 @@ coincidencias y regresaría ["a", "a"] porque los caracteres a no están en
 fila; hay una b entre ellos. Finalmente, dado que no hay una a en la 
 cadena bcd, no se encontraría una coincidencia.
 
+------------------------------------------------------------
+ejercicio;
+
+quieres encontrar coincidencias cuando la letra s ocurre una o más veces 
+Mississippi.
+escribe una expresión regular que utilice el signo +.
+
+let difficultSpelling = "Mississippi";
+let myRegex = /change/; // Cambia esta línea
+let result = difficultSpelling.match(myRegex);
+
+
+solución;
+
+let difficultSpelling = "Mississippi";
+let myRegex = /s+/ig; // Cambia esta línea
+let result = difficultSpelling.match(myRegex);
+
 */
 /* */
 /* */
