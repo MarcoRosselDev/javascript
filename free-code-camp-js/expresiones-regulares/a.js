@@ -471,7 +471,27 @@ let myRegex = /s+/ig; // Cambia esta línea
 let result = difficultSpelling.match(myRegex);
 
 */
-/* */
+/* class 13 haz coincidir caracteres que aparecen cero o más veces
+
+El último desafío utilizó el signo más + para buscar caracteres que 
+aparecen una o más veces. También hay una opción para hacer coincidir 
+caracteres que aparecen cero o más veces.
+
+El carácter que hace esto es el asterisco o la estrella: *.
+
+let soccerWord = "gooooooooal!";
+let gPhrase = "gut feeling";
+let oPhrase = "over the moon";          
+let goRegex = /go*-/;             (el guion es para que no se rompa el  
+                                    codigo )            
+soccerWord.match(goRegex);
+gPhrase.match(goRegex);
+oPhrase.match(goRegex);
+
+En orden, los tres match devolverán los valores ["goooooooo"], ["g"], y 
+null.
+
+*/
 /* */
 /* */
 /* */
