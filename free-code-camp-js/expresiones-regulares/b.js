@@ -157,6 +157,21 @@ Los nombres de usuario deben tener al menos dos caracteres. Un nombre
 de usuario de dos caracteres sólo puede utilizar letras del alfabeto 
 como caracteres.
 
+----------------------------------------------------------------
+cambia la expresión regular userCheck para que se ajuste a las
+restricciones indicadas anteriormente.
+
+let username = "JackOfAllTrades";
+let userCheck = /change/; // Cambia esta línea
+let result = userCheck.test(username);
+
+
+solución:
+
+let username = "JackOfAllTrades";
+let userCheck = /^[a-z][a-z]+\d*$|^[a-z]\d\d+$/i; // Cambia esta línea
+let result = userCheck.test(username);
+
 */
 /* */
 /* */
