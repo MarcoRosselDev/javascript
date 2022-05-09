@@ -88,6 +88,22 @@ El atajo para buscar caracteres de dígitos es \d, con una d
 minúscula. Esto es igual a la clase de caracteres [0-9], la cual 
 busca un solo carácter de cualquier número entre cero y nueve.
 
+------------------------------------------------------------
+ejercicio;
+
+Usa la clase de caracteres abreviada \d para contar cuántos dígitos hay en los títulos de las películas. Los números escritos ("seis" en lugar de 6) no cuentan.
+
+let movieName = "2001: A Space Odyssey";
+let numRegex = /change/; // Cambia esta línea
+let result = movieName.match(numRegex).length;
+
+
+solución;
+
+let movieName = "2001: A Space Odyssey";
+let numRegex = /\d/g; // Cambia esta línea
+let result = movieName.match(numRegex).length;
+
 */
 /* */
 /* */
