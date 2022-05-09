@@ -191,6 +191,23 @@ whiteSpace.match(spaceRegex);
 
 Esta llamada a match debe devolver [" ", " "].
 
+----------------------------------------------------------------
+ejercico;
+
+Cambia la expresión regular countWhiteSpace para buscar múltiples 
+caracteres de espacio en blanco en una cadena.
+
+let sample = "Whitespace is important in separating words";
+let countWhiteSpace = /change/; // Cambia esta línea
+let result = sample.match(countWhiteSpace);
+
+
+solución;
+
+let sample = "Whitespace is important in separating words";
+let countWhiteSpace = /\s/g; // Cambia esta línea
+let result = sample.match(countWhiteSpace);
+
 */
 /* */
 /* */
