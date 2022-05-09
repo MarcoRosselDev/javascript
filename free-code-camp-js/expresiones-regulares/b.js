@@ -226,6 +226,23 @@ whiteSpace.match(nonSpaceRegex).length;
 
 El valor devuelto por el método .length sería 32.
 
+-----------------------------------------------------------------
+ejercicio;
+
+cambia la expresión regular countNonWhiteSpace para buscar varios 
+caracteres que no sean espacios en blanco en una cadena.
+
+let sample = "Whitespace is important in separating words";
+let countNonWhiteSpace = /change/; // Cambia esta línea
+let result = sample.match(countNonWhiteSpace);
+
+
+solución;
+
+let sample = "Whitespace is important in separating words";
+let countNonWhiteSpace = /\S/g; // Cambia esta línea
+let result = sample.match(countNonWhiteSpace);
+
 */
 /* */
 /* */
