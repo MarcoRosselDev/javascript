@@ -268,6 +268,23 @@ multipleA.test(A2);
 La primera llamada a test devuelve true, mientras que la segunda 
 devuelve false.
 
+----------------------------------------------------------------------
+ejercicio;
+
+modifica la expresión regular ohRegex para que coincida con toda la 
+frase Oh no solo cuando tenga de 3 a 6 letras h.
+
+let ohStr = "Ohhh no";
+let ohRegex = /change/; // Cambia esta línea
+let result = ohRegex.test(ohStr);
+
+
+solución;
+
+let ohStr = "Ohhh no";
+let ohRegex = /Oh{3,6}\sno/; // Cambia esta línea
+let result = ohRegex.test(ohStr);
+
 */
 /* */
 /* */
