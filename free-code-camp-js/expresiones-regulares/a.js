@@ -672,14 +672,3 @@ let lastRegex = /caboose$/; // Cambia esta línea
 let result = lastRegex.test(caboose);
 
 */
-/* */
-/* */
-/* */
-/* */
-/* */
-/* */
-/* */
-/* */
-/* */
-/* */
-/* */
