@@ -618,6 +618,23 @@ firstRegex.test(notFirst);
 La primera llamada test devolverá true, mientras que la segunda 
 retornara false.
 
+---------------------------------------------------------------
+ejercicio;
+
+usa el carácter en una expresión para buscar Cal solo al principio
+de la cadena richyAndCal.
+
+let rickyAndCal = "Cal and Ricky both like racing.";
+let calRegex = /change/; // Cambia esta línea
+let result = calRegex.test(rickyAndCal);
+
+
+solución;
+
+let rickyAndCal = "Cal and Ricky both like racing.";
+let calRegex = /^Cal/; // Cambia esta línea
+let result = calRegex.test(rickyAndCal);
+
 */
 /* */
 /* */
