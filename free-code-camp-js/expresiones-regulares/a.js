@@ -583,6 +583,18 @@ letras z:
 "ABC"
 "abcabc"
 
+---------------------------------------------------------
+ejercicio:
+
+Escribe una expresión regular codiciosa que encuentre uno o más criminales dentro de un grupo de personas. Un criminal está representado por la letra mayúscula C.
+
+let reCriminals = /./; // Cambia esta línea
+
+
+solución;
+
+let reCriminals = /C+/; // Cambia esta línea
+
 */
 /* */
 /* */
