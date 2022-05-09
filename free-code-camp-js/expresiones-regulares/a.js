@@ -557,7 +557,33 @@ let myRegex = /<.*?>/; // Cambia esta línea
 let result = text.match(myRegex);
 
 */
-/* */
+/* class 15 encuentra uno o más criminales en una cacería
+
+Es hora de hacer una pausa y probar tus nuevas habilidades para escribir 
+expresiones regulares. Un grupo de criminales se han escapado de la 
+cárcel, pero no sabes cuántos. Sin embargo, sabes que permanecen unidos 
+cuando están alrededor de otras personas. Eres responsable de encontrar a 
+todos los criminales a la vez.
+
+Este es un ejemplo para revisar cómo hacer esto:
+
+La expresión regular /z+/ coincide con la letra z cuando aparece una o más 
+veces seguidas. Encontrará coincidencias en las siguientes cadenas:
+
+"z"
+"zzzzzz"
+"ABCzzzz"
+"zzzzABC"
+"abczzzzzzzzzzzzzzzzzzzzzabc"
+
+Pero no encuentra coincidencias en las siguientes cadenas, ya que no hay 
+letras z:
+
+""
+"ABC"
+"abcabc"
+
+*/
 /* */
 /* */
 /* */
