@@ -654,6 +654,23 @@ storyRegex.test(noEnding);
 La primera llamada a test devuelve true, mientras que la segunda 
 retorna false.
 
+-------------------------------------------------------------------
+ejercicio;
+
+usa el carácter de ancla($) para coincidir la cadena caboose al
+final de la cadena caboose.
+
+let caboose = "The last car on a train is the caboose";
+let lastRegex = /change/; // Cambia esta línea
+let result = lastRegex.test(caboose);
+
+
+solución;
+
+let caboose = "The last car on a train is the caboose";
+let lastRegex = /caboose$/; // Cambia esta línea
+let result = lastRegex.test(caboose);
+
 */
 /* */
 /* */
