@@ -540,6 +540,22 @@ Nota: Se debe evitar analizar HTML con expresiones regulares, pero
 coincidir patrones con una cadena HTML utilizando expresiones regulares 
 está completamente bien.
 
+-------------------------------------------------------------------
+ejercicio:
+
+Corrige la expresión regular /<.*>/ para que devuelva la etiqueta HTML <h1> y no el texto "<h1>Winter is coming</h1>". Recuerda que el comodín . en una expresión regular coincide con cualquier carácter.
+
+let text = "<h1>Winter is coming</h1>";
+let myRegex = /<.*>/; // Cambia esta línea
+let result = text.match(myRegex);
+
+
+solución;
+
+let text = "<h1>Winter is coming</h1>";
+let myRegex = /<.*?>/; // Cambia esta línea
+let result = text.match(myRegex);
+
 */
 /* */
 /* */
