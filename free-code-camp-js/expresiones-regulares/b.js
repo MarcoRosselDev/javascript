@@ -135,7 +135,29 @@ let noNumRegex = /\D/g; // Cambia esta línea
 let result = movieName.match(noNumRegex).length;
 
 */
-/* */
+/* class 22 restringe posibles nombres de usuario
+
+Los nombres de usuario se utilizan en todas partes en Internet. Son 
+los que dan a los usuarios una identidad única en tus sitios 
+favoritos.
+
+Se necesita comprobar todos los nombres de usuario en una base de 
+datos. Estas son algunas reglas simples que los usuarios deben seguir 
+al crear su nombre de usuario.
+
+Los nombres de usuario sólo pueden utilizar caracteres alfanuméricos.
+
+Los únicos números del nombre de usuario tienen que estar al final. 
+Puede tener un cero o más al final. El nombre de usuario no puede 
+iniciar con un número.
+
+Las letras del nombre de usuario pueden ser minúsculas y mayúsculas.
+
+Los nombres de usuario deben tener al menos dos caracteres. Un nombre 
+de usuario de dos caracteres sólo puede utilizar letras del alfabeto 
+como caracteres.
+
+*/
 /* */
 /* */
 /* */
