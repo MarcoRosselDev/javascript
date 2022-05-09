@@ -91,7 +91,9 @@ busca un solo carácter de cualquier número entre cero y nueve.
 ------------------------------------------------------------
 ejercicio;
 
-Usa la clase de caracteres abreviada \d para contar cuántos dígitos hay en los títulos de las películas. Los números escritos ("seis" en lugar de 6) no cuentan.
+Usa la clase de caracteres abreviada \d para contar cuántos dígitos 
+hay en los títulos de las películas. Los números escritos ("seis" en 
+lugar de 6) no cuentan.
 
 let movieName = "2001: A Space Odyssey";
 let numRegex = /change/; // Cambia esta línea
@@ -105,7 +107,18 @@ let numRegex = /\d/g; // Cambia esta línea
 let result = movieName.match(numRegex).length;
 
 */
-/* */
+/* class 21 coincida con todos los caracteres no numéricos
+
+El último desafío mostró cómo buscar dígitos usando el atajo \d con 
+una d minúscula. También puedes buscar caracteres que no sean 
+dígitos usando un atajo similar que utilice una D mayúscula en su 
+lugar.
+
+El atajo para buscar caracteres que no sean dígitos es \D. Esto es }
+igual a la clase de caracteres [^0-9], el cual busca un único 
+carácter que no sea un número entre cero y nueve.
+
+*/
 /* */
 /* */
 /* */
