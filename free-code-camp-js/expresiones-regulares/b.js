@@ -57,6 +57,23 @@ sentence.match(shortHand);
 
 El primer match devuelve el valor ["%"] y el segundo devuelve ["!"].
 
+-------------------------------------------------------------------
+ejercicio;
+
+usa la clase de caracteres abreviados \w para contar el número de 
+caracteres no alfanuméricos en varias comillas y cadenas.
+
+let quoteSample = "The five boxing wizards jump quickly.";
+let nonAlphabetRegex = /change/; // Cambia esta línea
+let result = quoteSample.match(nonAlphabetRegex).length;
+
+
+solución;
+
+let quoteSample = "The five boxing wizards jump quickly.";
+let nonAlphabetRegex = /\W/gi; // Cambia esta línea
+let result = quoteSample.match(nonAlphabetRegex).length;
+
 */
 /* */
 /* */
