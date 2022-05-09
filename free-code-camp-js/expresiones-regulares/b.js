@@ -118,6 +118,22 @@ El atajo para buscar caracteres que no sean dígitos es \D. Esto es }
 igual a la clase de caracteres [^0-9], el cual busca un único 
 carácter que no sea un número entre cero y nueve.
 
+-------------------------------------------------------------+
+ejercicio;
+
+usa la clase de caracteres abreviado \D para contar cuántos caracteres que no sean dígitos hay en los titulos de las películas.
+
+let movieName = "2001: A Space Odyssey";
+let noNumRegex = /change/; // Cambia esta línea
+let result = movieName.match(noNumRegex).length;
+
+
+solución;
+
+let movieName = "2001: A Space Odyssey";
+let noNumRegex = /\D/g; // Cambia esta línea
+let result = movieName.match(noNumRegex).length;
+
 */
 /* */
 /* */
