@@ -464,6 +464,22 @@ let pwRegex = /(?=\w{6})(?=\w*\d{2})/; // Cambia esta línea
 let result = pwRegex.test(sampleWord);
 
 */
-/* */
+/* class 30 comprueba agrupaciones mixtas de caracteres
+
+A veces queremos comprobar grupos de caracteres utilizando una 
+expresión regular y para conseguirlo usamos paréntesis ().
+
+Si deseas encontrar Penguin o Pumpkin en una cadena, puedes usar la 
+siguiente expresión regular: /P(engu|umpk)in/g
+
+Luego, comprueba si los grupos de cadena deseados están en la cadena de 
+prueba usando el método test().
+
+let testStr = "Pumpkin";
+let testRegex = /P(engu|umpk)in/;
+testRegex.test(testStr);
+El método test aquí devolverá true.
+
+*/
 /* */
 /* */
