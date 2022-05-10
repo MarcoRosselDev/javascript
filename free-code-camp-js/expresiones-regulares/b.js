@@ -608,4 +608,11 @@ línea
 let result = str.replace(fixRegex, replaceText);
 
 */
-/* */
+/* class 33 elimina espacio en blanco del inicio y final
+
+a veces no se quieren caracteres en espacios en blanco alrededor de
+las cadenas, pero están ahí.
+típico de las cadenas de texto es eliminar el espacio en blanco al 
+inicio  y al final del mismo.
+
+*/
