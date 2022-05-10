@@ -446,6 +446,23 @@ let password = "abc123";
 let checkPass = /(?=\w{3,6})(?=\D*\d)/;
 checkPass.test(password);
 
+----------------------------------------------------------------------
+ejercicio;
+
+Utiliza los lookaheads en el pwRegex para que coincida con las 
+contraseñas que tengan más de 5 caracteres y dos dígitos consecutivos.
+
+let sampleWord = "astronaut";
+let pwRegex = /change/; // Cambia esta línea
+let result = pwRegex.test(sampleWord);
+
+
+solución;
+
+let sampleWord = "astronaut";
+let pwRegex = /(?=\w{6})(?=\w*\d{2})/; // Cambia esta línea
+let result = pwRegex.test(sampleWord);
+
 */
 /* */
 /* */
