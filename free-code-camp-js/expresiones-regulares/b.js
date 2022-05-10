@@ -388,6 +388,24 @@ rainbowRegex.test(british);
 
 Ambos usos del método test devolverán true.
 
+--------------------------------------------------------------
+ejercicio;
+
+Cambia la expresión regular favRegex para que coincida tanto la versión 
+del inglés americano (favorite) como la versión del inglés británico de 
+la palabra (favourite).
+
+let favWord = "favorite";
+let favRegex = /change/; // Cambia esta línea
+let result = favRegex.test(favWord);
+
+
+solución;
+
+let favWord = "favorite";
+let favRegex = /favou?rite/; // Cambia esta línea
+let result = favRegex.test(favWord);
+
 */
 /* */
 /* */
