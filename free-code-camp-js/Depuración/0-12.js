@@ -24,6 +24,32 @@ Aquí hay un ejemplo para imprimir la cadena Hello world! en la consola:
 
 console.log('Hello world!');
 
+---------------------------------------------------------------------
+ejercicio;
+
+Utiliza el método console.log() para imprimir el valor de la variable a donde se indica en el código.
+
+let a = 5;
+let b = 1;
+a++;
+// Cambia solo el código debajo de esta línea
+
+
+let sumAB = a + b;
+console.log(sumAB);
+
+
+solución;
+
+let a = 5;
+let b = 1;
+a++;
+// Cambia solo el código debajo de esta línea
+console.log(a);
+
+let sumAB = a + b;
+console.log(sumAB);
+
 */
 /* */
 /* */
