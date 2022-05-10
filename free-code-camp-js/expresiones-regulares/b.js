@@ -309,6 +309,21 @@ multipleA.test(A100);
 
 En orden, las tres llamadas a test devuelven true, false y true.
 
+-------------------------------------------------------------------
+modifica la expresión regular haRegex para coincidir con la palabra
+Hazzah solo cuando ésta tiene cuatro o más letras z.
+
+let haStr = "Hazzzzah";
+let haRegex = /change/; // Cambia esta línea
+let result = haRegex.test(haStr);
+
+
+solución;
+
+let haStr = "Hazzzzah";
+let haRegex = /Haz{4,}ah/; // Cambia esta línea
+let result = haRegex.test(haStr);
+
 */
 /* */
 /* */
