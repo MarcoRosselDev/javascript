@@ -615,4 +615,24 @@ las cadenas, pero están ahí.
 típico de las cadenas de texto es eliminar el espacio en blanco al 
 inicio  y al final del mismo.
 
+--------------------------------------------------------------------
+ejercicio;
+
+Escribe una expresión regular y usa los métodos de cadena apropiados 
+para eliminar espacios en blanco al principio y al final de las cadenas.
+
+Nota: El método String.prototype.trim() funcionará aquí, pero 
+necesitarás completar este desafío usando expresiones regulares.
+
+let hello = "   Hello, World!  ";
+let wsRegex = /change/; // Cambia esta línea
+let result = hello; // Cambia esta línea
+
+
+solución;
+
+let hello = "   Hello, World!  ";
+let wsRegex = /^\s+|\s+$/g; // Cambia esta línea
+let result = hello.replace(wsRegex, "");// Cambia esta línea
+
 */
