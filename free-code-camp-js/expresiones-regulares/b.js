@@ -540,5 +540,23 @@ repeatStr.match(repeatRegex); // Returns ["row row row", "row"]
 El uso del método .match() en una cadena devolverá un arreglo con la 
 subcadena coincidente, junto con sus grupos capturados.
 
+---------------------------------------------------------------
+ejercicio;
+
+Utiliza los grupos de captura en reRegex para que coincida con una 
+cadena que conste sólo del mismo número repetido exactamente tres veces 
+separado por espacios.
+
+let repeatNum = "42 42 42";
+let reRegex = /change/; // Cambia esta línea
+let result = reRegex.test(repeatNum);
+
+
+solución;
+
+let repeatNum = "42 42 42";
+let reRegex = /^(\d+)\s\1\s\1$/; // Cambia esta línea
+let result = reRegex.test(repeatNum);
+
 */
 /* */
