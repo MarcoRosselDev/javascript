@@ -51,7 +51,13 @@ let sumAB = a + b;
 console.log(sumAB);
 
 */
-/* */
+/* class 2 entendiendo las diferencias entre al consola de fcc y la del navegador
+
+Habrás notado que algunos desafíos de freeCodeCamp tienen su propia consola. Esta consola se comporta un poco diferente a la consola del navegador.
+
+Hay muchos métodos para usar con console para mostrar mensajes. log, warn y clear para nombrar algunos. La consola de freeCodeCamp solamente mostrará mensajes de tipo log, mientras que la consola del navegador mostrará todos los mensajes. Cuando hagas cambios a tu código, se ejecutara automáticamente y mostrará los registros. La consola de freeCodeCamp se borra cada vez que ejecutas tu código.
+
+*/
 /* */
 /* */
 /* */
