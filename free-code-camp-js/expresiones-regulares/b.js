@@ -583,5 +583,29 @@ signos de dólar. ($).
 
 La llamada replace devolverá la cadena Camp Code.
 
+--------------------------------------------------------------------
+ejercicio;
+
+Escribe una expresión regular fixRegex utilizando tres grupos de captura 
+que buscarán cada palabra en la cadena one two three. Luego actualiza la 
+variable replaceText para reemplazar one two three con la cadena three 
+two one y asigna el resultado a la variable result. Asegúrate de 
+utilizar grupos de captura en la cadena de reemplazo utilizando la 
+sintaxis del signo de dólar ($).
+
+let str = "one two three";
+let fixRegex = /change/; // Cambia esta línea
+let replaceText = ""; // Cambia esta línea
+let result = str.replace(fixRegex, replaceText);
+
+
+solución;
+
+let str = "one two three";
+let fixRegex = /(one)\s(two)\s(three)/; // Cambia esta línea
+let replaceText = (/(\w+)\s(\w+)\s(\w+)/, '$3 $2 $1'); // Cambia esta 
+línea
+let result = str.replace(fixRegex, replaceText);
+
 */
 /* */
