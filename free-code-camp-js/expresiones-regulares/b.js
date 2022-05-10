@@ -559,4 +559,29 @@ let reRegex = /^(\d+)\s\1\s\1$/; // Cambia esta línea
 let result = reRegex.test(repeatNum);
 
 */
+/* class 32 usa grupo de captura para buscar y reemplazar
+
+La búsqueda es útil. Sin embargo, puedes hacer que la búsqueda sea aún 
+más poderosa si también cambias (o reemplazas) el texto con el que 
+coincide.
+
+Puedes buscar y reemplazar texto en una cadena usando .replace() en una 
+cadena. Las entradas para .replace() son primero el patrón de 
+expresiones regulares que deseas buscar. El segundo parámetro es la 
+cadena para reemplazar la coincidencia o una función para hacer algo.
+
+let wrongText = "The sky is silver.";
+let silverRegex = /silver/;
+wrongText.replace(silverRegex, "blue");
+
+La llamada replace devolverá la cadena The sky is blue..
+
+También puedes acceder a grupos de captura en la cadena de reemplazo con 
+signos de dólar. ($).
+
+"Code Camp".replace(/(\w+)\s(\w+)/, '$2 $1');
+
+La llamada replace devolverá la cadena Camp Code.
+
+*/
 /* */
