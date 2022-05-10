@@ -347,5 +347,22 @@ multipleHA.test(A100);
 
 En orden, las tres llamadas a test devuelven false, true y false.
 
+------------------------------------------------------------------
+ejercicio;
+
+Modifica la expresión regular timRegex para hacer coincidir con la 
+palabra Timber solo cuando esta tiene cuatro letras m.
+
+let timStr = "Timmmmber";
+let timRegex = /change/; // Cambia esta línea
+let result = timRegex.test(timStr);
+
+
+solución;
+
+let timStr = "Timmmmber";
+let timRegex = /Tim{4}ber/; // Cambia esta línea
+let result = timRegex.test(timStr);
+
 */
 /* */
