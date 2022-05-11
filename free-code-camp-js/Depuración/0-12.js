@@ -263,6 +263,34 @@ let varOne = myFunction;
 let varTwo = myFunction();
 Aquí varOne es la función myFunction, y varTwo es la cadena You rock!.
 
+-----------------------------------------------------------------------
+ejercicio;
+
+corrige el código para que la variable result se establezca en el valor
+devuelto al llamar a la función getNine.
+
+function getNine() {
+  let x = 6;
+  let y = 3;
+  return x + y;
+}
+
+let result = getNine;
+console.log(result);
+
+
+
+solución;
+
+function getNine() {
+  let x = 6;
+  let y = 3;
+  return x + y;
+}
+
+let result = getNine();
+console.log(result);
+
 */
 /* */
 /* */
