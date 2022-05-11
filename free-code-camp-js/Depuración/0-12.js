@@ -434,5 +434,19 @@ let matrix = zeroArray(3, 2);
 console.log(matrix);
 
 */
-/* */
+/* class 12 prevenir bucles infinitos con una condición terminal válida
+
+El último tema es el temido bucle infinito. Los bucles son una gran herramienta cuando necesitas que tu programa ejecute un bloque de código un determinado número de veces o hasta que se cumpla una condición, pero necesitan una condición terminal para que finalice el bucle. Los bucles infinitos pueden congelar o bloquear el navegador, y causar un caos en la ejecución del programa en general, lo que nadie quiere.
+
+Había un ejemplo de un bucle infinito en la introducción de esta sección - no tenía ninguna condición terminal para salir del bucle while dentro de loopy(). ¡NO llames esta función!
+
+function loopy() {
+  while(true) {
+    console.log("Hello, world!");
+  }
+}
+
+El trabajo del programador es asegurarse de que la condición terminal, que indica al programa cuándo debe salir del código del bucle, se alcance finalmente. Un error es incrementar o decrementar una variable de contador en la dirección incorrecta desde la condición terminal. Otra es reiniciar accidentalmente un contador o una variable de índice dentro del código del bucle, en lugar de incrementarlo o decrementarlo.
+
+*/
 /* */
