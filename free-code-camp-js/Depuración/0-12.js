@@ -344,6 +344,39 @@ for (let k = 0; k < len; k++) {
 
 El primer ejemplo aquí hace un bucle de más, y el segundo hace un bucle de menos (falta el primer índice, 0). El tercer ejemplo es correcto.
 
+--------------------------------------------------------------------
+ejercicio:
+
+Corrige los dos errores de indexación en la siguiente función para que todos los números del 1 al 5 se impriman en la consola.
+
+function countToFive() {
+  let firstFive = "12345";
+  let len = firstFive.length;
+  // Cambia solo el código debajo de esta línea
+  for (let i = 1; i <= len; i++) {
+  // Cambia solo el código encima de esta línea
+    console.log(firstFive[i]);
+  }
+}
+
+countToFive();
+
+
+
+solución:
+
+function countToFive() {
+  let firstFive = "12345";
+  let len = firstFive.length;
+  // Cambia solo el código debajo de esta línea
+  for (let i = 0; i < len; i++) {
+  // Cambia solo el código encima de esta línea
+    console.log(firstFive[i]);
+  }
+}
+
+countToFive();
+
 */
 /* */
 /* */
