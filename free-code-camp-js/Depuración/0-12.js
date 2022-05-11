@@ -117,6 +117,25 @@ Los métodos console.log() y typeof son las dos formas principales de comprobar 
 
 Los caracteres transpuestos, omitidos o mal escritos en el nombre de una variable o función harán que el navegador busque un objeto que no existe, y se queje en forma de error de referencia. Los nombres de variables y funciones de JavaScript distinguen entre mayúsculas y minúsculas.
 
+--------------------------------------------------------------------
+ejercicio;
+
+corrige los dos errores ortográficos en el código para que funcione el 
+cálculo de netWorkingCapital.
+
+let receivables = 10;
+let payables = 8;
+let netWorkingCapital = recievables - payable;
+console.log(`Net working capital is: ${netWorkingCapital}`);
+
+
+solución;
+
+let receivables = 10;
+let payables = 8;
+let netWorkingCapital = receivables - payables;
+console.log(`Net working capital is: ${netWorkingCapital}`);
+
 */
 /* */
 /* */
