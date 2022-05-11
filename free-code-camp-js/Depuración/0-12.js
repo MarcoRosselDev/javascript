@@ -250,7 +250,20 @@ if(x == y) {
 console.log(result);
 
 */
-/* */
+/* class 8 captura los paréntesis de apertura y cierre que faltan después de una llamada a una función
+
+Cuando una función o método no recibe argumentos, puedes olvidarte de incluir los paréntesis de apertura y cierre (vacíos) al llamarla. A menudo, el resultado de una llamada a una función se guarda en una variable para su uso en el código. Este error puede detectarse registrando los valores de las variables (o sus tipos) en la consola y viendo que uno de ellos se establece como una referencia a la función, en lugar del valor esperado que la función devuelve.
+
+Las variables del siguiente ejemplo son diferentes:
+
+function myFunction() {
+  return "You rock!";
+}
+let varOne = myFunction;
+let varTwo = myFunction();
+Aquí varOne es la función myFunction, y varTwo es la cadena You rock!.
+
+*/
 /* */
 /* */
 /* */
