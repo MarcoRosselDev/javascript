@@ -143,6 +143,22 @@ Otro error de sintaxis a tener en cuenta es que todos los paréntesis de apertur
 
 Una forma de evitar este error es, tan pronto como se escriba el caracter de apertura, incluir inmediatamente su caracter de cierre, luego mover el cursor hacia atrás entre ellos y continuar escribiendo. Afortunadamente, la mayoría de los editores de código modernos generan la segunda mitad del par automáticamente.
 
+---------------------------------------------------------------------
+ejercicio;
+
+corrige los dos errores de par en el código.
+
+let myArray = [1, 2, 3;
+let arraySum = myArray.reduce((previous, current =>  previous + current);
+console.log(`Sum of array values is: ${arraySum}`);
+
+
+solución;
+
+let myArray = [1, 2, 3];
+let arraySum = myArray.reduce((previous, current) =>  previous + current);
+console.log(`Sum of array values is: ${arraySum}`);
+
 */
 /* */
 /* */
