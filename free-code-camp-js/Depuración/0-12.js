@@ -215,6 +215,40 @@ if (x = y) {
 
 En este ejemplo, el bloque de código dentro de la sentencia if se ejecutará para cualquier valor de y, a menos que y sea algún valor falsy. El bloque else, que esperamos que se ejecute aquí, no se ejecutará realmente.
 
+----------------------------------------------------------------------
+ejercicio;
+
+corrige la condición para que el programa ejecute la rama correcta y 
+se asigne el valor adecuado a result.
+
+let x = 7;
+let y = 9;
+let result = "to come";
+
+if(x = y) {
+  result = "Equal!";
+} else {
+  result = "Not equal!";
+}
+
+console.log(result);
+
+
+
+solución;
+
+let x = 7;
+let y = 9;
+let result = "to come";
+
+if(x == y) {
+  result = "Equal!";
+} else {
+  result = "Not equal!";
+}
+
+console.log(result);
+
 */
 /* */
 /* */
