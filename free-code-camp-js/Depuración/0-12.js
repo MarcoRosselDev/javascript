@@ -88,6 +88,28 @@ En orden, la consola mostrará las cadenas string, number, object, y object.
 
 JavaScript reconoce siete tipos de datos primitivos (inmutables): Boolean, Null, Undefined, Number, String, Symbol (nuevo con ES6), y BigInt (nuevo con ES2020), y un tipo para elementos mutables: Object. Ten en cuenta que en JavaScript, los arreglos son técnicamente un tipo de objeto.
 
+------------------------------------------------------------------
+ejercicio:
+
+agrega dos sentencias console.log() para comprobar el typeof de cada 
+una de las dos variables seven y three en el código.
+
+let seven = 7;
+let three = "3";
+console.log(seven + three);
+// Cambia solo el código debajo de esta línea
+
+
+solución;
+
+let seven = 7;
+let three = "3";
+console.log(seven + three);
+// Cambia solo el código debajo de esta línea
+
+console.log(typeof seven);
+console.log(typeof three);
+
 */
 /* */
 /* */
