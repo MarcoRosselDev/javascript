@@ -178,6 +178,22 @@ Por supuesto, está bien utilizar sólo un estilo de comillas. Puedes escapar la
 
 const allSameQuotes = 'I\'ve had a perfectly wonderful evening, but this wasn\'t it.';
 
+-----------------------------------------------------------------
+ejercicio;
+
+corrige la cadena para que use comillas diferentes para el valor de 
+href, o realiza un escape de las existentes.
+mantén las comillas dobles alrededor de toda la cadena.
+
+let innerHtml = "<p>Click here to <a href="#Home">return home</a></p>";
+console.log(innerHtml);
+
+
+solución:
+
+let innerHtml = "<p>Click here to <a href=\"#Home\">return home</a></p>";
+console.log(innerHtml);
+
 */
 /* */
 /* */
