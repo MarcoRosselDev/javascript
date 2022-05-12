@@ -110,6 +110,35 @@ romanNumerals.push(twentyThree);
 
 romanNumerals tendrá el valor ['XIX', 'XX', 'XXI', 'XXII', 'XXIII']. Ten en cuenta que también podemos pasar variables, que nos permiten una mayor flexibilidad en la modificación dinámica de los datos de nuestro arreglo
 
+--------------------------------------------------------------------
+ejercicio;
+
+Hemos definido una función, mixedNumbers, a la cual le estamos pasando un arreglo como argumento. Modifica la función utilizando push() y unshift() para agregar 'I', 2, 'three' al principio del arreglo y 7, 'VIII', 9 al final, de tal modo que el arreglo devuelto contenga las representaciones de los números del 1 al 9 en orden.
+
+function mixedNumbers(arr) {
+  // Cambia solo el código debajo de esta línea
+
+  // Cambia solo el código encima de esta línea
+  return arr;
+}
+
+console.log(mixedNumbers(['IV', 5, 'six']));
+
+
+solución;
+
+function mixedNumbers(arr) {
+  // Cambia solo el código debajo de esta línea
+  let mixedNumbers = arr;
+
+  mixedNumbers.push(7, 'VIII', 9);
+  mixedNumbers.unshift('I', 2, 'three');
+  // Cambia solo el código encima de esta línea
+  return arr;
+}
+
+console.log(mixedNumbers(['IV', 5, 'six']));
+
 */
 /* */
 /* */
