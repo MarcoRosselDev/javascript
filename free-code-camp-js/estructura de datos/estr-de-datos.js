@@ -71,6 +71,27 @@ ourArray[1] = "not b anymore";
 
 Utilizando la notación de corchetes, ahora hemos restablecido el elemento en el índice 1 de la cadena b, a not b anymore. Ahora ourArray es ["a", "not b anymore", "c"].
 
+-------------------------------------------------------------------
+ejercicio;
+
+Para completar este desafío, establece la segunda posición (índice 1) de myArray a cualquier cosa que quieras, además de la letra b.
+
+let myArray = ["a", "b", "c", "d"];
+// Cambia solo el código debajo de esta línea
+
+// Cambia solo el código encima de esta línea
+console.log(myArray);
+
+
+
+solución:
+
+let myArray = ["a", "b", "c", "d"];
+// Cambia solo el código debajo de esta línea
+myArray[1] = "ahora es bb";
+// Cambia solo el código encima de esta línea
+console.log(myArray);
+
 */
 /* */
 /* */
