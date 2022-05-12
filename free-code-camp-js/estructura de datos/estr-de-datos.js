@@ -140,7 +140,29 @@ function mixedNumbers(arr) {
 console.log(mixedNumbers(['IV', 5, 'six']));
 
 */
-/* */
+/* class 4 elimina elementos de un arreglo con pop() y shift()
+
+Tanto push() como unshift() tienen métodos correspondientes que son casi opuestos funcionales: pop() y shift(). Como ya habrás adivinado, en lugar de agregar, pop() elimina un elemento al final de un arreglo, mientras que shift() elimina un elemento al principio. La diferencia clave entre pop() y shift() y sus primos push() y unshift(), es que ninguno de los dos métodos toma parámetros, y cada uno sólo permite modificar un arreglo por un solo elemento a la vez.
+
+Echemos un vistazo:
+
+let greetings = ['whats up?', 'hello', 'see ya!'];
+
+greetings.pop();
+
+greetings tendrá el valor ['whats up?', 'hello'].
+
+greetings.shift();
+
+greetings tendrá el valor ['hello'].
+
+También podemos devolver el valor del elemento eliminado con cualquiera de los dos métodos así:
+
+let popped = greetings.pop();
+
+greetings tendrá el valor [] y popped tendría el valor hello.
+
+*/
 /* */
 /* */
 /* */
