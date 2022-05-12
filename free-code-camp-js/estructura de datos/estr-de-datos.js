@@ -162,6 +162,31 @@ let popped = greetings.pop();
 
 greetings tendrá el valor [] y popped tendría el valor hello.
 
+---------------------------------------------------------------
+ejercicio;
+
+Hemos definido una función, popShift, el cual toma un arreglo como argumento y devuelve un nuevo arreglo. Modifica la función, usando pop() y shift(), para eliminar el primer y el último elemento del arreglo, y asignar los elementos eliminados a sus correspondientes variables, de modo que el arreglo que se devuelva contenga sus valores.
+
+function popShift(arr) {
+  let popped; // Cambia esta línea
+  let shifted; // Cambia esta línea
+  return [shifted, popped];
+}
+
+console.log(popShift(['challenge', 'is', 'not', 'complete']));
+
+
+
+solución:
+
+function popShift(arr) {
+  let popped = arr.pop(); // Cambia esta línea
+  let shifted = arr.shift()// Cambia esta línea
+  return [shifted, popped];
+}
+
+console.log(popShift(['challenge', 'is', 'not', 'complete']));
+
 */
 /* */
 /* */
