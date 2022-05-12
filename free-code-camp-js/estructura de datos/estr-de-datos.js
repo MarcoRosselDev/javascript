@@ -245,6 +245,33 @@ La segunda ocurrencia de 12 es removida, y agregamos 13 y 14 en el mismo índice
 
 Aquí, comenzamos con un arreglo de números. A continuación, pasamos lo siguiente a splice(): El índice en el que empezar a borrar elementos (3), el número de elementos a borrar (1), y el resto de argumentos (13, 14) se insertarán a partir de ese mismo índice. Ten en cuenta que puede haber cualquier número de elementos (separados por comas) después de amountToDelete, cada uno de los cuales es insertado.
 
+--------------------------------------------------------------------
+ejercicio;
+
+Hemos definido una función, htmlColorNames, que toma un arreglo de colores HTML como argumento. Modifica la función usando splice() para eliminar los dos primeros elementos del arreglo y agrega 'DarkSalmon' y 'BlanchedAlmond' en sus respectivos lugares.
+
+function htmlColorNames(arr) {
+  // Cambia solo el código debajo de esta línea
+
+  // Cambia solo el código encima de esta línea
+  return arr;
+}
+
+console.log(htmlColorNames(['DarkGoldenRod', 'WhiteSmoke', 'LavenderBlush', 'PaleTurquoise', 'FireBrick']));
+
+
+
+solución;
+
+function htmlColorNames(arr) {
+  // Cambia solo el código debajo de esta línea
+  arr.splice(0,2,'DarkSalmon','BlanchedAlmond');
+  // Cambia solo el código encima de esta línea
+  return arr;
+}
+
+console.log(htmlColorNames(['DarkGoldenRod', 'WhiteSmoke', 'LavenderBlush', 'PaleTurquoise', 'FireBrick']));
+
 */
 /* */
 /* */
