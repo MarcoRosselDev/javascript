@@ -312,7 +312,18 @@ function forecast(arr) {
 console.log(forecast(['cold', 'rainy', 'warm', 'sunny', 'cool', 'thunderstorms']));
 
 */
-/* */
+/* class 8 copia un arreglo con el operador de propagación
+
+Mientras que slice() nos permite ser selectivos sobre qué elementos de un arreglo copiar, entre otras tareas útiles, el nuevo operador de propagación de ES6 nos permite copiar fácilmente todos los elementos de una arreglo, en orden, con una sintaxis simple y altamente legible. La sintaxis de propagación simplemente se ve así: ...
+
+En la práctica, podemos utilizar el operador de propagación para copiar un arreglo de esta manera:
+
+let thisArray = [true, true, undefined, false, null];
+let thatArray = [...thisArray];
+
+thatArray es igual a [true, true, undefined, false, null]. thisArray permanece sin cambios y thatArray contiene los mismos elementos que thisArray.
+
+*/
 /* */
 /* */
 /* */
