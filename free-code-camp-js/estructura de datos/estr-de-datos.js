@@ -285,6 +285,32 @@ todaysWeather tendrá el valor ['snow', 'sleet'], mientras que weatherConditions
 
 En efecto, hemos creado un nuevo arreglo extrayendo elementos de un arreglo existente.
 
+--------------------------------------------------------------------
+ejercicio;
+
+Hemos definido una función, forecast, que toma un arreglo como argumento. Modifica la función usando slice() para extraer información del arreglo de argumentos y devuelve un nuevo arreglo que contenga los elementos warm y sunny.
+
+function forecast(arr) {
+  // Cambia solo el código debajo de esta línea
+
+  return arr;
+}
+
+// Cambia solo el código encima de esta línea
+console.log(forecast(['cold', 'rainy', 'warm', 'sunny', 'cool', 'thunderstorms']));
+
+
+solución;
+
+function forecast(arr) {
+  // Cambia solo el código debajo de esta línea
+  let asd = arr.slice(2, 4);
+  return asd;
+}
+
+// Cambia solo el código encima de esta línea
+console.log(forecast(['cold', 'rainy', 'warm', 'sunny', 'cool', 'thunderstorms']));
+
 */
 /* */
 /* */
