@@ -411,6 +411,33 @@ fruits.indexOf('pears');
 indexOf('dates') devuelve -1, indexOf('oranges') devuelve 2, e 
 indexOf('pears') devuelve 1 (el primer índice en el que existe cada elemento).
 
+--------------------------------------------------------------------
+ejercicio;
+
+indexOf() puede ser increíblemente útil para verificar rápidamente la presencia de un elemento en un arreglo. Hemos definido una función, quickCheck, que toma un arreglo y un elemento como argumentos. Modifica la función usando indexOf() para que devuelva true si el elemento pasado existe en el arreglo, y false si no existe.
+
+function quickCheck(arr, elem) {
+  // Cambia solo el código debajo de esta línea
+
+  // Cambia solo el código encima de esta línea
+}
+
+console.log(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms'));
+
+
+solución;
+
+function quickCheck(arr, elem) {
+  // Cambia solo el código debajo de esta línea
+  if (arr.indexOf(elem) >= 0) {
+    return true;
+  }
+  else return false;
+  // Cambia solo el código encima de esta línea
+}
+
+console.log(quickCheck(['squash', 'onions', 'shallots'], 'mushrooms'));
+
 */
 /* */
 /* */
