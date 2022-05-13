@@ -273,7 +273,19 @@ function htmlColorNames(arr) {
 console.log(htmlColorNames(['DarkGoldenRod', 'WhiteSmoke', 'LavenderBlush', 'PaleTurquoise', 'FireBrick']));
 
 */
-/* */
+/* class 7 copia elementos de un arreglo usando slice()
+
+El siguiente método que cubriremos es slice(). En lugar de modificar un arreglo, slice() copia o extrae un número determinado de elementos a un nuevo arreglo, dejando intacto el arreglo al que se llama. slice() toma sólo 2 parámetros: el primero es el índice en el que se inicia la extracción, y el segundo es el índice en el que se detiene la extracción (la extracción se producirá hasta el índice, pero sin incluir el elemento en este índice). Considera esto:
+
+let weatherConditions = ['rain', 'snow', 'sleet', 'hail', 'clear'];
+
+let todaysWeather = weatherConditions.slice(1, 3);
+
+todaysWeather tendrá el valor ['snow', 'sleet'], mientras que weatherConditions todavía tendrá ['rain', 'snow', 'sleet', 'hail', 'clear'].
+
+En efecto, hemos creado un nuevo arreglo extrayendo elementos de un arreglo existente.
+
+*/
 /* */
 /* */
 /* */
