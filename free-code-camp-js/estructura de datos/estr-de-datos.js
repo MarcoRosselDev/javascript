@@ -459,6 +459,39 @@ greaterThanTen([2, 12, 8, 14, 80, 0, 1]);
 
 Usando un bucle for, esta función itera y accede a cada elemento del arreglo, y lo somete a una simple prueba que hemos creado. De esta manera, hemos determinado de forma sencilla y programática qué elementos de datos son mayores que 10, y hemos devuelto un nuevo arreglo, [12, 14, 80], que contiene esos elementos.
 
+
+-----------------------------------------------------------------------
+ejercicio;
+
+Hemos definido una función, filteredArray, que toma arr, un arreglo anidado, y elem como argumentos, y devuelve un nuevo arreglo. elem representa un elemento que puede o no estar presente en uno o más de los arreglos anidados dentro de arr. Modifica la función, usando un bucle for, para que devuelva una versión filtrada del arreglo pasado de forma que cualquier arreglo anidado dentro de arr que contenga elem haya sido eliminado.
+
+function filteredArray(arr, elem) {
+  let newArr = [];
+  // Cambia solo el código debajo de esta línea
+
+  // Cambia solo el código encima de esta línea
+  return newArr;
+}
+
+console.log(filteredArray([[3, 2, 3], [1, 6, 3], [3, 13, 26], [19, 3, 9]], 3));
+
+
+solución;
+
+function filteredArray(arr, elem) {
+  let newArr = [];
+  // Cambia solo el código debajo de esta línea
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i].indexOf(elem) == -1) {
+      newArr.push(arr[i]);
+    }
+  }
+  // Cambia solo el código encima de esta línea
+  return newArr;
+}
+
+console.log(filteredArray([[3, 2, 3], [1, 6, 3], [3, 13, 26], [19, 3, 9]], 3));
+
 */
 /* */
 /* */
