@@ -323,6 +323,41 @@ let thatArray = [...thisArray];
 
 thatArray es igual a [true, true, undefined, false, null]. thisArray permanece sin cambios y thatArray contiene los mismos elementos que thisArray.
 
+----------------------------------------------------------------------
+ejercicio;
+
+Hemos definido una función, copyMachine que toma arr (un arreglo) y num (un número) como argumentos. Se supone que la función devuelve un nuevo arreglo compuesto por num copias de arr. Hemos hecho la mayor parte del trabajo por ti, pero aún no funciona del todo bien. Modifica la función usando sintaxis de propagación para que funcione correctamente (sugerencia: ¡otro método que ya hemos cubierto podría ser útil aquí!).
+
+function copyMachine(arr, num) {
+  let newArr = [];
+  while (num >= 1) {
+    // Cambia solo el código debajo de esta línea
+
+    // Cambia solo el código encima de esta línea
+    num--;
+  }
+  return newArr;
+}
+
+console.log(copyMachine([true, false, true], 2));
+
+
+
+solución;
+
+function copyMachine(arr, num) {
+  let newArr = [];
+  while (num >= 1) {
+    // Cambia solo el código debajo de esta línea
+    newArr.push([...arr]);
+    // Cambia solo el código encima de esta línea
+    num--;
+  }
+  return newArr;
+}
+
+console.log(copyMachine([true, false, true], 2));
+
 */
 /* */
 /* */
