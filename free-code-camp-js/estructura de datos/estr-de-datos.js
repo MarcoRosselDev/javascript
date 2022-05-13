@@ -530,6 +530,37 @@ console.log(nestedArray[2][1][0][0][0]);
 
 Ahora registra deeper still.
 
+----------------------------------------------------------------------
+ejercicio;
+
+Hemos definido una variable, myNestedArray, como un arreglo. Modifica myNestedArray, utilizando cualquier combinación de cadenas, números y booleanos para los elementos de datos, de modo que tenga exactamente cinco niveles de profundidad (recuerda que el arreglo más externo es el nivel 1). En algún lugar del tercer nivel, incluye la cadena deep, en el cuarto nivel, incluye la cadena deeper y en el quinto nivel, incluye la cadena deepest.
+
+let myNestedArray = [
+  // Cambia solo el código debajo de esta línea
+  ['unshift', false, 1, 2, 3, 'complex', 'nested'],
+  ['loop', 'shift', 6, 7, 1000, 'method'],
+  ['concat', false, true, 'spread', 'array'],
+  ['mutate', 1327.98, 'splice', 'slice', 'push'],
+  ['iterate', 1.3849, 7, '8.4876', 'arbitrary', 'depth']
+  // Cambia solo el código encima de esta línea
+];
+
+
+solución;
+
+let myNestedArray = [
+  // Cambia solo el código debajo de esta línea
+  ['unshift',['deep',
+    ['deeper',
+      ['deepest']
+    ]
+  ], false, 1, 2, 3, 'complex', 'nested'],
+  ['loop', 'shift', 6, 7, 1000, 'method'],
+  ['concat', false, true, 'spread', 'array'],
+  ['mutate', 1327.98, 'splice', 'slice', 'push'],
+  ['iterate', 1.3849, 7, '8.4876', 'arbitrary', 'depth']
+  // Cambia solo el código encima de esta línea
+];
 
 */
 /* */
