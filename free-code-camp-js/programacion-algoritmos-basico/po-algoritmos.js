@@ -85,7 +85,20 @@ function factorialize(num) {
 factorialize(5);
 
 */
-/* */
+/* class 4 encuentra la palabra más larga en una cadena
+
+devuelve la longitud de la palabra más larga en la oración proporcionada.
+tu respuesta debe ser un número.
+
+function findLongestWordLength(str) {
+  return str.length;
+}
+
+findLongestWordLength("The quick brown fox jumped over the lazy dog");
+
+-----------------------------------------------------------------
+
+*/
 /* */
 /* */
 /* */
