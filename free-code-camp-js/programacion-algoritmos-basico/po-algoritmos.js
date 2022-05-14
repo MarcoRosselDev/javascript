@@ -23,7 +23,35 @@ function convertToF(celsius) {
 convertToF(30);
 
 */
-/* */
+/* class 2 invierte una cadena
+
+Invierte la cadena proporcionada.
+
+Es posible que necesites convertir la cadena en un arreglo antes de poder invertirla.
+
+Tu resultado debe ser una cadena.
+
+function reverseString(str) {
+  return str;
+}
+
+reverseString("hello");
+
+
+
+solución;
+
+function reverseString(str) {
+  let reverseStr = "";
+  for (let i = str.length - 1;i >= 0; i--) {
+    reverseStr += str[i];
+  }
+  return reverseStr;
+}
+
+reverseString("hello");
+
+*/
 /* */
 /* */
 /* */
