@@ -98,6 +98,10 @@ findLongestWordLength("The quick brown fox jumped over the lazy dog");
 
 -----------------------------------------------------------------
 
+solución;
+
+
+
 */
 /* */
 /* */
@@ -111,3 +115,7 @@ findLongestWordLength("The quick brown fox jumped over the lazy dog");
 /* */
 /* */
 /* */
+const str = 'Life, the universe and everything. Answer:';
+
+console.log(`${str} ${str.length}`);
+// expected output: "Life, the universe and everything. Answer: 42"
