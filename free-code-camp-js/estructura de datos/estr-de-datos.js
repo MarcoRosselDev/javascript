@@ -1006,4 +1006,8 @@ function getArrayOfUsers(obj) {
 console.log(getArrayOfUsers(users));
 
 */
-/* */
+/* class 20 modifica un arreglo almacenado en un objeto
+
+Ahora ya has visto todas las operaciones básicas de los objetos de JavaScript. Puedes agregar, modificar y eliminar pares clave-valor, comprobar si las claves existen e iterar sobre todas las claves de un objeto. A medida que sigas aprendiendo JavaScript verás aplicaciones aún más versátiles de los objetos. Además, las lecciones de Estructuras de Datos ubicadas en la sección Coding Interview Prep del plan de estudios también cubren los objetos Map y Set de ES6, los cuales son similares a los objetos ordinarios, pero proporcionan algunas características adicionales. Ahora que has aprendido los fundamentos de los arreglos y los objetos, ¡estás totalmente preparado para empezar a abordar problemas más complejos con JavaScript!
+
+*/
