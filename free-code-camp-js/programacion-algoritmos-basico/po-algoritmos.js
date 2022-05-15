@@ -119,7 +119,23 @@ function findLongestWordLength(str) {
 findLongestWordLength("The quick brown fox jumped over the lazy dog");
 
 */
-/* */
+/* class 5 devuelve los números mayores en los arreglos
+
+devuelve un arreglo que consista en el mayor de cada sub-arreglo
+proporcionado.
+por simplicidad, el arreglo dado contendrá exactamente 4 sub-arreglos.
+
+recuerda, puedes iterar a través de un arreglo utilizando un simple
+bucle for, y acceder a cada miembro del arreglo con la sintaxis 
+arr[i].
+
+function largestOfFour(arr) {
+  return arr;
+}
+
+largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]);
+
+*/
 /* */
 /* */
 /* */
