@@ -83,7 +83,31 @@ duck.sayName();
 
 Este ejemplo agrega el método sayName, el cual es una función que devuelve una oración que entrega el nombre del duck (pato). Ten en cuenta que el método accedió a la propiedad name en la sentencia de retorno usando duck.name. El siguiente desafío abarcara otra forma de hacer esto.
 
+----------------------------------------------------------------------
+ejercicio;
 
+Usando el objeto dog, asígnale un método llamado sayLegs. El método debe devolver la frase This dog has 4 legs.
+
+let dog = {
+  name: "Spot",
+  numLegs: 4,
+
+};
+
+dog.sayLegs();
+
+----------------------------------------------------------------------
+solución;
+
+let dog = {
+  name: "Spot",
+  numLegs: 4,
+  sayLegs: function() {
+    return "This dog has " + dog.numLegs + " legs.";
+    }
+};
+
+dog.sayLegs();
 
 */
 /* */
