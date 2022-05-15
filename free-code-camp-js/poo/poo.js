@@ -68,7 +68,24 @@ console.log(dog.name);
 console.log(dog.numLegs);
 
 */
-/* */
+/* class 3 crea un método en un objeto
+
+Los objetos pueden tener un tipo de propiedad especial, llamada método.
+
+Los métodos son propiedades que son funciones. Estos agregan diferentes comportamientos a los objetos. Aquí esta el ejemplo de duck con un método:
+
+let duck = {
+  name: "Aflac",
+  numLegs: 2,
+  sayName: function() {return "The name of this duck is " + duck.name + ".";}
+};
+duck.sayName();
+
+Este ejemplo agrega el método sayName, el cual es una función que devuelve una oración que entrega el nombre del duck (pato). Ten en cuenta que el método accedió a la propiedad name en la sentencia de retorno usando duck.name. El siguiente desafío abarcara otra forma de hacer esto.
+
+
+
+*/
 /* */
 /* */
 /* */
