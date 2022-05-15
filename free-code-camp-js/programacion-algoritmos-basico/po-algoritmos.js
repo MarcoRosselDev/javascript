@@ -156,7 +156,19 @@ function largestOfFour(arr) {
 largestOfFour([[4, 5, 1, 3], [13, 27, 18, 26], [32, 35, 37, 39], [1000, 1001, 857, 1]]);
 
 */
-/* */
+/* class 6 confirma el final
+
+Evalúa si una cadena (primer argumento, str) termina con la cadena de destino dada (segundo argumento, target).
+
+Este desafío puede resolverse con el método .endsWith(), que fue introducido en ES2015. Pero para el propósito de este desafío, nos gustaría que usaras uno de los métodos de subcadena de JavaScript en su lugar.
+
+function confirmEnding(str, target) {
+  return str;
+}
+
+confirmEnding("Bastian", "n");
+
+*/
 /* */
 /* */
 /* */
