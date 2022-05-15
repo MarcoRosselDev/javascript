@@ -15,6 +15,23 @@ let duck = {
 
 El objeto duck tiene dos pares propiedad/valor: un name (nombre) de Aflac y un numLegs (número de patas) de 2.
 
+---------------------------------------------------------------------
+ejercicio;
+
+Crea un objeto dog con las propiedades name y numLegs y asígnales una cadena y un número, respectivamente.
+
+let dog = {
+
+};
+
+----------------------------------------------------------------------
+solución;
+
+let dog = {
+  name: "roco",
+  numLegs: 4
+};
+
 */
 /* */
 /* */
