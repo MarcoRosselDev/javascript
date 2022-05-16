@@ -213,6 +213,29 @@ Al igual que cualquier otro objeto, sus propiedades pueden ser accedidas y modif
 
 blueBird.name = 'Elvira';
 blueBird.name;
+------------------------------------------------------------------------
+ejercicio;
+
+Utiliza el constructor Dog de la última lección para crear una nueva instancia de Dog, asignándolo a una variable hound.
+
+function Dog() {
+  this.name = "Rupert";
+  this.color = "brown";
+  this.numLegs = 4;
+}
+// Cambia solo el código debajo de esta línea
+
+------------------------------------------------------------------------
+solución;
+
+function Dog() {
+  this.name = "Rupert";
+  this.color = "brown";
+  this.numLegs = 4;
+}
+// Cambia solo el código debajo de esta línea
+
+let hound = new Dog();
 
 */
 /* */
