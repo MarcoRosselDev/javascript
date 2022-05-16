@@ -946,7 +946,7 @@ duck.eat();
 
 duck hereda todas las propiedades de Animal, incluyendo el método eat.
 
---------------------------------------------------------------------------
+-------------------------------------------------------------------------
 ejercicio;
 
 modifica el código para que las instancias de Dog hereden de Animal.
@@ -966,7 +966,7 @@ function Dog() { }
 
 
 let beagle = new Dog();
---------------------------------------------------------------------------
+-------------------------------------------------------------------------
 solución;
 
 function Animal() { }
@@ -987,6 +987,59 @@ Dog.prototype = Object.create(Animal.prototype);
 let beagle = new Dog();
 
 */
-/* */
+/* class 20 restablece una propiedad "constructor" heredada
+
+Cuando un objeto hereda el prototype de otro objeto, también hereda la propiedad del constructor del supertipo.
+
+Por ejemplo:
+
+function Bird() { }
+Bird.prototype = Object.create(Animal.prototype);
+let duck = new Bird();
+duck.constructor
+
+Pero duck y todas las instancias de Bird deberían mostrar que fueron construidas por Bird y no Animal. Para ello, puedes establecer manualmente la propiedad del constructor de Bird al objeto Bird:
+
+Bird.prototype.constructor = Bird;
+duck.constructor
+
+-------------------------------------------------------------------------
+ejercicio;
+
+Corrige el código para que duck.constructor y beagle.constructor devuelvan sus constructores respectivos.
+
+function Animal() { }
+function Bird() { }
+function Dog() { }
+
+Bird.prototype = Object.create(Animal.prototype);
+Dog.prototype = Object.create(Animal.prototype);
+
+// Cambia solo el código debajo de esta línea
+
+
+
+let duck = new Bird();
+let beagle = new Dog();
+-------------------------------------------------------------------------
+solución;
+
+function Animal() { }
+function Bird() { }
+function Dog() { }
+
+Bird.prototype = Object.create(Animal.prototype);
+Dog.prototype = Object.create(Animal.prototype);
+
+// Cambia solo el código debajo de esta línea
+
+Bird.prototype.constructor = Bird;
+Dog.prototype.constructor = Dog;
+
+
+let duck = new Bird();
+let beagle = new Dog();
+
+*/
 /* */
 /* */
