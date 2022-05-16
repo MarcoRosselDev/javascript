@@ -262,6 +262,25 @@ cardinal.numLegs
 
 El constructor es más flexible. Ahora es posible definir las propiedades para cada Bird en el momento que se crea. Esta es una manera en que los constructores de JavaScript son tan útiles. Estos agrupan objetos basados en características y comportamiento compartidos, y definen un plano que automatiza su creación.
 
+------------------------------------------------------------------------
+ejercicio;
+
+Crea otro constructor Dog. Esta vez, configúralo para que tome los parámetros name y color, y ten la propiedad numLegs fija a 4. Luego crea un nuevo Dog almacenado en una variable terrier. Pasale dos cadenas de texto como argumentos para las propiedades name y color.
+
+function Dog() {
+
+}
+------------------------------------------------------------------------
+solución;
+
+function Dog(name, color) {
+  this.name = name;
+  this.color = color;
+  this.numLegs = 4;
+}
+
+let terrier = new Dog("lushito", "black");
+
 */
 /* */
 /* */
