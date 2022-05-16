@@ -309,6 +309,28 @@ let canary = {
 canary instanceof Bird;
 
 Aquí el método instanceof devolverá false.
+------------------------------------------------------------------------
+ejercicio;
+
+Crea una nueva instancia del constructor House, llamándola myHouse y pasando el número de habitaciones. Luego, usa instanceof para verificar que es una instancia de House.
+
+function House(numBedrooms) {
+  this.numBedrooms = numBedrooms;
+}
+
+// Cambia solo el código debajo de esta línea
+------------------------------------------------------------------------
+solución;
+
+function House(numBedrooms) {
+  this.numBedrooms = numBedrooms;
+}
+
+// Cambia solo el código debajo de esta línea
+
+let myHouse = new House(5);
+
+myHouse instanceof House;
 
 */
 /* */
