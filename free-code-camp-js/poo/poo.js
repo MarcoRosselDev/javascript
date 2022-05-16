@@ -174,6 +174,19 @@ Este constructor define un objeto Bird con las propiedades name, color y numLegs
     Los Constructors definen propiedades y comportamientos en vez de devolverlos como un valor como lo harían otras funciones.
 
 -----------------------------------------------------------------------
+ejercicio;
+
+Crea un constructor, Dog, con las propiedades name, color y numLegs que se establecen a una cadena, una cadena y un número respectivamente.
+
+
+-----------------------------------------------------------------------
+solución;
+
+function Dog() {
+  this.name = "sholito";
+  this.color = "multicolor";
+  this.numLegs = 3;
+}
 
 */
 /* */
