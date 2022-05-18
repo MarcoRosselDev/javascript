@@ -314,7 +314,28 @@ function frankenSplice(arr1, arr2, n) {
 frankenSplice([1, 2, 3], [4, 5, 6], 1);
 
 */
-/* */
+/* class 13 robote falsy
+
+Quita todos los valores falsos de un arreglo.
+
+Los valores falsos en JavaScript son false, null, 0, "", undefined y NaN.
+
+Sugerencia: Intenta convertir cada valor a booleano.
+
+-------------------------------------------------------------------
+solución;
+
+function bouncer(arr) {
+  let newArray = [];
+  for (let i = 0; i < arr.length; i++) {
+    if (arr[i]) newArray.push(arr[i]);
+  }
+  return newArray;
+}
+
+bouncer([7, "ate", "", false, 9]);
+
+*/
 /* */
 /* */
 /* */
