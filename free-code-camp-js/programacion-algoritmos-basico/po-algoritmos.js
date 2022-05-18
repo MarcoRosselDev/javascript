@@ -251,7 +251,24 @@ function findElement(arr, func) {
 findElement([1, 2, 3, 4], num => num % 2 === 0);
 
 */
-/* */
+/* class 10 Boo who (booleano quién)
+
+Comprueba si el valor está clasificado como booleano primitivo. Devuelve true o false.
+
+Booleanos primitivos son true y false.
+
+------------------------------------------------------------------
+solución;
+
+function booWho(bool) {
+
+  return typeof bool === "boolean";
+
+}
+
+booWho(null);
+
+*/
 /* */
 /* */
 /* */
