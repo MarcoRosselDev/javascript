@@ -168,6 +168,36 @@ pero con getOwnPropertyNames si nos aparece
 no nos deja eliminarla ni editar el valor
 
 -->
-<!--  -->
+<!-- 5 cómo funciona la  memoria en javaScript
+
+si creamos un objeto:
+
+const marco = {
+    age: 28,
+    email: "andresmarcorossel@gmail.com"
+}
+
+luego copiamos estos valores a otro objeto:
+
+const lusho = marco;
+
+si imprimo marco y lusho me daran los mismos datos
+pero si modifico lusho en age o email tambien lo aran los de marco.
+¿por que pasa esto?.
+
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+los objetos son referencias a espacios en memoria. por lo que si editamos los elementos de este objeto original tambien modificamos el obejto original. 
+entonces. ¿cómo funciona la memoria en javaScript?
+
+javaScript tiene dos memorias | stack   | heap
+
+la memoria stack es muy rapida pero sin mucho espacio
+la heap es mucho más lenta y desordenada, 
+entonces solo cuando trabajamos con objetos apuntan a estos datos almacenados en heap.
+esto no aplica para variables, arrays o funciones.
+esto es util por que la memoria heap es muy grande y los objetos suelen tener mucha información.
+
+-->
 <!--  -->
 <!--  -->
