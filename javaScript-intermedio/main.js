@@ -9,9 +9,9 @@ const marco = {
 
 //vamos a practicar los metodos prototipos vistos asta ahora
 
-console.log(Object.keys(marco));
-console.log(Object.getOwnPropertyNames(marco));
-console.log(Object.entries(marco));
+// console.log(Object.keys(marco));
+// console.log(Object.getOwnPropertyNames(marco));
+// console.log(Object.entries(marco));
 
 /*-------------------------------------------------------- 
 nos miestra los siguientes resultados :
@@ -35,7 +35,7 @@ nos miestra los siguientes resultados :
 
 //probemos el metodo prototipo más interesante
 
-console.log(Object.getOwnPropertyDescriptors(marco));
+// console.log(Object.getOwnPropertyDescriptors(marco));
 
 /*--------------------------------------------------------
 esto nos imprime en consola:
@@ -68,9 +68,29 @@ esto nos imprime en consola:
 
 //el primer parametro es el de ciempre, el segundo es la nueva propiedad que queremos crear, y el tercer argumento es nuestro objeto lista de atributos
 
-console.log(Object.defineProperty(marco, "pruebaNASA", {
-  value: "extraterrestres",
+Object.defineProperty(marco, "navegator", {
+  value: "Chrome",
+  enumerable: false,
   weitable: true,
-  enumerable: true,
   configurable: true
-}))
+});
+Object.defineProperty(marco, "editor", {
+  value: "VSCode",
+  enumerable: true,
+  weitable: false,
+  configurable: true
+});
+Object.defineProperty(marco, "pruebaNASA", {
+  value: "extraterrestres",
+  enumerable: true,
+  weitable: true,
+  configurable: true
+});
+Object.defineProperty(marco, "terminal", {
+  value: "WSL",
+  enumerable: true,
+  weitable: true,
+  configurable: false
+});
+
+console.log(Object.getOwnPropertyDescriptors(marco));

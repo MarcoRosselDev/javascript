@@ -104,7 +104,21 @@ Object.entries(marco);
     por defecto.
 
 -->
-<!--  -->
+<!-- 4 Object.defineProperty
+
+al crear las pruebas de Object.defineProperty() jugamos con los valores por defecto para saber que pasa en el navegador y sus diferencias.
+
+Object.defineProperty(marco, "navegator", {
+  value: "Chrome",
+  enumerable: false,
+  weitable: true,
+  configurable: true
+});
+
+cuando enumerable es false, en consola "chrom dev" usamod Object.keys(marco), nos sale el listado de claves pero no aparese navegator.
+pero si usamos Object.getOwnPropertyNames(marco), aparecen todos los nombres clave, "esta es la diferencia entre keys y getOwnPropertyNames"
+
+-->
 <!--  -->
 <!--  -->
 <!--  -->
