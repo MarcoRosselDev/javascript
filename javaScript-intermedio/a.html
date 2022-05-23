@@ -26,6 +26,48 @@ console.log(Patito.hacerSonido());
 recordar que la palabra reserbada static al principio del metodo es para acceder al metodo sin la necesidad de crear una instancia.
 
 -----------------------------------------------------------------
+esto es interesante para lo que podriamos usalo pero echemos un visatzo a el prototipo object y sus comportamientos.
+si tenemos un objeto x y le aplicamos Object.keys(x):
+nos devolverá todos los nombres clave de nuestro objeto x.
+
+const objetito = {
+    name: "Marcus",
+    email: "andresmarcorossel@gmail.com",
+    age: 29
+};
+
+Object.keys(objetito);
+// ["name", "email", "age"]
+
+-----------------------------------------------------------------
+lo mismo pasa con el metodo estatico getOwnPropertyNames, luego veremos las pequeñas diferencias entre estas dos:
+
+const objetito = {
+    name: "Marcus",
+    email: "andresmarcorossel@gmail.com",
+    age: 29
+};
+
+Object.getOwnPropertyNames(objetito);
+// ["name", "email", "age"]
+
+-----------------------------------------------------------------
+tambien tenemos otros metodos estaticos como Object.entries();
+esto nos devolvera un array de arrays.
+
+const objetito = {
+    name: "Marcus",
+    email: "andresmarcorossel@gmail.com",
+    age: 29
+};
+
+Object.entries(objetito);
+// [
+    0: ["name", "Marcus"]
+    1: ["email", "andresmarcorossel@gmail.com"]
+    2: ["age", 29]
+]
+
 
 
 -->
