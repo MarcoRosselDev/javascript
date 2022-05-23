@@ -155,7 +155,17 @@ terminal en la lista de nombres clave.
 si aplico marco.terminal = "cmder". si nos deja
 pero si aplicamos delete marco.terminal no nos deja.
 
+------------------------------------------------------------------------------------------------------------------------------------------------
+Object.defineProperty(marco, "pruebaNASA", {
+  value: "extraterrestres",
+  enumerable: false,
+  writable: false,
+  configurable: false
+});
 
+con prueba de la nasa no se ve con .keys 
+pero con getOwnPropertyNames si nos aparece
+no nos deja eliminarla ni editar el valor
 
 -->
 <!--  -->
