@@ -71,25 +71,25 @@ esto nos imprime en consola:
 Object.defineProperty(marco, "navegator", {
   value: "Chrome",
   enumerable: false,
-  weitable: true,
+  writable: true,
   configurable: true
 });
 Object.defineProperty(marco, "editor", {
   value: "VSCode",
   enumerable: true,
-  weitable: false,
+  writable: false,
   configurable: true
 });
 Object.defineProperty(marco, "pruebaNASA", {
   value: "extraterrestres",
   enumerable: true,
-  weitable: true,
+  writable: true,
   configurable: true
 });
 Object.defineProperty(marco, "terminal", {
   value: "WSL",
   enumerable: true,
-  weitable: true,
+  writable: true,
   configurable: false
 });
 

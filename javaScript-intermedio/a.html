@@ -111,12 +111,37 @@ al crear las pruebas de Object.defineProperty() jugamos con los valores por defe
 Object.defineProperty(marco, "navegator", {
   value: "Chrome",
   enumerable: false,
-  weitable: true,
+  writable: true,
   configurable: true
 });
 
 cuando enumerable es false, en consola "chrom dev" usamod Object.keys(marco), nos sale el listado de claves pero no aparese navegator.
 pero si usamos Object.getOwnPropertyNames(marco), aparecen todos los nombres clave, "esta es la diferencia entre keys y getOwnPropertyNames"
+
+----------------------------------------------------------------------
+si aplicamos marco.navigator = "textoDePrueba"
+se guarda y por lo tanto se puede seguir ocupando.
+tambien podemos eliminarla:     delete marco.navigator
+nos mustra un true, por lo que se elimino.
+
+----------------------------------------------------------------------
+----------------------------------------------------------------------
+Object.defineProperty(marco, "editor", {
+  value: "VSCode",
+  enumerable: true,
+  writable: false,
+  configurable: true
+});
+
+cuando cambiamos el writable a false pasa lo siguiente.
+si aplico Object.keys(marco)  | nos imprime en consola: si aparece en la lista de nombres clave, por que ya tiene el enumerable: true.
+
+si aplicamos marco.editor = "loQueSea", nos dejara pero no lo aplicara
+por que con writable: false no nos deja editar.
+
+si aplicamos delete marco.editor | nos sale true, por lo que si se puede eliminar.
+------------------------------------------------------------------------------------------------------------------------------------------------
+
 
 -->
 <!--  -->
