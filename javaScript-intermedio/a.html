@@ -1,0 +1,31 @@
+<!-- 2 static: atributos y métodos estáticos en jS
+
+podemos saltarnos la creación de una instancia de un prototipo para acceder a sus atributos.
+para eso tenemos "static" como palabra reservada,
+por ejemplo:
+
+-----------------------------------------------------------------
+
+class Patito {
+    static sonidito = "cuak!";
+}
+console.log(Patito.sonidito);
+// cuak!
+
+-----------------------------------------------------------------
+esto tambien funciona con los metodos por ejemplo:
+
+class Patito {
+    static hacerSonido() {
+        return "cuak!";
+    }
+}
+console.log(Patito.hacerSonido());
+// cuak!
+
+recordar que la palabra reserbada static al principio del metodo es para acceder al metodo sin la necesidad de crear una instancia.
+
+-----------------------------------------------------------------
+
+
+-->
