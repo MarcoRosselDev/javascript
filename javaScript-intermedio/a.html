@@ -141,6 +141,20 @@ por que con writable: false no nos deja editar.
 
 si aplicamos delete marco.editor | nos sale true, por lo que si se puede eliminar.
 ------------------------------------------------------------------------------------------------------------------------------------------------
+Object.defineProperty(marco, "terminal", {
+  value: "WSL",
+  enumerable: true,
+  writable: true,
+  configurable: false
+});
+
+si aplicamos configurable: false. 
+si usamos Object.keys and Object.getOwnPropertyNames nos sigue mostrando
+terminal en la lista de nombres clave.
+
+si aplico marco.terminal = "cmder". si nos deja
+pero si aplicamos delete marco.terminal no nos deja.
+
 
 
 -->
