@@ -327,7 +327,44 @@ lo mismo pero pergunta si es gritable. que en este caso no,
 entonces nos devuelve false.
 
 -->
-<!--  -->
+<!-- 11 factory pattern y RORO
+
+**RORO **= Recibir un Objecto, y Retornamos otro Objecto.
+
+Dentro de una función, recibimos un solo parámetro que es un objecto, el cual internamente contiene varias propiedades, con las cuales retornara otro nuevo objeto.
+
+function requiredParam(param) {
+  throw new Error(param + " es obligatorio");
+}
+
+function createStudent({
+  name = requiredParam("name"),
+  email = requiredParam("email"),
+  age,
+  twitter,
+  instagram,
+  facebook,
+  approvedCourses = [],
+  learningPaths = [],
+} = {}) {
+  return {
+    name,
+    email,
+    age,
+    approvedCourses,
+    learningPaths,
+    socialMedia: {
+      twitter,
+      instagram,
+      facebook,
+    },
+  };
+}
+
+const juan = createStudent({ email: "juanito@frijoles.co", name: "Juanito" });
+
+
+-->
 <!--  -->
 <!--  -->
 <!--  -->
