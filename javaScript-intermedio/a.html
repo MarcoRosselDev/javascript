@@ -274,7 +274,39 @@ for (let index = 0; index < numeritos.length; index++) {
 con el deep copy solucionamos el problema de copiar objetos sin modificar los apuntadores, pero que tambien se puedan copiar las funciones que era el problema de .parse y .stringify
 
 -->
-<!--  -->
+<!-- 10 abstración on objetos literales y deep copy
+
+continuando con la clase pasada, dejamos el deep copy listo para su uso, por lo que tenemos que probarlo con un objeto abstracto, como un estudiante
+
+const studentBase = {
+  name: undefined,
+  email: undefined,
+  age: undefined,
+  approvedCourses: undefined,
+  learningPaths: undefined,
+  socialMedia: {
+    twitter: undefined,
+    instagram: undefined,
+    facebook: undefined,
+  },
+};
+
+const juan = deepCopy(studentBase);
+Object.seal(juan);
+// juan.name = "Juanito";
+
+luego podemos editar los valores name, email, age, etc...
+asi podemos crear copias seguras y editables de objetos en js
+pero 
+
+//Object.defineProperty(marco, "name", {
+    value: "marquiño",
+    configurable: false,
+});
+
+con esto podemos asegurar la informacion, que no sea borrable y a la vez cambiar el nombre.
+
+-->
 <!--  -->
 <!--  -->
 <!--  -->
