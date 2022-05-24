@@ -199,5 +199,45 @@ esto no aplica para variables, arrays o funciones.
 esto es util por que la memoria heap es muy grande y los objetos suelen tener mucha información.
 
 -->
-<!--  -->
+<!-- 6 shallow copy en javaSript
+
+el shallow copy nos ayuda a arreglar este problema con el apuntador y su valor en la memoria heap.
+
+la solución es la siguiente:
+
+const objeto1 = {
+    a: "a",
+    b: "b",
+};
+
+const objeto2 = {};
+
+for (prop in objeto1) {
+    objeto2[prop] = objeto1[prop];
+}
+
+ahora podemos modificar los valores del objeto 2 sin dañar los datos originales.
+ahora surgue el problema de cuando tenemos objetos o arreglos dentro de este mismo objeto.
+
+const objeto1 = {
+    a: "a",
+    b: "b",
+    c: {d: "d",
+        e; "e"}
+};
+
+resulta que si modificamos d o e en el original o la copia "objeto2" vuelve a tener problemas de apuntación.
+
+const objeto3 = Object.assign({}, objeto1);
+
+si modificamos objeto1.c.d tambn se modifica el objeto3
+
+const objeto4 = Object.create(objeto1):
+
+esta propiedad nos crea un objeto a partir de otro, como una copia.
+si miramos en la consola veremos que los valores estan en prototypo
+y se accede a ellos o se modifican sin alterar el original.
+pero cuando modifiquemos el original si se alterara esta comipia.
+
+-->
 <!--  -->
