@@ -306,6 +306,26 @@ pero
 
 con esto podemos asegurar la informacion, que no sea borrable y a la vez cambiar el nombre.
 
+--------------------------------------------------------------------
+para no tener que editar uno por uno, su configurable: false,
+podemos usar Object.seal(marco);
+y ahora ninguna propiedad de marco se puede eliminar.
+
+
+luego podemos dar el valor que queramos a cada atributo
+como 
+marco.age = 28;
+
+--------------------------------------------------------------------
+object.isSealed(marco);
+
+devuelve un booleano de ture o false si es seguro "editable o deleted", para comprobar de forma rapida.
+
+Object.isFrozen(marco);
+
+lo mismo pero pergunta si es gritable. que en este caso no,
+entonces nos devuelve false.
+
 -->
 <!--  -->
 <!--  -->
