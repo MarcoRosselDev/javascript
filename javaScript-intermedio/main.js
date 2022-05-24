@@ -82,9 +82,9 @@ Object.defineProperty(marco, "editor", {
 });
 Object.defineProperty(marco, "pruebaNASA", {
   value: "extraterrestres",
-  enumerable: true,
-  writable: true,
-  configurable: true
+  enumerable: false,
+  writable: false,
+  configurable: false
 });
 Object.defineProperty(marco, "terminal", {
   value: "WSL",
@@ -94,3 +94,27 @@ Object.defineProperty(marco, "terminal", {
 });
 
 console.log(Object.getOwnPropertyDescriptors(marco));
+
+// --------------------------------------------------------------
+// --------------------------------------------------------------
+//clase 6 
+
+const objeto1 = {
+  a: "a",
+  b: "b",
+};
+
+const objeto2 = {};
+
+for (prop in objeto1) {
+  objeto2[prop] = objeto1[prop];
+}
+ console.log(objeto1);
+ console.log(objeto2);
+
+ objeto2.a = "AAAAAABBBBB";
+
+ console.log(objeto1);
+ console.log(objeto2);
+ 
+// de esta forma podemos copiar los valores del objeto sin dañar los datos en la memoria heap.
