@@ -26,3 +26,20 @@ let team2 = ['el shipa', 'el mogli', 'el papas'];
 let teamFuciónado = ['moko', ...team2, ...team1];
 
 console.log(teamFuciónado);
+
+//---------------------------------------------------
+let name = 'marco';
+let age = 29;
+
+obj = {
+    name: name,
+    age: age
+};
+
+obj2 = {
+    name,
+    age
+};
+
+console.log(obj);
+console.log(obj2);
