@@ -65,6 +65,35 @@ let lorem2 = `tenemos que usar la comilla fransesa
 y no es nesesario la n y el \ para saltar la línea.`
 
 ------------------------------------------------------
+------------------------------------------------------
+desestructuración:
+------------------------------------------------------
+antes:          //objeto normal
+
+let persona = {
+    'name': 'marco',
+    'age': 29,
+    'country': 'chile'
+}
+//para acceder a los valores de cada elemento teniamos que:
+
+console.log(persona.name, persona.age, persona.country);
+------------------------------------------------------
+ahora:
+
+let { name, age, country } = persona;
+
+//ahora para imprimirlo en pantalla usamos:
+
+console.log(name, age, country);
+
+//imaguinemos que solo nesecito dos elementos. 
+//entonces ;
+
+console.log(name, age);
+
+------------------------------------------------------
+
 
 -->
 <!--  -->
