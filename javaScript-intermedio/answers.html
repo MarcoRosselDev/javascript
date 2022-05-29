@@ -69,12 +69,23 @@ function crearRutas ({
     courses = [],
 }) {
     const private = {};
-    
+
     const public = {};
 
     return public;
 }
 
 -->
-<!--  -->
+<!-- 18 ¿ cuál es el problema de crear copias de objetos con JSON.parse y JSON.stringify ?
+
+bad | Que copian las referencias en memoria del objeto original, no las propiedades del objeto como tal.
+
+repasar clase 7
+
+.stringify = creamos un string a partir de un objeto
+.parse = creamos un objeto a partir de un string
+
+cual es el problema?, funciona bien, pero si trabajamos con funciones, metodos no los reconosen.
+
+-->
 <!--  -->
