@@ -14,7 +14,24 @@ Object.defineProperty(objetito, "pruebaNasa", {
 
 
 -->
-<!--  -->
+<!-- 5 ¿ cuál de los siguientes métodos estáticos de Object nos permite definir o editar los atributos "ocultos" en la propiedad "patito" de "objetito" ?
+
+bad | Object.getOwnPropertyDescriptors(objetito)
+puede ser | Object.defineProperty(objetito.prototype, "patito", {});
+repasar la clase 17
+
+1-queremos protejer la propiedad learningPaths que esta así:
+
+if (isArray(learnungPhats)) {
+    this.learningPaths = [];
+}
+
+resulta que si en consola le decirmos juan.learningPaths = "lalala";
+se le asignara ese texto y no tendremos los learning paths. "rutas de aprendizaje"
+
+2-lo primero es decirle a this.learningPaths que sea _learningPaths, que por convencion es un atributo privado
+
+-->
 <!--  -->
 <!--  -->
 <!--  -->
