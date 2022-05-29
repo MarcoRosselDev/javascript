@@ -147,6 +147,38 @@ obj2 = {
 console.log(obj);
 console.log(obj2);
 
+---------------------------------------------------------
+---------------------------------------------------------
+arrow functions:
+    trabajar con una sintaxis más reducida y a trabajar
+    con un this no vinculado.
+---------------------------------------------------------
+const names = [
+    { name: 'marco', age: 29},
+    { name: 'lusho', age: 23}
+]
+---------------------------------------------------------
+antes:
+// si yo queria iterar por cada uno de estos elementos usaba el metodo map, para mostrarlos en la consola, esto era con una funcion en la que pasaba los vlaores y luego lo imprimiamos.
+
+let listaNombres = names.map(function (item) {
+    console.log(item.name);
+});
+
+//en el caso de iterar por las edades seria
+
+let listaEdades = names.map(function (item) {
+    console.log(item.age);
+});
+
+---------------------------------------------------------
+ahora:
+
+let listaNombres2 = names.map(item => console.log(item.name));
+let listaEdades2 = names.map(item => console.log(item.age));
+
+---------------------------------------------------------
+
 
 -->
 <!--  -->
