@@ -15,3 +15,14 @@ y no es nesesario la n y el \ para saltar la línea.`
 
 console.log(lorem);
 console.log(lorem2);
+
+// ------------------------------------------------
+
+let team1 = ['marco', 'lusho', 'pelao'];
+let team2 = ['el shipa', 'el mogli', 'el papas'];
+
+//aqui se viene lo shido. aplicamos ... tres puntos y luego el nombre de el arreglo que queremos unir;
+
+let teamFuciónado = ['moko', ...team2, ...team1];
+
+console.log(teamFuciónado);
