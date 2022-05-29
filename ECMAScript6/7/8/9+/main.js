@@ -58,3 +58,13 @@ let listaNombres = names.map(function (item) {
 let listaEdades = names.map(function (item) {
     console.log(item.age);
 });
+
+//-----------------------------------------------------
+//ahora con las arrow functions aremos lo mismo.
+const names2 = [
+    { name: 'marco', age: 29},
+    { name: 'lusho', age: 23}
+]
+
+let listaNombres2 = names2.map(item => console.log(item.name));
+let listaEdades2 = names2.map(item => console.log(item.age));
