@@ -43,3 +43,18 @@ obj2 = {
 
 console.log(obj);
 console.log(obj2);
+
+//-----------------------------------------------------
+
+const names = [
+    { name: 'marco', age: 29},
+    { name: 'lusho', age: 23}
+]
+
+let listaNombres = names.map(function (item) {
+    console.log(item.name);  
+});
+
+let listaEdades = names.map(function (item) {
+    console.log(item.age);
+});
