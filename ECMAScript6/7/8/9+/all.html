@@ -1,4 +1,35 @@
-<!--  -->
+<!-- 1 Defaul Params y Concatenación
+parametros por defecto
+------------------------------------------------------
+antes:
+
+function newFunction(name, age, country) {
+    var name = name || 'marco';
+    var age = age || 29;
+    var country = country || 'CHILE';
+    console.log(name, age, country);
+}
+
+------------------------------------------------------
+ES6
+
+function newFunction2(name = 'marco', age = 29, country = 'MX') {
+    console.log(name, age, country);
+}
+
+//en el caso de que queramos crear una nueva función con datos por defecto lo dejamos vacio:
+
+newFunction2();
+
+//en el caso de que lo queramos con nuevos datos:
+
+newFunction2('lusho', 22, 'ES');
+
+
+------------------------------------------------------
+
+
+-->
 <!--  -->
 <!--  -->
 <!--  -->
