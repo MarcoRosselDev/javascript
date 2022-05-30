@@ -51,3 +51,20 @@ console.log(string.padEnd(12,' --- --'));
 console.log('wsp bro'.padEnd(13,'  ---.'));
 
 // nos imprime;   wsp bro  ---.
+
+//------------------------------------------------------------------
+
+const holaMundo = () => {
+    return new Promise((resolve, reject) => {
+        (true)
+            ? setTimeout(() => resolve('wena, mundo.'), 3000)
+            : reject(new Error('Test Error'))
+    })
+}
+
+const helloAsync = async () => {
+    const hello = await holaMundo();
+    console.log(hello);
+};
+
+helloAsync();
