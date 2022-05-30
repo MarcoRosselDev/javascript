@@ -10,3 +10,13 @@ if (numeros.includes(7)) {
 }
 
 //si aplico 7 imprime else si aplico 5 imprime if.
+
+//---------------------------------------------------------------------
+//elevar a la potencia.
+
+let base = 4;
+let exponente = 3;
+let resultado = base ** exponente;
+
+console.log(resultado);
+//imprime 64
