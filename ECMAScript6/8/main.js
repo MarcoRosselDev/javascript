@@ -18,3 +18,16 @@ console.log(entradas);
 console.log(entradas.length);
 
 // nos dice cuantos elementos tiene nuestro objeto. 
+//---------------------------------------------------------------
+
+const datitos = {
+    fronted: 'marco',
+    backend: 'lusho',
+    design: 'pelaho'
+}
+
+const valores2 = Object.values(datitos);
+console.log(valores2);
+
+//nos devuelve los valores de los elementos en formato de arreglo.
+//[ 'marco', 'lusho', 'pelaho' ]
