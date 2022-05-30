@@ -93,3 +93,11 @@ console.log(calc.sum(2, 4));
 const hello = require('./module')
 
 console.log(hello())
+
+//---------------------------------------------------------
+//ejercicio de la clase
+
+import { hello2 } from './module';
+
+hello2();
+//por ahora no se por que no me corre, instale varias extenciones pero nada.
