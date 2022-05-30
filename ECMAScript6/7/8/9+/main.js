@@ -86,3 +86,16 @@ class calculator {
 
 const calc = new calculator();
 console.log(calc.sum(2, 4));
+
+//---------------------------------------------------------
+//import and export
+
+import { hello } from './module';
+
+console.log(hello());
+
+import { myExport } from "module.js"
+console.log(myExport);
+
+import myFunction from "module.js"
+console.log(myFunction);
