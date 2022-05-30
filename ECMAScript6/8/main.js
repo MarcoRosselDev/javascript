@@ -14,3 +14,7 @@ console.log(entradas);
 //   [ 'design', 'pelaho' ]
 // ]
 // devuelve una matriz de arreglos de strings
+
+console.log(entradas.length);
+
+// nos dice cuantos elementos tiene nuestro objeto. 
