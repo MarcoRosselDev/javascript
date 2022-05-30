@@ -68,4 +68,32 @@ console.log('wsp bro'.padEnd(13,'  ---.'));
 nos imprime;   wsp bro  ---.
 
 -->
-<!--  -->
+<!-- ES8 Async | Await
+-----------------------------------------------------------------------
+
+1-crear una función
+2-crear una promesa
+3-invocarla
+
+y asi ver como nos ayudan las promesas junto con async and await para entender esta nueva caracteristica.
+-----------------------------------------------------------------------
+
+const holaMundo = () => {
+    return new Promise((resolve, reject) => {
+        (true)
+            ? setTimeout(() => resolve('wena, mundo.'), 3000)
+            : reject(new Error('Test Error'))
+    })
+}
+
+const helloAsync = async () => {
+    const hello = await holaMundo();
+    console.log(hello);
+};
+
+helloAsync();
+
+
+
+
+-->
