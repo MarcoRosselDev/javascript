@@ -101,3 +101,20 @@ import { hello2 } from './module';
 
 hello2();
 //por ahora no se por que no me corre, instale varias extenciones pero nada.
+
+//---------------------------------------------------------
+
+function* helloWorld() {
+    if(true){
+        yield 'hello, ';
+    }
+    if(true){
+        yield 'World';
+    }
+};
+
+const generatorHellow = helloWorld();
+console.log(generatorHellow.next().value); //imprime hello y lo recordara 
+console.log(generatorHellow.next().value);//imprime world
+console.log(generatorHellow.next().value);//ya no queda nada so imprime undefined
+//importante para trabajar con logicas y algoritmos más adelante. 'fibonachi'.
