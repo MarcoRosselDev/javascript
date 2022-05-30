@@ -228,6 +228,22 @@ simulamos crear un archivo llamado modul.js
 
 esta todo hecho en los archovos 'main.js and module.js'
 
+-----------------------------------------------------------
+generator:
+-----------------------------------------------------------
+function* helloWorld() {
+    if(true){
+        yield 'hello, ';
+    }
+    if(true){
+        yield 'World';
+    }
+};
+
+const generatorHellow = helloWorld();
+console.log(generatorHellow.next().value);
+console.log(generatorHellow.next().value);
+console.log(generatorHellow.next().value);
 
 -->
 <!--  -->
