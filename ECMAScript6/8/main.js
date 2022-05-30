@@ -31,3 +31,10 @@ console.log(valores2);
 
 //nos devuelve los valores de los elementos en formato de arreglo.
 //[ 'marco', 'lusho', 'pelaho' ]
+
+console.log(valores2.length);
+
+//---------------------------------------------------------------
+
+const string = 'wena';
+console.log(string.padStart(7,'---'));
