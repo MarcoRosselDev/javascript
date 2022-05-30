@@ -38,3 +38,16 @@ console.log(valores2.length);
 
 const string = 'wena';
 console.log(string.padStart(7,'---'));
+
+//imprime en consola: ---wena
+
+console.log(string.padEnd(12,' --- --'));
+
+//imprime en consola: wena --- --
+//esto nos sirve para imprimir en pantalla algo más presentable en caso de nesecitar un buen diseño, a la hora de imprimirlo en la web y jugar con el usuario.
+
+// tmbn podemos facilitar el string en el lugar:
+
+console.log('wsp bro'.padEnd(13,'  ---.'));
+
+// nos imprime;   wsp bro  ---.
