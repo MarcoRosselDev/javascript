@@ -1,0 +1,40 @@
+<!-- 2 estudiando el protocolo HTTP, verbos y status
+
+Un protocolo especifica reglas en la comunicacion entre dos entes, en este caso entre dos computudoras.
+HTTP (Hyper Text Transfer Protocol) fue creado especificamente para la web.
+Una de las cosas que especifica el protocolo HTTP son los verbos:
+
+    GET: solicitar datos o algun recurso.
+
+    HEAD: traer headers (como una peticion GET pero sin contenidos). Es util cuando vamos a utilizar APIs, para comprobar si lo que vamos a enviar esta correcto y puede ser procesado.
+
+    POST: enviar datos a un recurso para la creación.
+
+    PUT: reemplazar por completo un recurso.
+
+    PATCH: reemplazar parcialmente un recurso.
+
+    DELETE: eliminar un recurso.
+
+-------------------------------------------------------------------------
+Otra de las cosas que especifica el protocolo HTTP son los codigo de estado (status codes). Sirven para describir el estado de la peticion hecha al servidor.
+
+1xx: Indican que la peticion fue recibida y el servidor sigue trabajando en el proceso, es decir, no fue exitosa ni fue errónea, sino que esta siendo procesada aun.
+
+2xx: Indican que la peticion fue recibida y procesada correctamente.
+
+3xx: Indican que hay que tomar acciones adicionales para completar la solicitud. Por lo general estos codigos indican redireccion. Generalmente en los APIs no se usan redirecciones porque no contienen estados, es decir, toda la informacion esta contenida en una solicitud, no se guarda un estado en el servidor con una sesion por ejemplo.
+
+4xx: Indican errores del lado del cliente, por ejemplo: se hizo mal la solicitud, faltan datos, headers o cualquier otro error que pueda ocurrir.
+
+5xx: Indican errores del servidor. Suelen aparecer cuando existe un fallo en la ejecución en el servidor.
+
+-------------------------------------------------------------------------
+
+-->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
+<!--  -->
