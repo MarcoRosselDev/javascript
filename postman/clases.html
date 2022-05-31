@@ -30,6 +30,23 @@ Otra de las cosas que especifica el protocolo HTTP son los codigo de estado (sta
 5xx: Indican errores del servidor. Suelen aparecer cuando existe un fallo en la ejecución en el servidor.
 
 -------------------------------------------------------------------------
+Los codigos mas comunes a la hora de interactuar con un API son:
+
+200: Todo esta OK.
+
+201: Todo OK cuando se hizo una solicitud POST, el recurso se creo y se guardo correctamente.
+
+204: Indica que la solicitud se completo correctamente pero no devolvio informacion. Es muy comun cuando se hacen peticiones con el verbo DELETE.
+
+400: Bad Request, algo esta mal en la peticion. Se nos olvido enviar un dato o algo relacionado. Por lo general la respuesta nos especifica cuales fueron los errores a la hora de hacer la peticion.
+
+401: Unauthorized, es decir, no estamos autorizados (autenticados) a realizar la peticion.
+
+403: Forbidden, yo no tengo acceso a ese recurso aunque este autenticado.
+
+404: Not Found, no existe el recurso que se esta intentando acceder.
+
+500: Interna Server Error, es un error que retorna el servidor cuando la solicitud no pudo ser procesada. Por lo general, si no tenemos acceso al backend, no tenemos control sobre los errores 500 que retorna un API.
 
 -->
 <!--  -->
