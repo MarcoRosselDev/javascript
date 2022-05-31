@@ -73,7 +73,28 @@ Siglas que hacen referencia a las operaciones básicas que se pueden ejecutar so
     U: Update 'actualizar'
     D: Delete 'eliminar'
 -----------------------------------------------------------------------
+Endpoints
 -----------------------------------------------------------------------
+Es el punto final de la comunicación con un ente, en este caso, un endpoint está asociado a una URL y a las operaciones que podemos ejecutar. Este término es muy utilizado en las APIs.
+
+Los endpoint definen operaciones que se quieren ejecutar sobre un recurso. Por ejemplo: si queremos un conjunto de operaciones CRUD sobre Cursos podríamos crear los siguientes endpoints:
+
+    /get-all-courses : para obtener una colección de Cursos.
+    /add-new-course: para crear un nuevo recurso de Cursos.
+    /delete-all-courses: para eliminar todos los Cursos.
+
+Y así sucesivamente. Pero, esto implicaría un problema. El API puede llenarse de endpoints que ejecutan una sola operación, esto no es escalable, significa que si por ejemplo el recurso Cursos pasa a llamarse Clases habría que actualizar absolutamente todas las URLs y asegurarse de ello puede convertirse en un dolor de cabeza.
+
+Entonces, ¿cuál es la buena práctica en este caso?
+
+Como lo vimos en la clase pasada, el protocolo HTTP especifica una serie de verbos que indican acciones. Lo ideal es que la operación que se ejecute sobre un recurso se obtenga a través del verbo HTTP de la petición y no que esté definido en el endpoint. Por ejemplo:
+
+    /courses: Dependiendo del verbo HTTP se ejecutará una operación en particular. Quedaría así:
+        GET /courses: trae la colección de Cursos.
+        POST /courses: crea un nuevo recurso de Cursos.
+        DELETE /courses: elimina todos los cursos.
+
+
 -----------------------------------------------------------------------
 
 -->
