@@ -138,7 +138,25 @@ Los endpoints que tenemos:
 <!-- 4 instalación de postman
 listo !
 -->
-<!--  -->
+<!-- 5 cómo ejecutar la API 
+
+---------------------------------------------------------------------
+cómo correr este proyecto
+---------------------------------------------------------------------
+Instala Docker y Docker Compose
+Descarga los archivos de la api haciendo click en este enlace. Estos archivos también se encuentran disponibles en la sección de archivos de la siguiente clase.
+Ejecuta en la terminal sudo docker-compose up -d para activar los contenedores de la aplicación.
+Entra en el contenedor ejecutando sudo docker exec -it postman-course-master_web_1 bash
+Ejecuta cd ./project
+Ejecuta migraciones de Django python manage.py migrate
+Dentro del contenedor ejecuta source admin_info.sh para crear al superusuario.
+Carga los datos iniciales con: python manage.py loaddata courses/fixtures/initial_data.json
+Ejecuta exit para salir del contenedor.
+Reinicia la aplicación con sudo docker-compose stop y nuevamente sudo docker-compose up -d.
+Comprueba que tu servidor se encuentre disponible entrando a la siguiente url http://localhost:8000/api/
+---------------------------------------------------------------------
+
+-->
 <!--  -->
 <!--  -->
 <!--  -->
