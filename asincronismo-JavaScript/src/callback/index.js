@@ -36,3 +36,16 @@ function multDiv(num1, num2, num3, num4) {
 
 console.log(multDiv(4, 7, 2, 100));
 //114 esta bueno.
+
+//----------------------------------------------------------
+
+function operation1 (a, b, c, d, e, f, g) {
+    return (((((a ** b) / c) + d) - e) ** f) / g;
+}
+
+// console.log(operation1(2,3,2,35,10,2,3));
+//answer: 280.3333333333333
+
+console.log(operation1(5,7,2,35,10,5,3));
+//answer: 3.04136270831283e+22
+//le tomo menos de un segundo en realizar esta operación. looooool
