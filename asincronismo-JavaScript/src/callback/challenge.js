@@ -27,5 +27,10 @@ fetchData(API, function(error1, data1) {
             console.log(data2.name);
             console.log(data3.dimension);
         });
-    })
+    }) 
 })
+
+// resultado
+// 826
+// Rick Sanchez
+// Dimension C-137
