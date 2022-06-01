@@ -29,3 +29,10 @@ function divicion(num1, num2) {
 
 console.log(divicion(50, 7));
 //7.142857142857143 esta bueno.
+
+function multDiv(num1, num2, num3, num4) {
+    return ((num1 * num2) / num3) + num4;
+}
+
+console.log(multDiv(4, 7, 2, 100));
+//114 esta bueno.
