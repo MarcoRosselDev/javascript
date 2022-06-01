@@ -20,3 +20,12 @@ function calc2(num1, num2, num3, callback) {
 }
 
 console.log(calc2(89, 43, 11, resta));
+
+
+
+function divicion(num1, num2) {
+    return num1 / num2;
+}
+
+console.log(divicion(50, 7));
+//7.142857142857143 esta bueno.
