@@ -56,3 +56,11 @@ fetchData(api, (error1, data1) => {
     });
   });
 });
+
+// solución en consola:
+// 826
+// Rick Sanchez
+// Dimension C-137
+// https://rickandmortyapi.com/api/character/
+// https://rickandmortyapi.com/api/character/1
+// https://rickandmortyapi.com/api/location/1
