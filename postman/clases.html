@@ -90,12 +90,49 @@ Entonces, ¿cuál es la buena práctica en este caso?
 Como lo vimos en la clase pasada, el protocolo HTTP especifica una serie de verbos que indican acciones. Lo ideal es que la operación que se ejecute sobre un recurso se obtenga a través del verbo HTTP de la petición y no que esté definido en el endpoint. Por ejemplo:
 
     /courses: Dependiendo del verbo HTTP se ejecutará una operación en particular. Quedaría así:
+
         GET /courses: trae la colección de Cursos.
         POST /courses: crea un nuevo recurso de Cursos.
         DELETE /courses: elimina todos los cursos.
 
+De esta manera queda mucho más organizado un API. Pero, qué pasa si queremos traer no una colección de cursos como en los casos anteriores, sino un recurso en específico.
+
+Por lo general cada recurso tiene un identificador único, un ID, es con esto que llamaremos a un endpoint para que nos retorne la información del recurso. Por ejemplo:
+
+    GET /courses/2/: vemos que acá se le está pasando algo que en los endpoints anteriores no veíamos, es el número 2, ese es el identificador único, de esta manera el API sabe que tiene que buscar el curso con ID 2 y retornarlo.
+
+Así sucesivamente con cada uno de los verbos, por ejemplo: casi nunca se hace una eliminación en masa en un API, como el ejemplo que tenemos más arriba donde se eliminan todos los cursos. Lo ideal es que se elimine un recurso individualmente y no una colección, igualmente pasa con la actualización.
 
 -----------------------------------------------------------------------
+Recursos anidados
+-----------------------------------------------------------------------
+Hay veces en las que un recurso depende de otro recurso, por ejemplo, comentarios depende de materiales; usualmente en los APIs las anidaciones se hacen hasta dos niveles, es decir:
+
+    materials/1/comments: estos son dos niveles
+
+    materials/1/comments/2/answers/: son tres niveles, ahí lo ideal sería entonces separar el endpoint de comentarios y ejecutar comments/2/answers/
+
+
+-----------------------------------------------------------------------
+Nuestro API
+-----------------------------------------------------------------------
+Ya he dado algunos spoilers sobre lo que nuestro API hace, una plataforma es donde tenemos Cursos, Materiales, Videos y Comentarios. El API es sencillo y es una prueba que utilizamos en este curso para explorar toda las capacidades que nos ofrece Postman para trabajar con ellos.
+
+Una convención que se usa a la hora de documentar APIs es abstraer el endpoint de la URL del sitio al cual vamos a hacer la petición, puesto que esto al final es redundante de escribir, es decir, usualmente escribimos únicamente /api-token-auth/ en vez de [http://mistioweb.com/api-token-auth/](http://mistioweb.com/api-token-auth/).
+-----------------------------------------------------------------------
+Los endpoints que tenemos:
+-----------------------------------------------------------------------
+/api-token-auth/
+/courses
+/courses/:id/
+/courses/:id/upload_badge/
+/materials/
+/materials/:id/
+/materials/:id/comments/
+/comments/
+/comments/:id/
+/comments/:id/like/
+/comments/:id/dislike/
 
 -->
 <!--  -->
