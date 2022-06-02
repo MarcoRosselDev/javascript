@@ -1,6 +1,6 @@
 const somethingWillHappen = () => {
     return new Promise((resolve, reject) => {
-        if(false) {
+        if(true) {
             resolve('hey');
         } else {
             reject('buuuuu');
@@ -17,10 +17,10 @@ somethingWillHappen()
 //----------------------------------------------------------
 
 const somethingWillHappen2 = () => {
-    return new Promise((responder, siesqueno) => {
-        if(false) {
+    return new Promise((response, siesqueno) => {
+        if(true) {
         setTimeout(() => {
-            responder('todo bien');
+            response('todo bien');
         }, 2000)
         } else {
             const error = new Error('Shuta!')
@@ -30,7 +30,7 @@ const somethingWillHappen2 = () => {
 }
 
 somethingWillHappen2()
-    .then(responder => console.log(responder))
+    .then(response => console.log(response))
     .catch(err => console.log(err));
 
 //si es true = todo bien
@@ -48,3 +48,17 @@ somethingWillHappen2()
 //            const error = new Error('Shuta!')
 //a esa linea de codigo me refiero
 
+//-------------------------------------------------------------
+
+Promise.all([somethingWillHappen(), somethingWillHappen2()])
+    .then(response => {
+        console.log('Array of results', response);
+    })
+    .catch(err => {
+        console.log(err);
+    })
+
+//al dejar todo en true devuelve:
+//hey
+// todo bien
+// Array of results [ 'hey', 'todo bien' ]
