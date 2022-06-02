@@ -35,6 +35,29 @@ document.querySelector('a.home-article').innerHTML = '<strong>y aqui sobreescrib
 
 ahora el elemento selecciónado tiene este texto en negritas.
 
+++++++++++++++++++++++++++++
+
+pero si lo que quiero es solo cambiar el texto tendriamos que hacer lo siguiente:
+
+document.querySelector('a.home-article strong').textContent  | + enter
+
+puedo ver el contenido del texto.
+luego para modificarlo aplico la igualdad '='
+
+document.querySelector('a.home-article strong').textContent = 'esto es un texto de prueba' | + enter
+
+ahora solo a cambiado el contenido del texto.
+¿ que pasa si tratro de cambiarlo como si fuera html ?
+lo trata como si fuera texto:
+
+document.querySelector('a.home-article strong').textContent = '<h2>esto es un texto de prueba</h2>' | + enter
+
+imprimira en la paguina <h2>esto es un texto de prueba</h2>
+
+si quiero cambiar html tendo que usar el .innerHTML = '<h2>esto es un texto de prueba</h2>' | + enter
+
+y esto si crearia la estructura de html en el DOM.
+
 -->
 <!--  -->
 <!--  -->
