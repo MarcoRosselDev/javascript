@@ -1,17 +1,23 @@
 let XMLHttpRequest = require('xmlhttprequest').XMLHttpRequest;
 
-function fetchData(url_api, callback) {
-    let xhttp = new XMLHttpRequest();
+//convertimos la función en ES6
+
+const fetchData = (url_api) => {
+    return new Promise((resolve, reject) => {
+    const xhttp = new XMLHttpRequest();
     xhttp.open('GET', url_api, true);
-    xhttp.onreadystatechange = function (event) {
+    xhttp.onreadystatechange = (() => {
         if(xhttp.readyState === 4) {
-            if(xhttp.status === 200) {
-                callback(null, JSON.parse(xhttp.responseText));
-            } else {
-                const error = new Error('Error' + url_api);
-                return callback(error, null);
-            }
+
+            (xhttp.status === 200)
+                ? resolve(JSON.parse(xhttp.responseText))
+                : reject(new Error('Error', url_api))
         }
-    }
+    });
     xhttp.send();
+    });
 }
+
+module.exports = fetchData;
+//usa esta dintaxis de exportación por que se uso node
+//
