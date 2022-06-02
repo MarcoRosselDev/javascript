@@ -18,7 +18,7 @@ somethingWillHappen()
 
 const somethingWillHappen2 = () => {
     return new Promise((responder, siesqueno) => {
-        if(true) {
+        if(false) {
         setTimeout(() => {
             responder('todo bien');
         }, 2000)
@@ -28,4 +28,17 @@ const somethingWillHappen2 = () => {
         }
     });
 }
+
+somethingWillHappen2()
+    .then(responder => console.log(responder))
+    .catch(err => console.log(err));
+
+//si es true = todo bien
+// [Done] exited with code=0 in 2.143 seconds
+//se tarda 2000 milisegundos en responder el texto 'todo bien'.
+
+//-------------------------------------------------------------
+
+//si es false = todo mal
+//y responde altiro por que no le puse setTimeout.
 
