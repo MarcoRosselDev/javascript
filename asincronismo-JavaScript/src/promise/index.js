@@ -50,6 +50,9 @@ somethingWillHappen2()
 
 //-------------------------------------------------------------
 
+//esto es para ejecutar más de una promesa a la ves.
+//osea encadenar las promesas.
+
 Promise.all([somethingWillHappen(), somethingWillHappen2()])
     .then(response => {
         console.log('Array of results', response);
