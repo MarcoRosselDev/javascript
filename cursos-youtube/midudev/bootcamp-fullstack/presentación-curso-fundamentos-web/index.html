@@ -23,9 +23,17 @@ solo nos mostrara uno, que es el primero que encuentre.
 
 tambien puedo jugar con los selectores ".loQueSea" por que pueden haber miles de elementos a "links". eso se hacer asi:
 
-document.querySelector('a.home-article')  +   enter
+document.querySelectorAll('a.home-article')  +   enter
 
 lo que estoy diciendo con esto es me buscques los elementos que ademas de ser un link tienen la clase .home-article, si le doy enter puedo ver todos los elementos que cumplan con esta condición.
+
++++++++++++++++++++++++++++
+
+a partir de esto puedo hacer o modificar cosas, por ejemplo me quedo con el primero asi que le quito el all al querySelectorAll y a este le cambio su contenido en el DOM, deveriamos hacer:
+
+document.querySelector('a.home-article').innerHTML = '<strong>y aqui sobreescribo lo que quiero que reemplace el texto del DOM</strong>'
+
+ahora el elemento selecciónado tiene este texto en negritas.
 
 -->
 <!--  -->
