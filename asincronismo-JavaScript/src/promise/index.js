@@ -42,3 +42,9 @@ somethingWillHappen2()
 //si es false = todo mal
 //y responde altiro por que no le puse setTimeout.
 
+//-------------------------------------------------------------
+
+//importante en la parte de crear el error, funciona para que salte en consola toda la parafernalia de por que ocurrio el error y todos los pasos que se dieron, asi podemos debugear más facilmente.
+//            const error = new Error('Shuta!')
+//a esa linea de codigo me refiero
+
