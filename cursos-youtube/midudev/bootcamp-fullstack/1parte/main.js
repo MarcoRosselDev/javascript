@@ -73,8 +73,18 @@ la sintaxis seria asi:
 const persona = {
     name: 'marco',
     age: 29,
-    lastName: 'rossel'
+    lastName: 'rossel',
+    links: ['ejemplo.com', 'ejemplo2.cl'],
+    humano: true
 }
 
+podemos incluir todos los tipos de datos vistos asta ahora como booleanos, nulls, arrays, objetos, funciones, numeros.etc...
+...ahora para acceder a los valores tenemos que usar las palabras clave o llaves.
+
+console.log(persona.name);
+
+...para acceder en el caso de un arreglo con los corchetes:
+
+console.log(persona.links[0]);
 
 */
