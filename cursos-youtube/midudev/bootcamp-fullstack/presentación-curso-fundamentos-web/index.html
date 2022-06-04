@@ -83,6 +83,14 @@ las que estan en la misma altura se ejecutan en simultaneo.
 resulta que el navegador tiene un sistema de optimización por defecto, que le da prioridad a siertos elementos sobre otros a la hora de renderisación.
 por lo que deja para el final o ignora siertos elementos que pueden estar en el footer por ejemplo, o un icono en comparación con un html.
 
+---------------------------------------------------------------
+el navegador nos dice que en orden de importancia, esta primero el html "obvio", en segundo css, y luego JavaScript.
+¿ por que css tiene más importancia que js ?
+
+por el tema del DOM 'document object model', resulata que como funcióna el DOM guarda los estilos css y js depende de estos estilos, no alreves.
+por ejemplo un js puede requerir la informacion de cuantos elementos a tiene el documento o sus dimenciónes, en este caso tendriamos problemas por que no podriamos ejecutar el js por que no disponemos de la información, por que no se a cargado.
+por ende siempre es más importante el css que el js.
+
 -->
 <!--  -->
 <!--  -->
