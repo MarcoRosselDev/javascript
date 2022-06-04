@@ -49,4 +49,14 @@ lista.push(1);
 console.log(lista);
 me imprime [1]
 
+...................................
+si quiero acceder a un determinado dato de un arreglo, aplico [] y dentro aplico el numero donde se ubica dicho dato comenzando a contar desde el 0.
+
+const lista = [];
+lista.push(24);
+
+console.log(lista[0]);
+//me imprimira 24 en consola.
+
+
 */
