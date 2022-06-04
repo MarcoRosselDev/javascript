@@ -25,3 +25,21 @@ y con var pordemos acceder a esta variable desde cualquier sitio. lo que lo conv
 por que es pelibroso var ?
 por que cuando el codigo escala "se convierte en un archivo extenso", podemos por error asignarle el mismo nombre a otra variable, y encontrar el error es dificil por que en consola no nos dice que hay algun error, osea que sigue todo normal pero en realidad no son los resultados esperados.
 */
+//-------------------------------------
+/*mutabilidad.
+
+resulra que los arrays "cadenas de texto", no se pueden mutar, osea que puedo editarlo pero dentro de otra variable con otro nombre, pero el original se queda ahi:
+
+cons name = 'marquito';
+neme = 'lusho';
+
+console.log(name);
+//me imprime marquito.
+
+...................................
+pero los objetos, arreglos y funciones son mutables.
+que quiere decir esto ?
+
+que si declaro un objeto bacio y luego lo modifico este si lo guarda.
+
+*/
