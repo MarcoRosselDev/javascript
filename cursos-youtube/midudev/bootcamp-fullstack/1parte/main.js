@@ -58,5 +58,23 @@ lista.push(24);
 console.log(lista[0]);
 //me imprimira 24 en consola.
 
+...................................
+
+se puede iterar una lista con .forEach()... a la que tenemos que pasarle una función para que ejecute las iteraciones
+se puede transformar una lista con .map()
+
+...................................
+
+otro tipo de estructura de datos super importante son los objetos
+en lugar de usar los [] 'corchetes', utilizamos las llaves '{}' 
+los que te permite tener una estructura de datos con una palabra clave y su valor 'key and value'.
+la sintaxis seria asi:
+
+const persona = {
+    name: 'marco',
+    age: 29,
+    lastName: 'rossel'
+}
+
 
 */
