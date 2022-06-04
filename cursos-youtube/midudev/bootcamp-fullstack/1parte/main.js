@@ -87,4 +87,27 @@ console.log(persona.name);
 
 console.log(persona.links[0]);
 
+...................................
+
+para acceder a un valor de forma dinamica por ejemplo
+tenemos una key asignada por una const lo ariamos de la siguiente forma;
+
+const apellido = 'lastName'
+
+console.log(persona[apellido]);
+
 */
+
+const persona = {
+    name: 'marco',
+    age: 29,
+    lastName: 'rossel',
+    links: ['ejemplo.com', 'ejemplo2.cl'],
+    humano: true
+}
+
+const apellido = 'lastName'
+
+console.log(persona[apellido]);
+
+//imprime rossel
