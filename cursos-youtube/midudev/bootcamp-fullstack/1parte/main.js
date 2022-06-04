@@ -41,5 +41,12 @@ pero los objetos, arreglos y funciones son mutables.
 que quiere decir esto ?
 
 que si declaro un objeto bacio y luego lo modifico este si lo guarda.
+por ejempli:
+
+const lista = [];
+lista.push(1);
+
+console.log(lista);
+me imprime [1]
 
 */
