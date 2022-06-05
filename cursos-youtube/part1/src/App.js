@@ -50,27 +50,50 @@ function App() {
 
 */
 
-//----------------------------------------------------------
-//class 4
+//class 4--------------------------------------------------
+//
 
 //ahora empezamos a meterle cosas para ver como trabaja react
 
-const App = () => {
-  const mensaje = 'wena cabros.';
-  const a = 6;
-  const b = 4;
+// const App = () => {
+//   const mensaje = 'wena cabros.';
+//   const a = 6;
+//   const b = 4;
 
-  return (
-    <div className="App">
-      <h1>Titulo de la App</h1>
-      <strong>Estamos testeando react</strong>
-      <div>
-        {mensaje + ", esoy probando el texto"}
-        <br/>
-        {a ** b}
-      </div>
-    </div>
-  )
-}
+//   return (
+//     <div className="App">
+//       <h1>Titulo de la App</h1>
+//       <strong>Estamos testeando react</strong>
+//       <div>
+//         {mensaje + ", esoy probando el texto"}
+//         <br/>
+//         {a ** b}
+//       </div>
+//     </div>
+//     // en el caso htmlx no se pueden dejar etiquetas abiertas como <br/>
+//   )
+// }
+// export default App;
+
+/*calss 5-------------------------------------------------
+
+ahora vamos a probar meter una funcion dentro de htmlx
+
+
+*/
+
+const App = () => {
+   const mensaje = 'wena cabros.';
+   const a = 6;
+   const b = 4;
+
+   return (
+     <div className="App">
+       {mensaje + ", esoy probando el texto"}
+       <br/>
+       {a ** b}
+     </div>
+   )
+ }
 export default App;
   
