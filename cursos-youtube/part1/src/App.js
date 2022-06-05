@@ -17,7 +17,10 @@ const App = () => {
 
   return (
     <div className="App">
-      {mensaje}
+      {mensaje + `, esoy probando el texto
+      para concatenarlo a una variable, y usando la
+       comilla francesa para no romper 
+      el codigo al hacer saltos de linea` }
 
     {/* usamos las llaves para evaluar  */}
     </div>
