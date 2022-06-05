@@ -1,0 +1,9 @@
+cuando quiera trabajar en este repositorio tengo que seguir los siguientes pasos
+
+1-acceder por terminal "cualesquiera" a la siguiente ruta:
+     C:\Users\andre\Desktop\projects\javascript\cursos-youtube> cd .\part1\
+
+2-en terminal una vez en la ruta, aplicamos el siguiente codigo:
+    npm start
+
+3-esperamos y nos abrira el host local iniciado en chrom.-- estamos listoco para trabajar. 
