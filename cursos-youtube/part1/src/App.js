@@ -82,6 +82,10 @@ ahora vamos a probar meter una funcion dentro de htmlx
 
 */
 
+const Mensaje = () => {
+  return <h1>Hola mundo</h1>
+}
+
 const App = () => {
    const mensaje = 'wena cabros.';
    const a = 6;
@@ -89,6 +93,10 @@ const App = () => {
 
    return (
      <div className="App">
+       <Mensaje />
+       <Mensaje />
+       <Mensaje />
+       {/* si funciono. aparesen titulos h1 con "hola mundo en chrom" */}
        {mensaje + ", esoy probando el texto"}
        <br/>
        {a ** b}
