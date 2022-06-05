@@ -30,14 +30,19 @@ function App() {
 
 const App = () => {
   const mensaje = 'wena cabros.';
-  const a = 5;
-  const b = 2;
+  const a = 6;
+  const b = 4;
 
   return (
     <div className="App">
       {mensaje + ", esoy probando el texto"}
+      <br/>
+      {a ** b}
     </div>
-  );
+    // los objetos no son validos como hijos de react. por lo que solo podemos trabajar con cosas que se puedan pintar como numeros, textos.
+
+    //si queremos jugar con algo como por ejemplo {new Date()} no lo reconoseria, entonces lanzaria error.
+  )
 }
 export default App;
   
