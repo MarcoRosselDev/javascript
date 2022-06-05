@@ -104,4 +104,8 @@ const App = () => {
    )
  }
 export default App;
+
+//creo que podemos introducir unas funciones dentro de otras para imprimir html en el navegador
+
+//lo importante es buscar ahorar datos y no recargar la paguina despues de cada interación en el navegador
   
