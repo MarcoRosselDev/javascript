@@ -88,7 +88,15 @@ párrafo de bloque.
     estas son muy comunes, cuando escribimos guias o manuales.
 
 */
-/*  */
+/*class 3 | punctuation
+puntuación:
+
+It is crucial to understand the correct use of punctuation if you want to write more clearly. Also, to create sense and stress in sentences and to organize your writing. At least one of the punctuation marks has to appear in every sentence.
+It is easier to understand the importance of punctuation when reading a paragraph without any punctuation marks.
+
+
+
+*/
 /*  */
 /*  */
 /*  */
