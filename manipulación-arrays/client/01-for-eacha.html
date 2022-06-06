@@ -31,7 +31,8 @@
         const app = document.getElementById('app');
 
         productos.forEach(prod => {
-            app.innerHTML += `<li>${productos.name} </li>`
+            app.innerHTML += `<li>${prod.title} -
+                ${prod.price} - ${prod.oferta}</li>`
         })
 
     </script>
