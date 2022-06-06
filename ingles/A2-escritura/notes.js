@@ -135,11 +135,21 @@ Who is your audience?
     punctuation errors.
 5   Publishing: Share the writing with your 
     audience.
-    
+
 I think (for me) the most difficult step of writing is prewriting because I´m not very creative
 
 */
-/*  */
+/*class 6 | parts of speech
+    partes de la oración
+
+The parts of speech are the categories of the words in traditional English grammar. We can divide them into eight main groups (or nine, if you count determiners): nouns, pronouns, verbs, adjectives, adverbs, prepositions, conjunctions, and interjections.
+The following chart contains the parts of speech, their functions, and some examples of words and sentences.
+
+--------------------------------------------
+Las partes del discurso son las categorías de las palabras en la gramática inglesa tradicional. Podemos dividirlos en ocho grupos principales (o nueve, si cuentas los determinantes): sustantivos, pronombres, verbos, adjetivos, adverbios, preposiciones, conjunciones e interjecciones.
+
+
+*/
 /*  */
 /*  */
 /*  */
