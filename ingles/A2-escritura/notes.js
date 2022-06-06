@@ -225,7 +225,15 @@ PREPOSITION	 | PREPOSICIÓN:
 CONJUNCTION | CONJUNCIÓN:
     Connects words, clauses, phrases, and ideas in a sentence.	
     "Conecta palabras, cláusulas, frases e ideas en una oración."
-    
+    ..........................................
+    ejemplos:
+    for / and / but / or / yet / with / is / as…as / because / while	
+    "para / y / pero / o / todavía / con / es / como…como / porque / mientras"
+    ..........................................
+    ejemplo:
+    I drink coffee and tea. He likes blue, but he doesn’t like green.
+    "Bebo café y té. Le gusta el azul, pero no le gusta el verde."
+
 
 
 
