@@ -90,11 +90,19 @@ párrafo de bloque.
 */
 /*class 3 | punctuation
 puntuación:
-
+---------------------------------------------
+1-origin
 It is crucial to understand the correct use of punctuation if you want to write more clearly. Also, to create sense and stress in sentences and to organize your writing. At least one of the punctuation marks has to appear in every sentence.
 It is easier to understand the importance of punctuation when reading a paragraph without any punctuation marks.
 
+---------------------------------------------
+1-spanish
+Es crucial comprender el uso correcto de la puntuación si desea escribir con mayor claridad. Además, para crear sentido y énfasis en las oraciones y para organizar su escritura. Al menos uno de los signos de puntuación debe aparecer en cada oración.
+Es más fácil entender la importancia de la puntuación cuando se lee un párrafo sin signos de puntuación.
 
+---------------------------------------------
+2-origin
+Every morning I wake up at 8 am the first thing I do is brush my teeth and right after that I take a shower next I dress up and I put on some makeup then I go to the kitchen and I prepare my breakfast breakfast is my favorite meal because I love pancakes waffles scrambled eggs toast with jam coffee and orange juice after I eat I brush my teeth again and I leave for work I always read a book on the bus right now I am reading The Great Gatsby and it is better than the movie usually I work until 6 pm and I go home after that
 
 */
 /*  */
