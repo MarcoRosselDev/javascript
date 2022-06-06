@@ -63,6 +63,12 @@ similar a los acrónimos tenemos son los inicialismos.
 la diferencia es que no podemos usar un  inicializador como palabra, por ejemplo
 DVD, USA, DIY.
 En este caso deves decirlo letra por letra.
+....................................
+diferenciar entre ingles britanico y estadounidense
+
+las abreviaturas como Mr o Dr se puntuan en usa y no en ingles.
+¿ por qué ?
+da lo mismo  
 
 
 */
