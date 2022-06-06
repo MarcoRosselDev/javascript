@@ -172,7 +172,18 @@ PRONOUN | PRONOMBRE:
     ejemplo:
     -Daniel lives in New York. He likes to listen to music.
     -"Daniel vive en Nueva York. A él le gusta escuchar música."
-
+--------------------------------------------
+VERB | VERBO:
+    -Action or state of being. It tells what happens in the sentence.	
+    -Acción o estado de ser. Dice lo que sucede en la oración.
+    ......................................
+    ejemplo:
+    be / go / eat / work / play / like / study / write / read / speak / watch / listen / live	
+    "ser / ir / comer / trabajar / jugar / gustar / estudiar / escribir / leer / hablar / mirar / escuchar / vivir"
+    ......................................
+    ejemplo:
+    Daniel lives in New York. He likes to listen to music.
+    "Daniel vive en Nueva York. A él le gusta escuchar música."
 
 */
 /*  */
