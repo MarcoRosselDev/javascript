@@ -21,6 +21,19 @@
             price: 1500,
             oferta: null}
         ];
+
+        /* 
+        
+        primero selecciónamos el div que tiene la id app en donde imprimiremos la iteración del objeto,
+        esto lo hacemos con un document.getElementById 
+        */
+
+        const app = document.getElementById('app');
+
+        productos.forEach(prod => {
+            app.innerHTML += `<li>${productos.name} </li>`
+        })
+
     </script>
 </body>
 </html>
