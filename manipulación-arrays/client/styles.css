@@ -1,4 +1,28 @@
 body {
     display: block;
-    background-color: rgb(70, 34, 34);
+    background-color: rgb(255, 255, 255);
+}
+#div1 {   
+    margin: 10px;
+    border: 1px solid gray; 
+    height: 100px;
+    background-color: beige;
+    border-radius: 10px;
+    box-shadow: 10px 10px grey;
+}
+#div2 {    
+    margin: 10px;
+    border: 1px solid gray; 
+    height: 100px;
+    background-color: beige;
+    border-radius: 10px;
+    box-shadow: 10px 10px grey;
+}
+#div3 {    
+    margin: 10px;
+    border: 1px solid gray; 
+    height: 100px;
+    background-color: beige;
+    border-radius: 10px;
+    box-shadow: 10px 10px grey;
 }
