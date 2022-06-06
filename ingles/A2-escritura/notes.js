@@ -198,7 +198,17 @@ ADJECTIVE | ADJETIVO:
     I have a nice car. Mark is intelligent.
     "tengo un lindo auto. Marcos es inteligente."
 --------------------------------------------
-
+ADVERB | ADVERBIO:
+    Describes verbs, adjectives, or other adverbs.	
+    "Describe verbos, adjetivos u otros adverbios."
+    .........................................
+    ejemplo:
+    happily / quickly / well / often / really / very / always / too	
+    "felizmente / rápidamente / bien / a menudo / realmente / mucho / siempre / demasiado"
+    ..........................................
+    ejemplo:
+    They always watch tv. You sing very well!
+    "Ellos siempre ven la televisión. ¡Tu cantas muy bien!"
 
 
 */
