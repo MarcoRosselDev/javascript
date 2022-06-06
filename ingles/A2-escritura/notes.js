@@ -159,8 +159,19 @@ NOUN | SUSTANTIVO:
     ejemplo:
     -Daniel lives in New York. He likes to listen to music.
     -"Daniel vive en Nueva York. A él le gusta escuchar música."
-	
-    
+--------------------------------------------
+PRONOUN | PRONOMBRE:
+    -Replaces nouns and other pronouns.	
+	-Reemplaza sustantivos y otros pronombres.
+    ........................................
+    ejemplo:
+    -I / she / they / him / them / who / some / this
+    _"Yo / ella / ellas / él / ellas / quien / algunas / esto(femenino)"
+    _"Yo / ella / ellos / él / ellos / quien / algunos / esto(masculino)"	
+    ........................................
+    ejemplo:
+    -Daniel lives in New York. He likes to listen to music.
+    -"Daniel vive en Nueva York. A él le gusta escuchar música."
 
 
 */
