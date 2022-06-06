@@ -184,6 +184,22 @@ VERB | VERBO:
     ejemplo:
     Daniel lives in New York. He likes to listen to music.
     "Daniel vive en Nueva York. A él le gusta escuchar música."
+--------------------------------------------
+ADJECTIVE | ADJETIVO:
+    Describes, modifies, or gives information about nouns and pronouns.	
+    "Describe, modifica o da información sobre sustantivos y pronombres."
+    .........................................
+    ejemplo:
+    hot / nice / big / wrong / intelligent / beautiful / smart / interesting
+
+    "Caliente / agradable / grande / equivocado / inteligente / hermosa / inteligente / interesante"
+    .........................................
+    ejemplo:
+    I have a nice car. Mark is intelligent.
+    "tengo un lindo auto. Marcos es inteligente."
+--------------------------------------------
+
+
 
 */
 /*  */
