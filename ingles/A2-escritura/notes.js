@@ -209,7 +209,18 @@ ADVERB | ADVERBIO:
     ejemplo:
     They always watch tv. You sing very well!
     "Ellos siempre ven la televisión. ¡Tu cantas muy bien!"
-
+--------------------------------------------
+PREPOSITION	 | PREPOSICIÓN:
+    Links a noun or pronoun to other words in the sentence.	
+    "Vincula un sustantivo o pronombre a otras palabras en la oración."
+    .........................................
+    ejemplo:
+    to / for / but / in / on / at / up / over / from / under / of / with / about / near	
+    "a / para / pero / en / sobre / en / arriba / sobre / desde / debajo / de / con / sobre / cerca"
+    ..........................................
+    ejemplo:
+    The pen is under the table. I go there on Friday.
+    "El bolígrafo está debajo de la mesa. Voy allí el viernes."
 
 */
 /*  */
