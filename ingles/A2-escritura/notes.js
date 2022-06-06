@@ -233,9 +233,18 @@ CONJUNCTION | CONJUNCIÓN:
     ejemplo:
     I drink coffee and tea. He likes blue, but he doesn’t like green.
     "Bebo café y té. Le gusta el azul, pero no le gusta el verde."
-
-
-
+--------------------------------------------
+INTERJECTION | INTERJECCIÓN:
+    Expresses strong emotions or reactions.	
+    "Expresa emociones o reacciones fuertes."
+    ..........................................
+    ejemplos:
+    oh / wow / ouch / aha / gosh / well / phew / whoops / hooray	
+    "oh / wow / ay / aha / gosh / bien / uf / whoops / hurra"
+    ..........................................
+    ejemplo:
+    Wow! That’s beautiful. Ouch! It hurts.
+    "¡Guau! Eso es hermoso. ¡Ay! Duele."
 
 
 */
