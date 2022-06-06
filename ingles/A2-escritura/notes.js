@@ -148,6 +148,20 @@ The following chart contains the parts of speech, their functions, and some exam
 --------------------------------------------
 Las partes del discurso son las categorías de las palabras en la gramática inglesa tradicional. Podemos dividirlos en ocho grupos principales (o nueve, si cuentas los determinantes): sustantivos, pronombres, verbos, adjetivos, adverbios, preposiciones, conjunciones e interjecciones.
 
+--------------------------------------------
+NOUN | SUSTANTIVO:
+    -Names, places, things, or ideas.
+    -Nombres, lugares, cosas o ideas.
+    ....................................
+    ejemplos:
+    Daniel / New York / dog / notebook / music
+    ....................................
+    ejemplo:
+    -Daniel lives in New York. He likes to listen to music.
+    -"Daniel vive en Nueva York. A él le gusta escuchar música."
+	
+    
+
 
 */
 /*  */
