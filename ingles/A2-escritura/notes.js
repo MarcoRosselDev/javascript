@@ -221,6 +221,14 @@ PREPOSITION	 | PREPOSICIÓN:
     ejemplo:
     The pen is under the table. I go there on Friday.
     "El bolígrafo está debajo de la mesa. Voy allí el viernes."
+--------------------------------------------
+CONJUNCTION | CONJUNCIÓN:
+    Connects words, clauses, phrases, and ideas in a sentence.	
+    "Conecta palabras, cláusulas, frases e ideas en una oración."
+    
+
+
+
 
 */
 /*  */
