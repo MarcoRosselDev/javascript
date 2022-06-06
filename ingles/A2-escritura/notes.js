@@ -248,7 +248,28 @@ INTERJECTION | INTERJECCIÓN:
 
 
 */
-/*  */
+/*class 6_2 | determineres | determinantes
+
+There is a discussion about determiners being a part of speech since they have similar functions to adjectives, articles, and pronouns. There are four types of determiners in English: articles, demonstratives, quantifiers, and possessives.
+
+"Existe una discusión sobre los determinantes como parte del discurso, ya que tienen funciones similares a los adjetivos, artículos y pronombres. Hay cuatro tipos de determinantes en inglés: artículos, demostrativos, cuantificadores y posesivos."
+
+-------------------------------------------
+DETERMINER | DETERMINANTE:
+    Specifies and identifies nouns and pronouns.
+    "Especifica e identifica sustantivos pronombres."
+    ........................................
+    ejemplos:
+    that / those / some / few / such / the / a / an
+    "que / esos / algunos / pocos / tal / el / un / un"
+    ........................................
+    ejemplo:
+    The dog is barking.
+    "El perro está ladrando."
+
+
+
+*/
 /*  */
 /*  */
 /*  */
