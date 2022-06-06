@@ -108,6 +108,10 @@ Every morning I wake up at 8 am the first thing I do is brush my teeth and right
 2-spanish
 detalla su rutina en la mañana, su desayuno y luego se va.
 pero esta todo sin comas ni puntos por lo que se ejemplifica lo que se dice de la importancia de lapuntuación.
+---------------------------------------------
+Now read the same paragraph with the correct use of punctuation and notice the difference:
+---------------------------------------------
+Every morning I wake up at 8 am. The first thing I do is brush my teeth, and right after that, I take a shower. Next, I dress up, and I put on some makeup. Then, I go to the kitchen, and I prepare my breakfast. Breakfast is my favorite meal because I love pancakes, waffles, scrambled eggs, toast with jam, coffee, and orange juice. After I eat, I brush my teeth again, and I leave for work. I always read a book on the bus. Right now, I am reading “The Great Gatsby” (and it is better than the movie!). Usually, I work until 6 pm, and I go home after that.
 
 
 
