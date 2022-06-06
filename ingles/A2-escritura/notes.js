@@ -70,6 +70,22 @@ las abreviaturas como Mr o Dr se puntuan en usa y no en ingles.
 ¿ por qué ?
 da lo mismo  
 
+----------------------------------------------
+----------------------------------------------
+indentation:
+    tenemos dos formas de dejar sangria.
+
+sangría de primera línea.
+    es donde dejas un espacio entre el texto y el vorde en la primera línea.
+
+    este tipo de sangria se usa en biografías, narrativas y publicaciones académicas.
+
+párrafo de bloque.
+    se escribe en bloques, y en vez de dejar ese espacio en la primera línea, dejaremos un espacio en blanco entre parrafos.
+
+    esto le da al lector que cada información esta dentro de cada bloque.
+
+    estas son muy comunes, cuando escribimos guias o manuales.
 
 */
 /*  */
