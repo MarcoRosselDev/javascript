@@ -104,6 +104,13 @@ Es más fácil entender la importancia de la puntuación cuando se lee un párra
 2-origin
 Every morning I wake up at 8 am the first thing I do is brush my teeth and right after that I take a shower next I dress up and I put on some makeup then I go to the kitchen and I prepare my breakfast breakfast is my favorite meal because I love pancakes waffles scrambled eggs toast with jam coffee and orange juice after I eat I brush my teeth again and I leave for work I always read a book on the bus right now I am reading The Great Gatsby and it is better than the movie usually I work until 6 pm and I go home after that
 
+---------------------------------------------
+2-spanish
+detalla su rutina en la mañana, su desayuno y luego se va.
+pero esta todo sin comas ni puntos por lo que se ejemplifica lo que se dice de la importancia de lapuntuación.
+
+
+
 */
 /*  */
 /*  */
