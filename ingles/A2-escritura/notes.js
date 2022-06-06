@@ -45,7 +45,24 @@ ejemplo3-4-5 [
     Today id Sunday, February 14th. It's Valentine's Day!
 ]
 
+----------------------------------------------
+----------------------------------------------
+abbreviation:
+    son formas abreviadas de una palabra.
+    veremos dos tipos diferentes de estas
 
+ACRONYM | ACRÓNIMOS
+
+podemos formar acrónimos utilizando la peimera letra de diferentes palabras.
+ejemplos;
+
+PIN = Personal Identification Number.
+
+....................................
+similar a los acrónimos tenemos son los inicialismos.
+la diferencia es que no podemos usar un  inicializador como palabra, por ejemplo
+DVD, USA, DIY.
+En este caso deves decirlo letra por letra.
 
 
 */
