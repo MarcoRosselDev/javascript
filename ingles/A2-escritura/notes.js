@@ -375,7 +375,14 @@ se usan para mostrar el orden de los eventos
 *********************************
 no nesecito memorizar pero si comprender cuando usar cada una, algo como una idea vaga de que son y para que sirven.
 */
-/*  */
+/*class 10 
+
+no usar una suma de cosas solo con coma, por ejemplo 
+me gusta comer pizza, escuchar musica, jugar a la pelota.
+
+separar estas con verbos, comas, puntso, y punto/coma";"
+
+*/
 /*  */
 /*  */
 /*  */
