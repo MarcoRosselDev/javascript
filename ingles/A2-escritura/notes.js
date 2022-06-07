@@ -270,7 +270,16 @@ DETERMINER | DETERMINANTE:
 
 
 */
-/*  */
+/*class 7 types of sentences
+"tipos de sentencias"
+
+definición de sentencia segun diccionario de cambridge:
+
+a group of words, usually containing a verb, that expresses a thought in the form of a statement, question, instruction, or exclamation and starts with a capital letter when written.
+
+"un grupo de palabras, que generalmente contiene un verbo, que expresa un pensamiento en forma de declaración, pregunta, instrucción o exclamación y comienza con una letra mayúscula cuando se escribe"
+
+*/
 /*  */
 /*  */
 /*  */
