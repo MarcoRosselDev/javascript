@@ -325,6 +325,14 @@ a group of words, usually containing a verb, that expresses a thought in the for
 
 
 */
-/*  */
+/*class 8 Combining Sentences
+
+en resumen lo que entendi:
+
+podemos dividir las ideas usando |.|,|;|but|
+seguramente nos pondran una frase sin una de estas, ojo con el but que reemplaza el punto y la coma por que une las ideas sin estas. 
+
+
+*/
 /*  */
 /*  */
