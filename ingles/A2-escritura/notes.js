@@ -278,6 +278,43 @@ definición de sentencia segun diccionario de cambridge:
 a group of words, usually containing a verb, that expresses a thought in the form of a statement, question, instruction, or exclamation and starts with a capital letter when written.
 
 "un grupo de palabras, que generalmente contiene un verbo, que expresa un pensamiento en forma de declaración, pregunta, instrucción o exclamación y comienza con una letra mayúscula cuando se escribe"
+-----------------------------------------------------
+4-tipos de sentencias
+-----------------------------------------------------
+    go:
+    sentencia de una sola palabra 
+    I am:
+    es la oración completa más corta en ingles.
+    esta completa por que contiene un sujeto "I" y el verbo "am ".
+
+-----------------------------------------------------
+1-declarative(statement):
+
+    este tipo de oración nos brinda alguna información.
+    por ejemplo:
+
+    "I like chocolate."
+    "I don't like chocolate."
+
+-----------------------------------------------------
+2-imperative(command):
+
+    este tipo de oración es una orden o instrucción.
+    por ejemplo:
+
+    "Eat."
+    "Don't eat!"
+
+-----------------------------------------------------
+3-interrogative(question):
+
+    este tipo de oración son las preguntas
+    por ejemplo:
+
+    "Don't you like chocolate?"
+    "Where's your house?"
+
+-----------------------------------------------------
 
 */
 /*  */
