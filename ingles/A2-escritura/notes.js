@@ -334,5 +334,30 @@ seguramente nos pondran una frase sin una de estas, ojo con el but que reemplaza
 
 
 */
+/*class 9 
+
+lo que entendi, 
+tenemos diferentes tipos de conectores y dependiendo de estos usamos x palabra para unirlos
+---------------------------------------------------
+addition: 
+para sumar información nueva. 
+|and|
+---------------------------------------------------
+cause and effect: 
+para mostrar la razón y la consecuencia de una accion. 
+|because|
+---------------------------------------------------
+comparison:
+se usan para comparar ideas.
+|in the same way|
+---------------------------------------------------
+---------------------------------------------------
+---------------------------------------------------
+---------------------------------------------------
+
+*/
+/*  */
+/*  */
+/*  */
 /*  */
 /*  */
