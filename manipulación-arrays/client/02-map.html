@@ -20,10 +20,11 @@
 
         const app = document.getElementById('app');
 
-        productos.forEach(prod => {
-            app.innerHTML += `<li>${prod.title} -
+        const lis = productos.map(prod => {
+            return `<li>${prod.title} -
                 ${prod.price} - ${prod.oferta}</li>`
         })
+        app.innerHTML = lis.join('');
 
     </script>
 </body>

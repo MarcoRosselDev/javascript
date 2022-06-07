@@ -31,3 +31,13 @@ console.log(letras);
 
 //es exactamente lo mismo que denante pero simplificado.
 //no se modifico el array original y el nuevo tiene otro nombre asignado para ser usado en lo que sea.
+//--------------------------------------------------
+const array = [2, 4, 5, 6];
+
+function solution(array) {
+    // Tu código aquí 👈 
+   const newArray = array.map(elemento => elemento * 2);
+   return newArray
+}; 
+
+console.log(solution(array));
