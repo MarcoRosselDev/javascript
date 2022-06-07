@@ -315,6 +315,14 @@ a group of words, usually containing a verb, that expresses a thought in the for
     "Where's your house?"
 
 -----------------------------------------------------
+4-exclamative(exclamation):
+
+    normalmente expresan una sorpresa o una emoción.
+    por ejemplo:
+
+    "What a surprise!"
+    "How nice!"
+
 
 */
 /*  */
