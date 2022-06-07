@@ -2,7 +2,7 @@
 
 const letras = ['a', 'b', 'c'];
 
-const newArray = [];
+// const newArray = [];
 
 /*
 for (let i = 0; i < letras.length; i++) {
@@ -19,3 +19,15 @@ console.log(newArray);
 
 */
 
+const newArray = letras.map(elemento => elemento + '++');
+
+console.log(newArray);
+console.log(letras);
+
+//trdultado en consola:
+
+// [ 'a++', 'b++', 'c++' ]
+// [ 'a', 'b', 'c' ]
+
+//es exactamente lo mismo que denante pero simplificado.
+//no se modifico el array original y el nuevo tiene otro nombre asignado para ser usado en lo que sea.
