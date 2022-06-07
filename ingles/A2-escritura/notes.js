@@ -351,10 +351,29 @@ comparison:
 se usan para comparar ideas.
 |in the same way|
 ---------------------------------------------------
+conclusion:
+para concluir ideas
+|in conclusion|
 ---------------------------------------------------
+contrast:
+contrastan dos diferentes ideas.
+|however|
 ---------------------------------------------------
+emphasis:
+para enfatizar las ideas
+|actually|
 ---------------------------------------------------
+Illustration:
+para ejemplificar algo
+|for example|
+---------------------------------------------------
+Time and sequence:
+se usan para mostrar el orden de los eventos
+|first|next|
 
+
+*********************************
+no nesecito memorizar pero si comprender cuando usar cada una, algo como una idea vaga de que son y para que sirven.
 */
 /*  */
 /*  */
