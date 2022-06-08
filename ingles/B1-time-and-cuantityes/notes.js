@@ -289,7 +289,23 @@ Every vs No
 /*6 Some or any?
 
 son dos palabras similares y se usan en contextos similares
+------------------------------------
+some = positive forms
+        countable
+        uncountable
+        questions
 
+------------------------------------
+Which is which ?
+
+Question form / countable / uncountable
+
+1   Can I have some fruit ? __________Questions
+2   I have some apples-     __________Countable
+3   There's some bread left __________Uncountable
+
+
+any = negative
 
 
 */
