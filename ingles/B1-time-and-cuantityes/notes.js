@@ -64,6 +64,18 @@ Read the sentences carefully and select the word that works best in the context 
     d.yet **
     e.still **
 
+10  Are you_____looking for a job?
+    a.yet ****
+    b.been ++
+    c.have ---
+    d.still +++     era still "repasar clases de preguntas"
+
+11  When do we use "will"?
+    a.all future plans ---
+    b.spontaneous future plans --   resulta que era b. "repasar clases de will"
+    c.confirmed future plans ***
+    d.when talking about desires. ***
+
 
 
 */
