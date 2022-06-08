@@ -29,3 +29,13 @@ console.log(orders);
 console.log(repuesta);
 
 //cuando use las {} me salia undefined en respuesta. ????
+
+//--------------------------------------------------------
+/*que pasa si ahora quiero agregarle una nueva propiedad a mi objeto
+pero no quiero alterar el array original
+
+solo agregar un nuevo atributo a cada uno de los objetos
+
+la respuesta a los braquet {} que no me funcionaban era por que es para cuando nesecitamos más espacio, en ese caso usaremos un retorn con lo que queremos de vuelta.
+en caso de que este todo en una linea no esamos braquets y tmpoco usamos return.
+*/
