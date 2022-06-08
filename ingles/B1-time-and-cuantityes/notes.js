@@ -43,6 +43,28 @@ Read the sentences carefully and select the word that works best in the context 
     d.nowhere   **
     e.everything ** 
 
+7   I'm sorry, we don't have______sodas.
+    a.some
+    b.none
+    c.no
+    d.any---
+    e.a littel **
+
+8   Which word means 0% of the time?
+    a.none
+    b.never---
+    c.rarely
+    d.seldomly
+    e.occasionally
+
+9   I have been living here_______three years.
+    a.since-
+    b.during*
+    c.for ---
+    d.yet **
+    e.still **
+
+
 
 */
 /* */
