@@ -97,7 +97,25 @@ Read the sentences carefully and select the word that works best in the context 
     d.danger
     e.more dangerous ---
 
+15  What makes a compound noun with "any"?
+    a.thing
+    b.body
+    c.one
+    d.more
+    e.All are correct ---
 
+16  __________is good for your health
+    a.exercising        resulta que era a. 
+    b.to exercise ---
+    c.having exercise ++
+    d.making exercise
+
+17  I________ride a horse
+    a.know how to ---
+    b.knows how to ++
+    c.know to+
+    d.know how +++
+    e.knows to***
 
 
 */
