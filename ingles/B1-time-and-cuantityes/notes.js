@@ -76,6 +76,28 @@ Read the sentences carefully and select the word that works best in the context 
     c.confirmed future plans ***
     d.when talking about desires. ***
 
+12  What is the comparative of "bad"?
+    a.badder
+    b.more bad
+    c.baddest
+    d.worse ---
+    e.worst
+
+13  What is the superlative of "happy"?
+    a.the happiest      resulta que era a "repasar superlativos"
+    b.happier---
+    c.happyer
+    d.the happier
+    e.the happiest than
+
+14  Kayaking is________than painting
+    a.dangerouser
+    b.the most dangerous
+    c.most dangerous ++
+    d.danger
+    e.more dangerous ---
+
+
 
 
 */
