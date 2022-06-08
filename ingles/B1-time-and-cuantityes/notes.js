@@ -322,6 +322,19 @@ Question form / countable / uncountable
 1   Do  you have any fruit?________Question form
 2   I don't have any apples________Countable
 3   There isn't any bread left_____Uncountable
+    "no queda pan de molde"
+
+------------------------------------
+importante que las preguntas usan any cuando hablamos de cosas que no podemos ver o sabemos que no sabemos si estan ahi.
+------------------------------------
+COMPOUND WORDS WITH 'SOME'
+
+someone
+something
+somewhere
+somehow
+sometimes
+somebody
 
 
 
