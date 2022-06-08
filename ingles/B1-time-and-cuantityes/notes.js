@@ -153,6 +153,36 @@ contables       | incontables
 -               |-celulas
 
 -------------------------------------------
+TRICKY NOUNS:
+
+¿separar la lista en contables e incontables?
+
+Money
+Coins
+Bread
+Loabes of bread
+Water
+Glasses of water
+Hair
+Information
+
+-------------------------------------------
+solution:
+
+countable:
+    Coins   "Monedas"
+    Loades of bread "pedasos de pan de molde"
+    Glasses of water
+
+unconuntable:
+    Money   "Domero"
+    Bread   "pan molde"
+    Water
+    Hair    "pelo. pero si hablamos de un pelo es contable"
+    Information
+
+
+-------------------------------------------
 ACTIVITY:
     podemos usar is|are|many|much
 
