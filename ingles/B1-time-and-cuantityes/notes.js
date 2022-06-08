@@ -263,5 +263,27 @@ All of
 
 
 */
-/* */
+/*5 All or nothing
+
+Every-
+
+Everything
+Everyone
+Everywhere
+Everyday
+
+No-
+
+No one
+Nowhere
+Nothing
+None
+Nobody
+
+Every vs No
+
+"Everyone needs a home".
+"No one like to suffer".
+
+*/
 /* */
