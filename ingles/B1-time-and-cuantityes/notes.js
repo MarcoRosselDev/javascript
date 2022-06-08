@@ -286,4 +286,10 @@ Every vs No
 "No one like to suffer".
 
 */
-/* */
+/*6 Some or any?
+
+son dos palabras similares y se usan en contextos similares
+
+
+
+*/
