@@ -23,7 +23,7 @@ const orders = [
 
 //   lo que quiero es sacar x datos en este caso los totales para agregarlos a un nuevo array, que ahora sera solo de numeros.
 
-const repuesta = orders.map(item => item.total)
+// const repuesta = orders.map(item => item.total)
 
 // console.log(orders);
 // console.log(repuesta);
@@ -40,13 +40,13 @@ la respuesta a los braquet {} que no me funcionaban era por que es para cuando n
 en caso de que este todo en una linea no esamos braquets y tmpoco usamos return.
 */
 
-const respuesta2 = orders.map((item) => {
-  item.max = 0.19;
-  return item;
-});
+// const respuesta2 = orders.map((item) => {
+//   item.max = 0.19;
+//   return item;
+// });
 
-console.log(respuesta2);
-console.log(orders);
+// console.log(respuesta2);
+// console.log(orders);
 
 /*resulta que modificamos el objeto original "orders"
 por que?
@@ -57,4 +57,28 @@ por que?
 2 el problema es que si copiamos algo y le asignamos un nuevo valor 
   de variable todo bien, pero si a este por dentro usamos un valor reservado en memoria, cometeremos el error de alterar este.
 
+  como lo areglamos ?
+  
+  al retornar creamos un nuevo objeto para asignarlo en memoria asi
+
+  return {
+      ...item,
+      tax: 0.19
+  };
+
 */
+
+// ajercicio correguido
+
+const respuesta3 = orders.map((item) => {
+  return {
+    ...item,
+    tax: 0.19
+  };
+});
+
+console.log(orders);
+console.log(respuesta3);
+console.log(orders);
+
+//todo bien no se altero el original y guenoero el atributo tax en cada uno de los objetos dentro del objeto.
