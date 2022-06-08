@@ -336,6 +336,16 @@ somehow
 sometimes
 somebody
 
+------------------------------------
+COMPOUND WORDS WITH 'ANY'
+
+anyone
+anywhere
+anything
+anyhow
+anymore
+anybody
+
 
 
 */
