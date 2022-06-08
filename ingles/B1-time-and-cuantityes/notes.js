@@ -141,8 +141,16 @@ Read the sentences carefully and select the word that works best in the context 
 */
 /*2 many or much?
 
+many =          |much =
+------------------------------------
 contables       | incontables
-
+------------------------------------
+-manzanas       |-sentimientos
+-cosas como     |-desmasiado pequeño o grande
+    manzanas    |-cosas abstractas
+    libros      |-información
+-               |-agua
+-               |-celulas
 
 -------------------------------------------
 ACTIVITY:
