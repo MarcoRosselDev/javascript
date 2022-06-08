@@ -232,6 +232,18 @@ pregunta:
 What is the difference between "most of" and "some of" ?
 
 */
-/* */
+/*4 proportions and groups
+
+Vocabulary
+
+None of     ninguno de ellos
+All of      todos ellos
+Most of     la mayoria de ellos
+Some of     alguno de ellos
+A few of    pocos de ellos
+Half of     la mitad de ellos
+
+
+*/
 /* */
 /* */
