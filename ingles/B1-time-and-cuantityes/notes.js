@@ -187,11 +187,17 @@ ACTIVITY:
     podemos usar is|are|many|much
 
 
-1   Love_______in the air!
-2   These apples_______cheaper than usual.
-3   UBB has________courses.
-4   There isn't________information on the subject.
+1   Love__is___in the air!
+2   These apples__are___cheaper than usual.
+3   UBB has___many___courses.
+4   There isn't__much__information on the subject.
 
+--------------------------------------------
+is the word "knowledge" countable or uncountable ?
+
+uncountable bicouse is a abstract consept like a wind --"mal escrito"
+
+uncountable because it is an abstract concept like a wind
 
 */
 /* */
