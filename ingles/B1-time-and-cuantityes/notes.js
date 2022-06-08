@@ -363,3 +363,23 @@ queriendo decir que cualquier lugar esta bien.
 
 
 */
+/*7 Workshop #1
+
+Activity
+----------------------------------------
+Some / Any / Every
+
+1   Anne lost her keys, she looked for them ____ where!
+    Every
+
+2   Anne is frustrated because she can't find her keys _____ where. Any
+
+3   She doesn't give up, she knows that they must be _____ where!   Some
+*/
+/* */
+/* */
+/* */
+/* */
+/* */
+/* */
+/* */
