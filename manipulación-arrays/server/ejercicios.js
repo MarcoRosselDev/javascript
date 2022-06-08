@@ -41,11 +41,20 @@ Output
 
 ['Nicolas', 'Valentina']
 
+--------------------------------------------
+solución:
+
+function solution(array){
+  return array.map(item => item.name);
+}; 
+
 
 
 */
 
-solution([
+/*
+
+j = [
   {
     name: 'Nicolas',
     lastName: 'Molina',
@@ -56,16 +65,18 @@ solution([
     lastName: 'Molina',
     age: 19
   }
-]);
+];
 
 function solution(array) {
-  const j = [];
 
-  array.map(element => {
-    j.push(element.name)
-  });
-
-  return j
+	array.forEach(element => {
+    const newArray = [];
+    newArray.push(element.name);
+    console.log(newArray);
+    return newArray;
+	})
 }; 
 
-solution();
+solution(j);
+
+*/
