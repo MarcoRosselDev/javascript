@@ -117,6 +117,26 @@ Read the sentences carefully and select the word that works best in the context 
     d.know how +++
     e.knows to***
 
+18  _______you_______help?
+    a.Does/need
+    b.Do/need ---
+    c.Do/needs
+    d.Does/needs
+    e.Can/need
+
+19  Which is used to talk about a rule?
+    a.Have to---
+    b.Don't have to 
+    c.Could
+    d.Should
+
+20  Jane is talking to________
+    a.herself---
+    b.myself
+    c.oneself
+    d.himself
+    e.ourselves
+
 
 */
 /* */
