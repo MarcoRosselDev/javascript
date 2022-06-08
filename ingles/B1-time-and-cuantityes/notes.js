@@ -242,6 +242,24 @@ Most of     la mayoria de ellos
 Some of     alguno de ellos
 A few of    pocos de ellos
 Half of     la mitad de ellos
+A lot of    muchos de ellos
+
+---------------------------------------------
+usamos la palabra of por que hacemos referencia a un grupo de personas y nos asercamos a un porsentaje de ellos pero un poco menos presisos que numeros matematicos, si no más bien a conseptos de persepción "en caso de que el grupo de personas sea muy grande".
+---------------------------------------------
+ejercicio:
+
+ordenar el vocabulario de arriba en orden de porsentaje
+-menor a mallor
+
+None of
+A few of
+Some of
+Half of
+A lot of
+Most of
+All of
+
 
 
 */
