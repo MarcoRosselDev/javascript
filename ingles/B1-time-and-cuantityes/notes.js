@@ -218,6 +218,19 @@ ACTIVITY:
 1   Would you like_________bread ?
 2   _______of the strudents passed their exams.
 
+respuesta:
+
+1   Would you like___some___bread ?
+2   __all|some|most|a few|none|a lot___of the strudents passed their exams.
+
+por que en la 1 solo se puede usar some?
+por que cuando hacemos una pregunta siempre usaremos some, no importando si es incontable o contable.
+
+----------------------------------------
+pregunta:
+
+What is the difference between "most of" and "some of" ?
+
 */
 /* */
 /* */
