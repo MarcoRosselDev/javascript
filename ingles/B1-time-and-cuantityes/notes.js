@@ -303,9 +303,26 @@ Question form / countable / uncountable
 1   Can I have some fruit ? __________Questions
 2   I have some apples-     __________Countable
 3   There's some bread left __________Uncountable
+    "queda algo de pán de molde"
 
+------------------------------------
+importante que las preguntas usan some cuando hablamos de cosas que podemos ver o sabemos que estan ahi.
+------------------------------------
 
 any = negative
+    countable
+    uncountable
+    questions
+
+------------------------------------
+Which is which?
+
+Question form / countable / uncountable
+
+1   Do  you have any fruit?________Question form
+2   I don't have any apples________Countable
+3   There isn't any bread left_____Uncountable
+
 
 
 */
