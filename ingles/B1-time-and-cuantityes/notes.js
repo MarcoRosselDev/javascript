@@ -200,7 +200,25 @@ uncountable bicouse is a abstract consept like a wind --"mal escrito"
 uncountable because it is an abstract concept like a wind
 
 */
-/* */
+/*3 more quantifiers!
+
+estos son otras palabras que se pueden usar para cuantificar cosas contables o incontables.
+pero aparte tenemos las que sirven para los dos.
+
+countable                   uncountable
+
+few        [ some    ]       little
+(a few)    [ a lor of ]      (a little)
+(not)many  [ no/none  ]      (not)much
+-            [ most]
+-             [ all]
+--------------------------------------
+ACTIVITY:
+
+1   Would you like_________bread ?
+2   _______of the strudents passed their exams.
+
+*/
 /* */
 /* */
 /* */
