@@ -346,6 +346,20 @@ anyhow
 anymore
 anybody
 
+-------------------------------------
+podemos usar any en sentencias positivas
+pero cambia el sentido de lo que quiero decir
+
+por ejemplo si me preguntan para eleguir algo del menu
+puedo decir cualquier cosa con "anything is ok"
+queriendo decir que cualquier cosa esta bien.
+
+------------------------------------
+otro ejemplo del uso de any en sentencias positivas 
+es si estoy en un lugar como el cine y busco un lugar para sentarme
+puedo decir     "anywhere"
+queriendo decir que cualquier lugar esta bien.
+
 
 
 */
