@@ -139,7 +139,23 @@ Read the sentences carefully and select the word that works best in the context 
 
 
 */
-/* */
+/*2 many or much?
+
+contables       | incontables
+
+
+-------------------------------------------
+ACTIVITY:
+    podemos usar is|are|many|much
+
+
+1   Love_______in the air!
+2   These apples_______cheaper than usual.
+3   UBB has________courses.
+4   There isn't________information on the subject.
+
+
+*/
 /* */
 /* */
 /* */
