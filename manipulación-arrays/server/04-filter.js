@@ -26,3 +26,5 @@ console.log('rta :' , rta);
 console.log('original :' , words);
 
 //fimcopma de pana
+
+const words2 = ['spray1', 'limit2', 'elite3', 'exuberant4', 'things'];
