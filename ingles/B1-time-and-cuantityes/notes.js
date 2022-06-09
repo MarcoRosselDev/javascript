@@ -455,6 +455,18 @@ por ejemplo:
 I have been working here for 3 years.
 "He estado trabajando aquí por/durante tres años"
 -------------------------------------------------
+Activity:
+
+1   I have been working here ________ 7 years.
+
+2   I have been working here ________ 2005.
+
+1   for 
+2   since
+
+-------------------------------------------------
+-------------------------------------------------
+
  
 
 */
