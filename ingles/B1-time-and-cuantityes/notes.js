@@ -510,6 +510,18 @@ Yet is used in negative and questions forms.
 
 yet va siempre al final de la sentencia mientras que still suele hir despues del sujeto o del verbo.
 ------------------------------------------
+Activity
+
+Still / yet
+
+1   Sarah is _________ looking for a job.
+
+2   Sarah hasn't found any good job _______.
+
+1   still
+2   yet
+
+------------------------------------------
 
 
 */
