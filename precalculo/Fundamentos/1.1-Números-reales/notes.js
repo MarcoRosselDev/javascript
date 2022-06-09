@@ -14,8 +14,10 @@ ejercicio 15:
 probemos aplicar esta propiedad en JavaScript
 --------------------------------------------------------
 --------------------------------------------------------
-
-
-
-
 */
+
+function distributiva(num) {
+    return (5*num + 1)*3 - 3 - 15*num;        
+}
+
+console.log(distributiva())
