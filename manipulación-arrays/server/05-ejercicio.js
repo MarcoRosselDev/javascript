@@ -25,3 +25,8 @@ function solution(numbers) {
 
 	return rta;
 }; 
+
+console.log(solution([1, 2, 3, 4,10]));
+
+//solución: 20
+//quedo de pana.
