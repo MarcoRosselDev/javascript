@@ -375,6 +375,19 @@ Some / Any / Every
 2   Anne is frustrated because she can't find her keys _____ where. Any
 
 3   She doesn't give up, she knows that they must be _____ where!   Some
+----------------------------------------
+nothing / anything
+
+1   I can't see _________ here!
+    anything    
+    negativo, que no puede ver nada
+
+2   There's _________ here !
+    nothing
+    positivo, por que puedo ver que no ahi nada.
+
+
+
 */
 /* */
 /* */
