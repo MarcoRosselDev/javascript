@@ -433,8 +433,15 @@ la dificultad viene por que ambos los usamod cuando hablamos de experiencias de 
 o de cuánto tiempo hemos estado haciendo algo.
 
 la diferencia:
+-------------------------------------------------
+Since
 
+Focuses on the starting point.
+"nos enfocamos el el punot en el que empezamos algo"
+por ejemplo:
 
+I have been working here since 2011
+"Trabajo aquí desde 2011"
  
 
 */
