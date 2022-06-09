@@ -51,3 +51,14 @@ const orders = [
   ];
 
 //queremos hacer un filtro, por ejemplo queremos saber todas las ordenes de compra que fueron entregadas.
+
+const rta2 = orders.filter(item => item.delivered)
+console.log('rta2', rta2);
+
+/* respuesta:  
+rta2 [
+  { customerName: 'Nicolas', total: 60, delivered: true },
+  { customerName: 'Santiago', total: 180, delivered: true },
+  { customerName: 'Valentina', total: 240, delivered: true }
+]
+*/
