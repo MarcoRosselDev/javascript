@@ -411,7 +411,16 @@ Usually
 2   I usually see my family every weekend
 3   I usually go to the beach in the summer
 
+-------------------------------------------------
+RARELY
 
+Hardly ever     prácticamente nunca
+Barely ever     casi nunca
+Almost never    Casi nunca
+Seldomly        Rara vez
+
+son palabras poco usadas pero todas significan lo mismo,
+por lo que no nesecitamos memorizarlo pero si conoserlas por si la escuchamos por ahi.
 
 */
 /* */
