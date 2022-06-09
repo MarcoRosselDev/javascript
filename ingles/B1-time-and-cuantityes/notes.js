@@ -493,6 +493,23 @@ Still is used in positive, negative and questions forms.
 "todavía estás ahí?"
 
 ------------------------------------------
+Yet
+
+se refiere a una acción que se presume o se espera que suceda pero que no ha sucedido hasta ahora.
+o una acción que se suponía que había sucedido o se esperaba que hubiera sucedido, pero aún no ha sucedido.
+
+"Yey refers to an action which is presumed to happen, but hasn't happened until now."
+
+Yet is used in negative and questions forms.
+
+"I haven't told anyone else yet"
+"no le he dicho a nadie todavía "
+
+"Have you talked to your boss yet?"
+"ya has hablado con tu jefe"
+
+yet va siempre al final de la sentencia mientras que still suele hir despues del sujeto o del verbo.
+------------------------------------------
 
 
 */
