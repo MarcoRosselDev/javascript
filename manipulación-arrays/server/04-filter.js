@@ -9,11 +9,20 @@ for (let i = 0;i < words.length; i++) {
     }
 }
 
-console.log('newArray :' , newArray);
-console.log('original :' , words);
+// console.log('newArray :' , newArray);
+// console.log('original :' , words);
 
 /* respuesta:
 
 newArray : [ 'exuberant' ]
 original : [ 'spray', 'limit', 'elite', 'exuberant' ]
 */
+
+//****************************** */
+
+const rta = words.filter(item1 => item1.length >= 6);
+
+console.log('rta :' , rta);
+console.log('original :' , words);
+
+//fimcopma de pana
