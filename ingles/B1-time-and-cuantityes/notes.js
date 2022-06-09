@@ -442,6 +442,19 @@ por ejemplo:
 
 I have been working here since 2011
 "Trabajo aquí desde 2011"
+
+-----------notece que no se dice el tiempo que lleva si no el momento en el que comenzo.
+supongo que lo demas esta implicito.
+-------------------------------------------------
+For
+
+Focuses on the amount of time.
+"se centra en la cantidad de tiempo y no en el punto de partida."
+por ejemplo:
+
+I have been working here for 3 years.
+"He estado trabajando aquí por/durante tres años"
+-------------------------------------------------
  
 
 */
