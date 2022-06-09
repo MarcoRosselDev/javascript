@@ -464,14 +464,39 @@ Activity:
 1   for 
 2   since
 
--------------------------------------------------
+------------------------------------------------- 
 -------------------------------------------------
 
  
 
 */
-/* */
-/* */
+/*11 Yet and still
+    "todavía  x2"
+
+pasa lo mismo que since and for
+se usan en contextos similares
+------------------------------------------
+Still
+
+se refiere a una acción que comenzó en el pasado y continúa hasta ahora, en el presente.
+Still refers to an action that began in the past and is continuing in the present.
+
+Still is used in positive, negative and questions forms.
+
+"Mary is still looking for a job"
+"Mary todavía esta buscando un trabajo"
+
+"I still haven't finished the project".
+"todavía no he terminado el proyecto".
+
+"Are you still there?"
+"todavía estás ahí?"
+
+------------------------------------------
+
+
+*/
+/* */ 
 /* */
 /* */
 /* */
