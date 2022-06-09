@@ -27,4 +27,27 @@ console.log('original :' , words);
 
 //fimcopma de pana
 
-const words2 = ['spray1', 'limit2', 'elite3', 'exuberant4', 'things'];
+const orders = [
+    {
+      customerName: "Nicolas",
+      total: 60,
+      delivered: true,
+    },
+    {
+      customerName: "Zulema",
+      total: 120,
+      delivered: false,
+    },
+    {
+      customerName: "Santiago",
+      total: 180,
+      delivered: true,
+    },
+    {
+      customerName: "Valentina",
+      total: 240,
+      delivered: true,
+    },
+  ];
+
+//queremos hacer un filtro, por ejemplo queremos saber todas las ordenes de compra que fueron entregadas.
