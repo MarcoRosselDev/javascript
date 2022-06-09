@@ -525,7 +525,19 @@ Still / yet
 
 
 */
-/* */ 
+/*12 Workshop #3
+
+usar still  and yet
+
+1   Are you _________ living in Chicago ?   still
+2   George hasn't taken the test _________ .yet
+3   Jennifer _________ hasn't tried her new bike.  still
+4   Jeremy isn't familiar with his new office _____. yet
+5   I'm ______ taking that online course. still
+
+
+
+*/ 
 /* */
 /* */
 /* */
