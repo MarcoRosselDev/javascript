@@ -62,3 +62,15 @@ rta2 [
   { customerName: 'Valentina', total: 240, delivered: true }
 ]
 */
+
+//podemos hacerlo más compleja en las condiciónes por ejemplo podemos decirle que ademas de las ordenes entregadas que los filtre por valor >= 100.
+
+const rta3 = orders.filter(item => item.delivered && item.total >= 100)
+console.log(rta3)
+
+/* respuesta:
+[
+  { customerName: 'Santiago', total: 180, delivered: true },
+  { customerName: 'Valentina', total: 240, delivered: true }
+]
+*/
