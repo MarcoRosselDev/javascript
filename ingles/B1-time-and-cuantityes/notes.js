@@ -385,11 +385,35 @@ nothing / anything
 2   There's _________ here !
     nothing
     positivo, por que puedo ver que no ahi nada.
+----------------------------------------
 
 
 
 */
-/* */
+/*8 How often?
+
+en orden de frecuencia:
+
+Always      100%
+Usually     80%
+Often       60-75%
+Sometimes   50%
+Occasionally    30%
+Rarely      10%
+Never       0%
+
+-------------------------------------------------
+Usually
+    cuidado con esta palabra por que no la podemos usar sola
+    si la usamos devemos agregar la más detalles, por ejemplo
+
+1   I usually go to the gym 3 times a week
+2   I usually see my family every weekend
+3   I usually go to the beach in the summer
+
+
+
+*/
 /* */
 /* */
 /* */
