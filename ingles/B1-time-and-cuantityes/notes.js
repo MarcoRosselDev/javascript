@@ -423,7 +423,21 @@ son palabras poco usadas pero todas significan lo mismo,
 por lo que no nesecitamos memorizarlo pero si conoserlas por si la escuchamos por ahi.
 
 */
-/* */
+/*10 Since and for
+    "desde y por"
+
+    Somce = "ya que"
+    for = "por"
+
+la dificultad viene por que ambos los usamod cuando hablamos de experiencias de la vida.
+o de cuánto tiempo hemos estado haciendo algo.
+
+la diferencia:
+
+
+ 
+
+*/
 /* */
 /* */
 /* */
