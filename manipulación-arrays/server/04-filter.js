@@ -48,6 +48,11 @@ const orders = [
       total: 240,
       delivered: true,
     },
+    {
+      customerName: "Nico",
+      total: 2477,
+      delivered: false,
+    },
   ];
 
 //queremos hacer un filtro, por ejemplo queremos saber todas las ordenes de compra que fueron entregadas.
@@ -72,5 +77,50 @@ console.log(rta3)
 [
   { customerName: 'Santiago', total: 180, delivered: true },
   { customerName: 'Valentina', total: 240, delivered: true }
+]
+*/
+
+//con el filetr podriamos hacer un buscador
+
+const orders2 = [
+    {
+      customerName: "Nicolas",
+      total: 60,
+      delivered: true,
+    },
+    {
+      customerName: "Zulema",
+      total: 120,
+      delivered: false,
+    },
+    {
+      customerName: "Santiago",
+      total: 180,
+      delivered: true,
+    },
+    {
+      customerName: "Valentina",
+      total: 240,
+      delivered: true,
+    },
+    {
+      customerName: "Nico",
+      total: 2477,
+      delivered: false,
+    },
+  ];
+
+const lupa = (query) => {
+    return orders2.filter(item => {
+        return item.customerName.includes(query);
+    })
+}
+
+console.log(lupa('Nico'));
+
+/* solución:
+[
+  { customerName: 'Nicolas', total: 60, delivered: true },
+  { customerName: 'Nico', total: 2477, delivered: false }
 ]
 */
