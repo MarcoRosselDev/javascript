@@ -671,4 +671,26 @@ Do you know how ... ?
 Does he/she know how ... ?
 
 */
+/*22 Needs
+    "necesidades"
+
+I need to ...
+I need you to call the client and ...
+
+negative form-----------------
+
+I don't need ...
+you didn't need to ...
+
+question fotm-----------------
+
+Does he need help?
+What do you need me to do?
+
+
+*/
+/* */
+/* */
+/* */
+/* */
 /* */
