@@ -689,7 +689,16 @@ What do you need me to do?
 
 
 */
-/* */
+/*24 Expectations
+
+Talking about rules:
+
+Should/shouldn't        debería/no debería
+Must/mustn't            debe/no debe
+Have to/don't have to   tiene que/no tiene que
+Need/needn't            necesita/no necesita
+
+*/
 /* */
 /* */
 /* */
