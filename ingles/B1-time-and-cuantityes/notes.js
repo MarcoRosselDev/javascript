@@ -698,6 +698,22 @@ Must/mustn't            debe/no debe
 Have to/don't have to   tiene que/no tiene que
 Need/needn't            necesita/no necesita
 
+-------------------------------------------
+Should/shouldn't
+
+'Should' is not a rule.
+se usa cuando queremos exponer algo que podría ser beneficioso.
+
+ejem...
+
+You should brush your teeth 3 times a day
+"Debes cepillarte los dientes 3 veces al día."
+
+You shouldn't lie
+"no deberías mentir"
+
+en los dos casos no son reglas si no cosas que nos ayudan en una relacion x. o son mejoers para nosotros.
+
 */
 /* */
 /* */
