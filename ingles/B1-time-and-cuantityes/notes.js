@@ -714,6 +714,22 @@ You shouldn't lie
 
 en los dos casos no son reglas si no cosas que nos ayudan en una relacion x. o son mejoers para nosotros.
 
+--------------------------------------------
+Must/mustn't
+
+Must is a rule
+
+se usa para referirnos a una regla que, por lo general, se puede romper.
+ejem...
+
+You must be quiet during class
+"Debes estar tranquilo durante la clase"
+
+You mustn't eat in class
+"No debes comer en clase."
+
+las dos son reglas, pero que se pueden romper
+
 */
 /* */
 /* */
