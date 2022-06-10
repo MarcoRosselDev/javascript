@@ -658,5 +658,17 @@ por ejemplo
 
 
 */
-/* */
+/*20-21 Abilities
+
+para decir mis habilidades
+
+I know how ...
+I don't know how ... (si es que no se)
+
+para preguntar.
+
+Do you know how ... ?
+Does he/she know how ... ?
+
+*/
 /* */
