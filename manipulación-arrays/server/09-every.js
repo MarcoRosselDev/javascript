@@ -11,3 +11,9 @@ for(let i = 0;i < numeritos.length; i++) {
 console.log(respuesta, 'rta');
 
 //false rta
+
+const respuesta2 = numeritos.every(item => item <= 50);
+
+console.log(respuesta2);
+
+//true
