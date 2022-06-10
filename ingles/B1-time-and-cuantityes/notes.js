@@ -628,7 +628,24 @@ far     the furthest/the farthest
 
 
 */
-/* */
+/*16 Compound nouns 
+    "palabras compuestas"
+
+son palabras que estan compuestas por dos palabras
+creando asi una tercera palabra como por ejemplo...
+
+something // se forma por some-thing
+
+Sunglasses
+Classmates
+Greenhouse
+Snowboard
+Boyfriend
+Lifeboat
+Doorbell
+Bookstore
+
+*/
 /* */
 /* */
 /* */
