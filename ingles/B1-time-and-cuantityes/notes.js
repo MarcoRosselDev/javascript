@@ -607,6 +607,24 @@ ejercicio:
 3 Happy(feliz)        ->  The happiest(el/la más feliz)
 4 Smart(inteligente)  ->  The smartest(el más ingenioso)
 
+---------------------------------
+cuando el adjetivo tiene más de 2 silabas
+
+the + most/least + adjective
+        (más/menos)
+
+ejemplos...
+
+Experienced -> The most experienced
+Expensive   -> The most expensive
+
+----------------------------------
+exepciones:
+
+good   the best
+bad     the worst
+far     the furthest/the farthest
+
 
 
 */
