@@ -555,8 +555,16 @@ nota:
     "Haré algo"
     las dos significan lo mismo, osea que "I'll" es una abreviación de "I will".
 
+------------------------------------
+GOING TO
 
+Planned decision
 
+"I'm going to New York for the weekend"
+"Me voy a Nueva York el fin de semana"
+
+"I'm going to the movies on Friday"
+"Voy al cine el viernes"
 
 */
 /* */
