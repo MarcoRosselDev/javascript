@@ -538,6 +538,26 @@ usar still  and yet
 
 
 */ 
-/* */
+/*13 Will or going to ?
+    "voluntad o ir a"
+
+cual es la diferencia?
+----------------------------------
+WILL
+
+Spontaneous decision
+
+"I will help you move!" = "¡Te ayudaré a moverte!"
+"I'll call Paul for you!" = "¡Llamaré a Paul por ti!"
+
+nota:   
+    "I will do something" = "I'll do something"
+    "Haré algo"
+    las dos significan lo mismo, osea que "I'll" es una abreviación de "I will".
+
+
+
+
+*/
 /* */
 /* */
