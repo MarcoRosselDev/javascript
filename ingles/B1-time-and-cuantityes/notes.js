@@ -567,5 +567,19 @@ Planned decision
 "Voy al cine el viernes"
 
 */
-/* */
+/*14 Comparisons
+
+palabras cortas "dos silabas" = +er
+palabras largas "+dos silabas" = +more/less 
+
++ than = comparación [ a + verb + than + b]
+
+exepciónes
+
+Good -> Better
+Bad -> Worse
+Far -> Futher/Farther
+
+
+*/
 /* */
