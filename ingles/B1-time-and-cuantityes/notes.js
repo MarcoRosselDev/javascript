@@ -730,6 +730,18 @@ You mustn't eat in class
 
 las dos son reglas, pero que se pueden romper
 
+---------------------------------------------
+Have to/Don't have to
+
+se usa para reglas pero más estrictas.
+estas traen consecuencias si las rompes
+ejemp...
+
+You have to be 21 to drink alcohol in the USA, but you don't have to be 21 to dirve!
+"¡Tienes que tener 21 años para beber alcohol en los EE. UU., pero no tienes que tener 21 años para conducir!"
+
+
+
 */
 /* */
 /* */
