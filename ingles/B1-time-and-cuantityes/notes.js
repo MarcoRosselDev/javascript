@@ -755,7 +755,33 @@ You needn't tell me... I already know!
 "No hace falta que me lo digas... ¡Ya lo sé!"
 
 */
-/* */
+/*26 Reflexive pronouns
+    "Pronombres reflexivos"
+
+palabras terminadas en "self" o "selves" y se utilizan cuando el sujeto y el objeto de una oración son el mismo.
+    eje...
+
+    I belive in myself
+    sujero = I(yo)  | objeto = myself (yo)
+
+List of reflexive pronouns:
+
+------SINGULAR-------------
+
+me      myself      yo mismo
+you     yourself    tu mismo
+him     himself     el mismo
+her     herself     ella misma
+one     oneself     unomismo o el universo
+it      itself      si mismo
+
+------PLURAL-------------
+
+we      ourselves   nosotros mismos
+you     yourselves  ustedes mismos
+them    themselves  ellos mismos
+
+*/
 /* */
 /* */
 /* */
