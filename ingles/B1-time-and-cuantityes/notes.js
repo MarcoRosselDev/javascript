@@ -582,4 +582,27 @@ Far -> Futher/Farther
 
 
 */
+/*15 Superlatives
+
+lo usamos cuando algo es mejor que todo lo demás
+
+dos silavas = the + adjective + est 
+si termina en y -> i
+
+---------------------------------
+ejemplos...
+
+Busy(ocupado/a) -> the busiest(el más ocupado/a)
+Easy(fácil) ->  the easiest(lo más fácil)
+
+ej...   "All busy in our company, we're all very busy.
+but Carlitos si the busiest"
+    "todos estamos siempre muy ocupados, pero Carlitos es el más ocupado".
+
+
+
+*/
+/* */
+/* */
+/* */
 /* */
