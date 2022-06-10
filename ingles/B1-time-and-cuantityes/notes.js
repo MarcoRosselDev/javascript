@@ -740,7 +740,19 @@ ejemp...
 You have to be 21 to drink alcohol in the USA, but you don't have to be 21 to dirve!
 "¡Tienes que tener 21 años para beber alcohol en los EE. UU., pero no tienes que tener 21 años para conducir!"
 
+-----------------------------------------------
+Need/Needn't
 
+se usa para explicar una regla.
+Need = nesecitas para cumplir
+Needn't = no es nesesario.
+eje...
+
+You need to finish high school before going to University
+"nesecitas terminar la secundaria antes de ir a la universidad"
+
+You needn't tell me... I already know!
+"No hace falta que me lo digas... ¡Ya lo sé!"
 
 */
 /* */
