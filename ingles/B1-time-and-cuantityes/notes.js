@@ -599,6 +599,14 @@ ej...   "All busy in our company, we're all very busy.
 but Carlitos si the busiest"
     "todos estamos siempre muy ocupados, pero Carlitos es el más ocupado".
 
+--------------------------------------------
+ejercicio:
+
+1 Small(pequeño/a)    ->  The smallest(el más pequeño/a)
+2 Cheap(barato/a)     ->  The cheapest(el más barato)
+3 Happy(feliz)        ->  The happiest(el/la más feliz)
+4 Smart(inteligente)  ->  The smartest(el más ingenioso)
+
 
 
 */
