@@ -646,6 +646,17 @@ Doorbell
 Bookstore
 
 */
-/* */
+/*18 Describing activities
+
+tenemos que usar la forma futura de la actividad
+por ejemplo
+    run
+    running is good for you
+
+    kayak
+    kayaking is fun
+
+
+*/
 /* */
 /* */
