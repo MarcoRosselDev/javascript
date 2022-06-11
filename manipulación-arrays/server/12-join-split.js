@@ -7,7 +7,15 @@ for (let i = 0;i < avatar.length; i++) {
     respFinal = respFinal + item + separador;
 }
 
-console.log(respFinal);
+// console.log(respFinal);
 
 //fuego++agua++tierra++aire++
 //notece que agrego el ++ al final, para evitar esto son más líneas de codigo.
+
+//metodo .join
+
+const respuesta2 = avatar.join('-');
+console.log(respuesta2);
+
+//fuego-agua-tierra-aire
+//notece que no agrego el guion al final.
