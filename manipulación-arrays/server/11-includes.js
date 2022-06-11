@@ -15,3 +15,11 @@ for (let i = 0; i < animales.length; i++) {
 console.log(incluido);
 
 //devuelve true
+
+//ahora con .includes
+
+const respuesta = animales.includes('cuyu');
+
+console.log(respuesta);
+
+//devuelve true. esta de pana.
