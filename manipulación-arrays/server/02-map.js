@@ -41,3 +41,9 @@ function solution(array) {
 }; 
 
 console.log(solution(array));
+
+
+const array1 = ['a', 'bb', 'ccc']; 
+const rta = array1.map(item => item.length);
+
+console.log(rta);
