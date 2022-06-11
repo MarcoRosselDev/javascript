@@ -19,3 +19,14 @@ console.log(respuesta2);
 
 //fuego-agua-tierra-aire
 //notece que no agrego el guion al final.
+
+//---------------------ejemplo---------------------
+
+const titulo = 'Me gusta Correr y pasear en Bici';
+
+const respuesta3 = titulo.split(' ').join('-').toLowerCase();
+
+console.log(respuesta3);
+
+//me-gusta-correr-y-pasear-en-bici
+//ideal para convertir texto en barra de direción.
