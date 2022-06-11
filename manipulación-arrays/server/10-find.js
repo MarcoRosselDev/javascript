@@ -19,3 +19,10 @@ const respuesta2 = numeros.find(item => item === 22);
 console.log(respuesta2);
 
 //esta de pana, responde 22
+
+//----------------------------------------------
+/* .findIndex() te devuelve la posición en la 
+que se encuentra x elemento dentro del array.
+por lo que solo devuelve un numero,
+en el caso de no encontrar nada devuelve un -1.
+*/
