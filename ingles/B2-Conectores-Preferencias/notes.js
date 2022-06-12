@@ -66,6 +66,17 @@ d. American football game
 
 answer: a
 
+------------------------------------------------
+
+“Chris Bosh leads to the second shot and clearly a three-point shot. (celebration) They confirmed that it was a three. Rose misses another. Smith has it. Anthony for three. And that goes down! The game is tied. (celebration) Anthony out to Smith. Smith the three pointer…waaaay of the mark. Chandler tips it out again…”
+
+a. Soccer game
+b. Basketball game
+c. Formula 1 race
+d. American football game
+
+answer: b
+
 */
 /* */
 /* */
