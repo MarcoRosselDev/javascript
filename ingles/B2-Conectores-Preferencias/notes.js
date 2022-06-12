@@ -160,6 +160,13 @@ Experiences and achievements
     I have seen the Great Wall of China.
     Bob has weitten many successful books.
 
+Actions that started in the past and are still true
+
+    Mike has been my neighbor for 20 years.
+    We are best friens.
+
+    They have lived there their whole life.
+
 */
 /* */
 /* */
