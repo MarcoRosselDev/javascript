@@ -146,6 +146,15 @@ cuando usar has?
 it/she/him
 
 have = el resto (she/he/we/you)
+
+-------------------------------------------------
+ejemplos:
+
+Indefinite time / Unfinished time
+
+    I have been to her house many times.
+    She has worked there since 2010.
+
 */
 /* */
 /* */
