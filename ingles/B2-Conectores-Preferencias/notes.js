@@ -27,7 +27,14 @@ He shoots and scores.
 It's a brilliant finish and he knows it.
 
 */
-/* */
+/*3 Sequence connectors
+
+conector:
+    es una palabra de enlace que se usa para conectar una idea con otra.
+
+existen muchos conectores en ingles, pero nos sentraremos en conectores de secuencia para especificar e indicar el orden de los eventos.
+
+*/
 /* */
 /* */
 /* */
