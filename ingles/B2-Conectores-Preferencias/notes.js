@@ -106,6 +106,8 @@ este tiempo esta termindo.
 
 los usamos tmbn en acciones repetidas en el pasado.
 
+-------------------------------------------------
+
 Subject + verb
 (el/ella/animal/cosa) + acción
 
@@ -117,6 +119,19 @@ I went to her house yesterday
 
 Repeated action in the past
 Every day he prepared their breakfast.
+
+-------------------------------------------------
+
+Finished actions:
+
+    I bought this at the store 2 days ago.
+
+    She had lunch, and then she went home.
+
+    Mike was my neighbor for 20 years. He
+    moved house last week.
+
+sdf
 
 */
 /* */
