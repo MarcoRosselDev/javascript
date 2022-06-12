@@ -78,7 +78,20 @@ d. American football game
 answer: b
 
 */
-/* */
+/*6 Differences past simple and present perfect
+
+Time expressions
+
+PAST SIMPLE
+
+yesterday
+2 years ago
+last night, month...
+for 10 years
+in 2002
+between 2002 and 2010
+
+*/
 /* */
 /* */
 /* */
