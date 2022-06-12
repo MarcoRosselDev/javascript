@@ -98,6 +98,26 @@ this week, month...
 since 2020
 for 10 years
 
+-------------------------------------------------
+PAST SIMPLE
+
+se usa por tiempo definido o tiempo limitado.
+este tiempo esta termindo.
+
+los usamos tmbn en acciones repetidas en el pasado.
+
+Subject + verb
+(el/ella/animal/cosa) + acción
+
+el verbo estara en pasado simple por ejemplo
+
+Definite time / Finished time
+I saw the Great Wall of China in 2002
+I went to her house yesterday
+
+Repeated action in the past
+Every day he prepared their breakfast.
+
 */
 /* */
 /* */
