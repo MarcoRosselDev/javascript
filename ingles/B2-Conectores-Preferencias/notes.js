@@ -34,6 +34,26 @@ conector:
 
 existen muchos conectores en ingles, pero nos sentraremos en conectores de secuencia para especificar e indicar el orden de los eventos.
 
+-----------------------------------------------
+Some sequence connectors
+
+first
+to start with
+fist of all
+for a start
+second
+third
+meanwhile
+later
+then
+next
+before/after
+during
+at this point
+eventually
+in the end
+finally
+
 */
 /* */
 /* */
