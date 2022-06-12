@@ -91,6 +91,13 @@ for 10 years
 in 2002
 between 2002 and 2010
 
+PRESENT PERFECT
+
+today
+this week, month...
+since 2020
+for 10 years
+
 */
 /* */
 /* */
