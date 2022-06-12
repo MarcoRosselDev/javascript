@@ -14,3 +14,22 @@ const promesa1 = () => {
 promesa1()
     .then(response => console.log(response))
     .catch(err => console.error(err));
+
+//otra forma de declarar la promesa con .setTimeout para que tarde x tiempo en milisegundos:
+
+const promesa2 = () => {
+    return new Promise((resolve, reject) => {
+        if (true) {
+            setTimeout(() => {
+                resolve('True');
+            }, 2000)
+        } else {
+            const error = new Error('sheeet!');
+            reject(error);
+        }
+    });
+}
+
+promesa2()
+    .then(response => console.log(response))
+    .catch(err => console.error(err));    
