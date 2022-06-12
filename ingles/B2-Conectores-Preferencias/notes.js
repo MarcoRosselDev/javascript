@@ -131,8 +131,21 @@ Finished actions:
     Mike was my neighbor for 20 years. He
     moved house last week.
 
-sdf
+-------------------------------------------------
+Present perfect
+    esta tendrá una conexión con el presente, a diferencia del pasado simple, que no tiene una conexión
 
+    se usa por tiempo indefinido.
+
+-------------------------------------------------
+estructura:
+
+Subject + have/has + verb(past participle)
+
+cuando usar has?
+it/she/him
+
+have = el resto (she/he/we/you)
 */
 /* */
 /* */
