@@ -55,7 +55,18 @@ in the end
 finally
 
 */
-/* */
+/*4 Listening exercise:
+
+“Marta shoots in Endler! On a bending bouncer she smothers it. Lloyd makes diagonal runs to get behind the defense. Here she goes! Lloyd… it’s saved by Endler. Prinz blocked. Oh! This is dangerous! Prinz turns it around and she strikes. Her first goal this season!”
+
+a. Soccer game
+b. Basketball game
+c. Formula 1 race
+d. American football game
+
+answer: a
+
+*/
 /* */
 /* */
 /* */
