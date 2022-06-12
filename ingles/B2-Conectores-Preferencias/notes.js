@@ -168,7 +168,16 @@ Actions that started in the past and are still true
     They have lived there their whole life.
 
 */
-/* */
+/*7 Past habits
+
+Used to:
+    para hablar sobre hábitos pasados, que no haces en el presente.
+
+estructura:
+
+    Subject + used to + verb(infinitive)
+
+*/
 /* */
 /* */
 /* */
