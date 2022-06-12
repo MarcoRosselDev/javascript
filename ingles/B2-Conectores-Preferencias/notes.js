@@ -155,6 +155,11 @@ Indefinite time / Unfinished time
     I have been to her house many times.
     She has worked there since 2010.
 
+Experiences and achievements
+
+    I have seen the Great Wall of China.
+    Bob has weitten many successful books.
+
 */
 /* */
 /* */
