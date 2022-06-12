@@ -32,4 +32,15 @@ const promesa2 = () => {
 
 promesa2()
     .then(response => console.log(response))
-    .catch(err => console.error(err));    
+    .catch(err => console.error(err)); 
+    
+//para ejecutar varias promesas a la vez:
+
+Promise.all([promesa1(), promesa2()])
+    .then(response => {
+        console.log('todo junto:', response);
+    })
+    .catch(err => {
+        console.error(err);
+    })
+
