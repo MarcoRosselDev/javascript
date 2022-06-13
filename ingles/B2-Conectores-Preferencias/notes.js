@@ -233,6 +233,12 @@ ejemplos:
 
 Rellena los espacios en blanco con la forma correcta del verbo que está entre paréntesis. Recuerda utilizar las estructuras gramaticales del módulo estudiado (past simple, present perfect, ‘used to’, y ‘just’). No mires las respuestas antes de terminar.
 
+-------------------------------------------------
+
+1_  I ______ (go) to my grandma’s last weekend, and it ______ (be) great. She doesn’t cook very often anymore, but she ______ (prepare) my favorite dish. I ______ (feel) the same way I ______ (feel) when I was a kid. I ______ (not / can) be happier.
+
+1_  I _visited_ (go) to my grandma’s last weekend, and it _been_ (be) great. She doesn’t cook very often anymore, but she _prepared_ (prepare) my favorite dish. I _feeling_ (feel) the same way I _feeled_ (feel) when I was a kid. I ______ (not / can) be happier.
+
 */
 /* */
 /* */
