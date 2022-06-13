@@ -239,6 +239,10 @@ Rellena los espacios en blanco con la forma correcta del verbo que está entre p
 
 1_  I _visited_ (go) to my grandma’s last weekend, and it _been_ (be) great. She doesn’t cook very often anymore, but she _prepared_ (prepare) my favorite dish. I _feeling_ (feel) the same way I _feeled_ (feel) when I was a kid. I ______ (not / can) be happier.
 
+todo malo:
+
+1_  I _went_ (go) to my grandma’s last weekend, and it _was_ (be) great. She doesn’t cook very often anymore, but she _prepared_ (prepare) my favorite dish. I _felt_ (feel) the same way I _used to feel_ (feel) when I was a kid. I _couldn't_ (not / can) be happier.
+
 */
 /* */
 /* */
