@@ -213,6 +213,21 @@ estructura:
 
     Subject + Have/Has + just + past participle
 
+------------------------------------------
+ejemplos:
+
+    I'm good, thanks. I have just eaten.
+    Estoy bien gracias. Acabo de comer.
+
+    Joanna has just finished the report.
+    Joanna acaba de terminar el informe.
+
+    The kids have just woken up.
+    We could make it! He has just started his presentation.
+    Los niños acaban de despertarse.
+    ¡Podríamos lograrlo! Acaba de comenzar su presentación.
+
+
 */
 /* */
 /* */
