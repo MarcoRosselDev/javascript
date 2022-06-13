@@ -184,6 +184,21 @@ ejemplos:
     John used to smoke. He quit last month.
     They used to take the bus to work.
 
+------------------------------------------------
+Used to:
++ ejemplos:
+
+    They used to take the bus to work.
+    Solían tomar el autobús para ir al trabajo.
+
+    They didn't use to take the bus to work.
+    No solían tomar el autobús para ir al trabajo.
+
+    Did they use to take the bus to work? 
+    ¿Tomaban el autobús para ir al trabajo?
+
+
+
 */
 /* */
 /* */
