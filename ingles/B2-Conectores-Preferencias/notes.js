@@ -229,7 +229,11 @@ ejemplos:
 
 
 */
-/* */
+/*9 Writing exercise: Simple past
+
+Rellena los espacios en blanco con la forma correcta del verbo que está entre paréntesis. Recuerda utilizar las estructuras gramaticales del módulo estudiado (past simple, present perfect, ‘used to’, y ‘just’). No mires las respuestas antes de terminar.
+
+*/
 /* */
 /* */
 /* */
