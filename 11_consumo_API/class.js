@@ -19,10 +19,14 @@ Aunque pocas, algunas aplicaciones todavía usan el método SOAP para mandar inf
 SPA (Single Page Aplication) - Aplicación de una sola pagina.
 
 Y ya que estas aplicaciones solo te regresan una pagina, todo el renderizado sucede en el navegador gracias a JS, a esto se le llama:
-Client Side Rendering
+Server Side Rendering
 
 */
-/* */
+/* 3 Consumo de API REST
+
+
+
+*/
 /* */
 /* */
 /* */
