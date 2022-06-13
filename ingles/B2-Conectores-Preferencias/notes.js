@@ -197,10 +197,23 @@ Used to:
     Did they use to take the bus to work? 
     ¿Tomaban el autobús para ir al trabajo?
 
+------------------------------------------------
+
 
 
 */
-/* */
+/*8 It's just happened
+
+Present Perfect + just
+
+por que just es importante ?
+    por que nos ayuda a identificar si lo que ocurrio fue hace mucho tiempo o recien.
+
+estructura:
+
+    Subject + Have/Has + just + past participle
+
+*/
 /* */
 /* */
 /* */
