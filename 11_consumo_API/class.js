@@ -68,6 +68,20 @@ Query parameter:
 Authorization Header: 
     X-API-Key: ABC123
 
+ALTERNATIVAS
+
+Authorization: Basic
+
+Authorization: Barer Token
+
+OAuth 2.0 (es de las mejores y más complicadas formas de autenticar en la modernidad)
+
+Access Key + Secret Key
+    En este caso estamos haciendo una:
+    Application-based authentication
+
+es decir estamos autenticando nuestra aplicación, estamos autenticando a nuestro frontend para que pueda hacer solicitudes al backend, pero hay aplicaciones donde no solamente necesitamos una Application-based authentication, también hay apps que necesitamos usar esta con una User-based authentication
+
 */
 /* */
 /* */
