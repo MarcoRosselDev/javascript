@@ -27,7 +27,19 @@ Server Side Rendering
 
 
 */
-/* */
+/* 4 HTTP Status codes
+
+1XX Respuestas Afirmativas
+
+2XX Respuestas satisfactorias
+
+3XX Re-direcciones
+
+4XX Error del cliente
+
+5XX Error de servidor
+
+*/
 /* */
 /* */
 /* */
