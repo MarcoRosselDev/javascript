@@ -12,3 +12,22 @@ A diferencia de una página web, que se muestra con imágenes, textos formateado
 
 Aunque pocas, algunas aplicaciones todavía usan el método SOAP para mandar información entre computadoras. Sin embargo, actualmente REST está dominando su aplicación.
 */
+/* 2 Flujo de comunicación 
+
+👨‍💻 Cuando tenemos una aplicación que recibe el HTML una sola vez, JavaScript se encargara de sobreescribirlo segun la interacción del usuario y los datos recibidos del backend (por medio de la API) y a esto se le llama:
+
+SPA (Single Page Aplication) - Aplicación de una sola pagina.
+
+Y ya que estas aplicaciones solo te regresan una pagina, todo el renderizado sucede en el navegador gracias a JS, a esto se le llama:
+Client Side Rendering
+
+*/
+/* */
+/* */
+/* */
+/* */
+/* */
+/* */
+/* */
+/* */
+/* */
