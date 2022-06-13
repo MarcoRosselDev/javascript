@@ -170,12 +170,19 @@ Actions that started in the past and are still true
 */
 /*7 Past habits
 
-Used to:
+Used to: "solía ..."
     para hablar sobre hábitos pasados, que no haces en el presente.
 
 estructura:
 
     Subject + used to + verb(infinitive)
+
+ejemplos:
+
+    I used to play soccer very weekend.
+    She used to have short hair when she was a kid.
+    John used to smoke. He quit last month.
+    They used to take the bus to work.
 
 */
 /* */
