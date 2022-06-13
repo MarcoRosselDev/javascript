@@ -243,6 +243,12 @@ todo malo:
 
 1_  I _went_ (go) to my grandma’s last weekend, and it _was_ (be) great. She doesn’t cook very often anymore, but she _prepared_ (prepare) my favorite dish. I _felt_ (feel) the same way I _used to feel_ (feel) when I was a kid. I _couldn't_ (not / can) be happier.
 
+---------------------------------------------------
+
+2_  Judy and Kyle are best friends. They ______ (meet) when they were kids in 1995, and since then, they ______ (be) inseparable. They do everything together! Last year, they ______ (travel) to Spain for five days. But it ______ (not / be) the first time they ______(travel) together. They ______ (be) to the US, Japan, and many other places.
+
+2_  Judy and Kyle are best friends. They ______ (meet) when they were kids in 1995, and since then, they ______ (be) inseparable. They do everything together! Last year, they ______ (travel) to Spain for five days. But it ______ (not / be) the first time they ______(travel) together. They ______ (be) to the US, Japan, and many other places.
+
 */
 /* */
 /* */
