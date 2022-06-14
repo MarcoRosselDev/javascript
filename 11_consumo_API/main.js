@@ -1,6 +1,6 @@
 console.log('Hello world!');
 
-const API_URL = 'https://api.thecatapi.com/v1/images/search?limit=2';
+const API_URL = 'https://api.thecatapi.com/v1/images/search?limit=2&api_key=a196477d-cc81-41c3-bc61-85544de3a482';
 
 
 

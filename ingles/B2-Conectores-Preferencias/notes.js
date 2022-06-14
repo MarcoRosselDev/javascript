@@ -250,7 +250,7 @@ todo malo:
 2_  Judy and Kyle are best friends. They ______ (meet) when they were kids in 1995, and since then, they ______ (be) inseparable. They do everything together! Last year, they ______ (travel) to Spain for five days. But it ______ (not / be) the first time they ______(travel) together. They ______ (be) to the US, Japan, and many other places.
 
 */
-/* */
+/*10  */
 /* */
 /* */
 /* */
