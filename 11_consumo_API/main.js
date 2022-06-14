@@ -37,8 +37,14 @@ async function loadFavoritesCat() {
     if (res.status !== 200) {
         spanError.innerHTML = 'Hubo un error: ' + res.status + data.message;
     } else {
+        const section = document.getElementById('favoritesCats')
+        section.innerHTML = "";
+        const h2 = document.createElement('h2');
+        const h2Text = document.createTextNode('Gatos favoritos');
+        h2.appendChild(h2Text);
+        section.appendChild(h2);
+
         data.forEach(mixi => {
-            const section = document.getElementById('favoritesCats')
             const article = document.createElement('article');
             const img = document.createElement('img');
             const btn = document.createElement('button');
@@ -75,7 +81,8 @@ async function saveFavoriteCat(id) {
     if (res.status !== 200) {
         spanError.innerHTML = 'Hubo un error: ' + res.status + data.message;
     } else {
-        console.log('Gato guardado en favoritos');
+        console.log('Gato guardado en favoritos')
+        loadFavoritesCat();
     }
 }
 
@@ -88,7 +95,8 @@ async function deleteFavoriteCat(id) {
     if (res.status !== 200) {
         spanError.innerHTML = 'Hubo un error: ' + res.status + data.message;
     } else {
-        console.log('Gato eliminado de favoritos');
+        console.log('Gato eliminado de favoritos')
+        loadFavoritesCat();
     }
 }
 
