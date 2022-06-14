@@ -25,8 +25,10 @@ async function loadRandomCat() {
 async function loadFavoritesCat() {
     const res = await fetch(API_URL_FAVORITES);
     const data = await res.json();
+    console.log(data)
 
-    console.log(data);
+    if (res.status !== 200) {
+        spanError.innerHTML = 'Hubo un error: ' + res.status + data.message;}
 }
 
 loadRandomCat();
