@@ -1,5 +1,6 @@
 const API_URL_RANDOM = 'https://api.thecatapi.com/v1/images/search?limit=2&api_key=a196477d-cc81-41c3-bc61-85544de3a482';
 const API_URL_FAVORITES = 'https://api.thecatapi.com/v1/favourites?api_key=a196477d-cc81-41c3-bc61-85544de3a482';
+const API_URL_FAVORITES_DELETE = (id) => `https://api.thecatapi.com/v1/favourites/${id}?api_key=a196477d-cc81-41c3-bc61-85544de3a482`;
 
 const spanError = document.getElementById('error');
 
@@ -46,6 +47,7 @@ async function loadFavoritesCat() {
             img.src = mixi.image.url
             img.width = 190;
             btn.appendChild(btnText);
+            btn.onclick = () => deleteFavoriteCat(mixi.id);
             article.appendChild(img);
             article.appendChild(btn);
 
@@ -72,20 +74,22 @@ async function saveFavoriteCat(id) {
 
     if (res.status !== 200) {
         spanError.innerHTML = 'Hubo un error: ' + res.status + data.message;
+    } else {
+        console.log('Gato guardado en favoritos');
     }
 }
 
 async function deleteFavoriteCat(id) {
-    const res = await fetch(API_URL_FAVORITES, {
-        method: 'POST',
-        headers: {
-            'Content-Type': 'application/json',
-        },
-        body: JSON.stringify({
-            image_id: id
-        }),
+    const res = await fetch(API_URL_FAVORITES_DELETE(id), {
+        method: 'DELETE',
     });
     const data = await res.json();
+
+    if (res.status !== 200) {
+        spanError.innerHTML = 'Hubo un error: ' + res.status + data.message;
+    } else {
+        console.log('Gato eliminado de favoritos');
+    }
 }
 
 loadRandomCat();
