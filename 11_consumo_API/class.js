@@ -111,5 +111,16 @@ DELETE Borra datos del server
 
 
 */
-/* */
+/* 13 Headers
+
+¿Qué son los Headers HTTP?
+Los headers HTTP son parámetros que se envían en una transacción HTTP, que contienen información del estado de la transacción en curso.
+
+Cuando un cliente solicita información a un servidor, este puede pasarle información adicional en el header de la solicitud. información del tipo de datos que se esperan recibir, del tipo de datos que envían, información de autenticación etc.
+
+De la misma forma el servidor puede incluir estos headers en las respuestas para mostrar información del estado de la solicitud.(HTTP Status Codes)
+
+Estos pueden ser separados en varios grupos:
+
+*/
 /* */
