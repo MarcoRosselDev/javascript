@@ -36,7 +36,15 @@ async function loadFavoritesCat() {
             const img = document.createElement('img');
             const btn = document.createElement('button');
             const btnText = document.createTextNode('Sacar al gatito de favoritos');
-            // mixi.image.url
+
+            btn.appendChild(btnText);
+            img.src = mixi.image.url
+
+            article.appendChild(img);
+            article.appendChild(btn);
+
+            section.appendChild(article);
+
         });
     }
 }
