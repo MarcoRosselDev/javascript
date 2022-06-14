@@ -106,6 +106,10 @@ DELETE Borra datos del server
 
 
 */
-/* */
+/* 11 Manipulación dinamica del DOM
+
+
+
+*/
 /* */
 /* */

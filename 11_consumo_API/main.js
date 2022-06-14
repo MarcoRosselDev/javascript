@@ -29,6 +29,15 @@ async function loadFavoritesCat() {
 
     if (res.status !== 200) {
         spanError.innerHTML = 'Hubo un error: ' + res.status + data.message;
+    } else {
+        data.forEach(mixi => {
+            const section = document.getElementById('favoritesCats')
+            const article = document.createElement('article');
+            const img = document.createElement('img');
+            const btn = document.createElement('button');
+            const btnText = document.createTextNode('Sacar al gatito de favoritos');
+            // mixi.image.url
+        });
     }
 }
 
