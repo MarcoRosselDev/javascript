@@ -101,7 +101,11 @@ PUT/PATCH Salva datos en el server
 DELETE Borra datos del server
 
 */
-/* */
+/* 9 GET
+
+
+
+*/
 /* */
 /* */
 /* */
