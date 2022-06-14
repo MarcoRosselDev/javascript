@@ -161,5 +161,71 @@ Cache-Control:
 Cache-Control: stale-while-revalidate=60
 Cache-Control: no-cache
 
+-------------------------------------------------------------
+
+Response Headers
+Así como los request headers contienen información del cliente, los response headers contienen información del servidor al que se le hace la petición.
+
+En realidad todos los headers enviados en un respuesta del servidor pueden ser llamados de esta manera.
+
+Age: 
+    Contienen información del tiempo que un objeto estuvo en caché. Se representa en segundos. Si es 0(cero) significa que la solicitud se obtuvo del servidor de origen. Sino se calcula como la diferencia entre el Date del proxy y el date enviado por la respuesta original.
+
+    Age: 24
+
+Server: 
+    Describen el software usado por el servidor que manejó la solicitud. Es decir el que generó la respuesta.
+
+    Hay que tener en cuenta que hay que evitar demasiado detalle en estas respuesta ya que sino se estaría enviando información que podrían utilizar los atacantes(por ejemplo la versión del sistema operativo que utiliza el servidor). Se utiliza por ejemplo para exponer la versión de apache utilizada,
+
+    Server: Apache/2.4.1 (Unix)
+
+Location: 
+    indica la URL a la que redirigir una página. Solo proporciona un significado cuando se sirve con una respuesta de estado 3xx (redireccionamiento) o 201 (creado).
+
+-------------------------------------------------------------
+
+Representation Headers
+Contienen información acerca del body de la solicitud, enviado en una respuesta o (en un POST)
+
+Content-type: 
+    Indica el tipo de contenido (formato de archivo) es enviado en una solicitud.
+
+    ejemplo: Content-Type: text/html; charset=UTF-8
+
+Content-Enconding: 
+    Contienen la información necesaria para decodificar un archivo a su formato original.
+
+Content-Encoding: compress
+Content-Encoding: gzip
+
+Content-Languaje: 
+    Indica el lenguaje para los cuales es más relevante el contenido de una página, de modo que los usuarios puedan diferenciarlos según su propio idioma preferido.
+
+Content-Language: en-US
+Content-Language: en-CA
+
+Content-Location: 
+    Indican un URL o dirección alternativa para la respuesta. A diferencia de Location (en Request Headers). Este indica la url directa que puede ser utilizada para acceder al recurso. Mientras Location esta asociada la respuesta en si, content-location esta asociada a los datos devueltos.
+
+Por ejemplo: Si una api puede devolver datos en los formatos JSON, XML o CSV y su ruta se encuentra en https://ejemplo.com/documents/archivo.
+
+El sitio podría retornan distintas url dependiendo del parámetro Accept pasado en la solicitud.
+
+Request header	                   Response header
+
+Accept:                             Content-Location:
+application/json,                   /documents/foo.json
+text/json	
+    
+Accept: 
+application/xml,        	        Content-Location: 
+text/xml                            /documents/foo.xml
+
+Accept: 
+text/plain,                 	    Content-Location: 
+text/*                              /documents/foo.txt
+
+
 */
 /* */
