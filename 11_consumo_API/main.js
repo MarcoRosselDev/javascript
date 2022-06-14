@@ -75,5 +75,18 @@ async function saveFavoriteCat(id) {
     }
 }
 
+async function deleteFavoriteCat(id) {
+    const res = await fetch(API_URL_FAVORITES, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+            image_id: id
+        }),
+    });
+    const data = await res.json();
+}
+
 loadRandomCat();
 loadFavoritesCat();
