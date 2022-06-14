@@ -226,6 +226,25 @@ Accept:
 text/plain,                 	    Content-Location: 
 text/*                              /documents/foo.txt
 
+-------------------------------------------------------------
+
+Payload Headers
+contiene información acerca de la carga de la respuesta. Lenght, Enconding, Range.
+
+Content-Lenght: 
+    Indica el tamaño del body del mensaje en bytes
+
+    Content-Length: 3495
+
+Content-Range: 
+    Indica la posición a la que pertenece una porción del mensaje respecto al body.
+
+Content-Range: 
+    <unit> <range-start>-<range-end>/<size>
+
+Content-Range: 
+    bytes 200-1000/67589
+
 
 */
 /* */
