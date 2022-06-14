@@ -122,5 +122,44 @@ De la misma forma el servidor puede incluir estos headers en las respuestas para
 
 Estos pueden ser separados en varios grupos:
 
+-------------------------------------------------------------
+Request Headers
+Pasan información de la solicitud. Contienen información sobre el recurso solicitado e información del cliente que la solicita.
+
+URL a la que se le hace la solicitud, detalles de autenticación o políticas de cache
+
+Estos pueden ser:
+
+Accept: 
+    Informan al servidor el tipo de datos que el cliente puede entender
+
+Accept: text/html
+Accept: application/xhtml+xml
+Accept: image/png
+
+Accept-Encoding: 
+    Envían información sobre el tipo de codificación que el cliente puede entender
+
+Accept-Encoding: gzip
+Accept-Encoding: gzip, compress
+
+Authorization: 
+    sirve para pasar credenciales que le servirán al servidor determinar si el cliente tiene acceso a ciertos recursos
+
+Authorization: Basic YWxhZGRpbjpvcGVuc2VzYW1l
+Authorization: Bearer eyYWxhZGRpbjpvcGVuc2VzYW1l
+
+Accept-Language: 
+    Permite saber al servidor que tipo lenguaje es entendido por el cliente logrando entender que configuración local es viable enviar. Por ejemplo: los horarios, fechas, medidas, etc.
+
+Accept-Language: fr-CH
+Accept-Language: en-US
+
+Cache-Control: 
+    contiene información sobre el control de la cache por parte del cliente y del servidor.
+
+Cache-Control: stale-while-revalidate=60
+Cache-Control: no-cache
+
 */
 /* */
