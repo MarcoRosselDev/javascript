@@ -33,19 +33,19 @@ async function loadFavoritesCat() {
 }
 
 async function saveFavoriteCats() {
-    const rest = await fetch(API_URL_FAVORITES, {
+    const res = await fetch(API_URL_FAVORITES, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
         },
         body: JSON.stringify({
-            image_id: 12
+            image_id: 'dje'
         }),
     });
-    const data = await res.jason();
+    const data = await res.json();
 
     console.log('Save')
-    console.log(rest)
+    console.log(res)
 
     if (res.status !== 200) {
         spanError.innerHTML = 'Hubo un error: ' + res.status + data.message;
