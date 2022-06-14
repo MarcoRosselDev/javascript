@@ -83,7 +83,9 @@ Access Key + Secret Key
 es decir estamos autenticando nuestra aplicación, estamos autenticando a nuestro frontend para que pueda hacer solicitudes al backend, pero hay aplicaciones donde no solamente necesitamos una Application-based authentication, también hay apps que necesitamos usar esta con una User-based authentication
 
 */
-/* */
+/* 7 Maquetación del proyecto
+
+*/
 /* */
 /* */
 /* */
