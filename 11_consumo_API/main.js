@@ -28,7 +28,28 @@ async function loadFavoritesCat() {
     console.log(data)
 
     if (res.status !== 200) {
-        spanError.innerHTML = 'Hubo un error: ' + res.status + data.message;}
+        spanError.innerHTML = 'Hubo un error: ' + res.status + data.message;
+    }
+}
+
+async function saveFavoriteCats() {
+    const rest = await fetch(API_URL_FAVORITES, {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+            image_id: 12
+        }),
+    });
+    const data = await res.jason();
+
+    console.log('Save')
+    console.log(rest)
+
+    if (res.status !== 200) {
+        spanError.innerHTML = 'Hubo un error: ' + res.status + data.message;
+    }
 }
 
 loadRandomCat();
