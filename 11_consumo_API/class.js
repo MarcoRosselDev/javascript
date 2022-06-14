@@ -86,7 +86,21 @@ es decir estamos autenticando nuestra aplicación, estamos autenticando a nuestr
 /* 7 Maquetación del proyecto
 
 */
-/* */
+/* 8 Mètodos HTTP
+
+HTTP Methods
+
+GET Lee datos del server (Solo Lectura)
+
+HEAD Recupera datos de los headers (Solo Lectura)
+
+POST Envía datos al server
+
+PUT/PATCH Salva datos en el server
+
+DELETE Borra datos del server
+
+*/
 /* */
 /* */
 /* */
