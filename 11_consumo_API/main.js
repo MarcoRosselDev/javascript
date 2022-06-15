@@ -1,6 +1,7 @@
 const API_URL_RANDOM = 'https://api.thecatapi.com/v1/images/search?limit=2&api_key=a196477d-cc81-41c3-bc61-85544de3a482';
 const API_URL_FAVORITES = 'https://api.thecatapi.com/v1/favourites?api_key=a196477d-cc81-41c3-bc61-85544de3a482';
 const API_URL_FAVORITES_DELETE = (id) => `https://api.thecatapi.com/v1/favourites/${id}?api_key=a196477d-cc81-41c3-bc61-85544de3a482`;
+const API_URL_UPLOAD = 'https://api.thecatapi.com/v1/images/upload';
 
 const spanError = document.getElementById('error');
 
@@ -103,6 +104,15 @@ async function deleteFavoriteCat(id) {
 async function uploadCatPhoto() {
     const form = document.getElementById('uploadingForm')
     const formData = new FormData(form);
+
+    console.log(formData.get('file'))
+
+    const res = await fetch(API_URL_UPLOAD, {
+        method: 'POST',
+        headers: {
+            'X-API-KEY':'a196477d-cc81-41c3-bc61-85544de3a482',
+        }
+    })
 }
 
 loadRandomCat();
