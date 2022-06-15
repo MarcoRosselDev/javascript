@@ -100,5 +100,10 @@ async function deleteFavoriteCat(id) {
     }
 }
 
+async function uploadCatPhoto() {
+    const form = document.getElementById('uploadingForm')
+    const formData = new FormData(form);
+}
+
 loadRandomCat();
 loadFavoritesCat();
