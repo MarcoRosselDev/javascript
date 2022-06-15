@@ -110,8 +110,10 @@ async function uploadCatPhoto() {
     const res = await fetch(API_URL_UPLOAD, {
         method: 'POST',
         headers: {
+            // 'Content-Type': 'multipart/form-data',
             'X-API-KEY':'a196477d-cc81-41c3-bc61-85544de3a482',
-        }
+        },
+        body: formData,
     })
 }
 
