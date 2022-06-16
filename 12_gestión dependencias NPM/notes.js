@@ -68,6 +68,10 @@ por lo que tener cuidado cuando un paquete de dependencia es a produción o solo
 de esta forma le decimos que solo es para mi entorno local y no mandarlo a produción. 
 ------------------------------------------------
 
+una vez crado se deve ignorar la carpeta src en git
+para eso creamos un archivo llamado .gitignore
+y dentro escribimos la carpeta a ignorar.
+
 
 */
 /* */
