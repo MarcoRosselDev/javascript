@@ -113,7 +113,29 @@ tmbn podemos especificar la vercion de el paquete.
 si es que nesecitamos una verción espesifica del paquete.
 
 */
-/* */
+/*7 Actualizar y eliminar
+
+npm list
+    me va a listar todos los paquetes que tengo instalado en orden de jerarquia.
+
+npm outdate
+    con seste comando puedo ver que paquetes estan desactualizados.
+
+npm outdate --dd
+    nos muestra todo lo que pasa por detras, los GET a los servidores y el output que nos arroja.
+
+npm update
+    nos actualiza todos los paquetes que no esten actualizados.
+
+npm install json-server@latest
+    nos aseguramos que en este caso json-server este en su ultima verción.
+
+npm uninstall json-server
+    elimina json-server o cualquier paquete que ya no queramos.
+
+npm uninstall webpack --no-save
+    desinstala de la carpeta node pero en el archivo json sigue installado. 
+*/
 /* */
 /* */
 /* */
