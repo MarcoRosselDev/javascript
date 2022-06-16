@@ -104,7 +104,13 @@ simular que se instala una dependencia y ver el output de esta, por ejemplo con 
 
 npm install react --dry-run
 
-
+-------------------------------------------------
+otra forma de instalar dependencias es con force o -f
+esta se ocupa cuando queremos forzar la instalación del 
+paquete desde la ultima verción.
+-------------------------------------------------
+tmbn podemos especificar la vercion de el paquete.
+si es que nesecitamos una verción espesifica del paquete.
 
 */
 /* */
