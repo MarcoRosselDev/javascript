@@ -51,7 +51,19 @@ npm init -y
 Y se creará un package.json con los datos que seleccionamos.
 
 */
-/* */
+/*4 Instalación de dependencias
+
+en terminal 
+nos ubicamos en la carpeta matriz y ejecutamos
+npm install moment
+
+"este moment es una dependencia para controlar el tiempo"
+
+desde x se aplica por defecto --save
+esto significa que es nesecario para vivir en produción
+por lo que tener cuidado cuando un paquete de dependencia es a produción o solo para mi entorno local
+
+*/
 /* */
 /* */
 /* */
