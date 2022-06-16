@@ -72,6 +72,14 @@ una vez crado se deve ignorar la carpeta src en git
 para eso creamos un archivo llamado .gitignore
 y dentro escribimos la carpeta a ignorar.
 
+------------------------------------------------
+
+otra forma de hacerla más rapida es
+
+npm i date-fns -D
+i= install
+-D = como desarrollo (--save-dev = -D)
+
 
 */
 /* */
