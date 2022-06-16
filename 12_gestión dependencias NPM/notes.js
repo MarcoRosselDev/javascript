@@ -98,7 +98,15 @@ en caso de mac usar sudo
 
 
 */
-/* */
+/*6 Instalación con force
+
+simular que se instala una dependencia y ver el output de esta, por ejemplo con react sera asi:
+
+npm install react --dry-run
+
+
+
+*/
 /* */
 /* */
 /* */

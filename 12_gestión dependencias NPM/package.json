@@ -4,5 +4,8 @@
   },
   "devDependencies": {
     "data-fns": "^0.1.8"
+  },
+  "optionalDependencies": {
+    "eslint": "^8.17.0"
   }
 }
