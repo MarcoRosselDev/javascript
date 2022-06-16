@@ -80,6 +80,22 @@ npm i date-fns -D
 i= install
 -D = como desarrollo (--save-dev = -D)
 
+------------------------------------------------
+
+llegado el caso en el que tengamos que instalar un paquete de forma global aplicamos:
+
+npm install -g nodemon
+
+luego para corroborar que se installo aplicamos:
+
+npm list -g --depth 0
+
+esto me lista todos los paquetes globales que tengo instalado
+en el caso de que no se pudo instalar es por que necesita permisos de administrador.
+en caso de mac usar sudo
+
+
+
 
 */
 /* */
