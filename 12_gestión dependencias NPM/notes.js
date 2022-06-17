@@ -191,6 +191,23 @@ npm cache verify
 verifica el estado del cache, para ver si se elimino todo.
 
 */
-/* */
+/*11 Seguridad
+
+npm install loquesea
+    si detecta vulnerabilidades aplicamos...
+
+npm audit
+    podemos ver el num de vulnerabilidades
+
+npm audit --json
+    crea un documento json para ver con más detalle las 
+    vulnerabilidades
+
+npm update "nombre del bul..." --depth 2
+    me actualiza más el numero de profundidad de las dependencias
+
+
+
+*/
 /* */
 /* */
