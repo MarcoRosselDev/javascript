@@ -30,7 +30,8 @@ TypeScript:
 */
 /*4 Atrapando bugs
 
-
+//@ts-check
+si lo aplicamos en la primera linea nos mostrara ahi mismo los errores antes de verlos en consola.
 
 */
 /* */
