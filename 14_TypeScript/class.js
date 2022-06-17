@@ -26,7 +26,7 @@ TypeScript:
     pegamos el documento de www.toptal.com
 
 4   .editorconfig
-    
+    esto para trabajar con vscode en caso de que lo usemoa para mejores configuraciónes de preferencia.
 */
 /* */
 /* */
