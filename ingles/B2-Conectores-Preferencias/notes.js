@@ -331,10 +331,13 @@ They    Their       Theirs
 EXAMPLES
 
 Can you believe I bought a car? It's mine!
+¿Puedes creer que compré un coche? ¡Es mio!
 
 This is my pen. Yours is over there.
+Este es mi lapicero. El tuyo está por allá.
 
 His dog is white. Hers is brown.
+Su perro es blanco. El de ella es marrón.
 
 */
 /* */
