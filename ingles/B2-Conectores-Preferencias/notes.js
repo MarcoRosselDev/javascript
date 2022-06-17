@@ -297,8 +297,23 @@ to + noun
         that to you
 
 */
-/* */
-/* */
+/*12 Speaking exercise
+
+
+
+*/
+const four = 4;
+/*13 Possessive forms
+
+Something belongs(pertenese) to someone.
+
+Used without a noun
+
+Vary according(segun) to the owner(propietario)
+
+Avoid(evitamos) repeating words.
+
+*/
 /* */
 /* */
 /* */
