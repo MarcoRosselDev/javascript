@@ -313,6 +313,20 @@ Vary according(segun) to the owner(propietario)
 
 Avoid(evitamos) repeating words.
 
+---------------------------------------------
+PRONOUNS
+
+subject Adjective   Possessive
+
+I       My          Mine
+You     Your        Yours
+He      His         His
+She     Her         Hers
+It      Its         Its*
+We      Our         Ours
+You     Your        Yours
+They    Their       Theirs
+
 */
 /* */
 /* */
