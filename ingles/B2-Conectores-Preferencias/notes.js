@@ -292,6 +292,10 @@ to + noun
         I cannot believe they said that to you!
         ¡No puedo creer que te hayan dicho eso!
 
+        this to your mother
+        everything to her siblings
+        that to you
+
 */
 /* */
 /* */
