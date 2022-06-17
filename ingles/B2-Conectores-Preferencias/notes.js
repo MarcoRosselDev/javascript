@@ -260,10 +260,13 @@ By
 
     examples:
         Last month I read a great book by Virginia Woolf.
+        El mes pasado leí un gran libro de Virginia Woolf.
 
         The building was restored by the constructor.
+        El edificio fue restaurado por el constructor.
 
         It's a stunning painting by Picasso
+        es un cuadro impresionante de picasso
 
 
 */
