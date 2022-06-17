@@ -327,6 +327,15 @@ We      Our         Ours
 You     Your        Yours
 They    Their       Theirs
 
+---------------------------------------------
+EXAMPLES
+
+Can you believe I bought a car? It's mine!
+
+This is my pen. Yours is over there.
+
+His dog is white. Hers is brown.
+
 */
 /* */
 /* */
