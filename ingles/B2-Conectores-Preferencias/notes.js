@@ -270,7 +270,11 @@ By
 
 
 */
-/* */
+/*11 To preposition
+
+"to" para referirnos al destinatario de la oración o al objeto indirecto, que esencialmente significa que la persona que recibe recibe algo, recibe un objeto.
+
+*/
 /* */
 /* */
 /* */
