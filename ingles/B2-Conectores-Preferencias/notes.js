@@ -283,10 +283,14 @@ to + noun
     examples:
         We'll give this to your mother, not to you.
         Don't insist, please.
+        Le daremos esto a tu madre, no a ti.
+        No insistas, por favor.
 
         Sally explained everything to her siblings.
+        Sally le explicó todo a sus hermanos.
 
         I cannot believe they said that to you!
+        ¡No puedo creer que te hayan dicho eso!
 
 */
 /* */
