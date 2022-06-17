@@ -166,7 +166,17 @@ para garantizar que no se actualize eliminamos el ^
 esto garantiza que se queda en x verción y asi todos pueden tener la misma 
 
 */
-/* */
+/*9 Ejecutar tareas
+
+dentro de package.json
+se pueden agregar atajos en la parte de script
+en la llave aplicamos el atajo y en el valor el =
+
+{
+    apple: npm lushito && npm react base
+}
+
+*/
 /* */
 /* */
 /* */
