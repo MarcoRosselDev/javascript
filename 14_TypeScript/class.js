@@ -28,7 +28,11 @@ TypeScript:
 4   .editorconfig
     esto para trabajar con vscode en caso de que lo usemoa para mejores configuraciónes de preferencia.
 */
-/* */
+/*4 Atrapando bugs
+
+
+
+*/
 /* */
 /* */
 /* */
