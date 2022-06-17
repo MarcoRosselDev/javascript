@@ -162,6 +162,9 @@ c = patch, parches o bug fixes
 b and c = caret ^
 esto le dice al terminal actualizar cada vez que se pueda los bugs y cambios menores 
 
+para garantizar que no se actualize eliminamos el ^
+esto garantiza que se queda en x verción y asi todos pueden tener la misma 
+
 */
 /* */
 /* */
