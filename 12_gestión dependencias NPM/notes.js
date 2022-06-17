@@ -206,7 +206,10 @@ npm audit --json
 npm update "nombre del bul..." --depth 2
     me actualiza más el numero de profundidad de las dependencias
 
-
+npm audit fix
+    garantiza que todos los detalles dentro del proyecto
+    puedan ser actualizados a su ultima verción que requieran.
+    luego puedo ver con npm audit para garantizar que no tengo ninguna vulnerabilidad.
 
 */
 /* */
