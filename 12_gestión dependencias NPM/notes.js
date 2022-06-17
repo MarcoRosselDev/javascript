@@ -177,7 +177,13 @@ en la llave aplicamos el atajo y en el valor el =
 }
 
 */
-/* */
+/*10 Solución de problemas
+
+aplicar --dd 
+el final de cualquier comando para ver el error
+salen todos los detalles de lo que se hace por detras
+
+*/
 /* */
 /* */
 /* */

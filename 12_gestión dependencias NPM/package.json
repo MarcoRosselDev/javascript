@@ -1,11 +1,17 @@
 {
   "dependencies": {
-    "moment": "^2.29.3"
+    "build": "^0.1.4",
+    "moment": "^2.29.3",
+    "webpack": "^5.73.0"
   },
   "devDependencies": {
-    "data-fns": "^0.1.8"
+    "data-fns": "^0.1.8",
+    "webpack-cli": "^4.10.0"
   },
   "optionalDependencies": {
     "eslint": "^8.17.0"
+  },
+  "scripts": {
+    "build": "webpack --mode prduction"
   }
 }
