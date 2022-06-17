@@ -34,7 +34,14 @@ TypeScript:
 si lo aplicamos en la primera linea nos mostrara ahi mismo los errores antes de verlos en consola.
 
 */
-/* */
+/*5 Compilador de TypeScript
+
+trabajamos en un archivo.ts
+todo bien pero casi nadie lee ts por lo que toca compilarlo en .js
+esto se hace por la terminal
+podemos decirla la verción de ES a la que queremos compilar, en caso de ser una verción muy antigua nos lansara alertas de errores dificiles de arreglar.
+
+*/
 /* */
 /* */
 /* */
