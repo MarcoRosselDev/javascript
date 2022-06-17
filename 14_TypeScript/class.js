@@ -12,7 +12,12 @@ TypeScript:
         Code review: normas y practicas de codigo en equipo.
 
 */
-/* */
+/*3 Configuración
+
+1   npm install typescript --save-dev
+    por que solo lo queremos en nuestro entorno local
+
+*/
 /* */
 /* */
 /* */
