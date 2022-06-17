@@ -136,7 +136,33 @@ npm uninstall json-server
 npm uninstall webpack --no-save
     desinstala de la carpeta node pero en el archivo json sigue installado. 
 */
-/* */
+/*8 Package lock y ^ and ~
+
+en package-lock.json
+tenemos la siguiente estructura y sus significados
+
+"dependencies": {
+        "ajv": "^6.12.4",
+        "debug": "^4.3.2",
+        "espree": "^9.3.2",
+        "globals": "^13.15.0",
+        "ignore": "^5.2.0",
+        "import-fresh": "^3.2.1",
+        "js-yaml": "^4.1.0",
+        "minimatch": "^3.1.2",
+        "strip-json-comments": "^3.1.1"
+      },
+
+donde "ajv": "^a.b.c",
+^ = 
+a = major, cambio mayor
+b = minor, cambios menores
+c = patch, parches o bug fixes
+
+b and c = caret ^
+esto le dice al terminal actualizar cada vez que se pueda los bugs y cambios menores 
+
+*/
 /* */
 /* */
 /* */
