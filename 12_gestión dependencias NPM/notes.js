@@ -211,6 +211,15 @@ npm audit fix
     puedan ser actualizados a su ultima verción que requieran.
     luego puedo ver con npm audit para garantizar que no tengo ninguna vulnerabilidad.
 
+--------------------------------------------------
+RECOMEDACIÓN FUERA DE CLASES
+
+auditar primero con
+npm audit fix
+
+si alguno no se termino de actualizar
+entonces actualizarlo de uno en uno.
+
 */
 /* */
 /* */
