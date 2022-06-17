@@ -274,6 +274,20 @@ By
 
 "to" para referirnos al destinatario de la oración o al objeto indirecto, que esencialmente significa que la persona que recibe recibe algo, recibe un objeto.
 
+Refer to the recipient
+
+refer to the indirect object
+
+to + noun
+
+    examples:
+        We'll give this to your mother, not to you.
+        Don't insist, please.
+
+        Sally explained everything to her siblings.
+
+        I cannot believe they said that to you!
+
 */
 /* */
 /* */
