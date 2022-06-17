@@ -183,6 +183,13 @@ aplicar --dd
 el final de cualquier comando para ver el error
 salen todos los detalles de lo que se hace por detras
 
+--------------------------------------------------
+npm cache clean --force
+limpia el cache de carpetas o archivos residuales
+
+npm cache verify
+verifica el estado del cache, para ver si se elimino todo.
+
 */
 /* */
 /* */
