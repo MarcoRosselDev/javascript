@@ -250,7 +250,23 @@ todo malo:
 2_  Judy and Kyle are best friends. They ______ (meet) when they were kids in 1995, and since then, they ______ (be) inseparable. They do everything together! Last year, they ______ (travel) to Spain for five days. But it ______ (not / be) the first time they ______(travel) together. They ______ (be) to the US, Japan, and many other places.
 
 */
-/*10  */
+/*10 By preposition
+
+By
+    express agency
+    el agente es la persona o la cosa que realiza la acción.
+
+    By + agent
+
+    examples:
+        Last month I read a great book by Virginia Woolf.
+
+        The building was restored by the constructor.
+
+        It's a stunning painting by Picasso
+
+
+*/
 /* */
 /* */
 /* */
