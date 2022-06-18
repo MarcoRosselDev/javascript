@@ -383,6 +383,21 @@ si no tengo el nombre puedo usar un pronombre indefinido
 
 any, every, some, no.
 
+--------------------------------------------
+Whichever person | cualquiera que sea la persona
+
+Don't worry. I won't tell anybody!
+No te preocupes. ¡No se lo diré a nadie!
+
+He can invite anyone to his graduation party.
+Puede invitar a cualquiera a su fiesta de graduación.
+
+Sam didn't find anyone to go to the movies.
+Sam no encontró a nadie para ir al cine.
+
+Was there anybody at the park?
+¿Había alguien en el parque?
+
 */
 /* */
 /* */
