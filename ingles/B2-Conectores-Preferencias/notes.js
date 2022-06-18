@@ -344,12 +344,32 @@ Su perro es blanco. El de ella es marrón.
 noun + of + noun +'s + noun
 
 Jane is one of Mary's cousins.
+Jane es una de las primas de Mary.
 
 This park is part of the city's project.
+Este parque es parte del proyecto de ciudad.
 
 Their living room is the size of John's entire apartment.
+Su sala de estar es del tamaño de todo el apartamento de John.
 
+-----------------------------------------------
 
+of + possessive pronoun
+
+Jane is one of Mary's cousins.
+Jane es una de las primas de Mary.
+
+Jane is cousin of Mary's.
+Jane es prima de Mary.
+
+Jane is a cousin of hers.
+Jane es prima suya.
+
+She is one of my co-workers.
+Ella es una de mis compañeras de trabajo.
+
+She is a co-worker of mine.
+Ella es una compañera de trabajo mía.
 
 */
 /* */
