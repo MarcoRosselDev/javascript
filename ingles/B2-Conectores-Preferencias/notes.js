@@ -372,7 +372,18 @@ She is a co-worker of mine.
 Ella es una compañera de trabajo mía.
 
 */
-/* */
+/*14 Coumpound pronouns
+
+any + ... para crear palabras compuestas
+
+anyone, anybody, anything, anywhere
+
+se usa cuando no quieres mencionar a una persona, cosa o lugar especifico.
+si no tengo el nombre puedo usar un pronombre indefinido
+
+any, every, some, no.
+
+*/
 /* */
 /* */
 /* */
