@@ -339,6 +339,18 @@ Este es mi lapicero. El tuyo está por allá.
 His dog is white. Hers is brown.
 Su perro es blanco. El de ella es marrón.
 
+---------------------------------------------
+
+noun + of + noun +'s + noun
+
+Jane is one of Mary's cousins.
+
+This park is part of the city's project.
+
+Their living room is the size of John's entire apartment.
+
+
+
 */
 /* */
 /* */
