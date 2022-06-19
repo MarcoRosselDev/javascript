@@ -457,6 +457,40 @@ Another aspect I can mention is the weather. Brazil is such a big country that y
 It’s hard to choose one I like better than the other.
 
 */
-/* */
+const six = 6;
+/*19 Changing situations
+
+Para hablar sobre situaciones o estados cambiantes se utiliza la estructura gramatical present continuous y los verbos de cambio de estado (verbs of state change).
+
+Ejemplos usando present continuous
+
+Con la estructura gramatical present continuous, se puede expresar algo que está cambiando:
+
+    Sally is getting taller.
+
+    Food prices are going up.
+
+    It is getting colder in here.
+
+    We should go. I am getting hungry.
+
+    Winters are becoming warmer.
+
+Ejemplos usando verbos de estado cambiante
+Verbs of state change son verbos que naturalmente indican que algo cambia:
+
+    We painted the wall white.
+
+    I want to make this clear.
+
+    The robbers broke the lock open.
+
+    Sandra made everything better.
+
+Ejercicio de writing
+
+Escribe cuatro oraciones acerca de situaciones que han cambiado en tu ciudad, país o en el mundo usando *prese
+
+*/
 /* */
 /* */
