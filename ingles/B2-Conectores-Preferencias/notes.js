@@ -496,22 +496,34 @@ Escribe cuatro oraciones acerca de situaciones que han cambiado en tu ciudad, pa
 
 Shall I/we …? y What / How about …?* son dos estructuras para realizar sugerencias, ofrecimientos o invitaciones. Para responder a estas preguntas, podemos utilizar Yes, let’s.
 
-Shall I / we …?
+Shall I / we …?-----------------------------------
+
 Los puntos más importantes para utilizar Shall I / we …? son:
 
-La estructura contiene el verbo infinitivo.
-Shall I …? se usa para ofrecer algo.
-Shall we …? se usa para realizar sugerencias o invitaciones.
-No es común utilizar con los demás pronombres personales (you, he, etc.).
+    La estructura contiene el verbo infinitivo.
+
+    Shall I …? se usa para ofrecer algo.
+
+    Shall we …? se usa para realizar sugerencias o invitaciones.
+
+    No es común utilizar con los demás pronombres personales (you, he, etc.).
+
 Estructura: Shall I / we + verb in infitive + complement ?
 
 Ejemplos usando Shall I / we … ?
-Shall I help you with the essay?
-Shall we go to the supermarket?
-Shall I buy a new one?
-Shall we stay home?
-Shall I prepare dinner?
-What / How about …?
+
+    Shall I help you with the essay?
+
+    Shall we go to the supermarket?
+
+    Shall I buy a new one?
+
+    Shall we stay home?
+
+    Shall I prepare dinner?
+
+What / How about …?--------------------------------
+
 Los puntos más importantes para utilizar What / How about …? son:
 
 La estructura contiene el verbo en present participle (-ing).
@@ -519,12 +531,19 @@ Se utiliza para realizar sugerencias.
 Estructura: What / How about + verb in present participle (-ing) + complement ?
 
 Ejemplos usando What / How about …?
-What about helping them?
-How about going to the supermarket?
-What about buying a new one?
-How about staying home?
-What about preparing dinner?
-Yes, let’s
+
+    What about helping them?
+
+    How about going to the supermarket?
+
+    What about buying a new one?
+
+    How about staying home?
+
+    What about preparing dinner?
+
+Yes, let’s------------------------------------------
+
 Yes, let’s se utiliza para responder preguntas sobre sugerencias y ofrecimientos.
 
 (?) Shall we go to the supermarket?
@@ -534,14 +553,20 @@ Yes, let’s se utiliza para responder preguntas sobre sugerencias y ofrecimient
 (+) Yes, let’s.
 
 Ejercicio de writing
+
 Escribe una oración para dar una sugerencia o realizar un ofrecimiento para las siguientes situaciones:
 
-I’m very tired today.
-Your room is messy.
-It’s his birthday tomorrow.
-I’m hungry.
-He invited us to a party.
-We have a math test next week.
+    I’m very tired today.
+
+    Your room is messy.
+
+    It’s his birthday tomorrow.
+
+    I’m hungry.
+
+    He invited us to a party.
+
+    We have a math test next week.  
 
 */
 /* */
