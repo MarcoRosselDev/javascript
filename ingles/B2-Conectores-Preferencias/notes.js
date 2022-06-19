@@ -399,7 +399,13 @@ Was there anybody at the park?
 ¿Había alguien en el parque?
 
 */
-/* */
+const five = 5;
+/*15 (NOT) Same... as...
+
+
+
+
+*/
 /* */
 /* */
 /* */
