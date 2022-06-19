@@ -442,7 +442,21 @@ Ejercicio de writing
 Escribe tres oraciones sobre tus preferencias usando la estructura like … more/better than.
 
 */
-/* */
+/*18 Comparison and preferences
+
+Lee el texto y presta atención al uso de (not) (the) same as y like better/more than:
+
+I have lived in two countries in South America: Brazil and Colombia. Every country has its particularities, but at the same time, they have more things in common than we imagine.
+
+Living in Brazil is not the same as living in Colombia, but you can get used to it fast. People in Colombia are friendly. They can make you feel good in every environment. Also, there is great food there, but I still like Brazilian food better than Colombian. The flavors are not quite the same.
+
+The economy is also similar in both countries, but Brazil is more expensive. You can earn the same working in both countries, but you end up spending more in Brazil. So, in this way, I like living in Colombia more than in Brazil.
+
+Another aspect I can mention is the weather. Brazil is such a big country that you can find all kinds of weather. Some cities are hotter than others. Some others are really cold during winter. Colombia is not the same as Brazil in this aspect. You don’t feel the weather change very much there. If the city is hot, it is like that the entire year. The same happens if the city is cold.
+
+It’s hard to choose one I like better than the other.
+
+*/
 /* */
 /* */
 /* */
