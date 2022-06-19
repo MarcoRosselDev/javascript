@@ -402,8 +402,26 @@ Was there anybody at the park?
 const five = 5;
 /*15 (NOT) Same... as...
 
+Same as (igual que) es una estructura para describir comparaciones o similitudes. Se puede utilizar un adjetivo entre ambas palabras seguida de la comparación.
 
+Ejemplos usando same as
+Oraciones positivas:
 
+The time in Miami is the same as in Bogotá.
+The word “rain” is pronounced the same way as “reign”.
+Your house is the same size as mine.
+Oraciones negativas:
+
+The time in Miami isn’t the same as in Bogotá.
+The word “rain” is not pronounced the same way as “reign”.
+Your house is not the same size as mine.
+Ejercicio de writing
+Escribe una oración comparativa utilizando same as de los siguientes temas:
+
+Animales favoritos.
+Ciudades o lugares que has visitado.
+Comida o bebida favorita.
+Incluye una razón para cada oración (because …)
 
 */
 /* */
