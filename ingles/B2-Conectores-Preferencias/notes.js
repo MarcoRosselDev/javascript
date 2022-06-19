@@ -427,7 +427,19 @@ Comida o bebida favorita.
 Incluye una razón para cada oración (because …)
 
 */
-/* */
+/*16 Like... better/ more than...
+
+Like… better / more than… es una estructura para describir preferencias, es decir, que te gusta más una cosa, persona o lugar, sobre otra.
+
+Ejemplos usando like … more/better than
+I like cats better than dogs.
+Terry likes running more than swimming.
+My kids like pasta better than rice.
+Do you like soccer more than basketball?
+Ejercicio de writing
+Escribe tres oraciones sobre tus preferencias usando la estructura like … more/better than.
+
+*/
 /* */
 /* */
 /* */
