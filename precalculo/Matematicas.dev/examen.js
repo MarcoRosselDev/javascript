@@ -48,9 +48,27 @@ Una buena forma de identificar nuestros errores en el código es a través del:
 La probabilidad de que estés estudiando en Platzi y de que seas Colombiano, ¿es menor a la probabilidad de que seas Colombiano?
 
 */
-/* */
-/* */
-/* */
+/*22 Matemáticas para Data Science: Probabilidad
+
+10/17
+
+El método de estimación no paramétrica se usa cuando:
+
+*/
+/*27 Matemáticas para Data Science: Estadística Descriptiva
+
+15/25
+
+Las transformaciones no lineales nos sirven para tipos de datos:
+
+*/
+/*28 Funciones matemáticas para Data Science e inteligencia artificial 
+
+3/18
+
+Las variables discretas tienen un número infinito de elementos dentro del conjunto que representan.
+
+*/
 /* */
 /* */
 /* */
