@@ -69,7 +69,13 @@ Las transformaciones no lineales nos sirven para tipos de datos:
 Las variables discretas tienen un número infinito de elementos dentro del conjunto que representan.
 
 */
-/* */
+/*29 Lenguaje y Notación matemática
+
+7/15
+
+¿Qué expresión simbólica es correcta para la relación “El triángulo ABC es congruente con el triángulo XYZ”?
+
+*/
 /* */
 /* */
 /* */
