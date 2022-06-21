@@ -37,7 +37,20 @@ A ∪ B = {1, 2, 3, 4, 5, 6, 9}
 (A ∩ B) ∪ (B ∩ C) = {2, 3, 5, 6}
 
 */
-/* */
+/*14 Lectura y escritura de un texto
+
+Es momento de hablar de la lectura y escritura de un texto con lenguaje matemático.
+
+Aprender notación matemática es como aprender un lenguaje nuevo. Es por eso que es importante tener a la mano libros de consulta, como un diccionario matemático.
+
+Además de lo antes dicho, es fundamental seguir los siguientes pasos a la hora de leer un texto con lenguaje matemático:
+
+Da una lectura rápida al texto para identificar los símbolos, letras, etc. usados.
+Identifica el área de conocimiento del texto.
+Segrega y esquematiza la información del texto.
+Interpreta, con base a lo conocido, parte por parte.
+
+*/
 /* */
 /* */
 /* */
