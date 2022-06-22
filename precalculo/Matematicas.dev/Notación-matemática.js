@@ -97,7 +97,7 @@ bad answer: se elimina node
 
 bad answer: utilizando event.stopBubbling() en el node donde debe parar.
 
-
+event.stopPropagation() en el nodo donde debe parar.
 
 */
 /* */
