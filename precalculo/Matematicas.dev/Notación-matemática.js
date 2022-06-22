@@ -69,7 +69,14 @@ Critical Rendering Path
     Es un modelo que puede ser modificado.
 
 */
-/* */
+/*5 ¿ qué tipo de dato retorna el selector querySelectorAll ?
+
+bad answer: 
+    HTML Collection
+
+
+
+*/
 /* */
 /* */
 /* */
