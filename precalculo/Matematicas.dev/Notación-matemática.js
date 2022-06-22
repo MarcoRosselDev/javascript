@@ -52,7 +52,14 @@ Interpreta, con base a lo conocido, parte por parte.
 
 */
 /* */
-/* */
+
+//Manipulación del DOM
+
+/*1 ¿ en qué momento se construye el DOM ?
+
+bad answer: Durante el HTTP hand shaking
+
+*/
 /* */
 /* */
 /* */
