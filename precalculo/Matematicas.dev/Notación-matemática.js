@@ -88,8 +88,18 @@ append child
 after end
 
 */
-/* */
-/* */
+/*11 que pasa con el nodo con .removeChild()
+
+bad answer: se elimina node
+
+*/
+/*20 ¿Cómo se evita que un Evento se siga propagando?
+
+bad answer: utilizando event.stopBubbling() en el node donde debe parar.
+
+
+
+*/
 /* */
 /* */
 /* */
