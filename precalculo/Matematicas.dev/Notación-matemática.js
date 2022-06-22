@@ -59,6 +59,15 @@ Interpreta, con base a lo conocido, parte por parte.
 
 bad answer: Durante el HTTP hand shaking
 
+------------------------------------------------
+
+Critical Rendering Path
+
+---DOM
+    Es una representación del HTML.
+    Estructura en forma de árbol de nodos.
+    Es un modelo que puede ser modificado.
+
 */
 /* */
 /* */
