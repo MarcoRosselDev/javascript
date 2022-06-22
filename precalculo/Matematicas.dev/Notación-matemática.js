@@ -74,10 +74,20 @@ Critical Rendering Path
 bad answer: 
     HTML Collection
 
-
+devuelve NodeLists 
+    es diferente a un array
 
 */
-/* */
+/*8 El siguiente NO es un método para agregar nodos
+
+bad answer: insertBefore
+
+before begin
+insert before
+append child
+after end
+
+*/
 /* */
 /* */
 /* */
