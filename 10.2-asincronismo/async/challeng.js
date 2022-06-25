@@ -23,3 +23,11 @@ const anotherFunction = async (urlApi) => {
 }
 
 anotherFunction(API);
+
+/*
+1-10
+3-13
+10-18
+13-14
+
+*/
