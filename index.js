@@ -1,19 +1,17 @@
-const promise = new Promise(function (resolve, reject) {
-    resolve('hey!')
-  });
+const fnAsync = () => {
+    return new Promise((resolve, reject) => {
+      (true)
+        ? setTimeout(() => resolve('Async!!'), 2000)
+        : reject(new Error('Error!'));
+    });
+  }
   
-  const cows = 15;
+  const anotherFn = async () => {
+    const somethig = await fnAsync();
+    console.log(somethig);
+    console.log('Hello!');
+  }
   
-  const countCows = new Promise(function (resolve, reject) {
-    if (cows > 10) {
-      resolve(`We have ${cows} cows on the farm`);
-    } else {
-      reject("There is no cows on the farm");
-    }
-  });
-  
-  countCows.then((result) => {
-    console.log(result);
-  }).catch((error) => {
-    console.log(error);
-  }).finally(() => console.log('Finally'));
+  console.log('Before');
+  anotherFn();
+  console.log('After');
