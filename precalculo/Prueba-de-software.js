@@ -25,7 +25,7 @@ Mantenimiento
 Se hace para todos los procedimientos correctivos (mantenimiento correctivo) y a las actualizaciones secundarias del software (mantenimiento continuo), junto con la actualización de las pruebas.
 */
 
-/* class 6 Principios del testing moderno
+/* class 6 los 7 Principios del testing moderno
 
 Los principios creados por Allan Page y Brenn Jensen es acerca del testing moderno, que es la evolución natural del testing ágil. Veían la necesidad de que el tester y el desarrollador evolucionen en su perspectiva, ambos hacen software y entregan al mismo cliente, por lo tanto deben trabajar más como un equipo y no como entidades separadas. El tester debería enfocarse en la calidad del sowftware, el desarrollador debería enfocarse a desarrollar la solución. El tester va a ayudar al desarrollador a utilizar las mejores herramientas, a entender los procesos de pruebas, a mejorar la calidad de su desarrollo.
 
