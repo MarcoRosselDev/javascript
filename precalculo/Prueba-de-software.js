@@ -130,7 +130,27 @@ Preguntas a realizar para construir un proceso de gestión de bugs:
 ¿Qué información requiere el equipo de desarrollo para poder resolver un defecto?
 ¿Cuáles son los estatus que se manejan para que fluya la resolución del defecto?
 ¿Cuáles son los criterios de aceptación de cierre del defecto? */
-/* */
+/*25 Pruebas de verificaion 
+
+Las pruebas de verificación sirven para confirmar que un cambio se haya hecho o un defecto se haya corregido. Queremos verificar que lo que estamos buscando está en los requerimientos o documentación.
+
+Pruebas de verificación
+
+Tratan de reproducir el escenario fallido con los datos usados. Pero sería un error usar los mismo datos para después asumir que el error fue corregido.
+Se buscan nuevos escenarios donde se utilicen valores relativos. Como Otras plataformas, otros sistemas operativos, otros exploradores, otros dispositivos
+Pruebas de regresión
+
+La matrices de pruebas cuando se implementan otros dispositivos u otros exploradores nos ayuda a tenerlos en cuenta nuestros puntos de verificación para que no sufran un impacto.
+La matriz de prueba nos funciona para casos donde no solo vemos los defectos sino que todo lo que ya funciona siga funcionando.
+Nos ayuda a tener una claridad con los casos de prueba claves que pueden ser automatizados.
+Documentación
+
+Comentarios en el código
+Documentación técnica
+Pruebas unitarias
+Pruebas específicas
+Matrices de pruebas
+Plan de pruebas */
 /* */
 /* */
 /* */
