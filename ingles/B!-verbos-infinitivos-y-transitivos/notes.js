@@ -86,7 +86,46 @@ Why don’t we go to the cinema?
 ¿Por qué no vamos al cine?
 
 */
-/* */
+/*15 
+
+Un condicional consiste en que si sucede una primera acción, en consecuencia pasará una segunda acción. Existen cuatro formas de condicionales.
+
+First conditional sirve para referirse a posibles situaciones en el futuro a partir de una acción del presente. Se utiliza la palabra clave if, seguido de las formas verbales present simple y future simple.
+
+Las estructuras para formar un first conditional son las siguientes:
+
+            Future simple + if + present simple.
+
+If + present simple, + future simple (ten en cuenta la coma entre las formas verbales).
+
+Ejemplos usando first conditional
+
+If it rains, I will use my umbrella.
+Si llueve, usaré mi paraguas.
+
+If I am late to the meeting, I will text my coworker.
+Si llego tarde a la reunión, enviaré un mensaje de texto a mi compañera de trabajo.
+
+I will order out for delivery if I don’t have time to cook today.
+Ordenaré para la entrega si no tengo tiempo para cocinar hoy.
+
+She will stay late at the office working if she doesn’t finish the report.
+Se quedará hasta tarde en la oficina trabajando si no termina el informe.
+
+    Pratiquemos el uso del first conditional
+    Completa las siguientes oraciones con tus propias respuestas.
+
+If I don’t finish my project …
+If you don’t arrive on time …
+If we don’t find the car keys …
+
+    Posibles respuestas
+
+If I don’t finish my project, I won’t go to the cinema.
+If you don’t arrive on time, I will leave the restaurant.
+If we don’t find the car keys, we won’t be able to go on our trip.
+
+*/
 /* */
 /* */
 /* */
