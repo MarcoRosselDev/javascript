@@ -42,3 +42,23 @@ Nosotros usamos datos de manera extensa y profunda para entender los casos de us
 Expandimos las habilidades de testing y el conocimiento en todo el equipo; entendemos que esto reduce o elimina la necesidad de un especialista dedicado al testing.
 
 */
+
+/*16 Cajas
+Cuando no estamos refiriendo a una caja es la manera de observar el contenido de software.
+
+Negra: No podemos observar cómo fue construida, no vemos el código, no sabemos su arquitectura, no tenemos nociones más que la interfaz que estamos interactuando.
+
+Partición de equivalencia
+Valores límite
+Tabla de decisiones
+Transición de estados
+Casos de usos
+Blanca: Es como una caja de cristal, puedo ver todo lo que hay adentro e incluso puedo ser parte del equipo que desarrolla el software.
+
+Cobertura de declaración
+Cobertura de decisiones
+Gris: Pueden ser la integraciones, cómo fluye el código y puedo ver como se transmiten los datos a través de las redes.
+
+Casos de negocios
+Pruebas End-to-End
+Pruebas de integración */
