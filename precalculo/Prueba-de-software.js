@@ -53,6 +53,7 @@ Valores límite
 Tabla de decisiones
 Transición de estados
 Casos de usos
+
 Blanca: Es como una caja de cristal, puedo ver todo lo que hay adentro e incluso puedo ser parte del equipo que desarrolla el software.
 
 Cobertura de declaración
