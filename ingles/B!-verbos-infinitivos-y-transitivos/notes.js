@@ -72,7 +72,20 @@ They could leave one hour earlier to avoid the traffic jams.
 Podrían salir una hora antes para evitar los atascos.
 
 */
-/* */
+/*14 offers and suggestions --Why don’t …?
+
+Why don’t …? sirve para preguntar a alguien o a un grupo cercano sobre una sugerencia u ofrecimiento para realizar algo. Para contestar estas preguntas pueden utilizar expresiones como: Yeah, sounds good!, Could be!.
+
+Ejemplos usando Why don’t …?
+What should we do today?
+
+Why don’t eat at the new restaurant on the corner?
+¿Por qué no comes en el nuevo restaurante de la esquina?
+
+Why don’t we go to the cinema?
+¿Por qué no vamos al cine?
+
+*/
 /* */
 /* */
 /* */
