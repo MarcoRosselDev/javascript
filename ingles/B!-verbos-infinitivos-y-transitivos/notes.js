@@ -52,7 +52,26 @@ We must have fun.
 We mustn’t damage the plants.
 
 */
-/* */
+/*13 Speculations --May, might y could
+
+May, might y could son verbos modales que sirven para especular sobre acciones del futuro; y representan una probabilidad alta, media y baja, respectivamente. Tener en cuenta que no se refieren a un evento que seguramente pasará.
+
+It may rain tomorrow (seguro que lloverá).
+It might rain tomorrow (tal vez llueva).
+It could rain tomorrow (podría llover).
+
+Ejemplos usando may, might y could
+
+I may go to the gym tomorrow morning.
+Puedo ir al gimnasio mañana por la mañana.
+
+She might call him back.
+Ella podría devolverle la llamada.
+
+They could leave one hour earlier to avoid the traffic jams.
+Podrían salir una hora antes para evitar los atascos.
+
+*/
 /* */
 /* */
 /* */
