@@ -185,5 +185,16 @@ Ejecutamos la prueba: Falla
 Se escribe el código
 Ejecutamos la prueba: Pasa
 Behavior Driven Development: Si primeros vamos a escribir las pruebas, debemos hacerlo bien y usando un lenguaje sencillo, simple para que la sirva al equipo para entender qué es lo que queremos hacer. */
-/* */
+/*28 Gherkin
+
+Gherkin es un lenguaje de texto plano con estructura, usamos palabras que no son comandos pero permiten entender en un modo de pseudocódigo qué es lo que se tiene que hacer. Esta diseñado para ser fácil de aprender y ser entendido por todos.
+
+Ventajas
+
+Simple
+Palabras claves o keywords
+Estandariza los casos de uso
+Reduce el tiempo de diseño
+
+*/
 /* */
