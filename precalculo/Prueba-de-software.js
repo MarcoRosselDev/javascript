@@ -151,7 +151,23 @@ Pruebas unitarias
 Pruebas específicas
 Matrices de pruebas
 Plan de pruebas */
-/* */
+/*26 tecnicas de depuracion 
+
+Las técnicas de depuración deben ir cambiando de ser reactivas a ser preventivas. Debemos recordar que parte de los principios del testing moderno es tratar de ir corrigiendo nuestras técnicas, implementar mejores prácticas y hacer uso de mejores herramientas. El debugging debería ser la última técnica que utilizas.
+
+Técnicas de depuración:
+
+Debugging: Observar valores de variables, detener temporalmente la aplicación.
+Logs: Hacer un vaciado de cómo las variables van cambiando y es más fácil rastrear la información.
+Historial: Agiliza la forma de monitorear y observar los comportamientos de nuestro software. Comparando valores, agrupando información.
+Reportes: Observar anomalías, acelerar el tiempo de respuesta, prevenir ataques o fallas.
+Pasos para depurar:
+
+Ir al módulo que falla
+Establecer breakpoints
+Diseñar una matrix de pruebas
+Establecer los datos de prueba
+Comenzar a depurar */
 /* */
 /* */
 /* */
