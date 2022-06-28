@@ -86,7 +86,7 @@ Why don’t we go to the cinema?
 ¿Por qué no vamos al cine?
 
 */
-/*15 
+/*15 conditional --if
 
 Un condicional consiste en que si sucede una primera acción, en consecuencia pasará una segunda acción. Existen cuatro formas de condicionales.
 
@@ -126,7 +126,13 @@ If you don’t arrive on time, I will leave the restaurant.
 If we don’t find the car keys, we won’t be able to go on our trip.
 
 */
-/* */
+/*16 infinitives --adjective + to + verb
+
+There are many activities that we can do in one week! It is [difficult to wake up ]early sometimes. It is [fun to ride] a bike on the weekends and during the week. Cookies are [easy to make]. Dogs are [easy to please].
+
+¡Hay muchas actividades que podemos hacer en una semana! A veces es difícil levantarse temprano. Es divertido andar en bicicleta los fines de semana y durante la semana. Las galletas son fáciles de hacer. Los perros son fáciles de complacer./
+
+*/
 /* */
 /* */
 /* */
