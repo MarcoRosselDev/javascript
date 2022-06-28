@@ -110,7 +110,26 @@ El tester técnico, trabaja muy de cerca con el tester manual, mientras que el t
 El líder de pruebas, generalmente dentro de sus responsabilidad es volverse un facilitador de servicios, información y herramientas para el equipo de pruebas, para poder estimar presupuestos, recursos y tiempos respecto al plan de desarrollo de software.
 
 El Ingeniero de calidad, ya no solamente está al pendiente del producto y los procesos, comienza a involucrarse más con el negocio, ayudando tanto a testers como cualquier otro miembro del equipo a llevar cabo pruebas que reduzcan, en todas las etapas del ciclo de vida del software, el error humano.*/
-/* */
+/*22 bugs 
+
+La mala administración, malas prácticas o falta de seguimiento entorpece las tareas de todo el equipo sino que además sumamos el retrabajo en la mala documentación puede que nuestro proyecto se salga de presupuesto o tiempo.
+
+Razones por las que aparecen defectos:
+
+Hay presión de tiempo en la entrega del software
+Descuidos en el diseño
+Inexperiencia o falta de conocimiento
+Falta de comunicación en los requerimientos
+Diseño complejo de código
+Desconocimiento de las tecnologías usadas
+Preguntas a realizar para construir un proceso de gestión de bugs:
+
+¿Qué debe de hacer la persona que encuentre el defecto?
+¿En qué herramienta debe documentar el defecto?
+¿Cómo vamos a almacenar la información?
+¿Qué información requiere el equipo de desarrollo para poder resolver un defecto?
+¿Cuáles son los estatus que se manejan para que fluya la resolución del defecto?
+¿Cuáles son los criterios de aceptación de cierre del defecto? */
 /* */
 /* */
 /* */
