@@ -20,20 +20,33 @@ Los estados son números que indica el estado de la petición:
 */
 /*Cuerpo y query de la petición
 
-El cuerpo de la petición es la información en sí que queremos enviar, editar o que el servidor nos devuelva.
+[[[El cuerpo]]] de la petición es la información en sí que queremos enviar, editar o que el servidor nos devuelva.
 
 ¿Que tiene y cómo viene?
     Depende de las cabeceras
+
         Content-Type
         Content-Length
 
         Posibles content-type
+
             text/html
             text/css
             application/javascript  "application le dice al navegador que se debe   ejecutar"
             image/jpeg
             application/json    "datos crudos parecidos a un objeto de javascript"
             application/xml     "html evolución de html"
+
+
+En la request(solicitud)
+
+[POST]
+http://api.com/user
+    content-type: application/json
+    {
+        "name": "Lusho",
+        "username": "CodigoLushito"
+    }
 
 -------------------------------------------------
 Las queries van a permitirte añadir información extra a los datos que queramos enviarle al servidor.
