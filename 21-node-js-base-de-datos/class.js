@@ -19,9 +19,9 @@ Los estados son números que indica el estado de la petición:
 
 */
 /*Cuerpo y query de la petición
-
+-------------------------------------------------
 [[[El cuerpo]]] de la petición es la información en sí que queremos enviar, editar o que el servidor nos devuelva.
-
+-------------------------------------------------
 ¿Que tiene y cómo viene?
     Depende de las cabeceras
 
@@ -67,7 +67,20 @@ content-type: text/html
     <body> ... </body>
 </html>
 -------------------------------------------------
+-------------------------------------------------
 Las queries van a permitirte añadir información extra a los datos que queramos enviarle al servidor.
+-------------------------------------------------
+-------------------------------------------------
+Información extra.
+    -Orden en el que quieres que se devuelvan los datos
+    -Parámetro que quieres medir.
+
+    un ejemplo es 
+        youtube.com/watch?v=zkfwqfweg
+        {
+            le estoy pidiendo a youtube pero le espesifico despues del ? el video que quiero ver.
+
+        }
 
 */
 /* */
