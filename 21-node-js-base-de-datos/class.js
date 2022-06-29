@@ -70,17 +70,40 @@ content-type: text/html
 -------------------------------------------------
 Las queries van a permitirte añadir información extra a los datos que queramos enviarle al servidor.
 -------------------------------------------------
--------------------------------------------------
 Información extra.
-    -Orden en el que quieres que se devuelvan los datos
-    -Parámetro que quieres medir.
+-Orden en el que quieres que se devuelvan los datos
+-Parámetro que quieres medir.
 
-    un ejemplo es 
-        youtube.com/watch?v=zkfwqfweg
-        {
-            le estoy pidiendo a youtube pero le espesifico despues del ? el video que quiero ver.
+un ejemplo es 
+youtube.com/watch?v=zkfwqfweg
+{
+    le estoy pidiendo a youtube pero le espesifico despues del ? el video que quiero ver.
+    
+}
 
-        }
+-------------------------------------------------
+tmbn nos sirven para compartir información con el frontend (pero ojo que el usuario lo verá.)
+    por ejemplo
+    
+    miweb.com?utm_source=medium
+    {
+        le espesifica de donde vienen los datos
+        (medium) y esto lo vera el usuario
+    }
+
+    ejemplo2
+    miweb.com?color=red
+    {
+        le solicita datos de una web roja
+    }
+-------------------------------------------------
+ESTRUCTURA DE UNA QUERY
+
+-Añadir ? al final de la URL
+-nombre=valor
+-Separarlos con &
+
+
 
 */
 /* */
