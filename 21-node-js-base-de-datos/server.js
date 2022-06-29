@@ -4,15 +4,21 @@ const router = express.Router();
 
 var app = express();
 app.use(bodyParser.json());
+app.use(bodyParser.urlencoded({extended: false}));
 app.use(router);
 
-router.get('/', function (request, response) {
+router.get('/message', function (request, response) {
+    console.log(request.header);
+    response.header({
+        "custom-header": "Nuestro valor personalizado"
+    }); //le damos cabezeras especificas al cliente
     response.send('Hola desde get');
 });
 
-router.delete('/', function (request, response) {
+router.delete('/message', function (request, response) {
+    console.log(request.query);
     console.log(request.body);
-    response.send('Hola desde delete');
+    response.send('Mensaje ' + request.body.text + 'añadido correctamente');
 });
 
 router.put('/', function (request, response) {
@@ -20,6 +26,7 @@ router.put('/', function (request, response) {
     response.send('Hola desde put');
 });
 
+router.app
 // app.use('/', function(request, response){
 //     response.send('Hola!');
 // });
