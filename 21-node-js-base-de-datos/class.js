@@ -38,6 +38,7 @@ Los estados son números que indica el estado de la petición:
             application/xml     "html evolución de html"
 
 
+---------------------------------
 En la request(solicitud)
 
 [POST]
@@ -47,7 +48,24 @@ http://api.com/user
         "name": "Lusho",
         "username": "CodigoLushito"
     }
+---------------------------------
+En la response(respuesta)
 
+-En cualquier método
+-Un archivo html, css, js...
+-Los datos de un producto
+
+-------------------------------------------------
+ejemplo de petición a una paguina
+-------------------------------------------------
+[GET]
+http://marcus.com
+content-type: text/html
+
+<html>
+    <head> ... </head>
+    <body> ... </body>
+</html>
 -------------------------------------------------
 Las queries van a permitirte añadir información extra a los datos que queramos enviarle al servidor.
 
