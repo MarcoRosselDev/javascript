@@ -71,6 +71,7 @@ Invoca la función prototype de otro objeto.
 -------------------------------------------------
 es un atajo, lo que se conose como azucar sintactica :
     algo que le añadimos al lenguaje para facilitar el proceso pero son cosas que ya se podian hacer.
+    = Object.create()
 -------------------------------------------------
 */
 /*7
@@ -83,7 +84,16 @@ __proto__
 -------------------------------------------------
 
 */
-/* */
+/*8
+
+¿Cómo se llama la estructura de datos que representa un versión del código que el interpretador puede procesar?
+-------------------------------------------------
+Parser
+-------------------------------------------------
+
+-------------------------------------------------
+
+*/
 /* */
 /* */
 /* */
