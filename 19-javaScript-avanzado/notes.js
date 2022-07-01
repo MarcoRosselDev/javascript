@@ -12,7 +12,18 @@ async /puede ser.
 -------------------------------------------------
 
 */
-/* */
+/*2-
+
+¿Qué atributo usamos cuando queremos que la petición de un script sea asíncrona pero que tan pronto termine de
+cargar, el script se ejecute?
+
+-------------------------------------------------
+defer
+-------------------------------------------------
+async /puede ser/ o nada si es que esta asta el final
+-------------------------------------------------
+
+*/
 /* */
 /* */
 /* */
