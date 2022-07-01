@@ -24,9 +24,36 @@ async /puede ser/ o nada si es que esta asta el final
 -------------------------------------------------
 
 */
-/* */
-/* */
-/* */
+/*5
+¿Cómo pasamos los argumentos a una función utilizando apply?
+-------------------------------------------------
+Separando cada argumento con una coma.xxx
+-------------------------------------------------
+lo pasamos como partes de un arreglo :
+    caminar.apply(richar, [800, 'noreste]);
+
+hace lo mismo que call 
+-------------------------------------------------
+
+*/
+/*25
+
+¿Cómo pasamos los argumentos a una función utilizando call?
+-------------------------------------------------
+Con un objeto donde cada key es el nombre del argumento, y el valor es el valor que queremos pasar.
+-------------------------------------------------
+
+-------------------------------------------------
+*/
+/*26
+
+¿Cómo pasamos los argumentos a una función utilizando bind?
+-------------------------------------------------
+Con un arreglo donde cada argumento es un elemento.
+-------------------------------------------------
+
+-------------------------------------------------
+*/
 /* */
 /* */
 /* */
