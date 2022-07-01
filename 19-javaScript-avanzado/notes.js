@@ -58,7 +58,9 @@ además del contexto tengo que pasarle los valores:
 -------------------------------------------------
 Con un arreglo donde cada argumento es un elemento.
 -------------------------------------------------
-
+construlle una nueva función que tendra el this integrado,
+podremos guardar los valores (300, "este"), en la misma función o se los podemos dar al llamar la función.
+es muy flexible.
 -------------------------------------------------
 */
 /* */
