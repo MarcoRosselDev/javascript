@@ -33,6 +33,10 @@ lo pasamos como partes de un arreglo :
     caminar.apply(richar, [800, 'noreste]);
 
 hace lo mismo que call 
+pero apply puede resivir una variable con el arreglo:
+
+const valores = [800, 'noreste']
+caminar.apply(richar, valores);
 -------------------------------------------------
 
 */
@@ -42,7 +46,10 @@ hace lo mismo que call
 -------------------------------------------------
 Con un objeto donde cada key es el nombre del argumento, y el valor es el valor que queremos pasar.
 -------------------------------------------------
+además del contexto tengo que pasarle los valores:
+    caminar.call(richar, 400, 'norte');
 
+    (this, es el conxto = richar)
 -------------------------------------------------
 */
 /*26
