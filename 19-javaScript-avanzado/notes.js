@@ -1,4 +1,17 @@
-/* */
+/*1-
+
+¿Qué valor le tenemos que asignar a
+
+<script src="index.js" type="..." >
+
+para que el archivo no añada valores al ámbito global?
+-------------------------------------------------
+defer
+-------------------------------------------------
+async /puede ser.
+-------------------------------------------------
+
+*/
 /* */
 /* */
 /* */
