@@ -69,9 +69,9 @@ es muy flexible.
 -------------------------------------------------
 Invoca la función prototype de otro objeto.
 -------------------------------------------------
-
+es un atajo, lo que se conose como azucar sintactica :
+    algo que le añadimos al lenguaje para facilitar el proceso pero son cosas que ya se podian hacer.
 -------------------------------------------------
-
 */
 /*7
 
