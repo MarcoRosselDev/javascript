@@ -213,10 +213,9 @@ Considera el código
 -------------------------------------------------
 dependencies
 -------------------------------------------------
-
+devDependencies
+"name": "@sparragus/platzimediaplayer"
 -------------------------------------------------
-
-
 */
 /*27
 16
@@ -224,7 +223,8 @@ dependencies
 -------------------------------------------------
 Se regresan los valores de las promesas que fueron resueltas y los errores de las rechazadas
 -------------------------------------------------
-
+Promise.race. 
+    Regresa sólo la promesa que se resuelva primero.
 -------------------------------------------------
 */
 /*28
