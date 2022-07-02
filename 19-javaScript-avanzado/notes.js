@@ -1,5 +1,5 @@
-/*1-
-
+/*1
+4
 ¿Qué valor le tenemos que asignar a
 
 <script src="index.js" type="..." >
@@ -84,7 +84,6 @@ Object es el punto de partida de todo los objetos
 Object.getPropertyOf()
 hasOwnProperty() nos sirve para saber si pertenese a x
 -------------------------------------------------
-
 */
 /*8
 
@@ -94,7 +93,6 @@ Parser
 -------------------------------------------------
 Tokens
 -------------------------------------------------
-
 */
 /*10
 15
@@ -122,7 +120,6 @@ get muted(){
     return this.media.muted;
 },  ...
 -------------------------------------------------
-
 */
 /*13
 18
@@ -132,8 +129,6 @@ Operaciones aritméticas
 -------------------------------------------------
 
 -------------------------------------------------
-
-
 */
 /*14
 19
@@ -143,8 +138,6 @@ done
 -------------------------------------------------
 
 -------------------------------------------------
-
-
 */
 /*15
 20
@@ -154,8 +147,6 @@ FetchController
 -------------------------------------------------
 
 -------------------------------------------------
-
-
 */
 /*17
 22
@@ -165,98 +156,65 @@ IntersectionObserver
 -------------------------------------------------
 
 -------------------------------------------------
-
-
 */
-/*
-¿Cuál es la sintaxis correcta para definir un getter?
+/*18
+23
+¿Cuál event disponible en los service workers usas para pre-cache de assets de una página y prepararla parafuncionar offl ine ?
 -------------------------------------------------
-{ get answer = () => 42 }
+activate
 -------------------------------------------------
 
 -------------------------------------------------
-
-
 */
-/*
-¿Cuál es la sintaxis correcta para definir un getter?
+/*19
+30
+¿Cómo se define mejor qué es un patrón de diseño?
 -------------------------------------------------
-{ get answer = () => 42 }
+Una lista de pasos a seguir para resolver problemas comunes en diseño de software.
 -------------------------------------------------
 
 -------------------------------------------------
-
-
 */
-/*
-¿Cuál es la sintaxis correcta para definir un getter?
+/*20
+32
+Necesitas una clase de la cual solo exista una instancia. ¿Qué patrón usarías?
 -------------------------------------------------
-{ get answer = () => 42 }
+Decorator
 -------------------------------------------------
 
 -------------------------------------------------
-
-
 */
-/*
-¿Cuál es la sintaxis correcta para definir un getter?
--------------------------------------------------
-{ get answer = () => 42 }
--------------------------------------------------
+/*24
+41
+Considera el código
+    import MediaPlayer from '@sparragus/platzimediaplayer'
 
+¿Cuál propiedad del package.json define el archivo de la biblioteca que sería importado?
 -------------------------------------------------
-
-
-*/
-/*
-¿Cuál es la sintaxis correcta para definir un getter?
--------------------------------------------------
-{ get answer = () => 42 }
+dependencies
 -------------------------------------------------
 
 -------------------------------------------------
 
 
 */
-/*
-¿Cuál es la sintaxis correcta para definir un getter?
+/*27
+16
+¿Qué pasa cuando tres de las promesas en Promise.race se resuelven?
 -------------------------------------------------
-{ get answer = () => 42 }
+Se regresan los valores de las promesas que fueron resueltas y los errores de las rechazadas
 -------------------------------------------------
 
 -------------------------------------------------
-
-
 */
-/*
-¿Cuál es la sintaxis correcta para definir un getter?
+/*28
+5
+¿Cuál es la diferencia entre var y let al ser declaradas en una función?
 -------------------------------------------------
-{ get answer = () => 42 }
--------------------------------------------------
-
--------------------------------------------------
-
-
-*/
-/*
-¿Cuál es la sintaxis correcta para definir un getter?
--------------------------------------------------
-{ get answer = () => 42 }
+var tiene global scope y let tiene function scope.
 -------------------------------------------------
 
 -------------------------------------------------
-
-
-*/
-/*
-¿Cuál es la sintaxis correcta para definir un getter?
--------------------------------------------------
-{ get answer = () => 42 }
--------------------------------------------------
-
--------------------------------------------------
-
-
 */
 /* 
 ctrl + alt + z (+)
