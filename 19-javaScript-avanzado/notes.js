@@ -233,7 +233,7 @@ Promise.race.
 -------------------------------------------------
 var tiene global scope y let tiene function scope.
 -------------------------------------------------
-
+var tiene global scope y let tiene block scope.
 -------------------------------------------------
 */
 /* 
