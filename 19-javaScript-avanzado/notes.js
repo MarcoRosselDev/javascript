@@ -33,6 +33,7 @@ async /puede ser/ o nada si es que esta asta el final
 
 */
 /*5
+9
 ¿Cómo pasamos los argumentos a una función utilizando apply?
 -------------------------------------------------
 Separando cada argumento con una coma.xxx
@@ -49,7 +50,7 @@ caminar.apply(richar, valores);
 
 */
 /*25
-
+9
 ¿Cómo pasamos los argumentos a una función utilizando call?
 -------------------------------------------------
 Con un objeto donde cada key es el nombre del argumento, y el valor es el valor que queremos pasar.
@@ -104,12 +105,18 @@ hasOwnProperty() nos sirve para saber si pertenese a x
 -------------------------------------------------
 */
 /*8 ------
-
+12
 ¿Cómo se llama la estructura de datos que representa un versión del código que el interpretador puede procesar?
 -------------------------------------------------
 Parser xxx
 -------------------------------------------------
 Tokenizer xxx
+-------------------------------------------------
+[[Abstract Syntax Tree]], {
+    iterpreter              ________,
+        bytecode                    |
+        Optimizing Compiler---Optimized code
+}
 -------------------------------------------------
 Tokens
 -------------------------------------------------
