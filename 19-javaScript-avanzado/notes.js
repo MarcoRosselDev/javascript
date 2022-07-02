@@ -113,49 +113,55 @@ stack --- > apunta a varaibles como el Scope{...}
 -------------------------------------------------
 */
 /*12
-
+17
 ¿Cuál es la sintaxis correcta para definir un getter?
 -------------------------------------------------
 { get answer = () => 42 }
 -------------------------------------------------
-
+get muted(){
+    return this.media.muted;
+},  ...
 -------------------------------------------------
 
 */
-/*
-¿Cuál es la sintaxis correcta para definir un getter?
+/*13
+18
+¿Cuál de estas operaciones puede ser interceptada por un Proxy?
 -------------------------------------------------
-{ get answer = () => 42 }
--------------------------------------------------
-
--------------------------------------------------
-
-
-*/
-/*
-¿Cuál es la sintaxis correcta para definir un getter?
--------------------------------------------------
-{ get answer = () => 42 }
+Operaciones aritméticas
 -------------------------------------------------
 
 -------------------------------------------------
 
 
 */
-/*
-¿Cuál es la sintaxis correcta para definir un getter?
+/*14
+19
+¿Con qué keyword un generator puede detener su ejecución?
 -------------------------------------------------
-{ get answer = () => 42 }
+done
 -------------------------------------------------
 
 -------------------------------------------------
 
 
 */
-/*
-¿Cuál es la sintaxis correcta para definir un getter?
+/*15
+20
+¿Qué "clase" usamos para crear un signal que sirva para detener un fetch?
 -------------------------------------------------
-{ get answer = () => 42 }
+FetchController
+-------------------------------------------------
+
+-------------------------------------------------
+
+
+*/
+/*17
+22
+Eres el desarrollador de un e-commerce. En la página hay un carrusel que muestra los artículos con descuento yautomáticamente cambia de slide. Cuando el usuario cambia de tab, tienes que asegurarte que el carrusel sedetiene. ¿Qué API del DOM usarías para detectar si el tab del e-commerce sigue activo?
+-------------------------------------------------
+IntersectionObserver
 -------------------------------------------------
 
 -------------------------------------------------
