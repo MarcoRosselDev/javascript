@@ -8,9 +8,11 @@ para que el archivo no añada valores al ámbito global?
 -------------------------------------------------
 defer xxx
 -------------------------------------------------
-async
+async xxx
 -------------------------------------------------
-async /puede ser.
+async /puede ser.xxx
+-------------------------------------------------
+nada si esta asta el final **********
 -------------------------------------------------
 
 */
@@ -23,6 +25,8 @@ cargar, el script se ejecute?
 defer xxx
 -------------------------------------------------
 Ninguno xxx
+-------------------------------------------------
+async **********
 -------------------------------------------------
 async /puede ser/ o nada si es que esta asta el final
 -------------------------------------------------
@@ -57,12 +61,20 @@ además del contexto tengo que pasarle los valores:
 -------------------------------------------------
 */
 /*26 ------
-
+9
 ¿Cómo pasamos los argumentos a una función utilizando bind?
 -------------------------------------------------
 Con un arreglo donde cada argumento es un elemento.xxx
 -------------------------------------------------
 Con un objeto donde cada key es el nombre del argumento, y el valor es el valor que queremos pasar. xxx
+-------------------------------------------------
+-------------------------------------------------
+apply = "Con un arreglo donde cada argumento es un elemento."
+call = "Separando cada argumento con una coma."
+
+por consiguiente el que queda es la respuesta correcta
+
+-------------------------------------------------
 -------------------------------------------------
 construlle una nueva función que tendra el this integrado,
 podremos guardar los valores (300, "este"), en la misma función o se los podemos dar al llamar la función.
