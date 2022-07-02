@@ -97,12 +97,19 @@ Tokens
 
 */
 /*10
-
-¿Qué queue tiene mayor prioridad?
+15
+¿Qué queue[cola] tiene mayor prioridad?
 -------------------------------------------------
 Scheduled Tasks
 -------------------------------------------------
+stack --- > apunta a varaibles como el Scope{...}
+    por ahora la prioridad es el orden de llegada como en una cola en el banco.
 
+    MICROTASKS QUEUE
+    las microtareas tienen prioridad sobre quien llego primero,
+    por lo que si en una promesa tenemos un conosle.log(),
+    se ejecutara primero,
+    en caso de más promesas los ejecutara en orden de lectura del codigo, "promesa1, promesa2, ..."
 -------------------------------------------------
 */
 /*12
