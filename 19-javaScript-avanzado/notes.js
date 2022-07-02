@@ -191,7 +191,7 @@ Update on reload (activado para que funcione offline)
 -------------------------------------------------
 Una lista de pasos a seguir para resolver problemas comunes en diseño de software.
 -------------------------------------------------
-
+Son soluciones generales ya probadas dentro de un contexto que las limita a problemas frecuentes que nos encontramos en el desarrollo de software.
 -------------------------------------------------
 */
 /*20
