@@ -141,11 +141,16 @@ var proxy = new Proxy(target, handler)
 */
 /*14
 19
-¿Con qué keyword un generator puede detener su ejecución?
+¿Con qué keyword(palabra clave) un generator puede detener su ejecución?
 -------------------------------------------------
 done
 -------------------------------------------------
-
+yield;
+podemos aplicar n...yields:
+    yield 1;
+    yield 2;
+    yield 3;
+        se va a detener en el 1 y si lo arrancamos denuevo se detendra en el yield 2.
 -------------------------------------------------
 */
 /*15
