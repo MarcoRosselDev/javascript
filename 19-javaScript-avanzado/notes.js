@@ -127,7 +127,16 @@ get muted(){
 -------------------------------------------------
 Operaciones aritméticas
 -------------------------------------------------
+(target, handler) 
+    el target es el que queremos interceptar
+    antes de que la llamada llegue a este objeto lo queremos inteceptar...
+-------------------------------------------------
+var handler = {
+    set(.target, property, value){...},
+    get(terget, property){...}
+}
 
+var proxy = new Proxy(target, handler)
 -------------------------------------------------
 */
 /*14
