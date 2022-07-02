@@ -16,7 +16,7 @@ nada si esta asta el final **********
 -------------------------------------------------
 
 */
-/*2 ------
+/*2 
 
 ¿Qué atributo usamos cuando queremos que la petición de un script sea asíncrona pero que tan pronto termine de
 cargar, el script se ejecute?
@@ -70,11 +70,7 @@ Con un arreglo donde cada argumento es un elemento.xxx
 Con un objeto donde cada key es el nombre del argumento, y el valor es el valor que queremos pasar. xxx
 -------------------------------------------------
 -------------------------------------------------
-apply = "Con un arreglo donde cada argumento es un elemento."
-call = "Separando cada argumento con una coma."
-
-por consiguiente el que queda es la respuesta correcta
-
+Con un HTMLArgumentsList. xxx
 -------------------------------------------------
 -------------------------------------------------
 construlle una nueva función que tendra el this integrado,
@@ -104,7 +100,7 @@ Object.getPropertyOf()
 hasOwnProperty() nos sirve para saber si pertenese a x
 -------------------------------------------------
 */
-/*8 ------
+/*8 
 12
 ¿Cómo se llama la estructura de datos que representa un versión del código que el interpretador puede procesar?
 -------------------------------------------------
@@ -207,6 +203,8 @@ activate xxx
 -------------------------------------------------
 fetch xxx
 -------------------------------------------------
+init xxx
+-------------------------------------------------
 Update on reload (activado para que funcione offline)
     event.respondWith(cachedResponde(request));
         guarda en cache y funcióna offline
@@ -244,6 +242,8 @@ dependencies xxx
 -------------------------------------------------
 name xxx
 -------------------------------------------------
+version xxx
+-------------------------------------------------
 devDependencies
 "name": "@sparragus/platzimediaplayer"
 -------------------------------------------------
@@ -258,7 +258,7 @@ Promise.race.
     Regresa sólo la promesa que se resuelva primero.
 -------------------------------------------------
 */
-/*28 ------
+/*28 
 5
 ¿Cuál es la diferencia entre var y let al ser declaradas en una función?
 -------------------------------------------------
@@ -266,7 +266,7 @@ var tiene global scope y let tiene function scope.xxx
 -------------------------------------------------
 var tiene global scope y let tiene block scope. xxx
 -------------------------------------------------
-var tiene global scope y let tiene block scope.
+let te permite declarar variables limitando su alcance (scope) al bloque, declaración, o expresión donde se está usando. a diferencia de la palabra clave var la cual define una variable global o local en una función sin importar el ámbito del bloque.
 -------------------------------------------------
 */
 /* 
