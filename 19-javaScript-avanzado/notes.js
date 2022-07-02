@@ -1,4 +1,4 @@
-/*1
+/*1 ------
 4
 ¿Qué valor le tenemos que asignar a
 
@@ -6,19 +6,23 @@
 
 para que el archivo no añada valores al ámbito global?
 -------------------------------------------------
-defer
+defer xxx
+-------------------------------------------------
+async
 -------------------------------------------------
 async /puede ser.
 -------------------------------------------------
 
 */
-/*2-
+/*2 ------
 
 ¿Qué atributo usamos cuando queremos que la petición de un script sea asíncrona pero que tan pronto termine de
 cargar, el script se ejecute?
 
 -------------------------------------------------
-defer
+defer xxx
+-------------------------------------------------
+Ninguno xxx
 -------------------------------------------------
 async /puede ser/ o nada si es que esta asta el final
 -------------------------------------------------
@@ -52,11 +56,13 @@ además del contexto tengo que pasarle los valores:
     (this, es el conxto = richar)
 -------------------------------------------------
 */
-/*26
+/*26 ------
 
 ¿Cómo pasamos los argumentos a una función utilizando bind?
 -------------------------------------------------
-Con un arreglo donde cada argumento es un elemento.
+Con un arreglo donde cada argumento es un elemento.xxx
+-------------------------------------------------
+Con un objeto donde cada key es el nombre del argumento, y el valor es el valor que queremos pasar. xxx
 -------------------------------------------------
 construlle una nueva función que tendra el this integrado,
 podremos guardar los valores (300, "este"), en la misma función o se los podemos dar al llamar la función.
@@ -85,11 +91,13 @@ Object.getPropertyOf()
 hasOwnProperty() nos sirve para saber si pertenese a x
 -------------------------------------------------
 */
-/*8
+/*8 ------
 
 ¿Cómo se llama la estructura de datos que representa un versión del código que el interpretador puede procesar?
 -------------------------------------------------
-Parser
+Parser xxx
+-------------------------------------------------
+Tokenizer xxx
 -------------------------------------------------
 Tokens
 -------------------------------------------------
@@ -172,11 +180,13 @@ IntersectionObserver
 visibilityChange
 -------------------------------------------------
 */
-/*18
+/*18 ------
 23
 ¿Cuál event disponible en los [(service workers)] usas para pre-cache de assets de una página y prepararla para funcionar offline ?
 -------------------------------------------------
-activate
+activate xxx
+-------------------------------------------------
+fetch xxx
 -------------------------------------------------
 Update on reload (activado para que funcione offline)
     event.respondWith(cachedResponde(request));
@@ -204,14 +214,16 @@ Singleton:
     Es un patrón que te asegura que una clase solo tiene una instancia. Esta única instancia puede ser consumida por cualquier otro objeto.
 -------------------------------------------------
 */
-/*24
+/*24 ------
 41
 Considera el código
     import MediaPlayer from '@sparragus/platzimediaplayer'
 
 ¿Cuál propiedad del package.json define el archivo de la biblioteca que sería importado?
 -------------------------------------------------
-dependencies
+dependencies xxx
+-------------------------------------------------
+name xxx
 -------------------------------------------------
 devDependencies
 "name": "@sparragus/platzimediaplayer"
@@ -227,11 +239,13 @@ Promise.race.
     Regresa sólo la promesa que se resuelva primero.
 -------------------------------------------------
 */
-/*28
+/*28 ------
 5
 ¿Cuál es la diferencia entre var y let al ser declaradas en una función?
 -------------------------------------------------
-var tiene global scope y let tiene function scope.
+var tiene global scope y let tiene function scope.xxx
+-------------------------------------------------
+var tiene global scope y let tiene block scope. xxx
 -------------------------------------------------
 var tiene global scope y let tiene block scope.
 -------------------------------------------------
