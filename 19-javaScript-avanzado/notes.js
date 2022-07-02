@@ -150,7 +150,7 @@ podemos aplicar n...yields:
     yield 1;
     yield 2;
     yield 3;
-        se va a detener en el 1 y si lo arrancamos denuevo se detendra en el yield 2.
+        se va a detener en el 1 y si lo arrancamos denuevo se detendra en el yield 2.   
 -------------------------------------------------
 */
 /*15
@@ -159,16 +159,17 @@ podemos aplicar n...yields:
 -------------------------------------------------
 FetchController
 -------------------------------------------------
-
+AbortController
 -------------------------------------------------
 */
 /*17
 22
-Eres el desarrollador de un e-commerce. En la página hay un carrusel que muestra los artículos con descuento yautomáticamente cambia de slide. Cuando el usuario cambia de tab, tienes que asegurarte que el carrusel sedetiene. ¿Qué API del DOM usarías para detectar si el tab del e-commerce sigue activo?
+Eres el desarrollador de un e-commerce. En la página hay un carrusel que muestra los artículos con descuento y automáticamente cambia de slide. 
+Cuando el usuario cambia de tab(pestaña), tienes que asegurarte que el carrusel se detiene. ¿Qué API del DOM usarías para detectar si el tab del e-commerce sigue activo?
 -------------------------------------------------
 IntersectionObserver
 -------------------------------------------------
-
+visibilityChange
 -------------------------------------------------
 */
 /*18
