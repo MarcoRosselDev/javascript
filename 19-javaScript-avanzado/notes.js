@@ -200,7 +200,8 @@ Necesitas una clase de la cual solo exista una instancia. ¿Qué patrón usaría
 -------------------------------------------------
 Decorator
 -------------------------------------------------
-
+Singleton:
+    Es un patrón que te asegura que una clase solo tiene una instancia. Esta única instancia puede ser consumida por cualquier otro objeto.
 -------------------------------------------------
 */
 /*24
