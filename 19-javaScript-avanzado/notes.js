@@ -174,11 +174,15 @@ visibilityChange
 */
 /*18
 23
-¿Cuál event disponible en los service workers usas para pre-cache de assets de una página y prepararla parafuncionar offl ine ?
+¿Cuál event disponible en los [(service workers)] usas para pre-cache de assets de una página y prepararla para funcionar offline ?
 -------------------------------------------------
 activate
 -------------------------------------------------
-
+Update on reload (activado para que funcione offline)
+    event.respondWith(cachedResponde(request));
+        guarda en cache y funcióna offline
+    event.waitUntil(updateCache(request));
+        guarda en cache y funcióna offline y recarga si vuelve el internet.
 -------------------------------------------------
 */
 /*19
