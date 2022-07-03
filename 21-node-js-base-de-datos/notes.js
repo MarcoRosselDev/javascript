@@ -1,3 +1,27 @@
+/*2
+4
+-----------------------------------------------
+¿Qué método HTTP se usaría para cambiar la foto de un usuario?
+-----------------------------------------------
+respuestas malas:
+    -POST
+    -
+    -
+-----------------------------------------------
+opciónes:
+    a GET
+
+    b PUT
+
+    c POST
+
+    d PATCH
+
+    e DELETE
+-----------------------------------------------
+notas de la clase:
+-----------------------------------------------
+*/
 /*1
 5
 -----------------------------------------------
@@ -8,62 +32,14 @@ respuestas malas:
     -
     -
 -----------------------------------------------
-notas de la clase:
------------------------------------------------
-*/
-/*2
-
------------------------------------------------
-¿Qué método HTTP se usaría para cambiar la foto de un usuario?
------------------------------------------------
-respuestas malas:
-    -POST
-    -
-    -
------------------------------------------------
-notas de la clase:
------------------------------------------------
-*/
-/*23
-29
------------------------------------------------
-¿Cuál es la principal ventaja de los WebSockets sobre las peticiones HTTP?
------------------------------------------------
-respuestas malas:
-    -Los WebSockets son exactamente lo mismo que las peticiones HTTP, pero más modernos 
-    -
-    -
------------------------------------------------
 opciónes:
-    a-Los WebSockets se quedan abiertos y permiten una comunicación en tiempo real.
-    
-    b-No hay ninguna ventaja
+    a Para escuchar eventos del servidor en tiempo real
 
-    c-Los WebSockets son más seguros
+    b Para comunicar con servidores en internet
 
-    d-Los WebSockets son exactamente lo mismo que las peticiones HTTP, pero más modernos
------------------------------------------------
-notas de la clase:
------------------------------------------------
-*/
-/*17
-18
------------------------------------------------
-¿Las bases de datos no relacionales pueden consultarse con SQL?
------------------------------------------------
-respuestas malas:
-    -Sí, SQL es un lenguaje universal 
-    -
-    -
------------------------------------------------
-opciónes:
-    a No, SQL no es un lenguaje de bases de datos
+    c Para añadir tareas a una cola de ejecución
 
-    b Normalmente, no
-
-    c Sí, SQL es un lenguaje universal
-
-    d Sí, siempre que en vez de INSERT uses UPSERT
+    d Para acceder de forma remota a una consola
 -----------------------------------------------
 notas de la clase:
 -----------------------------------------------
@@ -92,98 +68,6 @@ opciónes:
 notas de la clase:
 -----------------------------------------------
 */
-/*10
-12
------------------------------------------------
-¿Se pueden servir los archivos de una carpeta con nuestra app de express?
------------------------------------------------
-respuestas malas:
-    -Sí, usando un módulo para renderizar los estáticos
-    -
-    -
------------------------------------------------
-opciónes:
-    a No, sólo se puede servir una API
-
-    b Sí, usando un módulo para renderizar los estáticos
-
-    c No, sólo archivos que hayas subido desde la API
-
-    d Sí, usando el middleware express.static
-
-    e Sí, pasándolo por un intérprete de código
------------------------------------------------
-notas de la clase:
------------------------------------------------
-*/
-/*25
-31
------------------------------------------------
-¿Se puede mandar más de un evento a la misma conexión?
------------------------------------------------
-respuestas malas:
-    -No, sólo se puede enviar un evento por cada conexión
-    -
-    -
------------------------------------------------
-opciónes:
-    a Sí, siempre y cuando los eventos sean idénticos
-
-    b Sí, pero tienen que pasar menos de 5 segundos entre eventos
-
-    c No, sólo se puede enviar un evento por cada conexión
-
-    d No, a través de un WebSocket no se pueden mandaar eventos
-
-    e Sí, se pueden enviar tantos eventos como se desee
------------------------------------------------
-notas de la clase:
------------------------------------------------
-*/
-/*1
-5
------------------------------------------------
-¿Para qué se utilizan las peticiones HTTP?
------------------------------------------------
-respuestas malas:
-    -Para escuchar eventos del servidor en tiempo real
-    -
-    -
------------------------------------------------
-opciónes:
-    a Para escuchar eventos del servidor en tiempo real
-
-    b Para comunicar con servidores en internet
-
-    c Para añadir tareas a una cola de ejecución
-
-    d Para acceder de forma remota a una consola
------------------------------------------------
-notas de la clase:
------------------------------------------------
-*/
-/*8
-10
------------------------------------------------
-¿Se puede enviar sólo un código de estado 200 en la response?
------------------------------------------------
-respuestas malas:
-    -No, el estado 200 es un estado prohibido
-    -
-    -
------------------------------------------------
-opciónes:
-    a Si, con res.send(200)
-
-    b Sólo si es un error
-
-    c No, siempre tienes que devolver contenido
-
-    d No, el estado 200 es un estado prohibido
------------------------------------------------
-notas de la clase:
------------------------------------------------
-*/
 /*5
 7
 -----------------------------------------------
@@ -204,28 +88,6 @@ opciónes:
     d express.use(app.router)
 
     e app.use(router)
------------------------------------------------
-notas de la clase:
------------------------------------------------
-*/
-/*9
-11
------------------------------------------------
-¿Cuál es la principal ventaja de responder las peticiones de manera coherente yuniforme?
------------------------------------------------
-respuestas malas:
-    -Conseguir mejores tiempos de respuesta
-    -
-    -
------------------------------------------------
-opciónes:
-    a Facilita trabajo con nuestra API desde cualquier cliente
-
-    b Conseguir mejores tiempos de respuesta
-
-    c Que los test ya están hechos
-
-    d No hay ninguna ventaja
 -----------------------------------------------
 notas de la clase:
 -----------------------------------------------
@@ -254,70 +116,94 @@ opciónes:
 notas de la clase:
 -----------------------------------------------
 */
-/*26
-31
+/*7
+9
 -----------------------------------------------
-¿Podemos tener en la misma aplicación HTTP y WebSockets?
+¿Cómo recogemos la cabecera Authorization de la petición?
 -----------------------------------------------
 respuestas malas:
-    -No, son protocolos diferentes y no pueden convivir ni compartir información
+    -req.auth['Authorization']
     -
     -
 -----------------------------------------------
 opciónes:
-    a Sí, pero no pueden compartir información
+    a req.headers.auth
 
-    b No, son protocolos diferentes y no pueden convivir ni compartir información
+    b req.headers['Authorization']
 
-    c No se puede, habría conflictos en la capa de red
+    c res.headers.auth
 
-    d Sí, se pueden tener en el mismo servidor, y mandar eventos cuando surjan acciones
+    d req.auth['Authorization']
+
+    e No se puede recoger
 -----------------------------------------------
 notas de la clase:
 -----------------------------------------------
 */
-/*24
-30
+/*8
+10
 -----------------------------------------------
-¿Se puede recibir más de un evento desde una conexión WebScoket?
+¿Se puede enviar sólo un código de estado 200 en la response?
 -----------------------------------------------
 respuestas malas:
-    -Sí, siempre y cuando no pasen más de 3 segundos entre eventos
+    -No, el estado 200 es un estado prohibido
     -
     -
 -----------------------------------------------
 opciónes:
-    a Sí, se pueden recibir tantos eventos como el servidor envíe
+    a Si, con res.send(200)
 
-    b Sí, siempre y cuando no pasen más de 3 segundos entre eventos
+    b Sólo si es un error
 
-    c No, los WebSockets no te permiten recibir eventos
+    c No, siempre tienes que devolver contenido
 
-    d No, sólo se puede recibir un evento por cada conexión
-
-    e Sí, siempre y cuando los eventos sean idénticos
+    d No, el estado 200 es un estado prohibido
 -----------------------------------------------
 notas de la clase:
 -----------------------------------------------
 */
-/*20
-24
+/*9
+11
 -----------------------------------------------
-¿De qué formas podemos conectar nuestra API con la base de datos?
+¿Cuál es la principal ventaja de responder las peticiones de manera coherente yuniforme?
 -----------------------------------------------
 respuestas malas:
-    -Sólo puede haber una conexión permanente
+    -Conseguir mejores tiempos de respuesta
     -
     -
 -----------------------------------------------
 opciónes:
-    a Sólo se puede abrir y cerrar una conexión con cada petición
+    a Facilita trabajo con nuestra API desde cualquier cliente
 
-    b Sólo puede haber una conexión permanente
+    b Conseguir mejores tiempos de respuesta
 
-    c Conexiones puntuales que se abren y se cierran, o una conexión permanente
+    c Que los test ya están hechos
 
-    d Encriptada o sin encriptar
+    d No hay ninguna ventaja
+-----------------------------------------------
+notas de la clase:
+-----------------------------------------------
+*/
+/*10
+12
+-----------------------------------------------
+¿Se pueden servir los archivos de una carpeta con nuestra app de express?
+-----------------------------------------------
+respuestas malas:
+    -Sí, usando un módulo para renderizar los estáticos
+    -
+    -
+-----------------------------------------------
+opciónes:
+    a No, sólo se puede servir una API
+
+    b Sí, usando un módulo para renderizar los estáticos
+
+    c No, sólo archivos que hayas subido desde la API
+
+    d Sí, usando el middleware express.static
+
+    e Sí, pasándolo por un intérprete de código
 -----------------------------------------------
 notas de la clase:
 -----------------------------------------------
@@ -340,78 +226,6 @@ opciónes:
     c No, es un riesgo para la seguridad, ya que le estás dando información de tu código al atacante
 
     d Sí, sólo si también guardas el registro
------------------------------------------------
-notas de la clase:
------------------------------------------------
-*/
-/*15
-17
------------------------------------------------
-¿Quién es el encargado de llamar a la capa de datos?
------------------------------------------------
-respuestas malas:
-    -La capa de red
-    -
-    -
------------------------------------------------
-opciónes:
-    a Nadie puede llamarla
-
-    b Otra capa de datos
-
-    c La capa de red
-
-    d Cualquiera puede llamarla
-
-    e El controlador
------------------------------------------------
-notas de la clase:
------------------------------------------------
-*/
-/*18
-20
------------------------------------------------
-¿Hay que crear manualmente un ID cada vez que añadamos un registro a MongoDB?
------------------------------------------------
-respuestas malas:
-    -Sí, y tiene que ser criptográfico
-    -
-    -
------------------------------------------------
-opciónes:
-    a No, lo hace automáticamente
-
-    b No, Mongo no usa ID
-
-    c No, Mongo no usa ID
-
-    d Sí, y tiene que ser criptográfico
-
-    e Sí, si no, no lo guarda
------------------------------------------------
-notas de la clase:
------------------------------------------------
-*/
-/*2
-4
------------------------------------------------
-¿Qué método HTTP se usaría para cambiar la foto de un usuario?
------------------------------------------------
-respuestas malas:
-    -POST
-    -
-    -
------------------------------------------------
-opciónes:
-    a GET
-
-    b PUT
-
-    c POST
-
-    d PATCH
-
-    e DELETE
 -----------------------------------------------
 notas de la clase:
 -----------------------------------------------
@@ -440,26 +254,94 @@ opciónes:
 notas de la clase:
 -----------------------------------------------
 */
-/*7
-9
+/*15
+17
 -----------------------------------------------
-¿Cómo recogemos la cabecera Authorization de la petición?
+¿Quién es el encargado de llamar a la capa de datos?
 -----------------------------------------------
 respuestas malas:
-    -req.auth['Authorization']
+    -La capa de red
     -
     -
 -----------------------------------------------
 opciónes:
-    a req.headers.auth
+    a Nadie puede llamarla
 
-    b req.headers['Authorization']
+    b Otra capa de datos
 
-    c res.headers.auth
+    c La capa de red
 
-    d req.auth['Authorization']
+    d Cualquiera puede llamarla
 
-    e No se puede recoger
+    e El controlador
+-----------------------------------------------
+notas de la clase:
+-----------------------------------------------
+*/
+/*17
+18
+-----------------------------------------------
+¿Las bases de datos no relacionales pueden consultarse con SQL?
+-----------------------------------------------
+respuestas malas:
+    -Sí, SQL es un lenguaje universal 
+    -
+    -
+-----------------------------------------------
+opciónes:
+    a No, SQL no es un lenguaje de bases de datos
+
+    b Normalmente, no
+
+    c Sí, SQL es un lenguaje universal
+
+    d Sí, siempre que en vez de INSERT uses UPSERT
+-----------------------------------------------
+notas de la clase:
+-----------------------------------------------
+*/
+/*18
+20
+-----------------------------------------------
+¿Hay que crear manualmente un ID cada vez que añadamos un registro a MongoDB?
+-----------------------------------------------
+respuestas malas:
+    -Sí, y tiene que ser criptográfico
+    -
+    -
+-----------------------------------------------
+opciónes:
+    a No, lo hace automáticamente
+
+    b No, Mongo no usa ID
+
+    c No, Mongo no usa ID
+
+    d Sí, y tiene que ser criptográfico
+
+    e Sí, si no, no lo guarda
+-----------------------------------------------
+notas de la clase:
+-----------------------------------------------
+*/
+/*20
+24
+-----------------------------------------------
+¿De qué formas podemos conectar nuestra API con la base de datos?
+-----------------------------------------------
+respuestas malas:
+    -Sólo puede haber una conexión permanente
+    -
+    -
+-----------------------------------------------
+opciónes:
+    a Sólo se puede abrir y cerrar una conexión con cada petición
+
+    b Sólo puede haber una conexión permanente
+
+    c Conexiones puntuales que se abren y se cierran, o una conexión permanente
+
+    d Encriptada o sin encriptar
 -----------------------------------------------
 notas de la clase:
 -----------------------------------------------
@@ -488,3 +370,103 @@ opciónes:
 notas de la clase:
 -----------------------------------------------
 */
+/*23
+29
+-----------------------------------------------
+¿Cuál es la principal ventaja de los WebSockets sobre las peticiones HTTP?
+-----------------------------------------------
+respuestas malas:
+    -Los WebSockets son exactamente lo mismo que las peticiones HTTP, pero más modernos 
+    -
+    -
+-----------------------------------------------
+opciónes:
+    a-Los WebSockets se quedan abiertos y permiten una comunicación en tiempo real.
+    
+    b-No hay ninguna ventaja
+
+    c-Los WebSockets son más seguros
+
+    d-Los WebSockets son exactamente lo mismo que las peticiones HTTP, pero más modernos
+-----------------------------------------------
+notas de la clase:
+-----------------------------------------------
+*/
+/*24
+30
+-----------------------------------------------
+¿Se puede recibir más de un evento desde una conexión WebScoket?
+-----------------------------------------------
+respuestas malas:
+    -Sí, siempre y cuando no pasen más de 3 segundos entre eventos
+    -
+    -
+-----------------------------------------------
+opciónes:
+    a Sí, se pueden recibir tantos eventos como el servidor envíe
+
+    b Sí, siempre y cuando no pasen más de 3 segundos entre eventos
+
+    c No, los WebSockets no te permiten recibir eventos
+
+    d No, sólo se puede recibir un evento por cada conexión
+
+    e Sí, siempre y cuando los eventos sean idénticos
+-----------------------------------------------
+notas de la clase:
+-----------------------------------------------
+*/
+/*25
+31
+-----------------------------------------------
+¿Se puede mandar más de un evento a la misma conexión?
+-----------------------------------------------
+respuestas malas:
+    -No, sólo se puede enviar un evento por cada conexión
+    -
+    -
+-----------------------------------------------
+opciónes:
+    a Sí, siempre y cuando los eventos sean idénticos
+
+    b Sí, pero tienen que pasar menos de 5 segundos entre eventos
+
+    c No, sólo se puede enviar un evento por cada conexión
+
+    d No, a través de un WebSocket no se pueden mandaar eventos
+
+    e Sí, se pueden enviar tantos eventos como se desee
+-----------------------------------------------
+notas de la clase:
+-----------------------------------------------
+*/
+/*26
+31
+-----------------------------------------------
+¿Podemos tener en la misma aplicación HTTP y WebSockets?
+-----------------------------------------------
+respuestas malas:
+    -No, son protocolos diferentes y no pueden convivir ni compartir información
+    -
+    -
+-----------------------------------------------
+opciónes:
+    a Sí, pero no pueden compartir información
+
+    b No, son protocolos diferentes y no pueden convivir ni compartir información
+
+    c No se puede, habría conflictos en la capa de red
+
+    d Sí, se pueden tener en el mismo servidor, y mandar eventos cuando surjan acciones
+-----------------------------------------------
+notas de la clase:
+-----------------------------------------------
+*/
+
+
+
+
+
+
+
+
