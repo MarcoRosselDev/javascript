@@ -440,3 +440,51 @@ opciónes:
 notas de la clase:
 -----------------------------------------------
 */
+/*7
+9
+-----------------------------------------------
+¿Cómo recogemos la cabecera Authorization de la petición?
+-----------------------------------------------
+respuestas malas:
+    -req.auth['Authorization']
+    -
+    -
+-----------------------------------------------
+opciónes:
+    a req.headers.auth
+
+    b req.headers['Authorization']
+
+    c res.headers.auth
+
+    d req.auth['Authorization']
+
+    e No se puede recoger
+-----------------------------------------------
+notas de la clase:
+-----------------------------------------------
+*/
+/*21
+27
+-----------------------------------------------
+¿Se pueden enviar fi cheros a nuestra API, y recibirlos desde el servidor?
+-----------------------------------------------
+respuestas malas:
+    -Se puede enviar, pero el servidor no lo va a recibir
+    -
+    -
+-----------------------------------------------
+opciónes:
+    a Sí, usando el módulo multer
+
+    b Se puede enviar, pero el servidor no lo va a recibir
+
+    c Sólo podemos enviar texto plano
+
+    d No se puede.
+
+    e Sí, pero hay que llamarla desde jQuery
+-----------------------------------------------
+notas de la clase:
+-----------------------------------------------
+*/
