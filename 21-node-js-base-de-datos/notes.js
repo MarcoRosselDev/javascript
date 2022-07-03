@@ -416,3 +416,27 @@ opciónes:
 notas de la clase:
 -----------------------------------------------
 */
+/*12
+14
+-----------------------------------------------
+¿Es una buena práctica separar las rutas, la funcionalidad y el almacenamiento?
+-----------------------------------------------
+respuestas malas:
+    -No. Es una práctica desaconsejada, porque te separa de la totalidad del problema
+    -
+    -
+-----------------------------------------------
+opciónes:
+    a Sí, y te permite separar la lógica de la interfaz, y abstraer tu código de la base de datosque uses
+
+    b Solo si vas a cambiar la base de datos en el futuro
+
+    c No. Es una práctica desaconsejada, porque te separa de la totalidad del problema
+
+    d No, porque se generan muchos archivos y carpetas
+
+    e Sí, porque así puedes tener tu codigo separado en carpetas
+-----------------------------------------------
+notas de la clase:
+-----------------------------------------------
+*/
