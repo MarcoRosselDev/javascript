@@ -15,11 +15,19 @@ opciónes:
 
     c POST
 
-    d PATCH
+    d PATCH ++++++++++++
 
     e DELETE
 -----------------------------------------------
 notas de la clase:
+    Métodos HTTP:
+
+    GET: Recoger información del servidor.
+    POST: Añadir información al servidor.
+    PUT: Reemplazar información en el servidor.
+    PATCH: Actualizar parte de la información.
+    DELETE: Eliminar información del servidor.
+    OPTIONS: Pedir información sobre métodos (saber si podemos ejecutar alguno de los métodos anteriores).
 -----------------------------------------------
 */
 /*1
@@ -35,7 +43,7 @@ respuestas malas:
 opciónes:
     a Para escuchar eventos del servidor en tiempo real
 
-    b Para comunicar con servidores en internet
+    [[[b Para comunicar con servidores en internet ++++++]]]
 
     c Para añadir tareas a una cola de ejecución
 
@@ -55,7 +63,7 @@ respuestas malas:
     -
 -----------------------------------------------
 opciónes:
-    a Por la cabecera Content-type
+    [[[[a Por la cabecera Content-type+++++++++++++++]]]]
 
     b No se puede saber
 
@@ -81,13 +89,13 @@ respuestas malas:
 opciónes:
     a app.router(use)
 
-    b express.Router(app)
+    b express.Router(app)------2°lugar
 
     c No hace falta indicarlo
 
     d express.use(app.router)
 
-    e app.use(router)
+    [[[[e app.use(router)]]]]+++++++++++++
 -----------------------------------------------
 notas de la clase:
 -----------------------------------------------
