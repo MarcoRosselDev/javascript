@@ -368,3 +368,51 @@ opciónes:
 notas de la clase:
 -----------------------------------------------
 */
+/*18
+20
+-----------------------------------------------
+¿Hay que crear manualmente un ID cada vez que añadamos un registro a MongoDB?
+-----------------------------------------------
+respuestas malas:
+    -Sí, y tiene que ser criptográfico
+    -
+    -
+-----------------------------------------------
+opciónes:
+    a No, lo hace automáticamente
+
+    b No, Mongo no usa ID
+
+    c No, Mongo no usa ID
+
+    d Sí, y tiene que ser criptográfico
+
+    e Sí, si no, no lo guarda
+-----------------------------------------------
+notas de la clase:
+-----------------------------------------------
+*/
+/*2
+4
+-----------------------------------------------
+¿Qué método HTTP se usaría para cambiar la foto de un usuario?
+-----------------------------------------------
+respuestas malas:
+    -POST
+    -
+    -
+-----------------------------------------------
+opciónes:
+    a GET
+
+    b PUT
+
+    c POST
+
+    d PATCH
+
+    e DELETE
+-----------------------------------------------
+notas de la clase:
+-----------------------------------------------
+*/
