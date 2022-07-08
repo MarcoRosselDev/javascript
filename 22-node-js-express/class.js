@@ -21,7 +21,7 @@ res.json({...})
 app.get(’/products/<productid>’, …)
 ------------------------------------------------------
 a app.get(’/products/<productid>’, …)
-b app.get('/products/:productId', ...)
+b app.get('/products/:productId', ...)+++++++++++
 c app.get('/products/*productId', ...)
 ------------------------------------------------------
 
@@ -32,7 +32,7 @@ c app.get('/products/*productId', ...)
 ------------------------------------------------------
 const productId = req.param(' productId ');
 ------------------------------------------------------
-a const { productId } = req.params;
+a const { productId } = req.params;++++++++++++++++++++++++
 b const productId = req.get(' productId ');
 c const productId = req.param(' productId ');
 ------------------------------------------------------
