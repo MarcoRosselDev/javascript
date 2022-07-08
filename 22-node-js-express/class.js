@@ -55,6 +55,14 @@ res.statusCode(404).json({message})
 ------------------------------------------------------
 
 */
+/*11
+13
+¿Cuál es la responsabilidad principal de los servicios?
+------------------------------------------------------
+Usualmente se encarga de conectarse con datos de terceros como una DB
+------------------------------------------------------
+------------------------------------------------------
+*/
 /*12
 16
 ¿Qué parámetros debemos recibir para tener un middleware que lea errores?
@@ -64,5 +72,14 @@ solo el error xxxxxxx
 -error, req, res y next
 -req, res y next
 -solo el error
+------------------------------------------------------
+*/
+/*13
+18
+3.
+¿Cuál es el objetivo de la librería Boom?
+------------------------------------------------------
+Validación de datos por medio de un schema
+------------------------------------------------------
 ------------------------------------------------------
 */
