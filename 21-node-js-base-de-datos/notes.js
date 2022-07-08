@@ -353,7 +353,7 @@ opciónes:
 
     b Sólo puede haber una conexión permanente
 
-    c Conexiones puntuales que se abren y se cierran, o una conexión permanente
+    c Conexiones puntuales que se abren y se cierran, o una conexión permanente +++++++++++++++
 
     d Encriptada o sin encriptar
 -----------------------------------------------
