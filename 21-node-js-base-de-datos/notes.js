@@ -325,7 +325,7 @@ respuestas malas:
     -
 -----------------------------------------------
 opciónes:
-    a No, lo hace automáticamente
+    a No, lo hace automáticamente ++++++
 
     b No, Mongo no usa ID
 
