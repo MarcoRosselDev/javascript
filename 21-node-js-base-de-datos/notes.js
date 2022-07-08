@@ -139,7 +139,7 @@ respuestas malas:
 opciónes:
     a req.headers.auth
 
-    b req.headers['Authorization']
+    b req.headers['Authorization']+++++++++++++
 
     c res.headers.auth
 
@@ -148,6 +148,7 @@ opciónes:
     e No se puede recoger
 -----------------------------------------------
 notas de la clase:
+req.headers('Authorizatoin');
 -----------------------------------------------
 */
 /*8
