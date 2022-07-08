@@ -286,7 +286,7 @@ opciónes:
 
     d Cualquiera puede llamarla
 
-    e El controlador
+    e El controlador +++++++++++++++
 -----------------------------------------------
 notas de la clase:
 -----------------------------------------------
