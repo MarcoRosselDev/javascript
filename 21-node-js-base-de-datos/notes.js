@@ -233,9 +233,9 @@ respuestas malas:
 opciónes:
     a No, puede confundir al usuario y pensar que está haciendo algo mal
 
-    b Sí, así facilitas al usuario el reporte del error, y te añade información extra para solucionarlo
+    b Sí, así facilitas al usuario el reporte del error, y te añade información extra para solucionarlo******[segunda opción]
 
-    c No, es un riesgo para la seguridad, ya que le estás dando información de tu código al atacante
+    c No, es un riesgo para la seguridad, ya que le estás dando información de tu código al atacante +++++++++++++++++++
 
     d Sí, sólo si también guardas el registro
 -----------------------------------------------
