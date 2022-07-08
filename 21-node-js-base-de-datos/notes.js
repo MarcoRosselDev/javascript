@@ -177,7 +177,7 @@ podemos dar cualquier tipo de respuesta, como arreglos o objetos.
 /*9
 11
 -----------------------------------------------
-¿Cuál es la principal ventaja de responder las peticiones de manera coherente yuniforme?
+¿Cuál es la principal ventaja de responder las peticiones de manera coherente y uniforme?
 -----------------------------------------------
 respuestas malas:
     -Conseguir mejores tiempos de respuesta
@@ -185,7 +185,7 @@ respuestas malas:
     -
 -----------------------------------------------
 opciónes:
-    a Facilita trabajo con nuestra API desde cualquier cliente
+    a Facilita trabajo con nuestra API desde cualquier cliente +++++++++++++++
 
     b Conseguir mejores tiempos de respuesta
 
