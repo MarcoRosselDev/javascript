@@ -308,9 +308,10 @@ opciónes:
 
     c Sí, SQL es un lenguaje universal
 
-    d Sí, siempre que en vez de INSERT uses UPSERT
+    d Sí, siempre que en vez de INSERT uses UPSERT++++
 -----------------------------------------------
 notas de la clase:
+no me quedo claro la respuesta, puedes ser culquiera
 -----------------------------------------------
 */
 /*18
