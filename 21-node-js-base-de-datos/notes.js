@@ -213,7 +213,7 @@ opciónes:
 
     c No, sólo archivos que hayas subido desde la API
 
-    d Sí, usando el middleware express.static
+    d Sí, usando el middleware express.static++++++++++++++++++++++++
 
     e Sí, pasándolo por un intérprete de código
 -----------------------------------------------
