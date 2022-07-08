@@ -113,7 +113,7 @@ respuestas malas:
 opciónes:
     a req.body.uid
 
-    b res.query.uid
+    b req.query.uid
 
     c req.url.uid
 
@@ -122,7 +122,7 @@ opciónes:
     e res.body.uid++++++++++++++++++++
 -----------------------------------------------
 notas de la clase:
-req.query.uid --este no esta
+req.query.uid --este no esta   si estaba
 req.body.uid  --parece que es este.
 -----------------------------------------------
 */
@@ -479,11 +479,3 @@ opciónes:
 notas de la clase:
 -----------------------------------------------
 */
-
-
-
-
-
-
-
-
