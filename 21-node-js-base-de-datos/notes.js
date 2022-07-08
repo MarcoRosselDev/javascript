@@ -452,7 +452,7 @@ opciónes:
 
     d No, a través de un WebSocket no se pueden mandaar eventos
 
-    e Sí, se pueden enviar tantos eventos como se desee
+    e Sí, se pueden enviar tantos eventos como se desee+++++++++++++++++++
 -----------------------------------------------
 notas de la clase:
 -----------------------------------------------
