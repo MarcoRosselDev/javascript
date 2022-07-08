@@ -420,7 +420,7 @@ respuestas malas:
     -
 -----------------------------------------------
 opciónes:
-    a Sí, se pueden recibir tantos eventos como el servidor envíe
+    a Sí, se pueden recibir tantos eventos como el servidor envíe ++++++++++++++++++++++
 
     b Sí, siempre y cuando no pasen más de 3 segundos entre eventos
 
