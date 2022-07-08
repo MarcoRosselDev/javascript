@@ -4,6 +4,12 @@
 ------------------------------------------------------
 app.sendJson({...})
 ------------------------------------------------------
+a
+app.json({...})
+b
+app.xml({...})
+c
+app.sendJson({...})
 ------------------------------------------------------
 
 */
@@ -13,6 +19,9 @@ app.sendJson({...})
 ------------------------------------------------------
 app.get(’/products/<productid>’, …)
 ------------------------------------------------------
+a app.get(’/products/<productid>’, …)
+b app.get('/products/:productId', ...)
+c app.get('/products/*productId', ...)
 ------------------------------------------------------
 
 */
@@ -22,6 +31,9 @@ app.get(’/products/<productid>’, …)
 ------------------------------------------------------
 const productId = req.param(' productId ');
 ------------------------------------------------------
+a const { productId } = req.params;
+b const productId = req.get(' productId ');
+c const productId = req.param(' productId ');
 ------------------------------------------------------
 
 */
@@ -31,6 +43,9 @@ const productId = req.param(' productId ');
 ------------------------------------------------------
 const { limit, offset } = req.queryParams;
 ------------------------------------------------------
+a const { limit, offset } = req.getQuery;
+b const { limit, offset } = req.queryParams;
+c const { limit, offset } = req.query;
 ------------------------------------------------------
 
 */
@@ -40,6 +55,9 @@ const { limit, offset } = req.queryParams;
 ------------------------------------------------------
 app.use(express.jsonApply())
 ------------------------------------------------------
+a app.use(JSON.parse())
+b app.use(express.jsonApply())
+c app.use(express.json())
 ------------------------------------------------------
 
 */
@@ -61,6 +79,9 @@ res.statusCode(404).json({message})
 ------------------------------------------------------
 Usualmente se encarga de conectarse con datos de terceros como una DB
 ------------------------------------------------------
+Usualmente está toda la lógica de negocio y resuelve los casos de uso
+Usualmente expone el servicio al cliente
+Usualmente se encarga de conectarse con datos de terceros como una DB
 ------------------------------------------------------
 */
 /*12
