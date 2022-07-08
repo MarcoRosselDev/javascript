@@ -398,7 +398,7 @@ respuestas malas:
     -
 -----------------------------------------------
 opciónes:
-    a-Los WebSockets se quedan abiertos y permiten una comunicación en tiempo real.
+    a-Los WebSockets se quedan abiertos y permiten una comunicación en tiempo real.++++++++++++++++++++++
     
     b-No hay ninguna ventaja
 
