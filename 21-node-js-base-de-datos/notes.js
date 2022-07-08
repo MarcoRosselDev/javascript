@@ -162,7 +162,7 @@ respuestas malas:
     -
 -----------------------------------------------
 opciónes:
-    a Si, con res.send(200)
+    a Si, con res.send(200)+++++++++++++++
 
     b Sólo si es un error
 
@@ -171,6 +171,7 @@ opciónes:
     d No, el estado 200 es un estado prohibido
 -----------------------------------------------
 notas de la clase:
+podemos dar cualquier tipo de respuesta, como arreglos o objetos.
 -----------------------------------------------
 */
 /*9
