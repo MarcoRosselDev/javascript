@@ -253,7 +253,7 @@ respuestas malas:
     -
 -----------------------------------------------
 opciónes:
-    a Sí, y te permite separar la lógica de la interfaz, y abstraer tu código de la base de datosque uses
+    a Sí, y te permite separar la lógica de la interfaz, y abstraer tu código de la base de datosque uses +++++
 
     b Solo si vas a cambiar la base de datos en el futuro
 
@@ -264,6 +264,7 @@ opciónes:
     e Sí, porque así puedes tener tu codigo separado en carpetas
 -----------------------------------------------
 notas de la clase:
+definitivamente es la (a)
 -----------------------------------------------
 */
 /*15
