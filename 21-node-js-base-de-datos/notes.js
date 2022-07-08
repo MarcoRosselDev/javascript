@@ -474,7 +474,7 @@ opciónes:
 
     c No se puede, habría conflictos en la capa de red
 
-    d Sí, se pueden tener en el mismo servidor, y mandar eventos cuando surjan acciones
+    d Sí, se pueden tener en el mismo servidor, y mandar eventos cuando surjan acciones++++++++++
 -----------------------------------------------
 notas de la clase:
 -----------------------------------------------
