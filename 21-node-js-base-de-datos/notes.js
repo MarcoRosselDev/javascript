@@ -363,7 +363,7 @@ notas de la clase:
 /*21
 27
 -----------------------------------------------
-¿Se pueden enviar fi cheros a nuestra API, y recibirlos desde el servidor?
+¿Se pueden enviar ficheros a nuestra API, y recibirlos desde el servidor?
 -----------------------------------------------
 respuestas malas:
     -Se puede enviar, pero el servidor no lo va a recibir
@@ -371,7 +371,7 @@ respuestas malas:
     -
 -----------------------------------------------
 opciónes:
-    a Sí, usando el módulo multer
+    a Sí, usando el módulo multer+++++++++++++++++++
 
     b Se puede enviar, pero el servidor no lo va a recibir
 
@@ -382,6 +382,9 @@ opciónes:
     e Sí, pero hay que llamarla desde jQuery
 -----------------------------------------------
 notas de la clase:
+en el fondo todos los archivos son texto que se leen de diferentes formas.
+    una de las formas es con el metodo multipart
+    exportando el módulo multer
 -----------------------------------------------
 */
 /*23
