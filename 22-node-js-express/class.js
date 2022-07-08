@@ -102,5 +102,11 @@ solo el error xxxxxxx
 ------------------------------------------------------
 Validación de datos por medio de un schema
 ------------------------------------------------------
+a
+Llevar un log de los errores.
+b
+Validación de datos por medio de un schema
+c
+Manejo de errores http
 ------------------------------------------------------
 */
