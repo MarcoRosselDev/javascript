@@ -119,9 +119,11 @@ opciónes:
 
     d req.url.uid
 
-    e res.body.uid
+    e res.body.uid++++++++++++++++++++
 -----------------------------------------------
 notas de la clase:
+req.query.uid --este no esta
+req.body.uid  --parece que es este.
 -----------------------------------------------
 */
 /*7
