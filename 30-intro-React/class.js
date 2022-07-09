@@ -27,7 +27,7 @@ componente intermedio.
 d Para teletransportar componentes a un documento HTML distinto a donde hace render el
 resto de la aplicación.
 */
-/*5
+/*5 +++
 5
 ¿Qué es JSX?
 -------------------------------------------
@@ -42,7 +42,7 @@ Una sintaxis especial de JavaScript para escribir elementos y componentes de Rea
 d
 Una versión muy futura de ECMAScript que nos permite escribir React con superpoderesde JavaScript.
 */
-/*6
+/*6 +++
 5
 ¿Qué son las props en React?
 -------------------------------------------
@@ -50,23 +50,23 @@ La forma en que React guarda información de nuestro componente para escuchar cu
 -------------------------------------------
 a La forma de recibir/escuchar/reaccionar ante las acciones o interacciones de los
 usuarios en nuestra aplicación.
-b La forma de comunicar componentes entre sí para transportar información.
+b La forma de comunicar componentes entre sí para transportar información.++++++++++++++++++++++
 c La forma en que React guarda información de
 */
-/*7
+/*7 +++
 5
 ¿Cuál es la diferencia entre componentes y elementos en React?
 -------------------------------------------
 Los elementos son grupos de componentes, reciben props y pueden crear estado o efectos. Los componentes reciben atributos o eventos y (casi siempre) se transforman en etiquetas de HTML.
 -------------------------------------------
 a
-Los elementos son grupos de componentes, reciben props y pueden crear estado oefectos. Los componentes reciben atributos o eventos y (casi siempre) se transforman enetiquetas de HTML.
+Los elementos son grupos de componentes, reciben props y pueden crear estado o efectos. Los componentes reciben atributos o eventos y (casi siempre) se transforman en etiquetas de HTML.
 b
 Los componentes se crean con clases que extienden de React.Component. Loselementos son funciones que pueden usar React Hooks.
 c
 Los elementos se crean con clases que extienden de React.Component. Loscomponentes son funciones que pueden usar React Hooks.
 d
-Los componentes son grupos de elementos, reciben props y pueden crear estado oefectos. Los elementos reciben atributos o eventos y (casi siempre) se transforman enetiquetas de HTML.
+Los componentes son grupos de elementos, reciben props y pueden crear estado o efectos. Los elementos reciben atributos o eventos y (casi siempre) se transforman enetiquetas de HTML. ++++++++++++++++++++++++++++++++++++++++++ 
 */
 /*9
 22
