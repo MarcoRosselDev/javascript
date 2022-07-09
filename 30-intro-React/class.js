@@ -1,5 +1,5 @@
-/*3
-16
+/*3 +++
+16 
 ¿Cómo creamos un contexto en React?
 -------------------------------------------
 ReactDOM.createContext
@@ -11,9 +11,9 @@ React.context
 c
 ReactDOM.createContext
 d
-React.createContext
+React.createContext ++++++++++++++++++
 */
-/*4
+/*4 +++
 16
 ¿Para qué sirve React Context?
 -------------------------------------------
@@ -23,7 +23,7 @@ a Para teletransportar componentes a un nodo de HTML distinto al nodo donde hace
 el resto de la aplicación.
 b Para comunicar componentes entre sí a pesar de tener componentes padres diferentes.
 c Para comunicar componentes sin tener que pasar la información como props por cada
-componente intermedio.
+componente intermedio. ++++++++++++++++++++++++++++
 d Para teletransportar componentes a un documento HTML distinto a donde hace render el
 resto de la aplicación.
 */
@@ -133,7 +133,7 @@ onsubmit
 e
 NombreComponente.addEventListener('submit')
 */
-/*17
+/*17 +++
 16
 ¿Qué propiedad debemos enviarle al Provider de un contexto en React para consumirlo desde su respectivo Consumer?
 -------------------------------------------
@@ -141,7 +141,7 @@ Todas las propiedades enviadas al componente Provider podrán consumirse desde e
 -------------------------------------------
 a Todas las propiedades enviadas al componente Provider podrán consumirse desde el
 componente Consumer.
-b value
+b value ++++++++++++++++++++++++++++++
 c state
 d context
 */
@@ -158,7 +158,7 @@ Todas las herramientas open-source (únicamente las oficiales) relacionadas a Re
 c
 Algunas de las herramientas internas que usa React para construir su código fuente.
 */
-/*20
+/*20 +++ 
 15
 ¿Cuál de los siguientes bloques de código ejecuta nuestro efecto únicamente la primera vez que se renderiza nuestro componente? (pista: examina el segundo argumento del efecto)
 -------------------------------------------
