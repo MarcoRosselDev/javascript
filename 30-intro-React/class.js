@@ -79,7 +79,7 @@ b Porque GitHub Pages tiene muy poco espacio de almacenamiento.
 c Porque GitHub Pages no soporta interacciones de los usuarios.
 d Porque GitHub Pages solo nos permite desplegar aplicaciones estáticas.
 */
-/*10
+/*10 +++
 9
 ¿Cuál de las siguientes es una forma VÁLIDA de crear un estado en React?
 -------------------------------------------
@@ -91,9 +91,9 @@ b
 const nombreDelEstado = React.useState("valor inicial de estado");
 constsetNombreDelEstado = nombreDelEstado.setState();
 c
-const [nombreDelEstado, setNombreDelEstado] = React.useState("valor inicial deestado");
+const [nombreDelEstado, setNombreDelEstado] = React.useState("valor inicial deestado"); +++++++++++++
 */
-/*13
+/*13 +++
 8
 ¿Cómo escuchamos el evento de click en un botón con React?
 -------------------------------------------
