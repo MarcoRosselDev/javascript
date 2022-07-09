@@ -115,7 +115,7 @@ oninputchange
 a onchange
 b change
 c oninputchange
-d onWrite
+d onWrite +++++++++++++++++++++++++++++
 e onChange
 */
 /*15 ¿Cómo escuchamos cuando los usuarios envíen un formulario con React?
@@ -123,7 +123,7 @@ e onChange
 NombreComponente.addEventListener('formsubmit')
 -------------------------------------------
 a
-onSubmit
+onSubmit++++++++++++++++++++
 b
 NombreComponente.addEventListener('formsubmit')
 c
@@ -162,18 +162,31 @@ Algunas de las herramientas internas que usa React para construir su código fue
 15
 ¿Cuál de los siguientes bloques de código ejecuta nuestro efecto únicamente la primera vez que se renderiza nuestro componente? (pista: examina el segundo argumento del efecto)
 -------------------------------------------
-React.useEffect(() => { console.log("Efectito"); }, document.addEventListener('load'));
+React.useEffect(() => { 
+    console.log("Efectito"); 
+}, 
+document.addEventListener('load'));
 -------------------------------------------
-a React.useEffect(() => {
-console.log("Efectito");
+a 
+React.useEffect(() => {
+    console.log("Efectito");
 });
-b React.useEffect(() => {
-console.log("Efectito");
-}, document.addEventListener('load'));
-c React.useEffect(() => {
-console.log("Efectito");
-}, []);
-d React.useEffect(() => {
-console.log("Efectito");
-}, window);
+
+b 
+React.useEffect(() => {
+    console.log("Efectito");
+}, 
+document.addEventListener('load'));
+
+c
+React.useEffect(() => {
+    console.log("Efectito");
+}, 
+[]); +++++++++++++++++++++++++++++++++++++++
+
+d 
+React.useEffect(() => {
+    console.log("Efectito");
+}, 
+window);
 */
