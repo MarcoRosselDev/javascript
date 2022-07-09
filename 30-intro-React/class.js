@@ -106,7 +106,7 @@ NombreComponente.addEventListener('click')
 c
 click
 d
-onClick
+onClick+++++++++++++++++++
 */
 /*14 ¿Cómo escuchamos cuando un usuario escriba en un input o textarea con React?
 -------------------------------------------
