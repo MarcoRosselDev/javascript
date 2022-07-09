@@ -47,27 +47,41 @@ No es obligatorio compilar nuestro proyecto antes de subirlo a GitHub Pages.
 const nombreDelEstado = React.useState("valor inicial de estado"); const setNombreDelEstado = nombreDelEstado.setState();
 -------------------------------------------
 */
-/*
+/*13
+8
+¿Cómo escuchamos el evento de click en un botón con React?
 -------------------------------------------
--------------------------------------------
-*/
-/*
--------------------------------------------
--------------------------------------------
-*/
-/*
--------------------------------------------
+NombreComponente.addEventListener('click')
 -------------------------------------------
 */
-/*
+/*14 ¿Cómo escuchamos cuando un usuario escriba en un input o textarea con React?
 -------------------------------------------
--------------------------------------------
-*/
-/*
--------------------------------------------
+oninputchange
 -------------------------------------------
 */
-/*
+/*15 ¿Cómo escuchamos cuando los usuarios envíen un formulario con React?
 -------------------------------------------
+NombreComponente.addEventListener('formsubmit')
+-------------------------------------------
+*/
+/*17
+16
+¿Qué propiedad debemos enviarle al Provider de un contexto en React para consumirlo desde su respectivo Consumer?
+-------------------------------------------
+Todas las propiedades enviadas al componente Provider podrán consumirse desde el componente Consumer.
+-------------------------------------------
+*/
+/*18
+2
+¿Qué significa el "ecosistema de React"?
+-------------------------------------------
+Todas las herramientas open-source (únicamente las oficiales) relacionadas a React.
+-------------------------------------------
+*/
+/*20
+15
+¿Cuál de los siguientes bloques de código ejecuta nuestro efecto únicamente la primera vez que se renderiza nuestro componente? (pista: examina el segundo argumento del efecto)
+-------------------------------------------
+React.useEffect(() => { console.log("Efectito"); }, document.addEventListener('load'));
 -------------------------------------------
 */
