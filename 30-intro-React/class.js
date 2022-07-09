@@ -4,6 +4,14 @@
 -------------------------------------------
 ReactDOM.createContext
 -------------------------------------------
+a
+Reactdom.context
+b
+React.context
+c
+ReactDOM.createContext
+d
+React.createContext
 */
 /*4
 16
@@ -131,6 +139,11 @@ NombreComponente.addEventListener('submit')
 -------------------------------------------
 Todas las propiedades enviadas al componente Provider podrán consumirse desde el componente Consumer.
 -------------------------------------------
+a Todas las propiedades enviadas al componente Provider podrán consumirse desde el
+componente Consumer.
+b value
+c state
+d context
 */
 /*18
 2
