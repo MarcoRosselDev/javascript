@@ -11,6 +11,13 @@ ReactDOM.createContext
 -------------------------------------------
 Para teletransportar componentes a un nodo de HTML distinto al nodo donde hace render el resto de la aplicación.
 -------------------------------------------
+a Para teletransportar componentes a un nodo de HTML distinto al nodo donde hace render
+el resto de la aplicación.
+b Para comunicar componentes entre sí a pesar de tener componentes padres diferentes.
+c Para comunicar componentes sin tener que pasar la información como props por cada
+componente intermedio.
+d Para teletransportar componentes a un documento HTML distinto a donde hace render el
+resto de la aplicación.
 */
 /*5
 5
@@ -18,6 +25,14 @@ Para teletransportar componentes a un nodo de HTML distinto al nodo donde hace r
 -------------------------------------------
 Una sintaxis especial de HTML para escribir elementos y componentes de React que se siente como JavaScript.
 -------------------------------------------
+a
+Una sintaxis especial de HTML para escribir elementos y componentes de React que sesiente como JavaScript.
+b
+Una versión muy futura de ECMAScript que nos permite escribir React con superpoderesde HTML.
+c
+Una sintaxis especial de JavaScript para escribir elementos y componentes de React quese siente como HTML.
+d
+Una versión muy futura de ECMAScript que nos permite escribir React con superpoderesde JavaScript.
 */
 /*6
 5
@@ -32,6 +47,14 @@ La forma en que React guarda información de nuestro componente para escuchar cu
 -------------------------------------------
 Los elementos son grupos de componentes, reciben props y pueden crear estado o efectos. Los componentes reciben atributos o eventos y (casi siempre) se transforman en etiquetas de HTML.
 -------------------------------------------
+a
+Los elementos son grupos de componentes, reciben props y pueden crear estado oefectos. Los componentes reciben atributos o eventos y (casi siempre) se transforman enetiquetas de HTML.
+b
+Los componentes se crean con clases que extienden de React.Component. Loselementos son funciones que pueden usar React Hooks.
+c
+Los elementos se crean con clases que extienden de React.Component. Loscomponentes son funciones que pueden usar React Hooks.
+d
+Los componentes son grupos de elementos, reciben props y pueden crear estado oefectos. Los elementos reciben atributos o eventos y (casi siempre) se transforman enetiquetas de HTML.
 */
 /*9
 22
@@ -46,6 +69,13 @@ No es obligatorio compilar nuestro proyecto antes de subirlo a GitHub Pages.
 -------------------------------------------
 const nombreDelEstado = React.useState("valor inicial de estado"); const setNombreDelEstado = nombreDelEstado.setState();
 -------------------------------------------
+a
+const { nombreDelEstado, setNombreDelEstado } = React.useState("valor inicial deestado");
+b
+const nombreDelEstado = React.useState("valor inicial de estado");
+constsetNombreDelEstado = nombreDelEstado.setState();
+c
+const [nombreDelEstado, setNombreDelEstado] = React.useState("valor inicial deestado");
 */
 /*13
 8
@@ -58,6 +88,11 @@ NombreComponente.addEventListener('click')
 -------------------------------------------
 oninputchange
 -------------------------------------------
+a onchange
+b change
+c oninputchange
+d onWrite
+e onChange
 */
 /*15 ¿Cómo escuchamos cuando los usuarios envíen un formulario con React?
 -------------------------------------------
