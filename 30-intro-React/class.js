@@ -40,6 +40,10 @@ Una versión muy futura de ECMAScript que nos permite escribir React con superpo
 -------------------------------------------
 La forma en que React guarda información de nuestro componente para escuchar cuando tenga cambios y disparar un nuevo render.
 -------------------------------------------
+a La forma de recibir/escuchar/reaccionar ante las acciones o interacciones de los
+usuarios en nuestra aplicación.
+b La forma de comunicar componentes entre sí para transportar información.
+c La forma en que React guarda información de
 */
 /*7
 5
@@ -62,6 +66,10 @@ Los componentes son grupos de elementos, reciben props y pueden crear estado oef
 -------------------------------------------
 No es obligatorio compilar nuestro proyecto antes de subirlo a GitHub Pages.
 -------------------------------------------
+a No es obligatorio compilar nuestro proyecto antes de subirlo a GitHub Pages.
+b Porque GitHub Pages tiene muy poco espacio de almacenamiento.
+c Porque GitHub Pages no soporta interacciones de los usuarios.
+d Porque GitHub Pages solo nos permite desplegar aplicaciones estáticas.
 */
 /*10
 9
@@ -106,6 +114,16 @@ e onChange
 -------------------------------------------
 NombreComponente.addEventListener('formsubmit')
 -------------------------------------------
+a
+onSubmit
+b
+NombreComponente.addEventListener('formsubmit')
+c
+submit
+d
+onsubmit
+e
+NombreComponente.addEventListener('submit')
 */
 /*17
 16
@@ -133,4 +151,16 @@ Algunas de las herramientas internas que usa React para construir su código fue
 -------------------------------------------
 React.useEffect(() => { console.log("Efectito"); }, document.addEventListener('load'));
 -------------------------------------------
+a React.useEffect(() => {
+console.log("Efectito");
+});
+b React.useEffect(() => {
+console.log("Efectito");
+}, document.addEventListener('load'));
+c React.useEffect(() => {
+console.log("Efectito");
+}, []);
+d React.useEffect(() => {
+console.log("Efectito");
+}, window);
 */
