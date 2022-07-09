@@ -4,6 +4,12 @@
 -------------------------------------------------------
 docker-compose deploy -d postgres
 -------------------------------------------------------
+a
+docker-compose up -d postgres
+b
+docker-compose deploy -d postgres
+c
+docker-compose run -d postgres
 */
 /*3
 8
@@ -11,6 +17,12 @@ docker-compose deploy -d postgres
 -------------------------------------------------------
 proccess.get('PORT')
 -------------------------------------------------------
+a
+proccess.PORT
+b
+proccess.env.PORT
+c
+proccess.get('PORT')
 */
 /*4
 9
@@ -25,6 +37,12 @@ Solo funciona con Postgres
 -------------------------------------------------------
 models.MyModel.getByPk(myId)
 -------------------------------------------------------
+a
+models.MyModel.fi ndOne(myId)
+b
+models.MyModel.getByPk(myId)
+c
+models.MyModel.fi ndByPk(myId)
 */
 /*7
 11
@@ -32,6 +50,15 @@ models.MyModel.getByPk(myId)
 -------------------------------------------------------
 const model = await models.MyModel.findByPk(myId) await model.remove();
 -------------------------------------------------------
+a
+const model = await models.MyModel.fi ndByPk(myId)
+await model.delete();
+b
+const model = await models.MyModel.fi ndByPk(myId)
+await model.remove();
+c
+const model = await models.MyModel.fi ndByPk(myId)
+await model.destroy();
 */
 /*8
 12
@@ -53,6 +80,12 @@ queryInterface.pushColumn(...)
 -------------------------------------------------------
 models.MyModel.upsert(...)
 -------------------------------------------------------
+a
+models.MyModel.create(...)
+b
+models.MyModel.upsert(...)
+c
+models.MyModel.insert(...)
 */
 /*13
 17
@@ -60,6 +93,12 @@ models.MyModel.upsert(...)
 -------------------------------------------------------
 hasMany  y belongsTo
 -------------------------------------------------------
+a
+hasOne y belongsTo
+b
+hasMany y belongsTo
+c
+belongsToMany
 */
 /*15
 21
