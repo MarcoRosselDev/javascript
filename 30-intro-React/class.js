@@ -38,7 +38,7 @@ Una sintaxis especial de HTML para escribir elementos y componentes de React que
 b
 Una versión muy futura de ECMAScript que nos permite escribir React con superpoderesde HTML.
 c
-Una sintaxis especial de JavaScript para escribir elementos y componentes de React quese siente como HTML.
+Una sintaxis especial de JavaScript para escribir elementos y componentes de React que se siente como HTML. ++++++++++++++++++++++++++++++++++++++++++++++++++++
 d
 Una versión muy futura de ECMAScript que nos permite escribir React con superpoderesde JavaScript.
 */
@@ -152,9 +152,9 @@ d context
 Todas las herramientas open-source (únicamente las oficiales) relacionadas a React.
 -------------------------------------------
 a
-Todas las herramientas open-source (ofi ciales y no ofi ciales) relacionadas a React.
+Todas las herramientas open-source (oficiales y no oficiales) relacionadas a React.
 b
-Todas las herramientas open-source (únicamente las ofi ciales) relacionadas a React.
+Todas las herramientas open-source (únicamente las oficiales) relacionadas a React.
 c
 Algunas de las herramientas internas que usa React para construir su código fuente.
 */
