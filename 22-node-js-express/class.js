@@ -46,7 +46,7 @@ const { limit, offset } = req.queryParams;
 ------------------------------------------------------
 a const { limit, offset } = req.getQuery;
 b const { limit, offset } = req.queryParams;
-c const { limit, offset } = req.query;
+c const { limit, offset } = req.query; +++++++++++++++++++
 ------------------------------------------------------
 
 */
