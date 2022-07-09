@@ -80,9 +80,9 @@ res.statusCode(404).json({message})
 ------------------------------------------------------
 Usualmente se encarga de conectarse con datos de terceros como una DB
 ------------------------------------------------------
-Usualmente está toda la lógica de negocio y resuelve los casos de uso
+Usualmente está toda la lógica de negocio y resuelve los casos de uso+++++++
 Usualmente expone el servicio al cliente
-Usualmente se encarga de conectarse con datos de terceros como una DB
+Usualmente se encarga de conectarse con datos de terceros como una DB***
 ------------------------------------------------------
 */
 /*12
