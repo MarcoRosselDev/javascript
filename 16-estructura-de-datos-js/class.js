@@ -13,16 +13,34 @@ c
 ------------------------------------------------------
 FIFO
 ------------------------------------------------------
+a
+FIFO
+b
+FILO
+c
+LIFO
 */
 /*6 ¿Cuál es el patrón de un Queue?
 ------------------------------------------------------
 LIFO
 ------------------------------------------------------
+a
+LIFO
+b
+FILO
+c
+FIFO
 */
 /*7¿Cuál es una de las principales reglas de un Binary Search Tree?
 ------------------------------------------------------
 Los nodos de la izquierda deben de ir en incremento y los de la derecha deben de ir en decremento.
 ------------------------------------------------------
+a
+Los nodos de la izquierda deben de ir en incremento y los de la derecha deben de ir endecremento.
+b
+Qué siempre tiene que haber nodos pares.
+c
+Los nodos de la izquierda deben de ir en decremento, y los de la derecha deben de ir enincremento.
 */
 /*10 ¿Qué es un ”edge” en un grafo?
 ------------------------------------------------------
@@ -39,6 +57,12 @@ Son los Nodos de información que van creando nuestro grafo.
 ------------------------------------------------------
 Es un patrón para buscar más rápido la información en un grafo.
 ------------------------------------------------------
+a
+Es un borde o puntero que conecta dos nodos.
+b
+Es un patrón para buscar más rápido la información en un grafo.
+c
+Son los nodos de información que van creando nuestro grafo.
 */
 /*12 ¿Qué es un Grafo dirigido?
 ------------------------------------------------------
