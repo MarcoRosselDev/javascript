@@ -83,6 +83,14 @@ const [nombreDelEstado, setNombreDelEstado] = React.useState("valor inicial dees
 -------------------------------------------
 NombreComponente.addEventListener('click')
 -------------------------------------------
+a
+onclick
+b
+NombreComponente.addEventListener('click')
+c
+click
+d
+onClick
 */
 /*14 ¿Cómo escuchamos cuando un usuario escriba en un input o textarea con React?
 -------------------------------------------
@@ -112,6 +120,12 @@ Todas las propiedades enviadas al componente Provider podrán consumirse desde e
 -------------------------------------------
 Todas las herramientas open-source (únicamente las oficiales) relacionadas a React.
 -------------------------------------------
+a
+Todas las herramientas open-source (ofi ciales y no ofi ciales) relacionadas a React.
+b
+Todas las herramientas open-source (únicamente las ofi ciales) relacionadas a React.
+c
+Algunas de las herramientas internas que usa React para construir su código fuente.
 */
 /*20
 15
