@@ -122,4 +122,10 @@ belongsToMany
 -------------------------------------------------------
 hasOne  y belongsTo
 -------------------------------------------------------
+a
+hasOne y belongsTo
+b
+belongsToMany
+c
+hasMany y belongsTo
 */
