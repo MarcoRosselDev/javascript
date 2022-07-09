@@ -91,7 +91,7 @@ Usualmente se encarga de conectarse con datos de terceros como una DB***
 ------------------------------------------------------
 solo el error xxxxxxx
 ------------------------------------------------------
--error, req, res y next
+-error, req, res y next ++++++++++++++++++++++++++++++
 -req, res y next
 -solo el error
 ------------------------------------------------------
