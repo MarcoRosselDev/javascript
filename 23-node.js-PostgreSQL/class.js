@@ -30,6 +30,10 @@ proccess.get('PORT')
 -------------------------------------------------------
 Solo funciona con Postgres
 -------------------------------------------------------
+a
+Solo funciona para Postgres
+b
+Funciona para ambos
 */
 /*6
 11
@@ -66,6 +70,12 @@ await model.destroy();
 -------------------------------------------------------
 8080
 -------------------------------------------------------
+a
+3306
+b
+8080
+c
+5432
 */
 /*11
 15
@@ -73,6 +83,12 @@ await model.destroy();
 -------------------------------------------------------
 queryInterface.pushColumn(...)
 -------------------------------------------------------
+a
+queryInterface.addRow(...)
+b
+queryInterface.addColumn(...)
+c
+queryInterface.pushColumn(...)
 */
 /*12
 11
