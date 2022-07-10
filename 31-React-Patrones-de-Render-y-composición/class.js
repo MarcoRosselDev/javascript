@@ -26,12 +26,16 @@ Lo importante es que funcione y ya.
 d
 No, el código elegante es mejor que el código aburrido porque causa una mejor impresiónde nuestro trabajo.
 */
-/*8
+/*8 +++
 3
 ¿Qué principios podemos seguir para decidir dónde colocar nuestro estado?
 ------------------------------------------
 Máxima cercanía a la relevancia o stateful vs. stateless components, pero no ambos porque son incompatibles.
 ------------------------------------------
+a
+Máxima cercanía a la relevancia y/o stateful vs. stateless components, ambos soncompatibles.+++++++++++++++++++++++++++
+b
+Máxima cercanía a la relevancia o stateful vs. stateless components, pero no ambosporque son incompatibles.
 */
 /*9
 3
