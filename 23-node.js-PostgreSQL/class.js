@@ -116,7 +116,7 @@ hasMany y belongsTo
 c
 belongsToMany
 */
-/*15
+/*15 +++
 21
 ¿Cuáles son los métodos que nos ofrece sequelize para expresar una relación muchos a muchos?
 -------------------------------------------------------
@@ -125,7 +125,9 @@ hasOne  y belongsTo
 a
 hasOne y belongsTo
 b
-belongsToMany
+belongsToMany ++++
 c
 hasMany y belongsTo
+
+belongsTo y hasMany
 */
