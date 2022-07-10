@@ -35,34 +35,34 @@ Solo funciona para Postgres
 b
 Funciona para ambos +++++++++++++++
 */
-/*6
+/*6 +++
 11
 ¿Cuál es la forma de obtener una entidad de la base de datos con base a la PK?
 -------------------------------------------------------
 models.MyModel.getByPk(myId)
 -------------------------------------------------------
 a
-models.MyModel.fi ndOne(myId)
+models.MyModel.findOne(myId)[+++++segunda opción]
 b
 models.MyModel.getByPk(myId)
 c
-models.MyModel.fi ndByPk(myId)
+models.MyModel.findByPk(myId)++++++++
 */
-/*7
+/*7 +++
 11
 ¿Cuál es la forma de eliminar una entidad de la base de datos con base a la PK?
 -------------------------------------------------------
 const model = await models.MyModel.findByPk(myId) await model.remove();
 -------------------------------------------------------
 a
-const model = await models.MyModel.fi ndByPk(myId)
+const model = await models.MyModel.findByPk(myId)
 await model.delete();
 b
-const model = await models.MyModel.fi ndByPk(myId)
+const model = await models.MyModel.findByPk(myId)
 await model.remove();
 c
-const model = await models.MyModel.fi ndByPk(myId)
-await model.destroy();
+const model = await models.MyModel.findByPk(myId)
+await model.destroy(); +++++++++++++
 */
 /*8
 12
@@ -90,14 +90,14 @@ queryInterface.addColumn(...)
 c
 queryInterface.pushColumn(...)
 */
-/*12
+/*12 +++
 11
 ¿Cuál es la forma de crear una entidad en la base de datos usando Sequelize?
 -------------------------------------------------------
 models.MyModel.upsert(...)
 -------------------------------------------------------
 a
-models.MyModel.create(...)
+models.MyModel.create(...) ++++++
 b
 models.MyModel.upsert(...)
 c
