@@ -64,6 +64,13 @@ Los componentes que aplican composición no defi nen su contenido, sino que le d
 function Componente(props) { return / … /; }git
 const ComponenteWithHOC = withHoc(Componente);
 ------------------------------------------
+a
+class Componente { render() { return / … /; } }
+b
+function Componente(props) { return / … /; }
+const ComponenteWithHOC = withHoc(Componente);
+c
+<Componente render={() => <OtroComponente />} />
 */
 /*13
 13
