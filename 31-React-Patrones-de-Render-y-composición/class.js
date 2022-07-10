@@ -43,6 +43,14 @@ Tienes un componente App que por dentro tiene un componente TodoHeader que por d
 ------------------------------------------
 Con React Portals.
 ------------------------------------------
+a
+Con React Portals.
+b
+Es imposible.
+c
+Con React Hooks.
+d
+Con composición de componentes
 */
 /*10
 3
@@ -91,4 +99,10 @@ function withHOC() { return Componente(props) { return /* … /; } }
 ------------------------------------------
 Permiten separar las validaciones de render y los componentes que vamos a renderizar.
 ------------------------------------------
+a
+Ninguna de las respuestas es correcta.
+b
+Facilitan la inyección de props a nuestros componentes.
+c
+Permiten separar las validaciones de render y los componentes que vamos a renderizar.
 */
