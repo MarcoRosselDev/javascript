@@ -11,6 +11,14 @@ Los colores, tamaños, fuentes y espaciados que usa un equipo de diseño para di
 ------------------------------------------
 No, el código elegante es mejor que el código aburrido porque causa una mejor impresión de nuestro trabajo.
 ------------------------------------------
+a
+No, el código elegante es mejor que el código aburrido porque es más presumible yavanzado.
+b
+Sí, el código aburrido es mejor que el código elegante porque es más fácil de cambiar ymejorar.
+c
+Lo importante es que funcione y ya.
+d
+No, el código elegante es mejor que el código aburrido porque causa una mejor impresiónde nuestro trabajo.
 */
 /*8
 3
@@ -37,39 +45,21 @@ Los componentes que SÍ aplican composición SÍ definen su contenido interno. L
 8
 ¿Cuál de los siguientes bloques de código es un ejemplo de render props?
 ------------------------------------------
-function Componente(props) { return / … /; }
+function Componente(props) { return / … /; }git
 const ComponenteWithHOC = withHoc(Componente);
 ------------------------------------------
 */
-/*
+/*13
+13
+¿Cuál de los siguientes bloques de código está construyendo un high order component?
 ------------------------------------------
-------------------------------------------
-*/
-/*
-------------------------------------------
-------------------------------------------
-*/
-/*
-------------------------------------------
+function Componente(props) { return ( <React.Fragment>{props.render()}</React.Fragment> ); }
 ------------------------------------------
 */
-/*
+/*15
+17
+¿Cuál es una ventaja de los High Order Components?
 ------------------------------------------
-------------------------------------------
-*/
-/*
-------------------------------------------
-------------------------------------------
-*/
-/*
-------------------------------------------
-------------------------------------------
-*/
-/*
-------------------------------------------
-------------------------------------------
-*/
-/*
-------------------------------------------
+Permiten separar las validaciones de render y los componentes que vamos a renderizar.
 ------------------------------------------
 */
