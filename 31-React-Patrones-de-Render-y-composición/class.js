@@ -4,6 +4,12 @@
 ------------------------------------------
 Los colores, tamaños, fuentes y espaciados que usa un equipo de diseño para diseñar.
 ------------------------------------------
+a
+Los colores, tamaños, fuentes y espaciados que usa un equipo de diseño para diseñar.
+b
+Las reglas, normas y lineamientos generales que sigue un equipo para trabajar.
+c
+El conjunto de herramientas que usa un equipo para trabajar.
 */
 /*7
 2
@@ -40,6 +46,12 @@ Con React Portals.
 ------------------------------------------
 Los componentes que SÍ aplican composición SÍ definen su contenido interno. Los componentes que NO la aplican le delegan esa responsabilidad al componente que los llame.
 ------------------------------------------
+a
+Los componentes que SÍ aplican composición SÍ defi nen su contenido interno. Loscomponentes que NO la aplican le delegan esa responsabilidad al componente que losllame.
+b
+Los componentes que aplican composición llaman a otros componentes dentro de sucontenido.
+c
+Los componentes que aplican composición no defi nen su contenido, sino que le deleganesa responsabilidad al componente que los llame.
 */
 /*11
 8
