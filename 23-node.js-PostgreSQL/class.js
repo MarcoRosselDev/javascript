@@ -103,14 +103,14 @@ models.MyModel.upsert(...)
 c
 models.MyModel.insert(...)
 */
-/*13
+/*13 +++
 17
 ¿Cuáles son los métodos que nos ofrece sequelize para expresar una relación uno a uno?
 -------------------------------------------------------
 hasMany  y belongsTo
 -------------------------------------------------------
 a
-hasOne y belongsTo
+hasOne y belongsTo ++++++++++
 b
 hasMany y belongsTo
 c
