@@ -68,7 +68,7 @@ Los elementos se crean con clases que extienden de React.Component. Loscomponent
 d
 Los componentes son grupos de elementos, reciben props y pueden crear estado o efectos. Los elementos reciben atributos o eventos y (casi siempre) se transforman enetiquetas de HTML. ++++++++++++++++++++++++++++++++++++++++++ 
 */
-/*9
+/*9 +++
 22
 ¿Por qué debemos compilar nuestro proyecto con React.js antes de subirlo a GitHub Pages?
 -------------------------------------------
@@ -77,7 +77,7 @@ No es obligatorio compilar nuestro proyecto antes de subirlo a GitHub Pages.
 a No es obligatorio compilar nuestro proyecto antes de subirlo a GitHub Pages.
 b Porque GitHub Pages tiene muy poco espacio de almacenamiento.
 c Porque GitHub Pages no soporta interacciones de los usuarios.
-d Porque GitHub Pages solo nos permite desplegar aplicaciones estáticas.
+d Porque GitHub Pages solo nos permite desplegar aplicaciones estáticas. ++++++++++++++++++
 */
 /*10 +++
 9
@@ -112,11 +112,11 @@ onClick+++++++++++++++++++
 -------------------------------------------
 oninputchange
 -------------------------------------------
-a onchange
+a onchange 
 b change
 c oninputchange
-d onWrite +++++++++++++++++++++++++++++
-e onChange
+d onWrite 
+e onChange +++++++++++++++++++++++++++++
 */
 /*15 ¿Cómo escuchamos cuando los usuarios envíen un formulario con React?
 -------------------------------------------
@@ -145,14 +145,14 @@ b value ++++++++++++++++++++++++++++++
 c state
 d context
 */
-/*18
+/*18 +++
 2
 ¿Qué significa el "ecosistema de React"?
 -------------------------------------------
 Todas las herramientas open-source (únicamente las oficiales) relacionadas a React.
 -------------------------------------------
 a
-Todas las herramientas open-source (oficiales y no oficiales) relacionadas a React.
+Todas las herramientas open-source (oficiales y no oficiales) relacionadas a React. +++++
 b
 Todas las herramientas open-source (únicamente las oficiales) relacionadas a React.
 c
