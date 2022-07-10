@@ -19,16 +19,25 @@ Autenticación
 req.headers.get('api')
 -----------------------------------
 */
-/*
+/*7
+7
+¿Cuál middleware de Passport.js funciona para hacer un inicio de sesión?
 -----------------------------------
+passport-auth
 -----------------------------------
 */
-/*
+/*8
+8
+¿Es posible saber el contenido de un JWT?
 -----------------------------------
+Falso
 -----------------------------------
 */
-/*
+/*9
+9
+¿Cuál es el método para generar un JWT?
 -----------------------------------
+jwt.generate({...}, 'my-secret');
 -----------------------------------
 */
 /*
