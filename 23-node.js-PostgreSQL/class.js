@@ -64,20 +64,20 @@ c
 const model = await models.MyModel.findByPk(myId)
 await model.destroy(); +++++++++++++
 */
-/*8
+/*8 +++
 12
 ¿Cuál es el puerto por defecto en el cual Mysql corre por defecto?
 -------------------------------------------------------
 8080
 -------------------------------------------------------
 a
-3306
+3306 +++++++++++++++++++
 b
 8080
 c
 5432
 */
-/*11
+/*11 +++
 15
 ¿Cuál es el método que nos ofrece queryInterface para agregar una columna?
 -------------------------------------------------------
@@ -86,7 +86,7 @@ queryInterface.pushColumn(...)
 a
 queryInterface.addRow(...)
 b
-queryInterface.addColumn(...)
+queryInterface.addColumn(...)++++++++++++++
 c
 queryInterface.pushColumn(...)
 */
