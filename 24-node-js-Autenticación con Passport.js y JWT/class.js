@@ -4,6 +4,12 @@
 -----------------------------------
 Autorización
 -----------------------------------
+a
+Autenticación
+b
+Firma de token
+c
+Autorización
 */
 /*2
 2
@@ -18,6 +24,9 @@ Autenticación
 -----------------------------------
 req.headers.get('api')
 -----------------------------------
+a req.headers['api']
+b req.get('api')
+c req.headers.get('api')
 */
 /*7
 7
@@ -26,12 +35,16 @@ req.headers.get('api')
 passport-auth
 -----------------------------------
 */
-/*8
+/*8 +++
 8
 ¿Es posible saber el contenido de un JWT?
 -----------------------------------
 Falso
 -----------------------------------
+a
+Falso
+b
+Verdadero +++++++++++
 */
 /*9
 9
