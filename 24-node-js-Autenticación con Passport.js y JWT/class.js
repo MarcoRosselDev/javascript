@@ -1,24 +1,24 @@
-/*1
+/*1 +++
 2
 ¿Cuál es la capa que evalúa si un usuario puede o no ingresar al sistema?
 -----------------------------------
 Autorización
 -----------------------------------
 a
-Autenticación
+Autenticación +++++++
 b
 Firma de token
 c
 Autorización
 */
-/*2
+/*2 +++
 2
 ¿Cuál es la capa que evalúa los permisos de un usuario?
 -----------------------------------
 Autenticación
 -----------------------------------
 a
-Autorización
+Autorización ++++++++
 b
 Autenticación
 c
