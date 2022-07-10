@@ -1,11 +1,11 @@
-/*1
+/*1 +++
 4
 ¿Cuál es comando que usamos para levantar el contendedor de Postgres con Docker?
 -------------------------------------------------------
 docker-compose deploy -d postgres
 -------------------------------------------------------
 a
-docker-compose up -d postgres
+docker-compose up -d postgres ++++++++++++++++++++
 b
 docker-compose deploy -d postgres
 c
