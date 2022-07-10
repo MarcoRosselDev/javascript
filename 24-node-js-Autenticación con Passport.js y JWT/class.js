@@ -39,6 +39,12 @@ Falso
 -----------------------------------
 jwt.generate({...}, 'my-secret');
 -----------------------------------
+a
+jwt.make({...}, 'my-secret');
+b
+jwt.generate({...}, 'my-secret');
+c
+jwt.sign({...}, 'my-secret');
 */
 /*14
 17
@@ -47,10 +53,14 @@ jwt.generate({...}, 'my-secret');
 jwt.check(token, 'my-secret');
 -----------------------------------
 */
-/*15
+/*15 +++
 9
 El secret el JWT debe ser guardado dentro del código y no en una variable de ambiente.
 -----------------------------------
 Verdadero
 -----------------------------------
+a
+Verdadero
+b
+Falso +++++++++
 */
