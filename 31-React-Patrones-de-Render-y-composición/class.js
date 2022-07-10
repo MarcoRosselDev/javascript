@@ -78,6 +78,12 @@ c
 ------------------------------------------
 function Componente(props) { return ( <React.Fragment>{props.render()}</React.Fragment> ); }
 ------------------------------------------
+a
+class Componente { render() { return /* … /; } }
+b
+function Componente(props) { return ( <React.Fragment>{props.render()}</React.Fragment> ); }
+c
+function withHOC() { return Componente(props) { return /* … /; } }
 */
 /*15
 17
