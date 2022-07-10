@@ -11,7 +11,7 @@ docker-compose deploy -d postgres
 c
 docker-compose run -d postgres
 */
-/*3
+/*3 +++
 8
 ¿Cuál es la forma correcta de leer la variable de ambiente PORT con NodeJS?
 -------------------------------------------------------
@@ -24,16 +24,16 @@ proccess.env.PORT+++++++++++++++++++++
 c
 proccess.get('PORT')
 */
-/*4
+/*4 +++
 9
-¿SequelizeORM se puede conectar a MySql y Postgres o solo funciona para Postgres?
+¿Sequelize ORM se puede conectar a MySql y Postgres o solo funciona para Postgres?
 -------------------------------------------------------
 Solo funciona con Postgres
 -------------------------------------------------------
 a
 Solo funciona para Postgres
 b
-Funciona para ambos
+Funciona para ambos +++++++++++++++
 */
 /*6
 11
