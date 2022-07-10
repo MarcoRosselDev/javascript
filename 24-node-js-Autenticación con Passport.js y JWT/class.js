@@ -17,6 +17,12 @@ Autorización
 -----------------------------------
 Autenticación
 -----------------------------------
+a
+Autorización
+b
+Autenticación
+c
+Firma de token
 */
 /*3
 4
@@ -34,6 +40,12 @@ c req.headers.get('api')
 -----------------------------------
 passport-auth
 -----------------------------------
+a
+passport-jwt
+b
+passport-local
+c
+passport-auth
 */
 /*8 +++
 8
@@ -65,6 +77,12 @@ jwt.sign({...}, 'my-secret');
 -----------------------------------
 jwt.check(token, 'my-secret');
 -----------------------------------
+a
+jwt.check(token, 'my-secret');
+b
+jwt.verify(token, 'my-secret');
+c
+jwt.isValid(token, 'my-secret');
 */
 /*15 +++
 9
