@@ -58,7 +58,7 @@ Falso
 b
 Verdadero +++++++++++
 */
-/*9
+/*9 +++
 9
 ¿Cuál es el método para generar un JWT?
 -----------------------------------
@@ -69,7 +69,7 @@ jwt.make({...}, 'my-secret');
 b
 jwt.generate({...}, 'my-secret');
 c
-jwt.sign({...}, 'my-secret');
+jwt.sign({...}, 'my-secret'); ++++++++++++++++++++
 */
 /*14
 17
