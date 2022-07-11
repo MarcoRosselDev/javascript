@@ -11,8 +11,8 @@ Las reglas, normas y lineamientos generales que sigue un equipo para trabajar. +
 c
 El conjunto de herramientas que usa un equipo para trabajar.
 */
-/*7
-2 +++
+/*7 +++
+2 
 ¿Qué es el código aburrido? ¿Es mejor que el código elegante?
 ------------------------------------------
 No, el código elegante es mejor que el código aburrido porque causa una mejor impresión de nuestro trabajo.
@@ -37,7 +37,7 @@ Máxima cercanía a la relevancia y/o stateful vs. stateless components, ambos s
 b
 Máxima cercanía a la relevancia o stateful vs. stateless components, pero no ambosporque son incompatibles.
 */
-/*9
+/*9 +++
 3
 Tienes un componente App que por dentro tiene un componente TodoHeader que por dentro tiene un componente TodoCounter. ¿Cómo envías props desde App hasta TodoCounter sin usar React Context ni pasar esas mismas props por el componente TodoHeader?
 ------------------------------------------
@@ -50,20 +50,20 @@ Es imposible.
 c
 Con React Hooks.
 d
-Con composición de componentes
+Con composición de componentes +++++++++++++++++++++++++++++
 */
-/*10
+/*10 +++
 3
 ¿Cómo identificas a un componente que aplica composición de uno que no la aplica?
 ------------------------------------------
 Los componentes que SÍ aplican composición SÍ definen su contenido interno. Los componentes que NO la aplican le delegan esa responsabilidad al componente que los llame.
 ------------------------------------------
-a
-Los componentes que SÍ aplican composición SÍ defi nen su contenido interno. Loscomponentes que NO la aplican le delegan esa responsabilidad al componente que losllame.
+a xxxxxxxxx
+    Los componentes que SÍ aplican composición SÍ defi nen su contenido interno. Loscomponentes que NO la aplican le delegan esa responsabilidad al componente que los llame.
 b
 Los componentes que aplican composición llaman a otros componentes dentro de sucontenido.
 c
-Los componentes que aplican composición no defi nen su contenido, sino que le deleganesa responsabilidad al componente que los llame.
+Los componentes que aplican composición no definen su contenido, sino que le delegan esa responsabilidad al componente que los llame. +++++++++++++++++++++++++++++++++++++++++
 */
 /*11
 8
