@@ -65,7 +65,7 @@ Los componentes que aplican composición llaman a otros componentes dentro de su
 c
 Los componentes que aplican composición no definen su contenido, sino que le delegan esa responsabilidad al componente que los llame. +++++++++++++++++++++++++++++++++++++++++
 */
-/*11
+/*11 +++
 8
 ¿Cuál de los siguientes bloques de código es un ejemplo de render props?
 ------------------------------------------
@@ -78,7 +78,7 @@ b
 function Componente(props) { return / … /; }
 const ComponenteWithHOC = withHoc(Componente);
 c
-<Componente render={() => <OtroComponente />} />
+<Componente render={() => <OtroComponente />} />+++++++++++++++++++++
 */
 /*13
 13
