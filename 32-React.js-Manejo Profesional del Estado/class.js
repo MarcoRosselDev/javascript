@@ -66,4 +66,10 @@ setState
 ----------------------------------------
 Para unir el código de interfaz con el código de manejo del estado.
 ----------------------------------------
+a
+Para guardar todos los action types en un mismo objeto y evitar errores de typos.
+b
+Para separar el código de interfaz del código de manejo del estado.
+c
+Para unir el código de interfaz con el código de manejo del estado.
 */
