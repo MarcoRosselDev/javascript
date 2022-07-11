@@ -43,7 +43,19 @@ PasteWebpack
 d
 CopyWebpack
 */
-/*
+/*21
+23
+¿Qué dependencia adicional agregamos a nuestro proyecto para entender la sintaxis de React y JSX?
 ----------------------------------------------
+@babel/jsx
+
 ----------------------------------------------
+a
+@babel-react-jsx
+b
+@babel/preset-react
+c
+react-loader y jsx-loader
+d
+@babel/jsx
 */
