@@ -2,43 +2,26 @@
 8
 ¿Cuáles loaders usamos para trabajar en Webpack con CSS?
 ----------------------------------------------
-css-webpack-loader y css-styles-loader
-css-style-loader y css-style-plugin
 ----------------------------------------------
-a
-css-style-loader y css-style-plugin xxx
-b
-css-webpack-loader y css-styles-loader xxx
-c
 css-loader y style-loader+++++++++++++++++++++
 */
-/*9
+/*9 +
 3
 ¿Cuál es el comando de webpack-cli para ejecutar nuestro proyecto en modo de desarrollo?
 ----------------------------------------------
-webpack --dev
 ----------------------------------------------
-a
-webpack-cli --dev
 b
 webpack-cli --mode development
 c
 webpack --development
-d
-webpack --dev
 e
 webpack --mode development
 */
-/*13
+/*13 +
 9
 ¿Cuál plugin nos ayuda a mover archivos a la carpeta de distribution?
 ----------------------------------------------
-MoveWebpack
 ----------------------------------------------
-a
-MoveWebpack
-b
-TransferWebpack
 c
 PasteWebpack
 d
