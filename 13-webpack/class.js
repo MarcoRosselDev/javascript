@@ -1,15 +1,16 @@
-/*2
+/*2 +++
 8
 ¿Cuáles loaders usamos para trabajar en Webpack con CSS?
 ----------------------------------------------
 css-webpack-loader y css-styles-loader
+css-style-loader y css-style-plugin
 ----------------------------------------------
 a
-css-style-loader y css-style-plugin
+css-style-loader y css-style-plugin xxx
 b
-css-webpack-loader y css-styles-loader
+css-webpack-loader y css-styles-loader xxx
 c
-css-loader y style-loader
+css-loader y style-loader+++++++++++++++++++++
 */
 /*9
 3
