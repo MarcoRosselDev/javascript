@@ -28,3 +28,22 @@ webpack --dev
 e
 webpack --mode development
 */
+/*13
+9
+¿Cuál plugin nos ayuda a mover archivos a la carpeta de distribution?
+----------------------------------------------
+MoveWebpack
+----------------------------------------------
+a
+MoveWebpack
+b
+TransferWebpack
+c
+PasteWebpack
+d
+CopyWebpack
+*/
+/*
+----------------------------------------------
+----------------------------------------------
+*/
