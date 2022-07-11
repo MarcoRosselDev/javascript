@@ -80,7 +80,7 @@ const ComponenteWithHOC = withHoc(Componente);
 c
 <Componente render={() => <OtroComponente />} />+++++++++++++++++++++
 */
-/*13
+/*13 +++
 13
 ¿Cuál de los siguientes bloques de código está construyendo un high order component?
 ------------------------------------------
@@ -91,9 +91,9 @@ class Componente { render() { return /* … /; } }
 b
 function Componente(props) { return ( <React.Fragment>{props.render()}</React.Fragment> ); }
 c
-function withHOC() { return Componente(props) { return /* … /; } }
+function withHOC() { return Componente(props) { return /* … /; } }++++++++++++++++++
 */
-/*15
+/*15 
 17
 ¿Cuál es una ventaja de los High Order Components?
 ------------------------------------------
