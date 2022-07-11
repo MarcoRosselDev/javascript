@@ -5,19 +5,19 @@
 ----------------------------------------------
 css-loader y style-loader+++++++++++++++++++++
 */
-/*9 +
+/*9 +++
 3
 ¿Cuál es el comando de webpack-cli para ejecutar nuestro proyecto en modo de desarrollo?
 ----------------------------------------------
 ----------------------------------------------
 b
-webpack-cli --mode development
+webpack-cli --mode development ++++++++++++
 c
 webpack --development
 e
 webpack --mode development
 */
-/*13 +
+/*13 +++
 9
 ¿Cuál plugin nos ayuda a mover archivos a la carpeta de distribution?
 ----------------------------------------------
@@ -25,9 +25,9 @@ webpack --mode development
 c
 PasteWebpack
 d
-CopyWebpack
+CopyWebpack ++++++++++++++++++
 */
-/*21 +
+/*21 +++
 23
 ¿Qué dependencia adicional agregamos a nuestro proyecto para entender la sintaxis de React y JSX?
 ----------------------------------------------
@@ -35,5 +35,5 @@ CopyWebpack
 a
 @babel-react-jsx
 b
-@babel/preset-react
+@babel/preset-react ++++++++++++
 */
