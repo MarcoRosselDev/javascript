@@ -27,7 +27,7 @@ PasteWebpack
 d
 CopyWebpack
 */
-/*21
+/*21 +
 23
 ¿Qué dependencia adicional agregamos a nuestro proyecto para entender la sintaxis de React y JSX?
 ----------------------------------------------
