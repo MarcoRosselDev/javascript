@@ -1,4 +1,4 @@
-/*3
+/*3 +++
 2
 ¿Qué son los principios de diseño?
 ------------------------------------------
@@ -7,7 +7,7 @@ Los colores, tamaños, fuentes y espaciados que usa un equipo de diseño para di
 a
 Los colores, tamaños, fuentes y espaciados que usa un equipo de diseño para diseñar.
 b
-Las reglas, normas y lineamientos generales que sigue un equipo para trabajar.
+Las reglas, normas y lineamientos generales que sigue un equipo para trabajar. ++++++++++++++++++++++
 c
 El conjunto de herramientas que usa un equipo para trabajar.
 */
