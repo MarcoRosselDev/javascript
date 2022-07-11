@@ -93,7 +93,7 @@ function Componente(props) { return ( <React.Fragment>{props.render()}</React.Fr
 c
 function withHOC() { return Componente(props) { return /* … /; } }++++++++++++++++++
 */
-/*15 
+/*15 +++
 17
 ¿Cuál es una ventaja de los High Order Components?
 ------------------------------------------
@@ -103,6 +103,7 @@ a
 Ninguna de las respuestas es correcta.
 b
 Facilitan la inyección de props a nuestros componentes.
++++++++++++++++++++++++++++++
 c
 Permiten separar las validaciones de render y los componentes que vamos a renderizar.
 */
