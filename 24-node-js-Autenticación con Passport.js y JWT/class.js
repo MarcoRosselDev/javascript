@@ -24,17 +24,17 @@ Autenticación
 c
 Firma de token
 */
-/*3
+/*3 +++
 4
 ¿Cuál es la forma correcta de obtener el atributo 'api' desde los headers de una petición?
 -----------------------------------
 req.headers.get('api')
 -----------------------------------
-a req.headers['api']
+a req.headers['api'] +++++++++++++++++++++
 b req.get('api')
 c req.headers.get('api')
 */
-/*7
+/*7 +++
 7
 ¿Cuál middleware de Passport.js funciona para hacer un inicio de sesión?
 -----------------------------------
@@ -43,7 +43,7 @@ passport-auth
 a
 passport-jwt
 b
-passport-local
+passport-local +++++++++++++++
 c
 passport-auth
 */
