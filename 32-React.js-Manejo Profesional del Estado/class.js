@@ -4,6 +4,14 @@
 ----------------------------------------
 Se actualizan automáticamente con los cambios a los estados "normales".
 ----------------------------------------
+a
+Pueden tener la misma convención de nombres que los estados "normales".
+b
+Se crean a partir de estados "normales".
+c
+Se crean con React.useState.
+d
+Se actualizan automáticamente con los cambios a los estados "normales".
 */
 /*2
 13
@@ -11,6 +19,12 @@ Se actualizan automáticamente con los cambios a los estados "normales".
 ----------------------------------------
 Reducer Objects
 ----------------------------------------
+a
+If, else if y else
+b
+Switch
+c
+Reducer Objects
 */
 /*5
 5
@@ -18,6 +32,16 @@ Reducer Objects
 ----------------------------------------
 UNSAFE_componentWillMount
 ----------------------------------------
+a
+componentWillUnmount
+b
+componentDidMount
+c
+componentDidUpdate
+d
+UNSAFE_componentWillMount
+e
+componentDidUnmount
 */
 /*8
 14
@@ -25,6 +49,16 @@ Si creamos un estado patito con React.useState, a su actualizador por convenció
 ----------------------------------------
 updatePatito
 ----------------------------------------
+a
+dispatch
+b
+patitoUpdater
+c
+setPatito
+d
+updatePatito
+e
+setState
 */
 /*9
 15
