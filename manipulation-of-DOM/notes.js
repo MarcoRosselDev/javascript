@@ -1,6 +1,5 @@
 //Document Object Model
 
-
 //GetElementById()
 //GetElementByClassName()
 //GetElementByTagName()
