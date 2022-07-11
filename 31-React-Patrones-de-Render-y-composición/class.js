@@ -12,15 +12,15 @@ c
 El conjunto de herramientas que usa un equipo para trabajar.
 */
 /*7
-2
+2 +++
 ¿Qué es el código aburrido? ¿Es mejor que el código elegante?
 ------------------------------------------
 No, el código elegante es mejor que el código aburrido porque causa una mejor impresión de nuestro trabajo.
 ------------------------------------------
 a
-No, el código elegante es mejor que el código aburrido porque es más presumible yavanzado.
+No, el código elegante es mejor que el código aburrido porque es más presumible y avanzado.
 b
-Sí, el código aburrido es mejor que el código elegante porque es más fácil de cambiar ymejorar.
+Sí, el código aburrido es mejor que el código elegante porque es más fácil de cambiar y mejorar. ++++++++++++++++++++++
 c
 Lo importante es que funcione y ya.
 d
