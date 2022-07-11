@@ -73,3 +73,10 @@ Para separar el código de interfaz del código de manejo del estado.
 c
 Para unir el código de interfaz con el código de manejo del estado.
 */
+let array = {
+    1:16,
+    2:13,
+    5:5,
+    8:14,
+    9:15
+}
