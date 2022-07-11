@@ -71,7 +71,7 @@ jwt.generate({...}, 'my-secret');
 c
 jwt.sign({...}, 'my-secret'); ++++++++++++++++++++
 */
-/*14
+/*14 +++
 17
 ¿Cuál es el método para verificar un JWT?
 -----------------------------------
@@ -80,7 +80,7 @@ jwt.check(token, 'my-secret');
 a
 jwt.check(token, 'my-secret');
 b
-jwt.verify(token, 'my-secret');
+jwt.verify(token, 'my-secret'); +++++++++++
 c
 jwt.isValid(token, 'my-secret');
 */
