@@ -79,6 +79,35 @@ React.Context
   );
 } 
 ----------------------------------------------
+a
+const Button = () => {
+    const [count, setCount] = React.useState(1);
+    return (
+        <button onClick = {setCount(count + 1 )}>
+            ¡Click!
+        </ button>
+    );
+}
+
+b
+const Button = () => {
+    const [count, setCount] = React.useState(1);
+    return (
+        <button onClick = {() => setCount(count + 1)}>
+            ¡Click!
+        </button>
+    );
+}
+
+c
+const Button = () => {
+    const { count, setCount } = React.useState(1);
+    return (
+        <button onclick = {setCount(count + 1 )}>
+            ¡Click!
+        </button>
+    );
+}
 */
 let array = {
     2:1,
