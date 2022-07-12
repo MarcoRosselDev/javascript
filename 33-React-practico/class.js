@@ -46,20 +46,18 @@ React.createText("input", { type: "text" });
 e
 <input type=“text” />
 */
-/*8 -
+/*8 +++
 4
 ¿Cómo renderizamos el componente principal de nuestra aplicación con React 17?
 ----------------------------------------------
 React.createElement()
 ----------------------------------------------
-a
-React.createElement()
 b
 React.render()
 c
 ReactDOM.createComponent()
 d
-ReactDOM.render()
+ReactDOM.render()+++++++++++++++++++
 */
 /*9 +++
 5
@@ -157,3 +155,6 @@ let array = {
     13:17,
     15:17
 }
+/* npm install mini-css-extract-plugin css-loader style-loader sass -D
+
+*/
