@@ -1,11 +1,11 @@
-/*2 -
+/*2 +++
 1
 Si nos basamos en el patrón MVC (modelo-vista-controlador), ¿de cuál se encarga React.js?
 ----------------------------------------------
 Se encarga de las 3.
 ----------------------------------------------
 a
-Vista
+Vista ++++++++++++++++++++++++++++++
 b
 Se encarga de las 3.
 c
@@ -13,14 +13,14 @@ Modelo
 d
 Controlador
 */
-/*3
+/*3 +++
 1
 React.js nos permite construir interfaces con base en:
 ----------------------------------------------
 Funciones
 ----------------------------------------------
 a
-Componentes
+Componentes ++++++++++++++++++++++++++
 b
 Funciones
 c
