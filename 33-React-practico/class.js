@@ -1,9 +1,17 @@
-/*2
+/*2 -
 1
 Si nos basamos en el patrón MVC (modelo-vista-controlador), ¿de cuál se encarga React.js?
 ----------------------------------------------
 Se encarga de las 3.
 ----------------------------------------------
+a
+Vista
+b
+Se encarga de las 3.
+c
+Modelo
+d
+Controlador
 */
 /*3
 1
@@ -13,12 +21,22 @@ Funciones
 ----------------------------------------------
 creo que es en componentes
 */
-/*6
+/*6 -
 8
 ¿Cómo creamos un elemento de React que se transforme en un input de tipo texto usando JSX?
 ----------------------------------------------
 <input typename="text">
 ----------------------------------------------
+a
+<input type="text">
+b
+<input typename="text">
+c
+React.createComponent("input", { type: "text" });
+d
+React.createText("input", { type: "text" });
+e
+<input type=“text” />
 */
 /*8
 4
