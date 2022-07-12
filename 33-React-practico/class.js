@@ -19,6 +19,14 @@ React.js nos permite construir interfaces con base en:
 ----------------------------------------------
 Funciones
 ----------------------------------------------
+a
+Componentes
+b
+Funciones
+c
+Clases
+d
+Objetos
 creo que es en componentes
 */
 /*6 -
@@ -38,12 +46,20 @@ React.createText("input", { type: "text" });
 e
 <input type=“text” />
 */
-/*8
+/*8 -
 4
 ¿Cómo renderizamos el componente principal de nuestra aplicación con React 17?
 ----------------------------------------------
 React.createElement()
 ----------------------------------------------
+a
+React.createElement()
+b
+React.render()
+c
+ReactDOM.createComponent()
+d
+ReactDOM.render()
 */
 /*9 +++
 5
