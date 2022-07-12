@@ -53,21 +53,43 @@ Verdadero
 ----------------------------------------------
 entoncese Falso
 */
-/*12
+/*12 -
 11
 ¿Cuál es la forma correcta crear un 404 con React Router DOM 5?
 ----------------------------------------------
 Dentro de los componentes BrowserRouter y Switch. De primer lugar con las demás rutas de la aplicación. Y con <Route path="*" component={NotFound} />.
 ----------------------------------------------
+a
+Dentro del componente BrowserRouter. De último lugar con las demás rutas de laaplicación. Y con
+<Route component={NotFound} />
+.
+b
+Dentro de los componentes BrowserRouter y Switch. De último lugar con las demás rutasde la aplicación. Y con
+<Route path="*" component={NotFound} />
+.
+c
+Dentro del componente BrowserRouter. De primer lugar con las demás rutas de laaplicación. Y con
+<Route path="*" component={NotFound} />
+.
+d
+Dentro de los componentes BrowserRouter y Switch. De primer lugar con las demás rutasde la aplicación. Y con
+<Route path="*" component={NotFound} />
+.
 */
-/*13
+/*13 -
 17
 ¿Qué herramienta de React nos permite trabajar con el estado en nuestros componentes?
 ----------------------------------------------
 React.Context
 ----------------------------------------------
+a
+React.useEffect
+b
+React.useState
+c
+React.Context
 */
-/*15
+/*15 -
 17
 ¿Cuál es la forma correcta de actualizar un estado cuando los usuarios den click en un botón?
 ----------------------------------------------
