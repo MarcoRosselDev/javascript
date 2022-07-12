@@ -13,7 +13,7 @@ Se crean con React.useState.
 d
 Se actualizan automáticamente con los cambios a los estados "normales".
 */
-/*2
+/*2 +++
 13
 ¿Cuál es la técnica más popular para crear un reducer?
 ----------------------------------------
@@ -22,9 +22,7 @@ Reducer Objects
 a
 If, else if y else
 b
-Switch
-c
-Reducer Objects
+Switch ++++++++++++++++++++++++++++++
 */
 /*5 +++
 5
