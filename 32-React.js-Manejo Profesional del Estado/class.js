@@ -26,22 +26,20 @@ Switch
 c
 Reducer Objects
 */
-/*5
+/*5 +++
 5
 ¿Cuál de los siguientes métodos NO PERTENECE al ciclo de vida de los componentes creados con React.Component?
 ----------------------------------------
 UNSAFE_componentWillMount
 ----------------------------------------
 a
-componentWillUnmount
+componentWillUnmount +
 b
-componentDidMount
+componentDidMount +
 c
-componentDidUpdate
-d
-UNSAFE_componentWillMount
+componentDidUpdate +
 e
-componentDidUnmount
+componentDidUnmount +++++++++++++++++++++++++
 */
 /*8
 14
