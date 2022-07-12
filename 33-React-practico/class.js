@@ -29,16 +29,14 @@ d
 Objetos
 creo que es en componentes
 */
-/*6 -
+/*6 +++
 8
 ¿Cómo creamos un elemento de React que se transforme en un input de tipo texto usando JSX?
 ----------------------------------------------
 <input typename="text">
 ----------------------------------------------
 a
-<input type="text">
-b
-<input typename="text">
+<input type="text"> ++++++++++
 c
 React.createComponent("input", { type: "text" });
 d
