@@ -1,17 +1,15 @@
-/*1 -
+/*1 +++
 2
 What structure is used to describe live events?
 --------------------------------------------
 Present continuous
 --------------------------------------------
 a
-Present simple
-b
-Present continuous
+Present simple ++++++++
 c
 Past simple
 */
-/*5 -
+/*5 +++
 6
 Complete the sentence: "I _______ the great of China".
 --------------------------------------------
@@ -20,37 +18,31 @@ see
 a
 have seen
 b
-saw
-c
-see
+saw ++++++++++++++
 */
-/*10 -
+/*10 +++
 13
 Which of the following sentences is incorrect?
 --------------------------------------------
 Jane is a cousin of hers.
 --------------------------------------------
 a
-Jane is a cousin of Mary’s.
-b
-Jane is a cousin of hers.
+Jane is a cousin of Mary’s.+++++++++++
 c
 Jane is a cousin of Mary.
 */
-/*11 -
+/*11 +++
 14
 "Can I tell you a secret?" Select the best answer.
 --------------------------------------------
 Sure. I won't tell nobody!
 --------------------------------------------
 a
-Sure! I won't tell anybody!
+Sure! I won't tell anybody! ++++++++++
 b
 Don’t worry. I won't tell somebody!
-c
-Sure. I won't tell nobody!
 */
-/*12 -
+/*12 +++
 16
 Complete the sentence: Your sister is ____ the ____ age ____ mine. Yours is 17 and mine 18
 --------------------------------------------
@@ -59,9 +51,7 @@ not / same / to
 a
 - / same / from
 b
-not / same / as
-c
-not / same / to
+not / same / as +++++++++++++++++++
 */
 /*13 -
 17
