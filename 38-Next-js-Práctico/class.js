@@ -1,17 +1,15 @@
-/*2 -
+/*2 +++
 4
 ¿Qué es ESLint?
 ------------------------------------------
 Una herramienta para analizar código e identificar posibles cambios en la lógicoa de mi código en JavaScript.
 ------------------------------------------
-a
-Una herramienta para analizar código e identifi car posibles cambios en la lógicoa de micódigo en JavaScript.
 b
-Una herramienta para analizar código e identifi car posibles errores en el código Python.
+Una herramienta para analizar código e identificar posibles errores en el código Python.
 c
-Una herramienta para analizar código e identifi car posibles errores en el códigoJavaScript.
+Una herramienta para analizar código e identificar posibles errores en el código JavaScript.++++++++++++++++++
 */
-/*3 -
+/*3 +++
 4
 ¿Cuál es el recurso asignado en jsconfig.js para manejar las rutas de nuestros archivos?
 ------------------------------------------
@@ -22,9 +20,7 @@ alias
 b
 sourcePaths
 c
-paths
-d
-sources
+paths +++++++++++++++
 */
 /*6 ¿Qué es React.Fragment?
 ------------------------------------------
@@ -114,8 +110,6 @@ a
 Un Custom React Hook de Next.js para acceder a estados globales.
 b
 Un React Hook que nos permite acceder a algún estado global.
-c
-Un React Hook que nos permite crear estados globales.
 d
 Un Custom React Hook de Next.js para crear estados globales.
 */
