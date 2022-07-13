@@ -23,12 +23,20 @@ a FALSE
 b TRUE
 c Sometimes
 */
-/*6
+/*6 -
 7
 The suffix -less, means:
 -----------------------------------------
 Capacity
 -----------------------------------------
+a
+Quantity
+b
+Condition of
+c
+Capacity
+d
+Without
 */
 /*9 -
 10
@@ -45,14 +53,20 @@ Where do you live?
 d
 You did great. Well done!
 */
-/*10
+/*10 -
 11
 Is this sentence correct or incorrect? "She works like a teacher".
 -----------------------------------------
 Correct
 -----------------------------------------
+a
+Incorrect
+b
+Correct
+c
+Sometimes
 */
-/*11
+/*11 -
 11
 In the sentence: "As your father, I should tell you that it wasn't a good idea to use the car without permission", who am I?
 -----------------------------------------
@@ -65,12 +79,18 @@ I'm a neighbor.
 c
 I'm your friend.
 */
-/*13
+/*13 -
 12
 Is this sentence correct or incorrect? "Who did you go to the party with?"
 -----------------------------------------
 Incorrect
 -----------------------------------------
+a
+Incorrect
+b
+Correct
+c
+Sometimes
 */
 /*19 -
 19
