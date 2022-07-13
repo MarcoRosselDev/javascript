@@ -43,11 +43,17 @@ Static Site Generation es el proceso de compilar y renderizar (crear el contenid
 Son aplicaciones móviles que permiten incorporar comportamientos de una aplicación web.
 ------------------------------------------
 */
-/*
+/*13
+14
+¿Para qué sirve Next/Head?
 ------------------------------------------
+Exponer un componente donde podemos integrar scripts al final del HTML de nuestra aplicación.
 ------------------------------------------
 */
-/*
+/*14
+9
+¿Qué es useContext?
 ------------------------------------------
+Un React Hook que nos permite crear estados globales.
 ------------------------------------------
 */
