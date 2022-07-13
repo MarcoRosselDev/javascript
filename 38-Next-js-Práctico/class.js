@@ -29,12 +29,18 @@ Las keys nos permiten optimizar componentes en el DOM virtual.
 Nos permite que el servidor sea quien genere el contenido JavaScript en tiempo de compilación.
 ------------------------------------------
 */
-/*9
+/*9 -
 21
 ¿Qué es Static Site Generation?
 ------------------------------------------
 Static Site Generation es el proceso de compilar y renderizar (crear el contenido html/css/JavaScript) en tiempo de ejecución.
 ------------------------------------------
+a
+Static Site Generation es el proceso de compilar y renderizar (crear el contenidohtml/css/JavaScript) en tiempo de deploy.
+b
+Static Site Generation es el proceso de compilar y renderizar (crear el contenidohtml/css/JavaScript) en tiempo de compilación.
+c
+Static Site Generation es el proceso de compilar
 */
 /*10
 20
