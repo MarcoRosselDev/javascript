@@ -5,12 +5,20 @@
 Una herramienta para analizar código e identificar posibles cambios en la lógicoa de mi código en JavaScript.
 ------------------------------------------
 */
-/*3
+/*3 -
 4
 ¿Cuál es el recurso asignado en jsconfig.js para manejar las rutas de nuestros archivos?
 ------------------------------------------
 sources
 ------------------------------------------
+a
+alias
+b
+sourcePaths
+c
+paths
+d
+sources
 */
 /*6 ¿Qué es React.Fragment?
 ------------------------------------------
@@ -21,13 +29,25 @@ Un React Fragment es una función dentro de la API de Next.js que resuelve compo
 ------------------------------------------
 Las keys nos permiten optimizar componentes en el DOM virtual.
 ------------------------------------------
+a
+Las keys nos permiten diferenciar los elementos únicos en el DOM virtual.
+b
+Las keys nos permiten agregar elementos pares en el DOM virtual.
+c
+Las keys nos permiten optimizar componentes en el DOM virtual.
 */
-/*8
+/*8 -
 21
 ¿Qué es el server side rendering?
 ------------------------------------------
 Nos permite que el servidor sea quien genere el contenido JavaScript en tiempo de compilación.
 ------------------------------------------
+a
+Nos permite que el servidor sea quien genere el contenido html/css/js en tiempo deejecución.
+b
+Nos permite que el servidor sea quien genere los archivos html/css/JavaScript en tiempode deploy.
+c
+Nos permite que el servidor sea quien genere el contenido JavaScript en tiempo decompilación.
 */
 /*9 -
 21
