@@ -53,31 +53,27 @@ a
 b
 not / same / as +++++++++++++++++++
 */
-/*13 -
+/*13 +++
 17
 "Would you like to eat Thai or Italian food?" Select the best answer.
 --------------------------------------------
 I like more Italian than Thai.
 --------------------------------------------
-a
-I like more Italian than Thai.
 b
 I like Italian than Thai better.
 c
-I like Italian better than Thai
+I like Italian better than Thai ++++++++++++++++++++++
 */
 /*16 Complete the sentence: "No, I don't want to order food. _______ cooking some pasta?".
 --------------------------------------------
 Shall we
 --------------------------------------------
-a
-Shall we
 b
-Do we
+Do we ++++++++++++++
 c
 What about
 */
-/*20 -
+/*20 +++
 23
 I don't want to make dinner, you know I don't cook ___________.
 --------------------------------------------
@@ -86,7 +82,5 @@ enough well
 a
 good enough
 b
-well enough
-c
-enough well
+well enough +++++++++++++++++++++++
 */
