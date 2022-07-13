@@ -36,13 +36,13 @@ creo que es en componentes
 <input typename="text">
 ----------------------------------------------
 a
-<input type="text"> ++++++++++
+<input type="text"> -----no tiene el / de cierre
 c
 React.createComponent("input", { type: "text" });
 d
 React.createText("input", { type: "text" });
 e
-<input type=“text” />
+<input type=“text” /> +++++++++++++++++++++
 */
 /*8 +++
 4
@@ -65,7 +65,7 @@ Verdadero
 ----------------------------------------------
 entoncese Falso
 */
-/*12 -
+/*12 +++
 11
 ¿Cuál es la forma correcta crear un 404 con React Router DOM 5?
 ----------------------------------------------
@@ -73,7 +73,7 @@ Dentro de los componentes BrowserRouter y Switch. De primer lugar con las demás
 ----------------------------------------------
 a
 Dentro del componente BrowserRouter. De último lugar con las demás rutas de laaplicación. Y con
-<Route component={NotFound} />
+<Route component={NotFound} /> +++++++++++++++++++++++++++++++++++
 .
 b
 Dentro de los componentes BrowserRouter y Switch. De último lugar con las demás rutasde la aplicación. Y con
@@ -82,11 +82,6 @@ Dentro de los componentes BrowserRouter y Switch. De último lugar con las demá
 c
 Dentro del componente BrowserRouter. De primer lugar con las demás rutas de laaplicación. Y con
 <Route path="*" component={NotFound} />
-.
-d
-Dentro de los componentes BrowserRouter y Switch. De primer lugar con las demás rutasde la aplicación. Y con
-<Route path="*" component={NotFound} />
-.
 */
 /*13 -
 17
