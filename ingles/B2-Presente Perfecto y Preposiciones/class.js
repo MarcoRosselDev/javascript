@@ -13,12 +13,15 @@ At work.
 d
 In Paris.
 */
-/*5
+/*5 -
 6
 "Prefixes are added at the end of the words", this is:
 -----------------------------------------
 Sometimes
 -----------------------------------------
+a FALSE
+b TRUE
+c Sometimes
 */
 /*6
 7
@@ -27,12 +30,20 @@ The suffix -less, means:
 Capacity
 -----------------------------------------
 */
-/*9
+/*9 -
 10
 Select the sentence where the word "YOU" is used in an impersonal form.
 -----------------------------------------
 You did great. Well done!
 -----------------------------------------
+a
+You didn't pass, I'm sorry!
+b
+You can only pay in cash here.
+c
+Where do you live?
+d
+You did great. Well done!
 */
 /*10
 11
@@ -47,6 +58,12 @@ In the sentence: "As your father, I should tell you that it wasn't a good idea t
 -----------------------------------------
 I'm your friend.
 -----------------------------------------
+a
+I'm your dad.
+b
+I'm a neighbor.
+c
+I'm your friend.
 */
 /*13
 12
@@ -68,10 +85,17 @@ Not at all.
 c
 Yes, of course.
 */
-/*20
+/*20 -
 20
 Report the order: Please, call me back as soon as possible.
 -----------------------------------------
 He told me to call you back as soon as possible.
------------------------------------------
+-----------------------------------------a
+He asked me to call him back as soon as possible.
+b
+He asked me: "Please, call me!"
+c
+He told me to call you back as soon as possible.
+d
+He said I must call him now.
 */
