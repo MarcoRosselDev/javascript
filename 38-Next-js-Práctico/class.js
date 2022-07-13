@@ -1,9 +1,15 @@
-/*2
+/*2 -
 4
 ¿Qué es ESLint?
 ------------------------------------------
 Una herramienta para analizar código e identificar posibles cambios en la lógicoa de mi código en JavaScript.
 ------------------------------------------
+a
+Una herramienta para analizar código e identifi car posibles cambios en la lógicoa de micódigo en JavaScript.
+b
+Una herramienta para analizar código e identifi car posibles errores en el código Python.
+c
+Una herramienta para analizar código e identifi car posibles errores en el códigoJavaScript.
 */
 /*3 -
 4
@@ -24,6 +30,12 @@ sources
 ------------------------------------------
 Un React Fragment es una función dentro de la API de Next.js que resuelve componentes sin agregar nodos extra.
 ------------------------------------------
+a Un React Fragment es una API de React que acerca el estado a nuestros componentes
+sin agregar nodos extra.
+b Un React Fragment es una función dentro de la API de Next.js que resuelve componentes
+sin agregar nodos extra.
+c Un React Fragment es un componente dentro de la API de React que agrupa
+componentes sin agregar nodos extra.
 */
 /*7 ¿Qué función cumplen las keys en React?
 ------------------------------------------
@@ -62,24 +74,48 @@ Static Site Generation es el proceso de compilar y renderizar (crear el contenid
 c
 Static Site Generation es el proceso de compilar
 */
-/*10
+/*10 -
 20
 ¿Qué es una aplicación web progresiva (PWA)?
 ------------------------------------------
 Son aplicaciones móviles que permiten incorporar comportamientos de una aplicación web.
 ------------------------------------------
+a
+Son aplicaciones móviles que permiten incorporar comportamientos de una aplicaciónweb.
+b
+Son aplicaciones web que permiten incorporar comportamientos de una app nativa.
+c
+Son aplicaciones móviles que se actualizan con la frecuencia y facilidad de una app web.
+d
+Son aplicaciones web que se actualizan constante y progresivamente.
 */
-/*13
+/*13 -
 14
 ¿Para qué sirve Next/Head?
 ------------------------------------------
 Exponer un componente donde podemos integrar scripts al final del HTML de nuestra aplicación.
 ------------------------------------------
+a
+Exponer un componente donde podemos integrar elementos al core de Next.js.
+b
+Exponer un componente donde podemos integrar scripts al fi nal del HTML de nuestraaplicación.
+c
+Exponer un componente donde podemos integrar elementos al body de nuestraaplicación.
+d
+Exponer un componente donde podemos integrar elementos al encabezado de nuestraaplicación.
 */
-/*14
+/*14 -
 9
 ¿Qué es useContext?
 ------------------------------------------
 Un React Hook que nos permite crear estados globales.
 ------------------------------------------
+a
+Un Custom React Hook de Next.js para acceder a estados globales.
+b
+Un React Hook que nos permite acceder a algún estado global.
+c
+Un React Hook que nos permite crear estados globales.
+d
+Un Custom React Hook de Next.js para crear estados globales.
 */
