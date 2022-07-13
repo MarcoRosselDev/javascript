@@ -1,9 +1,15 @@
-/*1
+/*1 -
 2
 What structure is used to describe live events?
 --------------------------------------------
 Present continuous
 --------------------------------------------
+a
+Present simple
+b
+Present continuous
+c
+Past simple
 */
 /*5 -
 6
@@ -31,12 +37,18 @@ Jane is a cousin of hers.
 c
 Jane is a cousin of Mary.
 */
-/*11
+/*11 -
 14
 "Can I tell you a secret?" Select the best answer.
 --------------------------------------------
 Sure. I won't tell nobody!
 --------------------------------------------
+a
+Sure! I won't tell anybody!
+b
+Don’t worry. I won't tell somebody!
+c
+Sure. I won't tell nobody!
 */
 /*12 -
 16
@@ -68,6 +80,12 @@ I like Italian better than Thai
 --------------------------------------------
 Shall we
 --------------------------------------------
+a
+Shall we
+b
+Do we
+c
+What about
 */
 /*20 -
 23
