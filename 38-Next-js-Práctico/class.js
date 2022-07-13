@@ -22,16 +22,25 @@ Un React Fragment es una función dentro de la API de Next.js que resuelve compo
 Las keys nos permiten optimizar componentes en el DOM virtual.
 ------------------------------------------
 */
-/*
+/*8
+21
+¿Qué es el server side rendering?
 ------------------------------------------
+Nos permite que el servidor sea quien genere el contenido JavaScript en tiempo de compilación.
 ------------------------------------------
 */
-/*
+/*9
+21
+¿Qué es Static Site Generation?
 ------------------------------------------
+Static Site Generation es el proceso de compilar y renderizar (crear el contenido html/css/JavaScript) en tiempo de ejecución.
 ------------------------------------------
 */
-/*
+/*10
+20
+¿Qué es una aplicación web progresiva (PWA)?
 ------------------------------------------
+Son aplicaciones móviles que permiten incorporar comportamientos de una aplicación web.
 ------------------------------------------
 */
 /*
