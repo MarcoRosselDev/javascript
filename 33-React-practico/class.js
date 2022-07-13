@@ -83,7 +83,7 @@ c
 Dentro del componente BrowserRouter. De primer lugar con las demás rutas de laaplicación. Y con
 <Route path="*" component={NotFound} />
 */
-/*13 -
+/*13 +++
 17
 ¿Qué herramienta de React nos permite trabajar con el estado en nuestros componentes?
 ----------------------------------------------
@@ -92,12 +92,12 @@ React.Context
 a
 React.useEffect
 b
-React.useState
+React.useState +++++++++++++++++++++++++++++++
 c
 React.Context
 */
-/*15 -
-17
+/*15 +++
+17 al final esta en la case 26
 ¿Cuál es la forma correcta de actualizar un estado cuando los usuarios den click en un botón?
 ----------------------------------------------
   const { count, setCount } = React.useState(1);
@@ -108,7 +108,7 @@ React.Context
   );
 } 
 ----------------------------------------------
-a
+a xxx
 const Button = () => {
     const [count, setCount] = React.useState(1);
     return (
@@ -118,7 +118,7 @@ const Button = () => {
     );
 }
 
-b
+b +++++++++++++++++++++++++++++++++++++++++++++++++++++++
 const Button = () => {
     const [count, setCount] = React.useState(1);
     return (
@@ -128,7 +128,7 @@ const Button = () => {
     );
 }
 
-c
+c xxx --- oneclick es oneClick
 const Button = () => {
     const { count, setCount } = React.useState(1);
     return (
