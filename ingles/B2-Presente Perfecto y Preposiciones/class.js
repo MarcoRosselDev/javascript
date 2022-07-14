@@ -64,44 +64,38 @@ Correct
 c
 Sometimes
 */
-/*11 -
+/*11 +++
 11
 In the sentence: "As your father, I should tell you that it wasn't a good idea to use the car without permission", who am I?
 -----------------------------------------
 I'm your friend.
 -----------------------------------------
 a
-I'm your dad.
+I'm your dad. +++++++++++++++++++++
 b
 I'm a neighbor.
-c
-I'm your friend.
 */
-/*13 -
+/*13 +++
 12
 Is this sentence correct or incorrect? "Who did you go to the party with?"
 -----------------------------------------
 Incorrect
 -----------------------------------------
-a
-Incorrect
 b
-Correct
+Correct ++++++++++++
 c
 Sometimes
 */
-/*19 -
+/*19 +++
 19
 Is it correct to say: "I am agree with you"?
 -----------------------------------------
 Sometimes, depending on the situation.
 -----------------------------------------
-a
-Sometimes, depending on the situation.
 b
 Not at all.
 c
-Yes, of course.
+Yes, of course. ++++++++++++++++++++++
 */
 /*20 -
 20
