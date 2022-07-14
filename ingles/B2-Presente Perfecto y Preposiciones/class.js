@@ -11,17 +11,17 @@ At work.
 d
 In Paris. +++++++++++++
 */
-/*5 -
+/*5 +++
 6
 "Prefixes are added at the end of the words", this is:
 -----------------------------------------
 Sometimes
 -----------------------------------------
-a FALSE
+a FALSE ++++++++++++++++++++
 b TRUE
 c Sometimes
 */
-/*6 -
+/*6 +++
 7
 The suffix -less, means:
 -----------------------------------------
@@ -34,9 +34,9 @@ Condition of
 c
 Capacity
 d
-Without
+Without ++++++++++++++++++++++
 */
-/*9 -
+/*9 +++
 10
 Select the sentence where the word "YOU" is used in an impersonal form.
 -----------------------------------------
@@ -45,9 +45,9 @@ You did great. Well done!
 a
 You didn't pass, I'm sorry!
 b
-You can only pay in cash here.
+You can only pay in cash here.++++++++++++++++++++++
 c
-Where do you live?
+Where do you live? 
 d
 You did great. Well done!
 */
