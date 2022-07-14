@@ -1,17 +1,15 @@
-/*1 -
+/*1 +++
 3
-In the sentence: "Charles has gone to Paris", where is Charles?
+In the sentence: " Charles has gone to Paris ", where is Charles?
 -----------------------------------------
 We don't know.
 -----------------------------------------
 a
 At home.
-b
-We don't know.
 c
 At work.
 d
-In Paris.
+In Paris. +++++++++++++
 */
 /*5 -
 6
