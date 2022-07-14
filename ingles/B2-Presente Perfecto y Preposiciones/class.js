@@ -51,14 +51,14 @@ Where do you live?
 d
 You did great. Well done!
 */
-/*10 -
+/*10 +++
 11
 Is this sentence correct or incorrect? "She works like a teacher".
 -----------------------------------------
-Correct
+Correct         devio ser [as]
 -----------------------------------------
 a
-Incorrect
+Incorrect +++++++++++++++++++++
 b
 Correct
 c
