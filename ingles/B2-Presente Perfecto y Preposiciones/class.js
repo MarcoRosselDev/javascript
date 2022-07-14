@@ -1,4 +1,4 @@
-/*1 +++
+/*1 
 3
 In the sentence: " Charles has gone to Paris ", where is Charles?
 -----------------------------------------
@@ -11,7 +11,7 @@ At work.
 d
 In Paris. +++++++++++++
 */
-/*5 +++
+/*5 
 6
 "Prefixes are added at the end of the words", this is:
 -----------------------------------------
@@ -21,7 +21,7 @@ a FALSE ++++++++++++++++++++
 b TRUE
 c Sometimes
 */
-/*6 +++
+/*6 
 7
 The suffix -less, means:
 -----------------------------------------
@@ -36,7 +36,7 @@ Capacity
 d
 Without ++++++++++++++++++++++
 */
-/*9 +++
+/*9 
 10
 Select the sentence where the word "YOU" is used in an impersonal form.
 -----------------------------------------
@@ -51,7 +51,7 @@ Where do you live?
 d
 You did great. Well done!
 */
-/*10 +++
+/*10 
 11
 Is this sentence correct or incorrect? "She works like a teacher".
 -----------------------------------------
@@ -64,7 +64,7 @@ Correct
 c
 Sometimes
 */
-/*11 +++
+/*11 
 11
 In the sentence: "As your father, I should tell you that it wasn't a good idea to use the car without permission", who am I?
 -----------------------------------------
@@ -75,7 +75,7 @@ I'm your dad. +++++++++++++++++++++
 b
 I'm a neighbor.
 */
-/*13 +++
+/*13 
 12
 Is this sentence correct or incorrect? "Who did you go to the party with?"
 -----------------------------------------
@@ -86,7 +86,7 @@ Correct ++++++++++++
 c
 Sometimes
 */
-/*19 +++
+/*19 
 19
 Is it correct to say: "I am agree with you"?
 -----------------------------------------
@@ -98,7 +98,7 @@ Not at all. ++++++++++++++++++++++
 c
 Yes, of course. 
 */
-/*20 +++
+/*20
 20
 Report the order: Please, call me back as soon as possible.
 -----------------------------------------
