@@ -7,19 +7,35 @@ TRUE
 a
 FALSE ++++++++++++++++++
 */
-/*3
+/*3 ---
 4
 Send me the email ______ you received yesterday please. 
 -------------------------------------------
 where
 -------------------------------------------
+a
+when
+b
+whom
+c
+who
+d
+that
 */
-/*5
+/*5 ---
 6
 It is NOT a placeholder:
 -------------------------------------------
 Thingy
 -------------------------------------------
+a
+What's-the-name
+b
+That
+c
+Thingy
+d
+how-d'you-call-it
 */
 /*10 ---
 11
@@ -51,12 +67,20 @@ have
 d
 let
 */
-/*20
+/*20 ---
 21
 We weren't __________ to leave the room.
 -------------------------------------------
 allowing
 -------------------------------------------
+a
+allow
+b
+allows
+c
+allowed
+d
+allowing
 */
 /*22 ---
 22
