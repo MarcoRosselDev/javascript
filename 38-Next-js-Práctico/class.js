@@ -22,27 +22,22 @@ sourcePaths
 c
 paths +++++++++++++++
 */
-/*6 ¿Qué es React.Fragment?
+/*6 ¿Qué es React.Fragment? +++
 ------------------------------------------
 Un React Fragment es una función dentro de la API de Next.js que resuelve componentes sin agregar nodos extra.
 ------------------------------------------
-a Un React Fragment es una API de React que acerca el estado a nuestros componentes
-sin agregar nodos extra.
-b Un React Fragment es una función dentro de la API de Next.js que resuelve componentes
-sin agregar nodos extra.
-c Un React Fragment es un componente dentro de la API de React que agrupa
-componentes sin agregar nodos extra.
+a Un React Fragment es una API de React que acerca el estado a nuestros componentes sin agregar nodos extra.
+++++++++++++++++
+c Un React Fragment es un componente dentro de la API de React que agrupa componentes sin agregar nodos extra. 
 */
-/*7 ¿Qué función cumplen las keys en React?
+/*7 ¿Qué función cumplen las keys en React? +++
 ------------------------------------------
 Las keys nos permiten optimizar componentes en el DOM virtual.
 ------------------------------------------
 a
-Las keys nos permiten diferenciar los elementos únicos en el DOM virtual.
+Las keys nos permiten diferenciar los elementos únicos en el DOM virtual. ++++++++++++++++++++
 b
 Las keys nos permiten agregar elementos pares en el DOM virtual.
-c
-Las keys nos permiten optimizar componentes en el DOM virtual.
 */
 /*8 -
 21
@@ -85,7 +80,7 @@ Son aplicaciones móviles que se actualizan con la frecuencia y facilidad de una
 d
 Son aplicaciones web que se actualizan constante y progresivamente.
 */
-/*13 -
+/*13 +++
 14
 ¿Para qué sirve Next/Head?
 ------------------------------------------
@@ -93,21 +88,19 @@ Exponer un componente donde podemos integrar scripts al final del HTML de nuestr
 ------------------------------------------
 a
 Exponer un componente donde podemos integrar elementos al core de Next.js.
-b
-Exponer un componente donde podemos integrar scripts al fi nal del HTML de nuestraaplicación.
 c
 Exponer un componente donde podemos integrar elementos al body de nuestraaplicación.
 d
 Exponer un componente donde podemos integrar elementos al encabezado de nuestraaplicación.
 */
-/*14 -
+/*14 +++
 9
 ¿Qué es useContext?
 ------------------------------------------
 Un React Hook que nos permite crear estados globales.
 ------------------------------------------
 a
-Un Custom React Hook de Next.js para acceder a estados globales.
+Un Custom React Hook de Next.js para acceder a estados globales. ++++++++++++++++++++++
 b
 Un React Hook que nos permite acceder a algún estado global.
 d
