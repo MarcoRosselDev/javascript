@@ -89,9 +89,9 @@ Exponer un componente donde podemos integrar scripts al final del HTML de nuestr
 a
 Exponer un componente donde podemos integrar elementos al core de Next.js.
 c
-Exponer un componente donde podemos integrar elementos al body de nuestraaplicación.
+Exponer un componente donde podemos integrar elementos al body de nuestra aplicación.
 d
-Exponer un componente donde podemos integrar elementos al encabezado de nuestraaplicación.
+Exponer un componente donde podemos integrar elementos al encabezado de nuestra aplicación.++++++++++++++++++++++++++++
 */
 /*14 +++
 9
