@@ -91,11 +91,12 @@ Sometimes
 Is it correct to say: "I am agree with you"?
 -----------------------------------------
 Sometimes, depending on the situation.
+no esar i am junto a agree solo i agree
 -----------------------------------------
 b
-Not at all.
+Not at all. ++++++++++++++++++++++
 c
-Yes, of course. ++++++++++++++++++++++
+Yes, of course. 
 */
 /*20 -
 20
