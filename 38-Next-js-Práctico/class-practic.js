@@ -1,8 +1,14 @@
-/*1/2
+/*1/2 ---
 ¿Qué es Next.js?
 --------------------------------------
 Es un servicio web de Vercel para desplegar aplicaciones web.
 --------------------------------------
+b
+Es un framework de React para crear aplicaciones web con Server Side Rendering.
+c
+Es un framework de JavaScript que compite contra React.js.
+d
+Es una librería para crear interfaces interactivas y experiencias de usuarios agradables enaplicaciones web.
 */
 /*4/4 ---
 Tailwind es considerado como:
@@ -13,8 +19,6 @@ a
 Herramienta de desarrollo Frontend
 b
 Framework de CSS
-c
-Librería de CSS
 */
 /*8/2
 ¿Cuál es el archivo de configuración que nos permite agregar los paths de nuestros directorios?
