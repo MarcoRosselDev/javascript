@@ -22,20 +22,18 @@ who
 d
 that +++++++++++++++++++
 */
-/*5--6 ---
+/*5--6 +++
 6
 It is NOT a placeholder:
 -------------------------------------------
-Thingy
+Thingy / cosita
 -------------------------------------------
 a
-What's-the-name
+What's-the-name +++++++++++++
 b
 That
-c
-Thingy
 d
-how-d'you-call-it
+how-d'you-call-it / como-lo-llamas +
 */
 /*10--11 ---
 11
