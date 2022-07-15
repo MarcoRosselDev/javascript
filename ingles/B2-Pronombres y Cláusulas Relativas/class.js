@@ -35,20 +35,18 @@ That
 d
 how-d'you-call-it / como-lo-llamas +
 */
-/*10--11 ---
+/*10--11 +++
 11
 I ___________ your message. Sorry!
 -------------------------------------------
 disunderstood
 -------------------------------------------
-a
-disunderstood
 b
 nonunderstood
 c
-misunderstood
+misunderstood +++++++++++++++
 d
-ununderstood
+ununderstood +++2 opción
 */
 /*11--12 ---
 12
