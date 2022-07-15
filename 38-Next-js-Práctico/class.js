@@ -92,16 +92,20 @@ Exponer un componente donde podemos integrar elementos al body de nuestra aplica
 d
 Exponer un componente donde podemos integrar elementos al encabezado de nuestra aplicación.++++++++++++++++++++++++++++
 */
-/*14 ---
+/*14 +++
 9
 ¿Qué es useContext?
 ------------------------------------------
+x
 Un React Hook que nos permite crear estados globales.
 ------------------------------------------
+x
 Un Custom React Hook de Next.js para acceder a estados globales.
+------------------------------------------
+x
+Un Custom React Hook de Next.js para crear estados globales.
 ------------------------------------------
 b
 Un React Hook que nos permite acceder a algún estado global.
-d
-Un Custom React Hook de Next.js para crear estados globales.
+
 */
