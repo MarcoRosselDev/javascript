@@ -34,11 +34,15 @@ jsconfig.js
 d
 jsconfig.json
 */
-/*10/5
+/*10/5 ---
 ¿Cuál archivo es el punto de entrada establecido en NextJS?
 --------------------------------------
 index.js
 --------------------------------------
+a
+_app.js
+c
+app.js
 */
 /*12/7
 ¿Qué es useContext?
@@ -80,9 +84,13 @@ npm run dev
 c
 npm run start
 */
-/*18/9
+/*18/9 ---
 Implementar event.preventDefault en un formulario nos permite...
 --------------------------------------
 Enviar el evento por defecto de la etiqueta FORM y nos permite avanzar con la lógica establecida en React.
 --------------------------------------
+b
+Cancelar el evento por defecto de la etiqueta FORM y nos permite avanzar con la lógicaestablecida en React.
+c
+Cancelar el evento por defecto en HTML y nos permite recargar la aplicación.
 */
