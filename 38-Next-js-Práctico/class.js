@@ -1,4 +1,4 @@
-/*2 +++
+/*2
 4
 ¿Qué es ESLint?
 ------------------------------------------
@@ -9,7 +9,7 @@ Una herramienta para analizar código e identificar posibles errores en el códi
 c
 Una herramienta para analizar código e identificar posibles errores en el código JavaScript.++++++++++++++++++
 */
-/*3 +++
+/*3
 4
 ¿Cuál es el recurso asignado en jsconfig.js para manejar las rutas de nuestros archivos?
 ------------------------------------------
@@ -22,7 +22,7 @@ sourcePaths
 c
 paths +++++++++++++++
 */
-/*6 ¿Qué es React.Fragment? +++
+/*6 ¿Qué es React.Fragment? 
 ------------------------------------------
 Un React Fragment es una función dentro de la API de Next.js que resuelve componentes sin agregar nodos extra.
 ------------------------------------------
@@ -30,7 +30,7 @@ a Un React Fragment es una API de React que acerca el estado a nuestros componen
 ++++++++++++++++
 c Un React Fragment es un componente dentro de la API de React que agrupa componentes sin agregar nodos extra. 
 */
-/*7 ¿Qué función cumplen las keys en React? +++
+/*7 ¿Qué función cumplen las keys en React?
 ------------------------------------------
 Las keys nos permiten optimizar componentes en el DOM virtual.
 ------------------------------------------
@@ -39,7 +39,7 @@ Las keys nos permiten diferenciar los elementos únicos en el DOM virtual. +++++
 b
 Las keys nos permiten agregar elementos pares en el DOM virtual.
 */
-/*8 +++
+/*8
 21
 ¿Qué es el server side rendering?
 ------------------------------------------
@@ -47,11 +47,12 @@ Nos permite que el servidor sea quien genere el contenido JavaScript en tiempo d
 ------------------------------------------
 a
 Nos permite que el servidor sea quien genere el contenido html/css/js en tiempo de ejecución. 
++++++++++++++++++
 b
 Nos permite que el servidor sea quien genere los archivos html/css/JavaScript en tiempo de deploy.
-+++++++++++++++++
+
 */
-/*9 +++
+/*9 
 21
 ¿Qué es Static Site Generation?
 ------------------------------------------
@@ -64,7 +65,7 @@ Static Site Generation es el proceso de compilar y renderizar (crear el contenid
 c
 Static Site Generation es el proceso de compilar
 */
-/*10 +++
+/*10 
 20
 ¿Qué es una aplicación web progresiva (PWA)?
 ------------------------------------------
@@ -77,7 +78,7 @@ Son aplicaciones móviles que se actualizan con la frecuencia y facilidad de una
 d
 Son aplicaciones web que se actualizan constante y progresivamente.
 */
-/*13 +++
+/*13 
 14
 ¿Para qué sirve Next/Head?
 ------------------------------------------
@@ -90,7 +91,7 @@ Exponer un componente donde podemos integrar elementos al body de nuestra aplica
 d
 Exponer un componente donde podemos integrar elementos al encabezado de nuestra aplicación.++++++++++++++++++++++++++++
 */
-/*14 +++
+/*14 
 9
 ¿Qué es useContext?
 ------------------------------------------
