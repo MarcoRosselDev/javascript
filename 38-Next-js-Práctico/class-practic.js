@@ -4,11 +4,17 @@
 Es un servicio web de Vercel para desplegar aplicaciones web.
 --------------------------------------
 */
-/*4/4
+/*4/4 ---
 Tailwind es considerado como:
 --------------------------------------
 Librería de CSS
 --------------------------------------
+a
+Herramienta de desarrollo Frontend
+b
+Framework de CSS
+c
+Librería de CSS
 */
 /*8/2
 ¿Cuál es el archivo de configuración que nos permite agregar los paths de nuestros directorios?
