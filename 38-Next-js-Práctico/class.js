@@ -39,20 +39,18 @@ Las keys nos permiten diferenciar los elementos únicos en el DOM virtual. +++++
 b
 Las keys nos permiten agregar elementos pares en el DOM virtual.
 */
-/*8 -
+/*8 +++
 21
 ¿Qué es el server side rendering?
 ------------------------------------------
 Nos permite que el servidor sea quien genere el contenido JavaScript en tiempo de compilación.
 ------------------------------------------
 a
-Nos permite que el servidor sea quien genere el contenido html/css/js en tiempo deejecución.
+Nos permite que el servidor sea quien genere el contenido html/css/js en tiempo de ejecución. +++++++++++++++++
 b
 Nos permite que el servidor sea quien genere los archivos html/css/JavaScript en tiempode deploy.
-c
-Nos permite que el servidor sea quien genere el contenido JavaScript en tiempo decompilación.
 */
-/*9 -
+/*9 +++
 21
 ¿Qué es Static Site Generation?
 ------------------------------------------
@@ -65,16 +63,14 @@ Static Site Generation es el proceso de compilar y renderizar (crear el contenid
 c
 Static Site Generation es el proceso de compilar
 */
-/*10 -
+/*10 +++
 20
 ¿Qué es una aplicación web progresiva (PWA)?
 ------------------------------------------
 Son aplicaciones móviles que permiten incorporar comportamientos de una aplicación web.
 ------------------------------------------
-a
-Son aplicaciones móviles que permiten incorporar comportamientos de una aplicaciónweb.
 b
-Son aplicaciones web que permiten incorporar comportamientos de una app nativa.
+Son aplicaciones web que permiten incorporar comportamientos de una app nativa. ++++++++++++++
 c
 Son aplicaciones móviles que se actualizan con la frecuencia y facilidad de una app web.
 d
