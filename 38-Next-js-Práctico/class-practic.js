@@ -58,17 +58,27 @@ c
 d
 .eslintrc
 */
-/*16/7
+/*16/7 ---
 ¿Cuál es la carpeta necesaria para agregar las rutas de nuestra aplicación en Nextjs?
 --------------------------------------
 src
 --------------------------------------
+a
+utils
+b
+pages
+d
+public
 */
-/*17/2
+/*17/2 ---
 ¿Con cuál comando podemos desplegar nuestro entorno de desarrollo local?
 --------------------------------------
 npm run build
 --------------------------------------
+a
+npm run dev
+c
+npm run start
 */
 /*18/9
 Implementar event.preventDefault en un formulario nos permite...
