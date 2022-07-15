@@ -46,11 +46,17 @@ index.js
 Un Custom React Hook de Next.js para crear estados globales.
 --------------------------------------
 */
-/*13/2
+/*13/2 ---
 Archivo de configuración que contiene las reglas principales para respetar el mínimo estándar de NextJS.
 --------------------------------------
 .eslint.config
 --------------------------------------
+b
+.prettier
+c
+.eslintrc .eslintrc.js
+d
+.eslintrc
 */
 /*16/7
 ¿Cuál es la carpeta necesaria para agregar las rutas de nuestra aplicación en Nextjs?
