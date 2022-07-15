@@ -44,11 +44,16 @@ _app.js
 c
 app.js
 */
-/*12/7
+/*12/7 +++
 ¿Qué es useContext?
 --------------------------------------
+Un Custom React Hook de Next.js para acceder a estados globales.
+
 Un Custom React Hook de Next.js para crear estados globales.
+
+Un React Hook que nos permite crear estados globales.
 --------------------------------------
+Un React Hook que nos permite acceder a algún estado global.
 */
 /*13/2 ---
 Archivo de configuración que contiene las reglas principales para respetar el mínimo estándar de NextJS.
