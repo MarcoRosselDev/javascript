@@ -46,9 +46,10 @@ Las keys nos permiten agregar elementos pares en el DOM virtual.
 Nos permite que el servidor sea quien genere el contenido JavaScript en tiempo de compilación.
 ------------------------------------------
 a
-Nos permite que el servidor sea quien genere el contenido html/css/js en tiempo de ejecución. +++++++++++++++++
+Nos permite que el servidor sea quien genere el contenido html/css/js en tiempo de ejecución. 
 b
-Nos permite que el servidor sea quien genere los archivos html/css/JavaScript en tiempode deploy.
+Nos permite que el servidor sea quien genere los archivos html/css/JavaScript en tiempo de deploy.
++++++++++++++++++
 */
 /*9 +++
 21
@@ -57,7 +58,7 @@ Nos permite que el servidor sea quien genere los archivos html/css/JavaScript en
 Static Site Generation es el proceso de compilar y renderizar (crear el contenido html/css/JavaScript) en tiempo de ejecución.
 ------------------------------------------
 a
-Static Site Generation es el proceso de compilar y renderizar (crear el contenidohtml/css/JavaScript) en tiempo de deploy.
+Static Site Generation es el proceso de compilar y renderizar (crear el contenidohtml/css/JavaScript) en tiempo de deploy. ++++++++++++
 b
 Static Site Generation es el proceso de compilar y renderizar (crear el contenidohtml/css/JavaScript) en tiempo de compilación.
 c
