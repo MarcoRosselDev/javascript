@@ -1,4 +1,4 @@
-/*1 +++
+/*1--3 +++
 3
 Dependent clauses can be considered sentences?
 -------------------------------------------
@@ -7,22 +7,22 @@ TRUE
 a
 FALSE ++++++++++++++++++
 */
-/*3 ---
+/*3--4 +++
 4
 Send me the email ______ you received yesterday please. 
 -------------------------------------------
 where
 -------------------------------------------
 a
-when
+when +++2 option
 b
 whom
 c
 who
 d
-that
+that +++++++++++++++++++
 */
-/*5 ---
+/*5--6 ---
 6
 It is NOT a placeholder:
 -------------------------------------------
@@ -37,7 +37,7 @@ Thingy
 d
 how-d'you-call-it
 */
-/*10 ---
+/*10--11 ---
 11
 I ___________ your message. Sorry!
 -------------------------------------------
@@ -52,7 +52,7 @@ misunderstood
 d
 ununderstood
 */
-/*11 ---
+/*11--12 ---
 12
 My boss didn't ______ me leave early.
 -------------------------------------------
@@ -67,7 +67,7 @@ have
 d
 let
 */
-/*20 ---
+/*20--21 ---
 21
 We weren't __________ to leave the room.
 -------------------------------------------
@@ -82,7 +82,7 @@ allowed
 d
 allowing
 */
-/*22 ---
+/*22--22 ---
 22
 The presentation was ________ by Mike.
 -------------------------------------------
