@@ -20,11 +20,19 @@ Herramienta de desarrollo Frontend
 b
 Framework de CSS
 */
-/*8/2
+/*8/2 ---
 ¿Cuál es el archivo de configuración que nos permite agregar los paths de nuestros directorios?
 --------------------------------------
 jsconfig.js
 --------------------------------------
+a
+next.config.json
+b
+js.config.json
+c
+jsconfig.js
+d
+jsconfig.json
 */
 /*10/5
 ¿Cuál archivo es el punto de entrada establecido en NextJS?
