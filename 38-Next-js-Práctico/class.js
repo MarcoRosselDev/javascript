@@ -22,12 +22,13 @@ sourcePaths
 c
 paths +++++++++++++++
 */
-/*6 ¿Qué es React.Fragment? 
+/*6 ¿Qué es React.Fragment? +++
 ------------------------------------------
 Un React Fragment es una función dentro de la API de Next.js que resuelve componentes sin agregar nodos extra.
 ------------------------------------------
-a Un React Fragment es una API de React que acerca el estado a nuestros componentes sin agregar nodos extra.
-++++++++++++++++
+Un React Fragment es una API de React que acerca el estado a nuestros componentes sin agregar nodos extra.
+------------------------------------------
+
 c Un React Fragment es un componente dentro de la API de React que agrupa componentes sin agregar nodos extra. 
 */
 /*7 ¿Qué función cumplen las keys en React?
@@ -52,14 +53,14 @@ b
 Nos permite que el servidor sea quien genere los archivos html/css/JavaScript en tiempo de deploy.
 
 */
-/*9 
+/*9 +++
 21
 ¿Qué es Static Site Generation?
 ------------------------------------------
 Static Site Generation es el proceso de compilar y renderizar (crear el contenido html/css/JavaScript) en tiempo de ejecución.
 ------------------------------------------
-a
-Static Site Generation es el proceso de compilar y renderizar (crear el contenidohtml/css/JavaScript) en tiempo de deploy. ++++++++++++
+Static Site Generation es el proceso de compilar y renderizar (crear el contenidohtml/css/JavaScript) en tiempo de deploy.
+------------------------------------------
 b
 Static Site Generation es el proceso de compilar y renderizar (crear el contenidohtml/css/JavaScript) en tiempo de compilación.
 c
@@ -91,14 +92,14 @@ Exponer un componente donde podemos integrar elementos al body de nuestra aplica
 d
 Exponer un componente donde podemos integrar elementos al encabezado de nuestra aplicación.++++++++++++++++++++++++++++
 */
-/*14 
+/*14 ---
 9
 ¿Qué es useContext?
 ------------------------------------------
 Un React Hook que nos permite crear estados globales.
 ------------------------------------------
-a
-Un Custom React Hook de Next.js para acceder a estados globales. ++++++++++++++++++++++
+Un Custom React Hook de Next.js para acceder a estados globales.
+------------------------------------------
 b
 Un React Hook que nos permite acceder a algún estado global.
 d
