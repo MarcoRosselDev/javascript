@@ -34,3 +34,12 @@ Cuando hay librerías que no tiene  soporte a tipos por ejemplo en el caso de  l
 npm i @lodash/types --save-dev
 ----------------------------------
 */
+
+/*El Origen del Planeta de los Simios (2011)
+El Amanecer del Planeta de los Simios (2014)
+La Guerra del Planeta de los Simios (2017)
+El Planeta de los Simios (1968)
+Regreso al Planeta de los Simios (1970)
+Huida del Planeta de los Simios (1971)
+La Rebelión de los Simios (1972)
+La Conquista del Planeta de los Simios (1973) */
