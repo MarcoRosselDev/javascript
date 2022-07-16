@@ -10,7 +10,7 @@ Es un framework de JavaScript que compite contra React.js.
 d x
 Es una librería para crear interfaces interactivas y experiencias de usuarios agradables enaplicaciones web.
 */
-/*4/4 ---
+/*4/4 +++
 Tailwind es considerado como:
 --------------------------------------
 Librería de CSS
@@ -18,7 +18,7 @@ Librería de CSS
 a
 Herramienta de desarrollo Frontend
 b
-Framework de CSS
+Framework de CSS  ++++++++++++++++++++++++++
 */
 /*8/2 +++
 ¿Cuál es el archivo de configuración que nos permite agregar los paths de nuestros directorios?
@@ -26,13 +26,13 @@ Framework de CSS
 jsconfig.js
 --------------------------------------
 a
-next.config.json ++++++++
+next.config.json [2.opción]
 b
 js.config.json
 d
-jsconfig.json
+jsconfig.json ++++++++++++++
 */
-/*10/5 ---
+/*10/5 +++
 ¿Cuál archivo es el punto de entrada establecido en NextJS?
 --------------------------------------
 index.js
@@ -40,7 +40,7 @@ index.js
 a
 _app.js
 c
-app.js
+app.js +++++++++++++++
 */
 /*12/7 +++
 ¿Qué es useContext?
@@ -65,7 +65,7 @@ c
 d
 .eslintrc 
 */
-/*16/7 ---
+/*16/7 +++
 ¿Cuál es la carpeta necesaria para agregar las rutas de nuestra aplicación en Nextjs?
 --------------------------------------
 src
@@ -73,7 +73,7 @@ src
 a
 utils
 b
-pages
+pages +++++++++++++++++
 d
 public
 */
@@ -87,13 +87,13 @@ npm run dev +++++++++
 c
 npm run start
 */
-/*18/9 ---
+/*18/9 +++
 Implementar event.preventDefault en un formulario nos permite...
 --------------------------------------
 Enviar el evento por defecto de la etiqueta FORM y nos permite avanzar con la lógica establecida en React.
 --------------------------------------
 b
-Cancelar el evento por defecto de la etiqueta FORM y nos permite avanzar con la lógicaestablecida en React.
+Cancelar el evento por defecto de la etiqueta FORM y nos permite avanzar con la lógica establecida en React. +++++++++++++
 c
 Cancelar el evento por defecto en HTML y nos permite recargar la aplicación.
 */
