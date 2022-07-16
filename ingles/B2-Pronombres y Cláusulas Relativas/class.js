@@ -61,7 +61,7 @@ have / tener
 d
 let / dejar +++++++++++++++++++
 */
-/*20--21 ---
+/*20--21 +++
 21
 We weren't __________ to leave the room.
 -------------------------------------------
@@ -72,18 +72,15 @@ allow
 b
 allows
 c
-allowed
-d
-allowing
+allowed ++++++++
 */
-/*22--22 ---
+/*22--22 +++
 22
 The presentation was ________ by Mike.
 -------------------------------------------
-gives
+gives / da
 -------------------------------------------
-a gave
-b given
-c give
-d gives
+a gave / dio
+b given / dado +++++++++++
+c give /  dar
 */
