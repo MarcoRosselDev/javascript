@@ -48,20 +48,18 @@ misunderstood +++++++++++++++
 d
 ununderstood +++2 opción
 */
-/*11--12 ---
+/*11--12 +++
 12
 My boss didn't ______ me leave early.
 -------------------------------------------
-make
--------------------------------------------
-a
-make
+make / hacer
+-------------------------------------------}
 b
-get
+get / obtener
 c
-have
+have / tener
 d
-let
+let / dejar +++++++++++++++++++
 */
 /*20--21 ---
 21
