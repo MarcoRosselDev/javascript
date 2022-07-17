@@ -30,11 +30,30 @@ Si quiero declarar una función que no tiene retorno ¿cuál de las siguientes p
 empty
 ----------------------------------
 */
-/*13--20
+/*13--20 ---
 ¿Cuál es la manera correcta de crear un propio tipo para definir los atributos de un Producto?
 ----------------------------------
-new type Product = { title: string, createAt: Date, stock: number, shirtSize?: Sizes };
+new type Product = { 
+    title: string, 
+    createAt: Date, 
+    stock: number, 
+    shirtSize?: Sizes 
+};
 ----------------------------------
+a
+class Product = { 
+    title: string, 
+    createAt: Date,
+    stock: number, 
+    shirtSize?: Sizes
+};
+c
+type Product = {
+    title: string,
+    createAt: Date,
+    stock: number,
+    shirtSize?: Sizes
+};
 */
 /*14--23 ---
 Cuando hay librerías que no tiene  soporte a tipos por ejemplo en el caso de  lodash podemos agregar el soporte a tipos usando el comando...
