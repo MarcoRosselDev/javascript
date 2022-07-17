@@ -34,7 +34,7 @@ Let's not mentioning this to our boss.
 d
 Let's not mention this to our boss. ++++++++++++++
 */
-/*14--15 +++
+/*14--15
 Choose the sentence with the correct adjective order:
 --------------------------------------
 None of the answers are correct.
@@ -45,10 +45,10 @@ b
 My brother bought a black, old, American, amazing muscle-car.
 c
 None of the answers are correct.
-d
+d +++++++++++++
 My brother bought an amazing, old, black, American muscle-car.
 */
-/*16--15 +++
+/*16--15
 Choose the correct adjective order.
 --------------------------------------
 None of the answers are correct.
@@ -56,11 +56,11 @@ None of the answers are correct.
 b
 Opinion, age, shape, size, origin.
 c
-Opinion, size, shape, age, origin.
+Opinion, size, shape, age, origin. ++++++++++
 d
 Opinion, shape, size, origin, age.
 */
-/*18--18 +++
+/*18--18
 When we say - Tacos from this restaurant are quite delicious.
 --------------------------------------
 Quite in this case means 'little but not very'.
