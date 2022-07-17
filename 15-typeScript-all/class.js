@@ -40,7 +40,7 @@ any xxx[no cero, esto es = cualquier tipo]
 c
 void +++++++++++++++++
 */
-/*13--20 ---
+/*13--20 +++
 ¿Cuál es la manera correcta de crear un propio tipo para definir los atributos de un Producto?
 ----------------------------------
 new type Product = { 
@@ -57,7 +57,7 @@ class Product = {
     stock: number, 
     shirtSize?: Sizes
 };
-c
+c       ++++++++++++++++++++++++++++++++
 type Product = {
     title: string,
     createAt: Date,
