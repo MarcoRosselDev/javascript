@@ -72,10 +72,15 @@ c corner-lg
 d rounded-big
 e rounded-lg
 */
-/*10 ¿Cómo cambiamos nuestros elementos de vertical a horizontal en pantalla mediana usando flex?
+/*+10 ¿Cómo cambiamos nuestros elementos de vertical a horizontal en pantalla mediana usando flex?
 --------------------------------
 flex md:inline
 --------------------------------
+a flex flex-row lg:flex-col
+b inline-block
+c flex flex-col md:flex-row
+d flex md:nline-block
+e flex md:inline
 */
 /*+12--6
 ¿Cuáles son instrucciones válidas para cambiar de color a un elemento?
@@ -88,11 +93,21 @@ c mt-white px-black bottom-yellow
 d w-gray-300 ml-red-500 px-blue-100
 e bg-gray-200 text-purple-700 border-blue-500
 */
-/*13--8
+/*+13--8
 ¿Cuál conjunto de instrucciones nos ayuda a tener la misma distancia en todos los lados de un elemento?
 --------------------------------
 mx-auto mr-2 mt-0
 --------------------------------
+a
+p-2 m-4
+b
+mx-auto mr-2 mt-0
+c
+ml-2 mb-4 mx-0
+d
+mx-auto my-16 mb-2
+e
+p-4 mx-2 mt-3
 */
 /*+14 ¿Cómo podemos cambiar el tamaño de letra a extra grande?
 --------------------------------
@@ -109,10 +124,20 @@ font-xl
 e
 text-large
 */
-/*15 ¿Cómo logramos que el espacio entre líneas sea amplio?
+/*+15 ¿Cómo logramos que el espacio entre líneas sea amplio?
 --------------------------------
 line-height-xl
 --------------------------------
+a
+line-height-xl
+b
+leading-snug
+c
+leading-loose
+d
+tracking-widest
+e
+line-h-8
 */
 /*+16--11
 ¿Cuáles son instrucciones para controlar la caja de presentación o display?
