@@ -1,18 +1,16 @@
-/*3--3 +++
+/*3--3 
 Choose the sentence in Passive Voice.
 --------------------------------------
 People have celebrated Christmas in many countries of the world.
 --------------------------------------
-a
-People have celebrated Christmas in many countries of the world.
 b
 People celebrating Christmas in many countries of the world.
 c
 People celebrate Christmas in many countries of the world.
 d
-Christmas is celebrated in many countries of the world.
+Christmas is celebrated in many countries of the world.++++++++++
 */
-/*8--8 +++
+/*8--8 
 Choose the correct tag question for this sentence: You are my sister's friend, ___________ ?
 --------------------------------------
 you aren't?
@@ -22,7 +20,7 @@ is you?
 b
 you aren't?
 c
-aren't you?
+aren't you? ++++++++++++++++++++
 d
 are you?
 */
@@ -94,17 +92,16 @@ c
 d
 between
 */
-/*20--3 +++
+/*20--3
 Choose the sentence in Passive Voice.
 --------------------------------------
 Thousands of people are attending this music festival.
 --------------------------------------
 a
 All sentences are in Passive voice.
-b
-Thousands of people are attending this music festival.
 c
 Thousands of people attend this music festival.
 d
 This music festival is attended by thousands of people.
++++++++++++++++++++++++++
 */
