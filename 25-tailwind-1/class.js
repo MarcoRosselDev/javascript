@@ -1,8 +1,18 @@
-/*3--27
+/*+3--27
 ¿Por qué se le conoce a AlpineJS como el Tailwind de Javascript?
 --------------------------------
 Porque modifica el DOM.
 --------------------------------
+a
+Porque lo usan muchas personas.
+b
+Porque usa jQuery.
+c
+Porque no es necesario un archivo de JavaScript.
+d
+Porque se utiliza con instrucciones directo en el HTML.
+e
+Porque modifi ca el DOM.
 */
 /*4--26
 ¿Qué se utiliza para fijar el navbar encima de otros elementos?
@@ -65,10 +75,20 @@ visible invisible
 Justifica elementos hasta el final.
 --------------------------------
 */
-/*22 ¿Qué instrucción se usa para escalar una imágen de fondo hasta que cubra toda la caja de presentación?
+/*+22 ¿Qué instrucción se usa para escalar una imágen de fondo hasta que cubra toda la caja de presentación?
 --------------------------------
 bg-contain
 --------------------------------
+a
+bg-autto
+b
+bg-contain
+c
+bg-cover
+d
+bg-stretch
+e
+bg-center
 */
 /*24 ¿En qué sección de tailwind.config.js agregas funcionalidad?
 --------------------------------
