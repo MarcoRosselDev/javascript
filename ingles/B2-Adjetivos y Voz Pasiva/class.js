@@ -1,4 +1,4 @@
-/*3--3 
+/*3--3
 Choose the sentence in Passive Voice.
 --------------------------------------
 People have celebrated Christmas in many countries of the world.
@@ -10,21 +10,19 @@ People celebrate Christmas in many countries of the world.
 d
 Christmas is celebrated in many countries of the world.++++++++++
 */
-/*8--8 
+/*8--8
 Choose the correct tag question for this sentence: You are my sister's friend, ___________ ?
 --------------------------------------
 you aren't?
 --------------------------------------
 a
 is you?
-b
-you aren't?
 c
 aren't you? ++++++++++++++++++++
 d
 are you?
 */
-/*12--12 +++
+/*12--12
 Choose the correct negative suggestion.
 --------------------------------------
 Let's not have mentioned this to our boss.
@@ -33,10 +31,8 @@ a
 Let's not mentioned this to our boss.
 b
 Let's not mentioning this to our boss.
-c
-Let's not have mentioned this to our boss.
 d
-Let's not mention this to our boss.
+Let's not mention this to our boss. ++++++++++++++
 */
 /*14--15 +++
 Choose the sentence with the correct adjective order:
