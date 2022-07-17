@@ -65,15 +65,13 @@ type Product = {
     shirtSize?: Sizes
 };
 */
-/*14--23 ---
+/*14--23 +++
 Cuando hay librerías que no tiene  soporte a tipos por ejemplo en el caso de  lodash podemos agregar el soporte a tipos usando el comando...
 ----------------------------------
 npm i @lodash/types --save-dev
 ----------------------------------
 a
 npm i @ts/lodash --save-dev
-b
-npm i @lodash/types --save-dev
 c
-npm i @types/lodash --save-dev
+npm i @types/lodash --save-dev +++++++++++
 */
