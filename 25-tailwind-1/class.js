@@ -82,34 +82,31 @@ c flex flex-col md:flex-row
 d flex md:nline-block
 e flex md:inline
 */
-/*+12--6
+/*//12--6
 ¿Cuáles son instrucciones válidas para cambiar de color a un elemento?
 --------------------------------
 shadow-gray-300 text-black outline-yellow-500
 --------------------------------
-a shadow-gray-300 text-black outline-yellow-500
-b flex-red-300 flex-col-red my-300
-c mt-white px-black bottom-yellow
-d w-gray-300 ml-red-500 px-blue-100
-e bg-gray-200 text-purple-700 border-blue-500
+b flex-red-300 flex-col-red my-300 xxx
+c mt-white px-black bottom-yellow xxx
+d w-gray-300 ml-red-500 px-blue-100 xxx
+e bg-gray-200 text-purple-700 border-blue-500 ++++++++
 */
-/*+13--8
+/*//13--8
 ¿Cuál conjunto de instrucciones nos ayuda a tener la misma distancia en todos los lados de un elemento?
 --------------------------------
 mx-auto mr-2 mt-0
 --------------------------------
 a
 p-2 m-4
-b
-mx-auto mr-2 mt-0
 c
 ml-2 mb-4 mx-0
 d
-mx-auto my-16 mb-2
+mx-auto my-16 mb-2 +++++++++++
 e
 p-4 mx-2 mt-3
 */
-/*+14 ¿Cómo podemos cambiar el tamaño de letra a extra grande?
+/*//14 ¿Cómo podemos cambiar el tamaño de letra a extra grande?
 --------------------------------
 font-xl
 --------------------------------
@@ -118,58 +115,50 @@ font-sm
 b
 text-xs
 c
-text-xl
-d
-font-xl
+text-xl ++++++++++++++++++
 e
 text-large
 */
-/*+15 ¿Cómo logramos que el espacio entre líneas sea amplio?
+/*//15 ¿Cómo logramos que el espacio entre líneas sea amplio?
 --------------------------------
 line-height-xl
 --------------------------------
-a
-line-height-xl
 b
 leading-snug
 c
-leading-loose
+leading-loose +++++++++++
 d
 tracking-widest
 e
 line-h-8
 */
-/*+16--11
+/*//16--11
 ¿Cuáles son instrucciones para controlar la caja de presentación o display?
 --------------------------------
 visible invisible
 --------------------------------
 a
-hidden block
+hidden block +++++++++++++++++++++
 b
 items-center items-none
 c
 show hide
-d
-visible invisible
 e
 shadow shadow-none
 */
-/*+21--12
+/*//21--12
 ¿Qué hace la instrucción items-end?
 --------------------------------
 Justifica elementos hasta el final.
 --------------------------------
 a
-Alínea elementos al fi nal sobre el eje transversal.
+Alínea elementos al final sobre el eje transversal.
 b
 Reordena los elementos del último al inicial.
 c
-Expande los elementos hasta el fi nal de la caja de presentación.
-d
-Justifi ca elementos hasta el fi nal.
+Expande los elementos hasta el final de la caja de presentación.
 e
-Ninguna de las otras opciones.
+Ninguna de las otras opciones. +++++++++++++[los justifica asta abajo en el eje y]
 */
 /*+22 ¿Qué instrucción se usa para escalar una imágen de fondo hasta que cubra toda la caja de presentación?
 --------------------------------
@@ -186,16 +175,16 @@ bg-stretch
 e
 bg-center
 */
-/*+24 ¿En qué sección de tailwind.config.js agregas funcionalidad?
+/*//24 ¿En qué sección de tailwind.config.js agregas funcionalidad?
 --------------------------------
 variants
 --------------------------------
 a
-plugins
+plugins 
 b
 theme
 c
-extend
+extend ++++++++++++++++++++++++
 d
 Ninguna de las otras opciones.
 e
