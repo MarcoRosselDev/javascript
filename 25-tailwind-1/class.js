@@ -46,11 +46,21 @@ d
 e
 @responsive
 */
-/*7--23
+/*+7--23
 ¿Qué variante se utiliza para cambiar el color de fondo a blanco cuando un elemento está seleccionado?
 --------------------------------
 select:bg-white
 --------------------------------
+a
+select:bg-white
+b
+hover:text-white
+c
+active:big-gray-200
+d
+focus:bg-white
+e
+focus:font-semibold
 */
 /*+9 ¿Cómo le damos un formato redondo grande en las esquinas de nuestros elementos?
 --------------------------------
@@ -84,10 +94,20 @@ e bg-gray-200 text-purple-700 border-blue-500
 mx-auto mr-2 mt-0
 --------------------------------
 */
-/*14 ¿Cómo podemos cambiar el tamaño de letra a extra grande?
+/*+14 ¿Cómo podemos cambiar el tamaño de letra a extra grande?
 --------------------------------
 font-xl
 --------------------------------
+a
+font-sm
+b
+text-xs
+c
+text-xl
+d
+font-xl
+e
+text-large
 */
 /*15 ¿Cómo logramos que el espacio entre líneas sea amplio?
 --------------------------------
@@ -100,11 +120,21 @@ line-height-xl
 visible invisible
 --------------------------------
 */
-/*21--12
+/*+21--12
 ¿Qué hace la instrucción items-end?
 --------------------------------
 Justifica elementos hasta el final.
 --------------------------------
+a
+Alínea elementos al fi nal sobre el eje transversal.
+b
+Reordena los elementos del último al inicial.
+c
+Expande los elementos hasta el fi nal de la caja de presentación.
+d
+Justifi ca elementos hasta el fi nal.
+e
+Ninguna de las otras opciones.
 */
 /*+22 ¿Qué instrucción se usa para escalar una imágen de fondo hasta que cubra toda la caja de presentación?
 --------------------------------
@@ -121,8 +151,18 @@ bg-stretch
 e
 bg-center
 */
-/*24 ¿En qué sección de tailwind.config.js agregas funcionalidad?
+/*+24 ¿En qué sección de tailwind.config.js agregas funcionalidad?
 --------------------------------
 variants
 --------------------------------
+a
+plugins
+b
+theme
+c
+extend
+d
+Ninguna de las otras opciones.
+e
+variants
 */
