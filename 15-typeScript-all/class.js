@@ -24,11 +24,15 @@ undefined
 let mixed: [number | boolean ];
 ----------------------------------
 */
-/*11--18
+/*11--18 ---
 Si quiero declarar una función que no tiene retorno ¿cuál de las siguientes palabras reservadas de TS usaría?
 ----------------------------------
 empty
 ----------------------------------
+b
+any
+c
+void
 */
 /*13--20 ---
 ¿Cuál es la manera correcta de crear un propio tipo para definir los atributos de un Producto?
@@ -67,12 +71,3 @@ npm i @lodash/types --save-dev
 c
 npm i @types/lodash --save-dev
 */
-
-/*El Origen del Planeta de los Simios (2011)
-El Amanecer del Planeta de los Simios (2014)
-La Guerra del Planeta de los Simios (2017)
-El Planeta de los Simios (1968)
-Regreso al Planeta de los Simios (1970)
-Huida del Planeta de los Simios (1971)
-La Rebelión de los Simios (1972)
-La Conquista del Planeta de los Simios (1973) */
