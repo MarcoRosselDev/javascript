@@ -12,17 +12,25 @@ npx tsc src/** --js es6
 d
 npx tsc src/** --es es6
 */
-/*6--11
+/*6--11 ---
 Teniendo en cuenta esta instrucción `const rta = 1 + '1';` ¿Cuál sería el tipo de dato que infiere TS de rta?
 ----------------------------------
 undefined
 ----------------------------------
+a
+number
+b
+string
 */
-/*7--12
+/*7--12 ---
 ¿Cuál sería la forma correcta de definir un array que solo soporte números y booleanos?
 ----------------------------------
 let mixed: [number | boolean ];
 ----------------------------------
+a
+let mixed: (Number | Boolean )[];
+c
+let mixed: (number | boolean )[];
 */
 /*11--18 ---
 Si quiero declarar una función que no tiene retorno ¿cuál de las siguientes palabras reservadas de TS usaría?
