@@ -114,11 +114,21 @@ text-large
 line-height-xl
 --------------------------------
 */
-/*16--11
+/*+16--11
 ¿Cuáles son instrucciones para controlar la caja de presentación o display?
 --------------------------------
 visible invisible
 --------------------------------
+a
+hidden block
+b
+items-center items-none
+c
+show hide
+d
+visible invisible
+e
+shadow shadow-none
 */
 /*+21--12
 ¿Qué hace la instrucción items-end?
