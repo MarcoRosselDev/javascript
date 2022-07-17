@@ -53,15 +53,25 @@ font-xl
 line-height-xl
 --------------------------------
 */
-/*
+/*16--11
+¿Cuáles son instrucciones para controlar la caja de presentación o display?
 --------------------------------
---------------------------------
-*/
-/*
---------------------------------
+visible invisible
 --------------------------------
 */
-/*
+/*21--12
+¿Qué hace la instrucción items-end?
 --------------------------------
+Justifica elementos hasta el final.
+--------------------------------
+*/
+/*22 ¿Qué instrucción se usa para escalar una imágen de fondo hasta que cubra toda la caja de presentación?
+--------------------------------
+bg-contain
+--------------------------------
+*/
+/*24 ¿En qué sección de tailwind.config.js agregas funcionalidad?
+--------------------------------
+variants
 --------------------------------
 */
