@@ -66,25 +66,21 @@ When we say - Tacos from this restaurant are quite delicious.
 Quite in this case means 'little but not very'.
 --------------------------------------
 a
-Quite in this case means very, totally or completely.
-b
-Quite in this case means 'little but not very'.
+Quite in this case means very, totally or completely. ++++++++++++++++
 c
 Quite in this case gives more emphasis to ‘tacos’.
 d
 None of the answers are correct.
 */
-/*19--19 +++
+/*19--19
 He works _________ the best researchers in the country.
 --------------------------------------
 ‘among’ or ‘between’ can be used here.
 --------------------------------------
 a
-among
+among +++++++++++++++++++++++
 b
 None of the answers are correct.
-c
-‘among’ or ‘between’ can be used here.
 d
 between
 */
