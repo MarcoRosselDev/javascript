@@ -1,8 +1,16 @@
-/*2--5
+/*2--5 ---
 ¿Cuál es la opción correcta para decirle al compilador de TS la versión de JavaScript a la cual debe transpilar?
 ----------------------------------
 npx tsc src/** --es es6
 ----------------------------------
+a
+npx tsc src/** --target es6
+b
+npx tsc src/** --version es6
+c
+npx tsc src/** --js es6
+d
+npx tsc src/** --es es6
 */
 /*6--11
 Teniendo en cuenta esta instrucción `const rta = 1 + '1';` ¿Cuál sería el tipo de dato que infiere TS de rta?
