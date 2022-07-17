@@ -30,15 +30,15 @@ let mixed: (Number | Boolean )[]; *****Tiene mayuscula**
 c
 let mixed: (number | boolean )[]; ++++++++++++++++++
 */
-/*11--18 ---
+/*11--18 +++
 Si quiero declarar una función que no tiene retorno ¿cuál de las siguientes palabras reservadas de TS usaría?
 ----------------------------------
 empty
 ----------------------------------
 b
-any
+any xxx[no cero, esto es = cualquier tipo]
 c
-void
+void +++++++++++++++++
 */
 /*13--20 ---
 ¿Cuál es la manera correcta de crear un propio tipo para definir los atributos de un Producto?
