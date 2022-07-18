@@ -29,12 +29,10 @@ a
 Agregando la clase de vertical-center
 b
 Agregando la clase de .valign-wrapper
-c
-Agregando la clase de vertical-align
 d
 Agregando la clase de .vertical-wrapper
 */
-/*//10--11
+/*//10--11+++
 ¿Con qué clase puedo comenzar a agregar sombra a mis tarjetas o elementos de Materialize?
 ----------------------------------
 .depth-shadw-1 a 5
@@ -46,7 +44,7 @@ b
 c
 box-shadow
 d
-Con la clase de .z-depth-1 a 5
+Con la clase de .z-depth-1 a 5 ++++++++++++
 */
 
 //bustrap
