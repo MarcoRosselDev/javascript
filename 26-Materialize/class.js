@@ -1,26 +1,22 @@
-/*//5--8
+/*//5--8+++
 Cuando hablamos de la clase .row, ¿a qué hacemos referencia?
 ----------------------------------
 Hacemos referencia a las columnas que se formarán en nuestro sistema de cuadrícula
 ----------------------------------
 a
-Hacemos referencia a un contenedor que nos ayudará a centrar el contenido de nuestroproyecto
-b
-Hacemos referencia a las columnas que se formarán en nuestro sistema de cuadrícula
-c
-Hacemos referencia a un contenedor que generará una fi la dentro de nuestro sistema decuadrícula
+Hacemos referencia a un contenedor que nos ayudará a centrar el contenido de nuestro proyecto
+c +++++
+Hacemos referencia a un contenedor que generará una fila dentro de nuestro sistema decuadrícula +++++++++++++
 */
-/*//8--10
+/*//8--10+++
 ¿La clase .container en el proyecto del curso es necesaria?
 ----------------------------------
 Es una clase que forma parte de la estructura principal de los estilos de materialize, y si no está, no cargan otros estilos
 ----------------------------------
 a
 No, y no es bueno utilizarla ya que crea problemas con alinear elementos
-b
-Es una clase que forma parte de la estructura principal de los estilos de materialize, y sino está, no cargan otros estilos
 c
-Sí, porque es la clase que inicia el Grid de Materialize
+Sí, porque es la clase que inicia el Grid de Materialize+++++++++++++++++++
 d
 No, pero nos ayuda a centrar el contenido de nuestro proyecto
 */
@@ -52,3 +48,6 @@ box-shadow
 d
 Con la clase de .z-depth-1 a 5
 */
+
+//bustrap
+//fundation son otros framework de css
