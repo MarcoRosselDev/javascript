@@ -20,7 +20,7 @@ Sí, porque es la clase que inicia el Grid de Materialize+++++++++++++++++++
 d
 No, pero nos ayuda a centrar el contenido de nuestro proyecto
 */
-/*//9--11
+/*//9--11+++
 ¿De qué forma puedo alinear de forma vertical los elementos de un contenedor?
 ----------------------------------
 Agregando la clase de vertical-align
@@ -30,7 +30,7 @@ Agregando la clase de vertical-center
 b
 Agregando la clase de .valign-wrapper
 d
-Agregando la clase de .vertical-wrapper
+Agregando la clase de .vertical-wrapper +++
 */
 /*//10--11+++
 ¿Con qué clase puedo comenzar a agregar sombra a mis tarjetas o elementos de Materialize?
