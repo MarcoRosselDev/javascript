@@ -31,22 +31,20 @@ margin-top, relative, object-cover
 e
 absolute, left-0, top-0
 */
-/*+5 ¿Qué instrucción o directiva se utiliza para crear componentes?
+/*//5 ¿Qué instrucción o directiva se utiliza para crear componentes?
 --------------------------------
 @component
 --------------------------------
 a
-@apply
+@apply +++++++++++++++
 b
-@tailwind
+@tailwind +++[2 opción]
 c
 @screen
-d
-@component
 e
 @responsive
 */
-/*+7--23
+/*//7--23
 ¿Qué variante se utiliza para cambiar el color de fondo a blanco cuando un elemento está seleccionado?
 --------------------------------
 select:bg-white
@@ -58,7 +56,7 @@ hover:text-white
 c
 active:big-gray-200
 d
-focus:bg-white
+focus:bg-white ++++++++++++++++++++
 e
 focus:font-semibold
 */
@@ -69,18 +67,16 @@ rounded-big
 a rounded-all
 b rounded-l
 c corner-lg
-d rounded-big
 e rounded-lg
 */
-/*+10 ¿Cómo cambiamos nuestros elementos de vertical a horizontal en pantalla mediana usando flex?
+/*/10 ¿Cómo cambiamos nuestros elementos de vertical a horizontal en pantalla mediana usando flex?
 --------------------------------
 flex md:inline
 --------------------------------
 a flex flex-row lg:flex-col
 b inline-block
-c flex flex-col md:flex-row
-d flex md:nline-block
-e flex md:inline
+c flex flex-col md:flex-row ++[2 opción]
+d flex md:nline-block +++[1 opción si tiene i en nline]
 */
 /*//12--6
 ¿Cuáles son instrucciones válidas para cambiar de color a un elemento?
