@@ -24,8 +24,7 @@ left-0, right-0, top-0, z-10++[segunda opción]
 b
 top-0, w-screen
 c
-fi
-xed, z-50, w-full ++++++++++
+fixed, z-50, w-full ++++++++++
 e
 absolute, left-0, top-0
 */
@@ -146,7 +145,7 @@ shadow shadow-none
 Justifica elementos hasta el final.
 --------------------------------
 a
-Alínea elementos al final sobre el eje transversal.
+Alínea elementos al final sobre el eje transversal.+++
 b
 Reordena los elementos del último al inicial.
 c
