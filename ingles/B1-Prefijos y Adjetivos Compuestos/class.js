@@ -35,6 +35,10 @@ Complete the sentence: "I don't like ____ of those two movies".
 --------------------------------
 neither
 --------------------------------
+a
+either
+c
+both
 */
 /*18..What verb can you make from the noun "Strength".
 --------------------------------
@@ -52,4 +56,10 @@ Which of the following sentences is NOT correct?
 --------------------------------
 Pasta is the most delicious food she has eaten.
 --------------------------------
+a
+Tokyo is the most interesting city I visited.
+b
+The elephant is the biggest animal I've seen.
+c
+Interstellar is the best movie we have seen.
 */
