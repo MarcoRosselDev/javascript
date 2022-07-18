@@ -1,4 +1,4 @@
-/*+3--27
+/*//3--27
 ¿Por qué se le conoce a AlpineJS como el Tailwind de Javascript?
 --------------------------------
 Porque modifica el DOM.
@@ -10,7 +10,7 @@ Porque usa jQuery.
 c
 Porque no es necesario un archivo de JavaScript.
 d
-Porque se utiliza con instrucciones directo en el HTML.
+Porque se utiliza con instrucciones directo en el HTML. ++++++++++++++++++++
 e
 Porque modifi ca el DOM.
 */
@@ -58,14 +58,14 @@ focus:bg-white ++++++++++++++++++++
 e
 focus:font-semibold
 */
-/*+9 ¿Cómo le damos un formato redondo grande en las esquinas de nuestros elementos?
+/*//9 ¿Cómo le damos un formato redondo grande en las esquinas de nuestros elementos?
 --------------------------------
 rounded-big
 --------------------------------
 a rounded-all
 b rounded-l
 c corner-lg
-e rounded-lg
+e rounded-lg ++++++++++
 */
 /*/10 ¿Cómo cambiamos nuestros elementos de vertical a horizontal en pantalla mediana usando flex?
 --------------------------------
