@@ -7,12 +7,12 @@ between
 --------------------------------
 couldn't
 --------------------------------
-*/
-/*6..7
-Both "I hope she comes to the party" and "I hope she will come to the party" are correct sentences
---------------------------------
-FALSE
---------------------------------
+b
+won't be allowed
+c
+won't able
+d
+won't
 */
 /*11..12|
 Report the following question: "Where was he?"
@@ -40,6 +40,12 @@ neither
 --------------------------------
 Strang
 --------------------------------
+a
+Strengthen
+b
+Strongest
+c
+Strong
 */
 /*20..21
 Which of the following sentences is NOT correct?
