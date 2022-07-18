@@ -14,20 +14,18 @@ Porque se utiliza con instrucciones directo en el HTML.
 e
 Porque modifi ca el DOM.
 */
-/*+4--26
+/*//4--26
 ¿Qué se utiliza para fijar el navbar encima de otros elementos?
 --------------------------------
 margin-top, relative, object-cover
 --------------------------------
 a
-left-0, right-0, top-0, z-10
+left-0, right-0, top-0, z-10++[segunda opción]
 b
 top-0, w-screen
 c
 fi
-xed, z-50, w-full
-d
-margin-top, relative, object-cover
+xed, z-50, w-full ++++++++++
 e
 absolute, left-0, top-0
 */
