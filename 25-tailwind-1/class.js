@@ -160,16 +160,14 @@ Expande los elementos hasta el final de la caja de presentación.
 e
 Ninguna de las otras opciones. +++++++++++++[los justifica asta abajo en el eje y]
 */
-/*+22 ¿Qué instrucción se usa para escalar una imágen de fondo hasta que cubra toda la caja de presentación?
+/*//22 ¿Qué instrucción se usa para escalar una imágen de fondo hasta que cubra toda la caja de presentación?
 --------------------------------
 bg-contain
 --------------------------------
 a
-bg-autto
-b
-bg-contain
+bg-autto +[segunda opción si tiene una sola t]
 c
-bg-cover
+bg-cover +++
 d
 bg-stretch
 e
