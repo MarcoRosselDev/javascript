@@ -1,8 +1,3 @@
-/*1..Complete the sentence: "This music is popular ________ college students"
---------------------------------
-between
---------------------------------
-*/
 /*4..Complete the sentence: "If you arrive too late, you ___________ to join the meeting".
 --------------------------------
 couldn't
@@ -29,6 +24,10 @@ Report the following question: "What did she do?"
 --------------------------------
 He asked me what she do
 --------------------------------
+a
+He asked me what she had done.
+b
+He asked me what did she do?
 */
 /*13..14
 Complete the sentence: "I don't like ____ of those two movies".
