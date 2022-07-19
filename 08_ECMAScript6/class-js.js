@@ -18,3 +18,18 @@ Para asegurarnos de que los eventos ejecutan la acción por defecto que les asig
 c
 Para evitar que los eventos ejecuten su acción por defecto (por ejemplo, recargar lapágina al completar un formulario).
 */
+
+/*2️⃣ Crea una función que pueda recibir cualquier array como parámetro e imprima su primer elemento.
+3️⃣ Crea una función que pueda recibir cualquier array como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el array completo).
+4️⃣ Crea una función que pueda recibir cualquier objeto como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el objeto completo) */
+
+
+const arr1 = ['hola', 'soy', 'el', 'moko'];
+
+function fun (arr) {
+    firstElementArray = arr[1];
+    return firstElementArray;
+}
+
+let a = fun(arr1);
+console.log(a);
