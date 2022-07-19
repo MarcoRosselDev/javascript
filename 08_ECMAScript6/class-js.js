@@ -1,5 +1,7 @@
-/*
+/*9--7
+¿Cómo podemos convertir un objeto en un array?
 ----------------------------
+nombreObjeto.toArray()
 ----------------------------
 */
 /*14--13
