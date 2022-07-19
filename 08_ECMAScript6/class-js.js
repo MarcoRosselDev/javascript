@@ -8,7 +8,7 @@ new Array(nombreObjeto)
 b
 Object.values(nombreObjeto) o Object.keys(nombreObjeto) +++++++++++++++++++
 */
-/*14--13
+/*14--13+++
 ¿Para qué sirve el event.preventDefault?
 ----------------------------
 Para asegurarnos de que los eventos ejecuten su acción por defecto (por ejemplo, recargar la página al completar un formulario).
@@ -16,7 +16,7 @@ Para asegurarnos de que los eventos ejecuten su acción por defecto (por ejemplo
 a
 Para asegurarnos de que los eventos ejecutan la acción por defecto que les asignó elnavegador (en vez de código JS que hayamos escrito por error).
 c
-Para evitar que los eventos ejecuten su acción por defecto (por ejemplo, recargar lapágina al completar un formulario).
+Para evitar que los eventos ejecuten su acción por defecto (por ejemplo, recargar la página al completar un formulario).+++++++++++++++++++++++++
 */
 
 /*2️⃣ Crea una función que pueda recibir cualquier array como parámetro e imprima su primer elemento.
