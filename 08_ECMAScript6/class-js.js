@@ -24,12 +24,14 @@ Para evitar que los eventos ejecuten su acción por defecto (por ejemplo, recarg
 4️⃣ Crea una función que pueda recibir cualquier objeto como parámetro e imprima todos sus elementos uno por uno (no se vale imprimir el objeto completo) */
 
 
-const arr1 = ['hola', 'soy', 'el', 'moko'];
+let arr1 = ['hola', 'soy', 'el', 'moko'];
 
-function fun (arr) {
-    firstElementArray = arr[1];
-    return firstElementArray;
+function a(arr) {
+    for (let i = 0;i < arr.length; i++) {
+        console.log(arr[i])
+    }
+    return 
 }
 
-let a = fun(arr1);
-console.log(a);
+let b = a(arr1);
+console.log(b);
