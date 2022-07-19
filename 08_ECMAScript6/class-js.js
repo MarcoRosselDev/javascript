@@ -1,4 +1,4 @@
-/*9--7
+/*9--7+++
 ¿Cómo podemos convertir un objeto en un array?
 ----------------------------
 nombreObjeto.toArray()
@@ -6,7 +6,7 @@ nombreObjeto.toArray()
 a
 new Array(nombreObjeto)
 b
-Object.values(nombreObjeto) o Object.keys(nombreObjeto)
+Object.values(nombreObjeto) o Object.keys(nombreObjeto) +++++++++++++++++++
 */
 /*14--13
 ¿Para qué sirve el event.preventDefault?

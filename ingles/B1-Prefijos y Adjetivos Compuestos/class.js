@@ -62,3 +62,7 @@ The elephant is the biggest animal I've seen.
 c
 Interstellar is the best movie we have seen.
 */
+
+let c = ['a', 'b', 'c'];
+
+console.log(c.length)
