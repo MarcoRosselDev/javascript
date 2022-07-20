@@ -8,11 +8,15 @@ whom
 c
 which
 */
-/*11--14
+/*11--14|
 I'm learning Portuguese, and I'd like to get some advice from you on how best to do it. You can say:
 ------------------------------
 If I was you, I would take Platzi courses on Portuguese.
 ------------------------------
+b
+If I were you, I would take Platzi courses on Portuguese.
+c
+If I were you, I will take Platzi courses on Portuguese.
 */
 /*14--17
 Choose the correct sentence:
