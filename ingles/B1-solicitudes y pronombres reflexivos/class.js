@@ -21,4 +21,8 @@ What does the phrasal verb "look up to" mean?
 ------------------------------
 Stay vigilant.
 ------------------------------
+a
+Admire or respect someone.
+b
+Await with excitement.
 */
