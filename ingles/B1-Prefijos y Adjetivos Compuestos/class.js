@@ -1,13 +1,15 @@
 /*4..Complete the sentence: "If you arrive too late, you ___________ to join the meeting".
+
+Si llega demasiado tarde, ___________ para unirse a la reunión
 --------------------------------
-couldn't
+couldn't // no puede
 --------------------------------
 b
-won't be allowed
+won't be allowed // no se permite ++++++
 c
-won't able
+won't able      // no podrá
 d
-won't
+won't       // no
 */
 /*11..12|
 Report the following question: "Where was he?"
