@@ -46,11 +46,11 @@ both
 Strang
 --------------------------------
 a
-Strengthen
+Strengthen  ++[segunda opción]
 b
 Strongest
 c
-Strong
+Strong ++++
 */
 /*20..21
 Which of the following sentences is NOT correct?
