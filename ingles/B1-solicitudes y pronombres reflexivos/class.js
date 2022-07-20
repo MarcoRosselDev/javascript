@@ -10,11 +10,15 @@ I'm learning Portuguese, and I'd like to get some advice from you on how best to
 If I was you, I would take Platzi courses on Portuguese.
 ------------------------------
 */
-/*
+/*14--17
+Choose the correct sentence:
 ------------------------------
+5 year's free credit.
 ------------------------------
 */
-/*
+/*17--20
+What does the phrasal verb "look up to" mean?
 ------------------------------
+Stay vigilant.
 ------------------------------
 */
