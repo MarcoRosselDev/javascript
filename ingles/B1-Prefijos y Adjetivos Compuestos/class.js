@@ -19,9 +19,9 @@ He asked me where was he.
 a
 He asked me whether I was with him.
 b
-He asked me where he was.
+He asked me where he was. +++
 */
-/*12..12
+/*12..12|
 Report the following question: "What did she do?"
 --------------------------------
 He asked me what she do
@@ -29,7 +29,7 @@ He asked me what she do
 a
 He asked me what she had done.
 b
-He asked me what did she do?
+He asked me what did she do? +++
 */
 /*13..14
 Complete the sentence: "I don't like ____ of those two movies".
