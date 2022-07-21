@@ -15,4 +15,8 @@ Verdadero
 -------------------------------
 Local o permanente
 -------------------------------
+a
+Público o privado
+c
+Con scope o sin scope
 */
