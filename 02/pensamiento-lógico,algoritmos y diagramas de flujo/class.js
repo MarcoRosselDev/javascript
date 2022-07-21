@@ -10,7 +10,9 @@ Verdadero
 Verdadero
 -------------------------------
 */
-/*
+/*13--15
+¿Qué tipos de score puede tener una función?
 -------------------------------
+Local o permanente
 -------------------------------
 */
