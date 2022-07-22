@@ -1,4 +1,4 @@
-/*2--5
+/*2--5|
 Las propiedades indispensables para hacer una animación son:
 -------------------------------
 animation-name y animation-timing-function
@@ -21,8 +21,15 @@ animation-timing-function y animation-delay
 -------------------------------
 animation: linear | ease | ease-in | ease-out | ease-in-out | step-start | step-end | steps(int, start | end) | cubic-bezier(n, n, n, n) | initial | inherit
 -------------------------------
+b
+animation: keyframename | none | initial | inherit;
+c
+animation: [name] [duration] [timing-function] [delay] [iteration-count] [direction] [fi ll-mode][play-state];
+d
+animation:
+| infi nite | initial | inherit;
 */
-/*8--8
+/*8--8|
 La propiedad animation-fill-mode:
 -------------------------------
 Determina si una animación está en ejecución o en pausa.
