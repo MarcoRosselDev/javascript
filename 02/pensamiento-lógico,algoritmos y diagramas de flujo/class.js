@@ -10,13 +10,13 @@ Verdadero
 Verdadero
 -------------------------------
 */
-/*13--15
+/*13--15 +++
 ¿Qué tipos de score puede tener una función?
 -------------------------------
 Local o permanente
 -------------------------------
 a
-Público o privado
+Público o privado +++++
 c
 Con scope o sin scope
 */
