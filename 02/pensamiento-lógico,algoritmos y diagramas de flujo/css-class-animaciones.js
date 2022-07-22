@@ -22,15 +22,15 @@ b
 c
 @keyframes .animation-name
 */
-/*7--5|
-@keyframe .animation-name
+/*7--5| ++
+La sintaxis de múltiples valores que corresponde a la propiedad animation, es:
 -------------------------------
 animation: linear | ease | ease-in | ease-out | ease-in-out | step-start | step-end | steps(int, start | end) | cubic-bezier(n, n, n, n) | initial | inherit
 -------------------------------
 b
 animation: keyframename | none | initial | inherit;
 c
-animation: [name] [duration] [timing-function] [delay] [iteration-count] [direction] [fi ll-mode][play-state];
+animation: [name] [duration] [timing-function] [delay] [iteration-count] [direction] [fill-mode][play-state];++++++++++++++++++++++++
 d
 animation:
 | infi nite | initial | inherit;
