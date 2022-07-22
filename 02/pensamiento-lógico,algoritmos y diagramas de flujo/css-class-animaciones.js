@@ -10,7 +10,15 @@ animation-name y animation-timing-function
 @keyframe .animation-name
 -------------------------------
 */
-/*
+/*7--5
+@keyframe .animation-name
 -------------------------------
+animation: linear | ease | ease-in | ease-out | ease-in-out | step-start | step-end | steps(int, start | end) | cubic-bezier(n, n, n, n) | initial | inherit
+-------------------------------
+*/
+/*8--8
+La propiedad animation-fill-mode:
+-------------------------------
+Determina si una animación está en ejecución o en pausa.
 -------------------------------
 */
