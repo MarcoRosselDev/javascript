@@ -27,4 +27,10 @@ La propiedad animation-fill-mode:
 -------------------------------
 Determina si una animación está en ejecución o en pausa.
 -------------------------------
+a
+Especifi ca una lista de animaciones que se deben aplicar al elemento seleccionado.
+b
+Indica la cantidad de tiempo que la animación tarda en completar un ciclo (duración).
+c
+Especifi ca el modo en que una animación CSS aplica sus estilos, estableciendo supersistencia y estado fi nal tras su ejecución.
 */
