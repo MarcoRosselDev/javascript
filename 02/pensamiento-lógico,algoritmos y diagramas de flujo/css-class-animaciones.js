@@ -3,6 +3,12 @@ Las propiedades indispensables para hacer una animación son:
 -------------------------------
 animation-name y animation-timing-function
 -------------------------------
+a
+animation-name y animation-delay
+c
+animation-name y animation-duration
+d
+animation-timing-function y animation-delay
 */
 /*5--5
 ¿Cuál es la sintaxis correcta para declarar un keyframe?
