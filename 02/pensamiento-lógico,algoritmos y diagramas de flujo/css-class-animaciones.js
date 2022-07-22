@@ -10,13 +10,19 @@ animation-name y animation-duration
 d
 animation-timing-function y animation-delay
 */
-/*5--5
+/*5--5|
 ¿Cuál es la sintaxis correcta para declarar un keyframe?
 -------------------------------
 @keyframe .animation-name
 -------------------------------
+a
+@keyframes animation-name
+b
+@keyframe animation-name
+c
+@keyframes .animation-name
 */
-/*7--5
+/*7--5|
 @keyframe .animation-name
 -------------------------------
 animation: linear | ease | ease-in | ease-out | ease-in-out | step-start | step-end | steps(int, start | end) | cubic-bezier(n, n, n, n) | initial | inherit
