@@ -16,13 +16,13 @@ animation-timing-function y animation-delay
 @keyframe .animation-name
 -------------------------------
 a
-@keyframes animation-name
+@keyframes animation-name  +++
 b
 @keyframe animation-name
 c
-@keyframes .animation-name +++
+@keyframes .animation-name 
 */
-/*7--5| ++
+/*7--5|+++
 La sintaxis de múltiples valores que corresponde a la propiedad animation, es:
 -------------------------------
 animation: linear | ease | ease-in | ease-out | ease-in-out | step-start | step-end | steps(int, start | end) | cubic-bezier(n, n, n, n) | initial | inherit
@@ -35,7 +35,7 @@ d
 animation:
 | infi nite | initial | inherit;
 */
-/*8--8|
+/*8--8|+++
 La propiedad animation-fill-mode:
 -------------------------------
 Determina si una animación está en ejecución o en pausa.
@@ -45,5 +45,5 @@ Especifi ca una lista de animaciones que se deben aplicar al elemento selecciona
 b
 Indica la cantidad de tiempo que la animación tarda en completar un ciclo (duración).
 c
-Especifi ca el modo en que una animación CSS aplica sus estilos, estableciendo supersistencia y estado fi nal tras su ejecución.
+Especifica el modo en que una animación CSS aplica sus estilos, estableciendo su persistencia y estado final tras su ejecución.  ++++++
 */
