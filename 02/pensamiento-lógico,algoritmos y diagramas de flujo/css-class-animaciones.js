@@ -1,16 +1,16 @@
-/*2--5|
+/*2--5|+++
 Las propiedades indispensables para hacer una animación son:
 -------------------------------
 animation-name y animation-timing-function
 -------------------------------
 a
-animation-name y animation-delay
+animation-name y animation-delay +
 c
-animation-name y animation-duration
+animation-name y animation-duration  +++++
 d
 animation-timing-function y animation-delay
 */
-/*5--5|
+/*5--5|+++
 ¿Cuál es la sintaxis correcta para declarar un keyframe?
 -------------------------------
 @keyframe .animation-name
@@ -20,7 +20,7 @@ a
 b
 @keyframe animation-name
 c
-@keyframes .animation-name
+@keyframes .animation-name +++
 */
 /*7--5| ++
 La sintaxis de múltiples valores que corresponde a la propiedad animation, es:
