@@ -12,7 +12,7 @@ WAI - Web Accessibility Initiative +++++++++
 d
 W3C - World Wide Web Consortium 
 */
-/*7--11++
+/*7--11++|
 ¿Cuál lector de pantalla funciona mejor con Safari?
 ----------------------------
 JAWS
@@ -20,7 +20,7 @@ JAWS
 b
 NVDA
 c
-VoiceOver
+VoiceOver +++++++++
 d
 ChromeVox
 */
@@ -60,7 +60,7 @@ c
 d
 2:1
 */
-/*20|++ ¿Cuál principio de WCAG seguimos cuando hacemos nuestro sitio predecible?
+/*20|++| ¿Cuál principio de WCAG seguimos cuando hacemos nuestro sitio predecible?
 ----------------------------
 Operable
 ----------------------------
@@ -69,7 +69,7 @@ Perceptible
 b
 Operable
 c
-Comprensible
+Comprensible +++++
 d
 Robusto
 */
