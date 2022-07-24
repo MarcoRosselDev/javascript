@@ -12,11 +12,17 @@ WAI - Web Accessibility Initiative
 d
 W3C - World Wide Web Consortium
 */
-/*7--11
+/*7--11++
 ¿Cuál lector de pantalla funciona mejor con Safari?
 ----------------------------
 JAWS
 ----------------------------
+b
+NVDA
+c
+VoiceOver
+d
+ChromeVox
 */
 /*8|++¿Cuál combinación de teclas usamos para movernos hacia adelante con ChromeVox?
 ----------------------------
