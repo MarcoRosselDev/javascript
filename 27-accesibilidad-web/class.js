@@ -3,6 +3,14 @@
 ----------------------------
 WAI - World a11y Internet
 ----------------------------
+a
+WCAG - Web Conformity Abilities Guidelines
+b
+WAI - World a11y Internet
+c
+WAI - Web Accessibility Initiative
+d
+W3C - World Wide Web Consortium
 */
 /*7--11
 ¿Cuál lector de pantalla funciona mejor con Safari?
