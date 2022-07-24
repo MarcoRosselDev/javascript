@@ -35,11 +35,17 @@ ChromeVox se maneja con voz.
 c
 Control + Command + Flecha abajo.
 */
-/*14--20
+/*14--20++
 ¿Para qué usamos el atributo aria-hidden?
 ----------------------------
 Para mostrar un elemento a lectores de pantalla.
 ----------------------------
+b
+Para esconder un elemento de lectores de pantalla.
+c
+Para esconder un elemento de interacción con teclado.
+d
+Para mostrar un elemento como importante.
 */
 /*15|++ Bajo WCAG, ¿cuál es el mínimo contraste para nivel AA?
 ----------------------------
