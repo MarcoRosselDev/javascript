@@ -1,16 +1,16 @@
-/*2--3++
+/*2--3++|
 ¿Cómo se llama la iniciativa que se encarga de los estándares de accesibilidad de la web?
 ----------------------------
 WAI - World a11y Internet
 ----------------------------
 a
-WCAG - Web Conformity Abilities Guidelines
+WCAG - Web Conformity Abilities Guidelines 
 b
-WAI - World a11y Internet
+WAI - World a11y Internet 
 c
-WAI - Web Accessibility Initiative
+WAI - Web Accessibility Initiative +++++++++
 d
-W3C - World Wide Web Consortium
+W3C - World Wide Web Consortium 
 */
 /*7--11++
 ¿Cuál lector de pantalla funciona mejor con Safari?
