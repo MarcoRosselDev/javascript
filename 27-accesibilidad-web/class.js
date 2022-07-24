@@ -73,8 +73,14 @@ Comprensible
 d
 Robusto
 */
-/*22| ¿Cuál attributo de aria podemos usar para comunicar cambios dinámicos?
+/*22|++ ¿Cuál attributo de aria podemos usar para comunicar cambios dinámicos?
 ----------------------------
 aria-label
 ----------------------------
+a
+aria-atomic
+b
+aria-hidden
+c
+aria-live
 */
