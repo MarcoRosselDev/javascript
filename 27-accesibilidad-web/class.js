@@ -35,15 +35,31 @@ Control + Command + Flecha abajo.
 Para mostrar un elemento a lectores de pantalla.
 ----------------------------
 */
-/*15| Bajo WCAG, ¿cuál es el mínimo contraste para nivel AA?
+/*15|++ Bajo WCAG, ¿cuál es el mínimo contraste para nivel AA?
 ----------------------------
 1:1
 ----------------------------
+a
+1:1
+b
+0:1
+c
+4.5:1
+d
+2:1
 */
-/*20| ¿Cuál principio de WCAG seguimos cuando hacemos nuestro sitio predecible?
+/*20|++ ¿Cuál principio de WCAG seguimos cuando hacemos nuestro sitio predecible?
 ----------------------------
 Operable
 ----------------------------
+a
+Perceptible
+b
+Operable
+c
+Comprensible
+d
+Robusto
 */
 /*22| ¿Cuál attributo de aria podemos usar para comunicar cambios dinámicos?
 ----------------------------
