@@ -1,4 +1,4 @@
-/*2--3
+/*2--3++
 ¿Cómo se llama la iniciativa que se encarga de los estándares de accesibilidad de la web?
 ----------------------------
 WAI - World a11y Internet
@@ -18,10 +18,16 @@ W3C - World Wide Web Consortium
 JAWS
 ----------------------------
 */
-/*8| ¿Cuál combinación de teclas usamos para movernos hacia adelante con ChromeVox?
+/*8|++¿Cuál combinación de teclas usamos para movernos hacia adelante con ChromeVox?
 ----------------------------
 Control + Flecha Arriba.
 ----------------------------
+a
+Tab.
+b
+ChromeVox se maneja con voz.
+c
+Control + Command + Flecha abajo.
 */
 /*14--20
 ¿Para qué usamos el atributo aria-hidden?
