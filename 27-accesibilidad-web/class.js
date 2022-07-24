@@ -21,11 +21,18 @@ Control + Flecha Arriba.
 Para mostrar un elemento a lectores de pantalla.
 ----------------------------
 */
-/*
+/*15| Bajo WCAG, ¿cuál es el mínimo contraste para nivel AA?
 ----------------------------
+1:1
 ----------------------------
 */
-/*
+/*20| ¿Cuál principio de WCAG seguimos cuando hacemos nuestro sitio predecible?
 ----------------------------
+Operable
+----------------------------
+*/
+/*22| ¿Cuál attributo de aria podemos usar para comunicar cambios dinámicos?
+----------------------------
+aria-label
 ----------------------------
 */
