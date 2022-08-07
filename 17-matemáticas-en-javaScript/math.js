@@ -25,5 +25,9 @@ function calcularTriangulo(a, b, base, altura){
 function calcularAlturaTriangulo(ladoV, base){
   if(ladoV == base){
     console.warn('Este no es un triangulo isoseles');
+  } else {
+    /* Math.sqrt = la raiz cuadrada */
+    /* formula; h = raizcuadrada(ladoV**2 - ((b**2) / 4)) */
+    const altura = Math.sqrt(((ladoV**2) - ((b**2) / 4)))
   }
 }
