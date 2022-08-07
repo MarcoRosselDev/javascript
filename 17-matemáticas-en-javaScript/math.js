@@ -15,7 +15,9 @@ const ladoTrianguloBase = 4;
 const perimetroTriangulo = ladoTriangulo1 + ladoTriangulo2 + ladoTrianguloBase;
 const areaTriangulo = (ladoTrianguloBase * (((ladoTrianguloBase / 2)**2) + ((ladoTriangulo1)**2))) / 2;
 
-console.log({
-  perimetroTriangulo,
-  areaTriangulo
-});
+function calcularTriangulo(a, b, base, altura){
+  return {
+    perimetro: a + b + base,
+    area: (base * altura) / 2,
+  };
+}
