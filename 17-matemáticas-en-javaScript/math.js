@@ -21,3 +21,9 @@ function calcularTriangulo(a, b, base, altura){
     area: (base * altura) / 2,
   };
 }
+/* triangulo isoseles */
+function calcularAlturaTriangulo(ladoV, base){
+  if(ladoV == base){
+    console.warn('Este no es un triangulo isoseles');
+  }
+}
