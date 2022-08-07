@@ -1,0 +1,116 @@
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Raleway', sans-serif;
+}
+body {
+  display: grid;
+  place-content: center;
+  min-height: 100vh;
+  background-color: #3c3c3c;
+}
+
+button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 1.4rem 7rem;
+  font-size: 1rem;
+  position: relative;
+  cursor: pointer;
+  color: #fff;
+}
+/* button 1 */
+.button1::before,
+.button1::after {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 255, 255, .05);
+  top: 0;
+  left: 0;
+  outline: 1px solid rgba(255, 255, 255, .2);
+  pointer-events: none;
+  transition: 500ms all;
+}
+.button1:hover::before {
+  transform: rotate(45deg);
+  background-color: transparent;
+}
+.button1:hover::after {
+  transform: rotate(-45deg);
+  background-color: transparent;
+}
+/* button 2 */
+.button2 {
+  margin-top: 9rem;
+  background-color: #f12424;
+  color: #fff;
+  outline: none;
+  border: none;
+  font-size: 1rem;
+  padding: 1.4rem 7rem;
+  position: relative;
+  cursor: pointer;
+
+  text-transform: uppercase;
+  letter-spacing: .2rem;
+  font-weight: 700;
+  border-radius: 100vw;
+  transition: 200ms ease-in-out transform;
+}
+.button2::before,
+.button2::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  border-radius: 100vw;
+  transition: 200ms ease-in-out transform;
+}
+.button2::before { background-color: rgba(241, 36, 36, .6);}
+.button2::after { background-color: rgba(241, 36, 36, .3);}
+
+.button2:hover { transform: translate(-16px, -16px);}
+.button2:hover::before { transform: translate(8px, 8px);}
+.button2:hover::after { transform: translate(16px, 16px);}
+/* esto retrocede el botton al clickearlo */
+.button2:active,
+.button2:active::before,
+.button2:active::after {
+  transform: translate(0, 0);
+  transition: 70ms ease-in-out transform;
+}
+
+/* button 3 (glas button)*/
+
+.button3 {
+  margin-top: 9rem;
+  background-image: linear-gradient(
+    45deg,
+    transparent 0%,
+    rgba(255, 255, 255, .5) 51%,
+    transparent 100%
+  );
+  background-size: 300%;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding: 1.4rem 4rem;
+  font-size: 1rem;
+  cursor: pointer;
+  letter-spacing: .2rem;
+  font-weight: 700;
+  color: #fff;
+  transition: 300ms ease-in-out background-position;
+}
+.button3:hover {
+  background-position: right top;
+}
