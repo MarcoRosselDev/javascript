@@ -146,8 +146,8 @@ Accept-Encoding: gzip, compress
 Authorization: 
     sirve para pasar credenciales que le servirán al servidor determinar si el cliente tiene acceso a ciertos recursos
 
-Authorization: Basic YWxhZGRpbjpvcGVuc2VzYW1l
-Authorization: Bearer eyYWxhZGRpbjpvcGVuc2VzYW1l
+Authorization: Basic 
+Authorization: Bearer 
 
 Accept-Language: 
     Permite saber al servidor que tipo lenguaje es entendido por el cliente logrando entender que configuración local es viable enviar. Por ejemplo: los horarios, fechas, medidas, etc.
